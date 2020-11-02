@@ -1,0 +1,17 @@
+{
+  "name": "lfui-icons",
+  "version": "1.0.0",
+  "description": "LFUI icons",
+  "main": "index.js",
+  "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
+  "author": "johanahlin <johan.ahlin@lansforsakringar.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "svg-spritemap-webpack-plugin": "^3.5.10",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js && rm ./dist/main.js"
+  }
+}
