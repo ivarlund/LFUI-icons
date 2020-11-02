@@ -6,7 +6,7 @@ module.exports = {
   plugins: [
     new SVGSpritemapPlugin('src/svg/20/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -23,7 +23,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/20-color/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -35,7 +35,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/24/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -52,7 +52,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/24-color/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -64,7 +64,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/32/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -81,7 +81,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/32-color/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -93,7 +93,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/40/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -110,7 +110,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/40-color/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -122,7 +122,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/70/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -139,7 +139,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/70-color/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
@@ -151,7 +151,7 @@ module.exports = {
     }),
     new SVGSpritemapPlugin('src/svg/special/**/*.svg', {
       sprite: {
-        prefix: false,
+        prefix: 'icon-',
         gutter: 4,
         generate: {
           title: false
