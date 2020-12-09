@@ -1,19 +1,14 @@
-name: Release Creator
+name: Main
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
-    name: Create a release
     steps:
-      - uses: alice-biometrics/release-creator/@v1.0.4
-        with:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          version: 'v1.0.0'
-          branch: 'master'
-          draft: 'false'
-          prerelease: 'false'
