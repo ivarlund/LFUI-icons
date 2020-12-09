@@ -14,8 +14,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           version: 'v1.0.0'
-          description: 'This is an awesome version :ok_hand:'
-          repo: 'alice-biometrics/github-releaser'
           branch: 'master'
           draft: 'false'
           prerelease: 'false'
