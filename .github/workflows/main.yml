@@ -28,6 +28,4 @@ jobs:
         with:
           tag_name: ${{ steps.tag_version.outputs.new_tag }}
           release_name: LFUI-icons ${{ steps.tag_version.outputs.new_tag }}
-          body: |
-            Automatically released due to commit on ${{ github.ref }}
-            ${{ steps.bump_version.outputs.changelog }}
+          body: ${{ steps.tag_version.outputs.changelog }}
