@@ -1,22 +1,23 @@
+// special icons se LFDS
+
+
 const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprite');
 const svgo = require('gulp-svgo');
 var fs = require('fs');
 var path = require('path');
 var merge = require('merge-stream');
-const svgPath = 'src/svg';
-
+const svgPath = 'src/svg/special';
 function getFolders(dir) {
   return fs.readdirSync(dir)
     .filter(function(file) {
       return fs.statSync(path.join(dir, file)).isDirectory();
     });
 }
-// SVG Config
 const config = {
   shape: {
     id: {
-      generator: 'icon-%s',
+      generator: 'icon-',
     },
   },
   
@@ -34,9 +35,9 @@ const config = {
 
 var folders = getFolders(svgPath);
 
-const buildSprite = () => {
+const buildSpriteSpecial = () => {
   var tasks = folders.map(function(folder) {
-    
+   
     return gulp.src(path.join(svgPath, folder, '/**/*.svg'))
       .pipe(
         svgo({
@@ -47,14 +48,9 @@ const buildSprite = () => {
         })
       )
       .pipe(svgSprite(config))
-      .pipe(gulp.dest('dist/sprite/' + folder));
+      .pipe(gulp.dest('dist/sprite/special/' + folder));
 
   });
  return merge(tasks);  
 };
-
-
-
-module.exports = buildSprite;
-
-
+module.exports = buildSpriteSpecial;
