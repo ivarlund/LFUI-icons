@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/32px/damage-32</title>
+    <defs>
+        <path d="M11,26 L11,28 L7,28 L7,26 L11,26 Z M17,23.3285255 L12.1920495,21.0146993 L13.3689002,17.6165427 L11.0730483,16.143371 L9.0852477,17.1 L2,17.1 L2,26 L5,26 L5,28 L0,28 L0,0 L24,0 L24,28 L13,28 L13,26 L17,26 L17,23.3285255 Z M22,2 L10,2 L10,4.49236238 L12.9384136,5.46683627 L13.9243112,7.42857143 L18.6153846,7.42857143 L18.6153846,12.232125 L22,14.926 L22,2 Z M22,26 L22,17.482 L16.6153846,13.1964464 L16.6153846,9.42857143 L12.6910734,9.42857143 L11.5231249,7.1045923 L8,5.93620905 L8,2 L2,2 L2,15.1 L8.62903801,15.1 L11.212666,13.856629 L15.7739569,16.7834573 L14.6650934,19.9853007 L19,22.0714745 L19,26 L22,26 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/32px/damage-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="invisible-32" x="0" y="0" width="32" height="32"></rect>
+            <g id="outlines" transform="translate(4.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#FF0000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
