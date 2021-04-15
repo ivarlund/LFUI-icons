@@ -1,28 +1,20 @@
 on:
-  pull_request:
-    tags:
-      - 'v*'
-    branches:
-      - master
   push:
+    # Sequence of patterns matched against refs/tags
     tags:
-      - 'v*'
-    branches:
-      - master
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+name: Create Release
+
 jobs:
   build:
+    name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout code
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
-
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: |
-          yarn install
-          yarn build
-          
+          fetch-depth: 0
       - name: Changelog
         uses: scottbrenner/generate-changelog-action@master
         id: Changelog
