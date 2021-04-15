@@ -1,10 +1,10 @@
 on:
   pull_request:
+    tags:
+      - 'v*'
     branches:
       - master
-  push: 
-    branches:
-      - master
+  
 jobs:
   build:
     runs-on: ubuntu-latest
