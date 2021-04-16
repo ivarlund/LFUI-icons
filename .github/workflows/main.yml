@@ -34,7 +34,6 @@ jobs:
         with:
           tag_name: ${{ steps.tag_version.outputs.new_tag }}
           release_name: LFUI-icons ${{ steps.tag_version.outputs.new_tag }}
-          body: |
-            ${{ steps.Changelog.outputs.changelog }}
+          body: ${{ steps.Changelog.outputs.changelog }}
           draft: false
           prerelease: false
