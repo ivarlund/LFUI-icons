@@ -2,9 +2,6 @@
 on:
   pull_request:
     types: closed
-    # Sequence of patterns matched against refs/tags
-    tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
 name: Create Release
 
@@ -21,7 +18,11 @@ jobs:
         run: |
           yarn install
           yarn build
-
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Changelog
         uses: scottbrenner/generate-changelog-action@master
         id: Changelog
