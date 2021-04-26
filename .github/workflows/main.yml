@@ -24,7 +24,6 @@ jobs:
           default_bump: minor 
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: marvinpinto/action-automatic-releases@10bdce64abdb4558a2ee6983192242be40d631d8 # Pin "latest" https://github.com/marvinpinto/action-automatic-releases/commit/10bdce64abdb4558a2ee6983192242be40d631d8 necessary to avoid "The `set-env` command is disabled."
-        if: startsWith(env.GITHUB_REF_SLUG, 'v2-') || env.GITHUB_REF_SLUG == 'master' || env.GITHUB_REF_SLUG == 'main' # If master, mark release as official release
         with: # See https://github.com/marvinpinto/action-automatic-releases/tree/v1.1.0#supported-parameters
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "v${{ steps.tag_version.outputs.new_tag }}"
