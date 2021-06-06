@@ -1,8 +1,7 @@
-**LFUI-icons**
+# LFUI-icons 
 
-**Installation**
+## Installation
 
-In your root directory run
 
 **Install using yarn**
 
@@ -20,7 +19,7 @@ npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v0.1.
 
 Copy everything inside dist/sprite and place it in your project.
 
-**Usage**
+## Usage
 
 LFUI icons ships with svg sprites to be self-hosted in your project( we can't store them in a cdn because of CORS Policy issues). Which means you need to copy all sprites to your project from the package. You can of course do this manually but it might be easier to add a script that can do this for you. In this example I'm using `copyfiles` to help with this.
 
@@ -61,3 +60,29 @@ Icons is now combined to sprites depending on size and the structure looks like:
 ├── 70-color/
 ├── special/
 ```
+
+## Migration from LFUI 6.x.x
+Let's have a look how the structure have changed from LFUI [6.7.0](https://lf-digitala-kanaler.github.io/LFUI/670/#/icon). 
+
+#### 10px icons
+
+* **10 px icons** ---> special/
+* **20 px icons** ---> 20/
+* **20 px color icons** ---> 20-color/
+* **24 px icons** ---> 24/
+* **24 px color icons** ---> 24-color/
+* **26 px icons** ---> special/
+* **32 px icons** ---> 32/
+* **32 px color icons** ---> 32-color/
+* **40 px icons** ---> 40/
+* **40 px color icons** ---> 40-color/
+* **48 px color icons** ---> special/
+* **50 px color icons** ---> special/
+* **70x50 px color icons** ---> special/
+* **56 px color icons** ---> special/
+* **64 px color icons** ---> special/
+* **70 px icons** ---> 70/
+* **70 px color icons** ---> 70-color/
+* **84x50 px color icons** ---> special/
+* **Mega menu icons** ---> special/
+* **Special** ---> 32/ :sweat_smile:
