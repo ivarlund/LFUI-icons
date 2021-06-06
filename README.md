@@ -1,26 +1,26 @@
-**# LFUI-icons**
+**LFUI-icons**
 
-**## Installation**
+**Installation**
 
 In your root directory run
 
-**### Install using yarn**
+**Install using yarn**
 
 ```jsx
 yarn add https://github.com/lf-digitala-kanaler/LFUI-icons.git#v0.1.0
 ```
 
-**### Install using npm**
+**Install using npm**
 
 ```jsx
 npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v0.1.
 ```
 
-**### Manually copy files**
+**Manually copy files**
 
 Copy everything inside dist/sprite and place it in your project.
 
-**## Usage**
+**Usage**
 
 LFUI icons ships with svg sprites to be self-hosted in your project( we can't store them in a cdn because of CORS Policy issues). Which means you need to copy all sprites to your project from the package. You can of course do this manually but it might be easier to add a script that can do this for you. In this example I'm using `copyfiles` to help with this.
 
