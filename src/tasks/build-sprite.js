@@ -16,7 +16,7 @@ function getFolders(dir) {
 const config = {
   shape: {
     id: {
-      generator: 'icon-%s',
+      generator: '%s',
     },
   },
 
