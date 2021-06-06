@@ -44,7 +44,7 @@ Our `.icon` class helps with alignment. Note that most icons inherits the color 
 
 Migrating fron LFUI 6.x.x
 
-There is no  automatic way to upgrade from the old icon system,  you will have to change the path to all icons in your project to the new structure. 
+There is no automatic way to upgrade from the old icon system, you will have to change the path to all icons in your project to the new structure. 
 
 Icons is know combined to sprites depending on size and the structure looks like : 
 
