@@ -46,7 +46,7 @@ Migrating fron LFUI 6.x.x
 
 There is no automatic way to upgrade from the old icon system, you will have to change the path to all icons in your project to the new structure. 
 
-Icons is now combined to sprites depending on size and the structure looks like : 
+Icons is now combined to sprites depending on size and the structure looks like:
 
 ```jsx
 ├── 20/
