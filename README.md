@@ -36,9 +36,9 @@ Once that's done add a script that you can run to copy the icons to your project
 ```
 
 Now you can start using the icons in your project like this 
-
+```jsx
 <svg role="presentation" class="icon" width="20" height="20"><use xlink:href="{{path-to-icon}}/sprite.svg#icon-wallet-20"></use></svg>
-
+```
 Our `.icon` class helps with alignment. Note that most icons inherits the color CSS property from the parent element in the DOM (using [currentColor](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentcolor_keyword)).
 
 ## Migrating fron LFUI 6.x.x
