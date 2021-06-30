@@ -85,7 +85,7 @@ Let's have a look how the structure have changed from LFUI [6.7.0](https://lf-di
 * **70 px icons** ---> 70/
 * **70 px color icons** ---> 70-color/
 * **84x50 px color icons** ---> special/
-* **Mega menu icons** ---> special/
+* **Mega menu icons** ---> special/ (these icons have updated names, "icon-" have been removed from the name to match the rest so icon-insurance_home-32 will now be insurance_home-32) 
 * **Special** ---> 32/ :sweat_smile:
 
  
