@@ -6,6 +6,8 @@
   "author": "johanahlin <johan.ahlin@lansforsakringar.se>",
   "license": "MIT",
   "devDependencies": {
+    "@svgr/cli": "^5.5.0",
+    "@svgr/webpack": "^5.5.0",
     "del": "^6.0.0",
     "event-stream": "^4.0.1",
     "gulp": "^3.9.1",
@@ -19,6 +21,7 @@
   },
   "scripts": {
     "prebuild": "gulp clean",
-    "build": "gulp build"
+    "build": "gulp build && yarn svgr",
+    "svgr": "npx @svgr/cli  -d dist/react src/svg --replace-attr-values 'red=currentColor'"
   }
 }
