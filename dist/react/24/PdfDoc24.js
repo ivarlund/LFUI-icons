@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPdfDoc24(props) {
+function PdfDoc24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPdfDoc24(props) {
   );
 }
 
-export default SvgPdfDoc24;
+export default PdfDoc24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgUmbrella20(props) {
+function Umbrella20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgUmbrella20(props) {
   );
 }
 
-export default SvgUmbrella20;
+export default Umbrella20;

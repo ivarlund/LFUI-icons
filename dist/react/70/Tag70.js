@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTag70(props) {
+function Tag70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgTag70(props) {
   );
 }
 
-export default SvgTag70;
+export default Tag70;

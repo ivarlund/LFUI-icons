@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDigitalServices24(props) {
+function DigitalServices24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgDigitalServices24(props) {
   );
 }
 
-export default SvgDigitalServices24;
+export default DigitalServices24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgContactHeader24(props) {
+function ContactHeader24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -13,4 +13,4 @@ function SvgContactHeader24(props) {
   );
 }
 
-export default SvgContactHeader24;
+export default ContactHeader24;

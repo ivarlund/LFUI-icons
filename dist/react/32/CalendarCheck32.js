@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCalendarCheck32(props) {
+function CalendarCheck32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgCalendarCheck32(props) {
   );
 }
 
-export default SvgCalendarCheck32;
+export default CalendarCheck32;

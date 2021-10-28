@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGlobe32(props) {
+function Globe32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -13,4 +13,4 @@ function SvgGlobe32(props) {
   );
 }
 
-export default SvgGlobe32;
+export default Globe32;

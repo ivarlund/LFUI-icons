@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPensionMega32(props) {
+function PensionMega32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgPensionMega32(props) {
   );
 }
 
-export default SvgPensionMega32;
+export default PensionMega32;

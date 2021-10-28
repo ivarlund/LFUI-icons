@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBoat32(props) {
+function Boat32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgBoat32(props) {
   );
 }
 
-export default SvgBoat32;
+export default Boat32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgText2Round32(props) {
+function Text2Round32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgText2Round32(props) {
   );
 }
 
-export default SvgText2Round32;
+export default Text2Round32;

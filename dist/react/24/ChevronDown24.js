@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgChevronDown24(props) {
+function ChevronDown24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgChevronDown24(props) {
   );
 }
 
-export default SvgChevronDown24;
+export default ChevronDown24;

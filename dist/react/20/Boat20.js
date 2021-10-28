@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBoat20(props) {
+function Boat20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgBoat20(props) {
   );
 }
 
-export default SvgBoat20;
+export default Boat20;

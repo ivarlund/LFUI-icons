@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPensionPrivateInMc70(props) {
+function PensionPrivateInMc70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -30,4 +30,4 @@ function SvgPensionPrivateInMc70(props) {
   );
 }
 
-export default SvgPensionPrivateInMc70;
+export default PensionPrivateInMc70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgStar32(props) {
+function Star32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgStar32(props) {
   );
 }
 
-export default SvgStar32;
+export default Star32;

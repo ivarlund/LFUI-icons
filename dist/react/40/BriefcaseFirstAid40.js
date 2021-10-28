@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBriefcaseFirstAid40(props) {
+function BriefcaseFirstAid40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgBriefcaseFirstAid40(props) {
   );
 }
 
-export default SvgBriefcaseFirstAid40;
+export default BriefcaseFirstAid40;

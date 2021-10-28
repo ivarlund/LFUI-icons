@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgYoutube32(props) {
+function Youtube32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgYoutube32(props) {
   );
 }
 
-export default SvgYoutube32;
+export default Youtube32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGear20(props) {
+function Gear20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgGear20(props) {
   );
 }
 
-export default SvgGear20;
+export default Gear20;

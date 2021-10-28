@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgInstagram32(props) {
+function Instagram32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -12,4 +12,4 @@ function SvgInstagram32(props) {
   );
 }
 
-export default SvgInstagram32;
+export default Instagram32;

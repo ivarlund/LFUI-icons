@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCard70(props) {
+function Card70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgCard70(props) {
   );
 }
 
-export default SvgCard70;
+export default Card70;

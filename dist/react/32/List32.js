@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgList32(props) {
+function List32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g transform="translate(4 7)" fill="currentColor" fillRule="evenodd">
@@ -13,4 +13,4 @@ function SvgList32(props) {
   );
 }
 
-export default SvgList32;
+export default List32;

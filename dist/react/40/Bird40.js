@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBird40(props) {
+function Bird40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBird40(props) {
   );
 }
 
-export default SvgBird40;
+export default Bird40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgWallet32(props) {
+function Wallet32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgWallet32(props) {
   );
 }
 
-export default SvgWallet32;
+export default Wallet32;

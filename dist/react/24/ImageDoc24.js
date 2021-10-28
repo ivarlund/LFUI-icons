@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgImageDoc24(props) {
+function ImageDoc24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgImageDoc24(props) {
   );
 }
 
-export default SvgImageDoc24;
+export default ImageDoc24;

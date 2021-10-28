@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorTravel48(props) {
+function MulticolorTravel48(props) {
   return (
     <svg width={48} height={48} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -25,4 +25,4 @@ function SvgMulticolorTravel48(props) {
   );
 }
 
-export default SvgMulticolorTravel48;
+export default MulticolorTravel48;

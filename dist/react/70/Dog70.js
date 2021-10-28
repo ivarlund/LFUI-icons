@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDog70(props) {
+function Dog70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgDog70(props) {
   );
 }
 
-export default SvgDog70;
+export default Dog70;

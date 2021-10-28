@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCalendarCross24(props) {
+function CalendarCross24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgCalendarCross24(props) {
   );
 }
 
-export default SvgCalendarCross24;
+export default CalendarCross24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShare24(props) {
+function Share24(props) {
   return (
     <svg
       width={24}
@@ -28,4 +28,4 @@ function SvgShare24(props) {
   );
 }
 
-export default SvgShare24;
+export default Share24;

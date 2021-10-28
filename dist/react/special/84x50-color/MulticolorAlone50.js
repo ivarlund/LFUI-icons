@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorAlone50(props) {
+function MulticolorAlone50(props) {
   return (
     <svg width={84} height={50} {...props}>
       <g strokeWidth={2} fill="none" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgMulticolorAlone50(props) {
   );
 }
 
-export default SvgMulticolorAlone50;
+export default MulticolorAlone50;

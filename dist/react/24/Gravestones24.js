@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGravestones24(props) {
+function Gravestones24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgGravestones24(props) {
   );
 }
 
-export default SvgGravestones24;
+export default Gravestones24;

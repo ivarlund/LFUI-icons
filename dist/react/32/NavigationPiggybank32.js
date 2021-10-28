@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationPiggybank32(props) {
+function NavigationPiggybank32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgNavigationPiggybank32(props) {
   );
 }
 
-export default SvgNavigationPiggybank32;
+export default NavigationPiggybank32;

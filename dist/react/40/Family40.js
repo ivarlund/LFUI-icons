@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFamily40(props) {
+function Family40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgFamily40(props) {
   );
 }
 
-export default SvgFamily40;
+export default Family40;

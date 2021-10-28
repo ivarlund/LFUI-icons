@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAccont32(props) {
+function Accont32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgAccont32(props) {
   );
 }
 
-export default SvgAccont32;
+export default Accont32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationAccounts32(props) {
+function NavigationAccounts32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgNavigationAccounts32(props) {
   );
 }
 
-export default SvgNavigationAccounts32;
+export default NavigationAccounts32;

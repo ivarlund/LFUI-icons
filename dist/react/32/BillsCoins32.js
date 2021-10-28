@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBillsCoins32(props) {
+function BillsCoins32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -10,4 +10,4 @@ function SvgBillsCoins32(props) {
   );
 }
 
-export default SvgBillsCoins32;
+export default BillsCoins32;

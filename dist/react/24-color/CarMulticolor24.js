@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCarMulticolor24(props) {
+function CarMulticolor24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g transform="translate(0 2)" fill="none" fillRule="evenodd">
@@ -27,4 +27,4 @@ function SvgCarMulticolor24(props) {
   );
 }
 
-export default SvgCarMulticolor24;
+export default CarMulticolor24;

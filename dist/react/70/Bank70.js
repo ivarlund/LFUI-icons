@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBank70(props) {
+function Bank70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgBank70(props) {
   );
 }
 
-export default SvgBank70;
+export default Bank70;

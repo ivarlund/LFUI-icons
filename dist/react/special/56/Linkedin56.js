@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLinkedin56(props) {
+function Linkedin56(props) {
   return (
     <svg width={56} height={56} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgLinkedin56(props) {
   );
 }
 
-export default SvgLinkedin56;
+export default Linkedin56;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPadlock40(props) {
+function Padlock40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgPadlock40(props) {
   );
 }
 
-export default SvgPadlock40;
+export default Padlock40;

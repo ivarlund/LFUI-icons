@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgThumbsUp32(props) {
+function ThumbsUp32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgThumbsUp32(props) {
   );
 }
 
-export default SvgThumbsUp32;
+export default ThumbsUp32;

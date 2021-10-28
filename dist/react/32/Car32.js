@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCar32(props) {
+function Car32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgCar32(props) {
   );
 }
 
-export default SvgCar32;
+export default Car32;

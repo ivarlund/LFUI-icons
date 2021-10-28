@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCheck70(props) {
+function Check70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgCheck70(props) {
   );
 }
 
-export default SvgCheck70;
+export default Check70;

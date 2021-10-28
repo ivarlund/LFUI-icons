@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCheckEnclosed24(props) {
+function CheckEnclosed24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgCheckEnclosed24(props) {
   );
 }
 
-export default SvgCheckEnclosed24;
+export default CheckEnclosed24;

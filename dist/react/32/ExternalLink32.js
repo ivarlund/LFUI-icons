@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgExternalLink32(props) {
+function ExternalLink32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgExternalLink32(props) {
   );
 }
 
-export default SvgExternalLink32;
+export default ExternalLink32;

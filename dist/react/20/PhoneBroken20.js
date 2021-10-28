@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPhoneBroken20(props) {
+function PhoneBroken20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgPhoneBroken20(props) {
   );
 }
 
-export default SvgPhoneBroken20;
+export default PhoneBroken20;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPercent70(props) {
+function Percent70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgPercent70(props) {
   );
 }
 
-export default SvgPercent70;
+export default Percent70;

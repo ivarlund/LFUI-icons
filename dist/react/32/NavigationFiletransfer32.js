@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationFiletransfer32(props) {
+function NavigationFiletransfer32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgNavigationFiletransfer32(props) {
   );
 }
 
-export default SvgNavigationFiletransfer32;
+export default NavigationFiletransfer32;

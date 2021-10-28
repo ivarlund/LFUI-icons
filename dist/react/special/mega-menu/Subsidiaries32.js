@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSubsidiaries32(props) {
+function Subsidiaries32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgSubsidiaries32(props) {
   );
 }
 
-export default SvgSubsidiaries32;
+export default Subsidiaries32;

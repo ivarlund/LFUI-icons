@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGear32(props) {
+function Gear32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgGear32(props) {
   );
 }
 
-export default SvgGear32;
+export default Gear32;

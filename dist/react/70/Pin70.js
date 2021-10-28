@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPin70(props) {
+function Pin70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPin70(props) {
   );
 }
 
-export default SvgPin70;
+export default Pin70;

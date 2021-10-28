@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSearch32(props) {
+function Search32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgSearch32(props) {
   );
 }
 
-export default SvgSearch32;
+export default Search32;

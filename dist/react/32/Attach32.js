@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAttach32(props) {
+function Attach32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgAttach32(props) {
   );
 }
 
-export default SvgAttach32;
+export default Attach32;

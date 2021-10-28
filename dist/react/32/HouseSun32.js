@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHouseSun32(props) {
+function HouseSun32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgHouseSun32(props) {
   );
 }
 
-export default SvgHouseSun32;
+export default HouseSun32;

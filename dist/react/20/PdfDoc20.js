@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPdfDoc20(props) {
+function PdfDoc20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgPdfDoc20(props) {
   );
 }
 
-export default SvgPdfDoc20;
+export default PdfDoc20;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFlag32(props) {
+function Flag32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgFlag32(props) {
   );
 }
 
-export default SvgFlag32;
+export default Flag32;

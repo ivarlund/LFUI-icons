@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNotificationEnvelope20(props) {
+function NotificationEnvelope20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgNotificationEnvelope20(props) {
   );
 }
 
-export default SvgNotificationEnvelope20;
+export default NotificationEnvelope20;

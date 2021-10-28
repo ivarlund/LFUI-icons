@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPadlock24(props) {
+function Padlock24(props) {
   return (
     <svg
       width={24}
@@ -27,4 +27,4 @@ function SvgPadlock24(props) {
   );
 }
 
-export default SvgPadlock24;
+export default Padlock24;

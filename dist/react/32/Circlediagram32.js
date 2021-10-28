@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCirclediagram32(props) {
+function Circlediagram32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgCirclediagram32(props) {
   );
 }
 
-export default SvgCirclediagram32;
+export default Circlediagram32;

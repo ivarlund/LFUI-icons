@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCircle40(props) {
+function Circle40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgCircle40(props) {
   );
 }
 
-export default SvgCircle40;
+export default Circle40;

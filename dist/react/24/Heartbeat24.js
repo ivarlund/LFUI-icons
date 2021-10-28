@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHeartbeat24(props) {
+function Heartbeat24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -10,4 +10,4 @@ function SvgHeartbeat24(props) {
   );
 }
 
-export default SvgHeartbeat24;
+export default Heartbeat24;

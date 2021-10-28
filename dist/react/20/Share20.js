@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShare20(props) {
+function Share20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgShare20(props) {
   );
 }
 
-export default SvgShare20;
+export default Share20;

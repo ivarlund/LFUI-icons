@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCardPayment32(props) {
+function CardPayment32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgCardPayment32(props) {
   );
 }
 
-export default SvgCardPayment32;
+export default CardPayment32;

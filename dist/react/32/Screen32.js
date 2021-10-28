@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgScreen32(props) {
+function Screen32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgScreen32(props) {
   );
 }
 
-export default SvgScreen32;
+export default Screen32;

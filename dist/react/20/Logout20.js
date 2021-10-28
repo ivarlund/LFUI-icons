@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLogout20(props) {
+function Logout20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgLogout20(props) {
   );
 }
 
-export default SvgLogout20;
+export default Logout20;

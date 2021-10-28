@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDamageMulticolor40(props) {
+function DamageMulticolor40(props) {
   return (
     <svg
       width={28}
@@ -27,4 +27,4 @@ function SvgDamageMulticolor40(props) {
   );
 }
 
-export default SvgDamageMulticolor40;
+export default DamageMulticolor40;

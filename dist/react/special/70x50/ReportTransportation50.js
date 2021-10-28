@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgReportTransportation50(props) {
+function ReportTransportation50(props) {
   return (
     <svg width={70} height={50} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -25,4 +25,4 @@ function SvgReportTransportation50(props) {
   );
 }
 
-export default SvgReportTransportation50;
+export default ReportTransportation50;

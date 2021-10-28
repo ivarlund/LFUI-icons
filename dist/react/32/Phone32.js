@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPhone32(props) {
+function Phone32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgPhone32(props) {
   );
 }
 
-export default SvgPhone32;
+export default Phone32;

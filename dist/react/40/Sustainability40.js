@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSustainability40(props) {
+function Sustainability40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgSustainability40(props) {
   );
 }
 
-export default SvgSustainability40;
+export default Sustainability40;

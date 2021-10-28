@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPin40(props) {
+function Pin40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgPin40(props) {
   );
 }
 
-export default SvgPin40;
+export default Pin40;

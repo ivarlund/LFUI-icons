@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDogRisk40(props) {
+function DogRisk40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgDogRisk40(props) {
   );
 }
 
-export default SvgDogRisk40;
+export default DogRisk40;

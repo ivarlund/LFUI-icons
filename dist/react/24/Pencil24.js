@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPencil24(props) {
+function Pencil24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgPencil24(props) {
   );
 }
 
-export default SvgPencil24;
+export default Pencil24;

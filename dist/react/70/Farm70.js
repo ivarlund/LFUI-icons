@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFarm70(props) {
+function Farm70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgFarm70(props) {
   );
 }
 
-export default SvgFarm70;
+export default Farm70;

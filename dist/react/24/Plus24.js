@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPlus24(props) {
+function Plus24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgPlus24(props) {
   );
 }
 
-export default SvgPlus24;
+export default Plus24;

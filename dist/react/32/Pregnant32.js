@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPregnant32(props) {
+function Pregnant32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPregnant32(props) {
   );
 }
 
-export default SvgPregnant32;
+export default Pregnant32;

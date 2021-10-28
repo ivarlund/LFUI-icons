@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAccident20(props) {
+function Accident20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgAccident20(props) {
   );
 }
 
-export default SvgAccident20;
+export default Accident20;

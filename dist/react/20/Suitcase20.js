@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSuitcase20(props) {
+function Suitcase20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g transform="translate(1 1)" fill="currentColor" fillRule="evenodd">
@@ -23,4 +23,4 @@ function SvgSuitcase20(props) {
   );
 }
 
-export default SvgSuitcase20;
+export default Suitcase20;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMenu32(props) {
+function Menu32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgMenu32(props) {
   );
 }
 
-export default SvgMenu32;
+export default Menu32;

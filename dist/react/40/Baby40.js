@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBaby40(props) {
+function Baby40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBaby40(props) {
   );
 }
 
-export default SvgBaby40;
+export default Baby40;

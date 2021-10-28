@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPaper20(props) {
+function Paper20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgPaper20(props) {
   );
 }
 
-export default SvgPaper20;
+export default Paper20;

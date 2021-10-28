@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgIdSign40(props) {
+function IdSign40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -19,4 +19,4 @@ function SvgIdSign40(props) {
   );
 }
 
-export default SvgIdSign40;
+export default IdSign40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPhoneLandscape32(props) {
+function PhoneLandscape32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPhoneLandscape32(props) {
   );
 }
 
-export default SvgPhoneLandscape32;
+export default PhoneLandscape32;

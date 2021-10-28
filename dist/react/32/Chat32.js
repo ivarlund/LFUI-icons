@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgChat32(props) {
+function Chat32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgChat32(props) {
   );
 }
 
-export default SvgChat32;
+export default Chat32;

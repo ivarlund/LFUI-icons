@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgClipboard70(props) {
+function Clipboard70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgClipboard70(props) {
   );
 }
 
-export default SvgClipboard70;
+export default Clipboard70;

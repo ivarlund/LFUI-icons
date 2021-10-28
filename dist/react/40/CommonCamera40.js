@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCommonCamera40(props) {
+function CommonCamera40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgCommonCamera40(props) {
   );
 }
 
-export default SvgCommonCamera40;
+export default CommonCamera40;

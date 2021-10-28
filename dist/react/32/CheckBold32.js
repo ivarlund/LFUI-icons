@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCheckBold32(props) {
+function CheckBold32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgCheckBold32(props) {
   );
 }
 
-export default SvgCheckBold32;
+export default CheckBold32;

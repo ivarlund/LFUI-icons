@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMinpension20(props) {
+function Minpension20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgMinpension20(props) {
   );
 }
 
-export default SvgMinpension20;
+export default Minpension20;

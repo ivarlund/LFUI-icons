@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNotificationFlag20(props) {
+function NotificationFlag20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgNotificationFlag20(props) {
   );
 }
 
-export default SvgNotificationFlag20;
+export default NotificationFlag20;

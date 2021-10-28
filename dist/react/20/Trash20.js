@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTrash20(props) {
+function Trash20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgTrash20(props) {
   );
 }
 
-export default SvgTrash20;
+export default Trash20;

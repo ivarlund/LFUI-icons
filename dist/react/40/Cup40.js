@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCup40(props) {
+function Cup40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgCup40(props) {
   );
 }
 
-export default SvgCup40;
+export default Cup40;

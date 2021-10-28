@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCarDamage24(props) {
+function CarDamage24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgCarDamage24(props) {
   );
 }
 
-export default SvgCarDamage24;
+export default CarDamage24;

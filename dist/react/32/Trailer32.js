@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTrailer32(props) {
+function Trailer32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgTrailer32(props) {
   );
 }
 
-export default SvgTrailer32;
+export default Trailer32;

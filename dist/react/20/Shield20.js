@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShield20(props) {
+function Shield20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgShield20(props) {
   );
 }
 
-export default SvgShield20;
+export default Shield20;

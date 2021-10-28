@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBreifcaseFirstAid20(props) {
+function BreifcaseFirstAid20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgBreifcaseFirstAid20(props) {
   );
 }
 
-export default SvgBreifcaseFirstAid20;
+export default BreifcaseFirstAid20;

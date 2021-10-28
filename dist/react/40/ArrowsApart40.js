@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgArrowsApart40(props) {
+function ArrowsApart40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgArrowsApart40(props) {
   );
 }
 
-export default SvgArrowsApart40;
+export default ArrowsApart40;

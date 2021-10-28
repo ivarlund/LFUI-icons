@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGrowthArrow32(props) {
+function GrowthArrow32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgGrowthArrow32(props) {
   );
 }
 
-export default SvgGrowthArrow32;
+export default GrowthArrow32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgArrowsApart20(props) {
+function ArrowsApart20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgArrowsApart20(props) {
   );
 }
 
-export default SvgArrowsApart20;
+export default ArrowsApart20;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationUmbrella32(props) {
+function NavigationUmbrella32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgNavigationUmbrella32(props) {
   );
 }
 
-export default SvgNavigationUmbrella32;
+export default NavigationUmbrella32;

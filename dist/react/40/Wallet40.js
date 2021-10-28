@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgWallet40(props) {
+function Wallet40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgWallet40(props) {
   );
 }
 
-export default SvgWallet40;
+export default Wallet40;

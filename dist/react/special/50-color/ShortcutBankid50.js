@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShortcutBankid50(props) {
+function ShortcutBankid50(props) {
   return (
     <svg width={50} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgShortcutBankid50(props) {
   );
 }
 
-export default SvgShortcutBankid50;
+export default ShortcutBankid50;

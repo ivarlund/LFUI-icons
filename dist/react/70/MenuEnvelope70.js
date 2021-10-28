@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMenuEnvelope70(props) {
+function MenuEnvelope70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgMenuEnvelope70(props) {
   );
 }
 
-export default SvgMenuEnvelope70;
+export default MenuEnvelope70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorChatHeart64(props) {
+function MulticolorChatHeart64(props) {
   return (
     <svg width={64} height={64} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -22,4 +22,4 @@ function SvgMulticolorChatHeart64(props) {
   );
 }
 
-export default SvgMulticolorChatHeart64;
+export default MulticolorChatHeart64;

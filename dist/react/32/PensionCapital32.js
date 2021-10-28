@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPensionCapital32(props) {
+function PensionCapital32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgPensionCapital32(props) {
   );
 }
 
-export default SvgPensionCapital32;
+export default PensionCapital32;

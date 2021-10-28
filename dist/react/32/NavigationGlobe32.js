@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationGlobe32(props) {
+function NavigationGlobe32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -13,4 +13,4 @@ function SvgNavigationGlobe32(props) {
   );
 }
 
-export default SvgNavigationGlobe32;
+export default NavigationGlobe32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgThumbsDown32(props) {
+function ThumbsDown32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgThumbsDown32(props) {
   );
 }
 
-export default SvgThumbsDown32;
+export default ThumbsDown32;

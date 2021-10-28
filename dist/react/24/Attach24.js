@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAttach24(props) {
+function Attach24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgAttach24(props) {
   );
 }
 
-export default SvgAttach24;
+export default Attach24;

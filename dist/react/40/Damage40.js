@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDamage40(props) {
+function Damage40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgDamage40(props) {
   );
 }
 
-export default SvgDamage40;
+export default Damage40;

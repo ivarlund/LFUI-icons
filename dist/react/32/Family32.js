@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFamily32(props) {
+function Family32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgFamily32(props) {
   );
 }
 
-export default SvgFamily32;
+export default Family32;

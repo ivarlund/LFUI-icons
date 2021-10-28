@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHeartbeat20(props) {
+function Heartbeat20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgHeartbeat20(props) {
   );
 }
 
-export default SvgHeartbeat20;
+export default Heartbeat20;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLetter70(props) {
+function Letter70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgLetter70(props) {
   );
 }
 
-export default SvgLetter70;
+export default Letter70;

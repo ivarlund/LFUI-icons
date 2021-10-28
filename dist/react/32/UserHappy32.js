@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgUserHappy32(props) {
+function UserHappy32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgUserHappy32(props) {
   );
 }
 
-export default SvgUserHappy32;
+export default UserHappy32;

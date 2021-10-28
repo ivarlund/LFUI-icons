@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCircle70(props) {
+function Circle70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgCircle70(props) {
   );
 }
 
-export default SvgCircle70;
+export default Circle70;

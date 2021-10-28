@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGrowthArrow70(props) {
+function GrowthArrow70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgGrowthArrow70(props) {
   );
 }
 
-export default SvgGrowthArrow70;
+export default GrowthArrow70;

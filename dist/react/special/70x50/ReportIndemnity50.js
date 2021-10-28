@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgReportIndemnity50(props) {
+function ReportIndemnity50(props) {
   return (
     <svg width={70} height={50} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -19,4 +19,4 @@ function SvgReportIndemnity50(props) {
   );
 }
 
-export default SvgReportIndemnity50;
+export default ReportIndemnity50;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCalendar26(props) {
+function Calendar26(props) {
   return (
     <svg width={26} height={26} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgCalendar26(props) {
   );
 }
 
-export default SvgCalendar26;
+export default Calendar26;

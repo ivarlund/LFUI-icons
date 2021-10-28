@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSustainability24(props) {
+function Sustainability24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgSustainability24(props) {
   );
 }
 
-export default SvgSustainability24;
+export default Sustainability24;

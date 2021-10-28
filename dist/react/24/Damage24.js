@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDamage24(props) {
+function Damage24(props) {
   return (
     <svg
       width={24}
@@ -27,4 +27,4 @@ function SvgDamage24(props) {
   );
 }
 
-export default SvgDamage24;
+export default Damage24;

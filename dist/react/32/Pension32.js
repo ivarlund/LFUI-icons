@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPension32(props) {
+function Pension32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgPension32(props) {
   );
 }
 
-export default SvgPension32;
+export default Pension32;

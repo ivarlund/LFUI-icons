@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBank24(props) {
+function Bank24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -10,4 +10,4 @@ function SvgBank24(props) {
   );
 }
 
-export default SvgBank24;
+export default Bank24;

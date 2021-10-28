@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgChat24(props) {
+function Chat24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgChat24(props) {
   );
 }
 
-export default SvgChat24;
+export default Chat24;

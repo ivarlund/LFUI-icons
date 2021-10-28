@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHeart24(props) {
+function Heart24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgHeart24(props) {
   );
 }
 
-export default SvgHeart24;
+export default Heart24;

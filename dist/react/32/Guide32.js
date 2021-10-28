@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGuide32(props) {
+function Guide32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgGuide32(props) {
   );
 }
 
-export default SvgGuide32;
+export default Guide32;

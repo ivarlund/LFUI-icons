@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTwitter32(props) {
+function Twitter32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgTwitter32(props) {
   );
 }
 
-export default SvgTwitter32;
+export default Twitter32;

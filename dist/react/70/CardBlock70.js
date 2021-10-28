@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCardBlock70(props) {
+function CardBlock70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgCardBlock70(props) {
   );
 }
 
-export default SvgCardBlock70;
+export default CardBlock70;

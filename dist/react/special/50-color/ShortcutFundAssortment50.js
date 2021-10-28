@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShortcutFundAssortment50(props) {
+function ShortcutFundAssortment50(props) {
   return (
     <svg width={50} height={40} {...props}>
       <g strokeWidth={2} fill="none" fillRule="evenodd">
@@ -12,4 +12,4 @@ function SvgShortcutFundAssortment50(props) {
   );
 }
 
-export default SvgShortcutFundAssortment50;
+export default ShortcutFundAssortment50;

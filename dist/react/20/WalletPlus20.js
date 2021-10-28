@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgWalletPlus20(props) {
+function WalletPlus20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgWalletPlus20(props) {
   );
 }
 
-export default SvgWalletPlus20;
+export default WalletPlus20;

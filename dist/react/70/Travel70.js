@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTravel70(props) {
+function Travel70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgTravel70(props) {
   );
 }
 
-export default SvgTravel70;
+export default Travel70;

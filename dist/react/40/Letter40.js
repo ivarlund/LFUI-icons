@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLetter40(props) {
+function Letter40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgLetter40(props) {
   );
 }
 
-export default SvgLetter40;
+export default Letter40;

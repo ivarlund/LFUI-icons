@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDocument20(props) {
+function Document20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgDocument20(props) {
   );
 }
 
-export default SvgDocument20;
+export default Document20;

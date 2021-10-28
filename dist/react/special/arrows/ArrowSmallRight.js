@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgArrowSmallRight(props) {
+function ArrowSmallRight(props) {
   return (
     <svg width={21} height={12} {...props}>
       <g fillRule="nonzero" fill="currentColor">
@@ -11,4 +11,4 @@ function SvgArrowSmallRight(props) {
   );
 }
 
-export default SvgArrowSmallRight;
+export default ArrowSmallRight;

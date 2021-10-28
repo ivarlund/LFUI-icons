@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgClock20(props) {
+function Clock20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgClock20(props) {
   );
 }
 
-export default SvgClock20;
+export default Clock20;

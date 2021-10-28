@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCoins24(props) {
+function Coins24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgCoins24(props) {
   );
 }
 
-export default SvgCoins24;
+export default Coins24;

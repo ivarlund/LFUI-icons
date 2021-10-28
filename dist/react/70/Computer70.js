@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgComputer70(props) {
+function Computer70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgComputer70(props) {
   );
 }
 
-export default SvgComputer70;
+export default Computer70;

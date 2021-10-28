@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorSadDeclined64(props) {
+function MulticolorSadDeclined64(props) {
   return (
     <svg
       width={64}
@@ -58,4 +58,4 @@ function SvgMulticolorSadDeclined64(props) {
   );
 }
 
-export default SvgMulticolorSadDeclined64;
+export default MulticolorSadDeclined64;

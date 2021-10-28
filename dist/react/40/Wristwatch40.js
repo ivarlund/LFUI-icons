@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgWristwatch40(props) {
+function Wristwatch40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgWristwatch40(props) {
   );
 }
 
-export default SvgWristwatch40;
+export default Wristwatch40;

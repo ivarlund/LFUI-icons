@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSnailmail32(props) {
+function Snailmail32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgSnailmail32(props) {
   );
 }
 
-export default SvgSnailmail32;
+export default Snailmail32;

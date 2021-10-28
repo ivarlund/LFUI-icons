@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgEllipsisEnclosed32(props) {
+function EllipsisEnclosed32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgEllipsisEnclosed32(props) {
   );
 }
 
-export default SvgEllipsisEnclosed32;
+export default EllipsisEnclosed32;

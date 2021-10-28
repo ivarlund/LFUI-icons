@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgContract40(props) {
+function Contract40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgContract40(props) {
   );
 }
 
-export default SvgContract40;
+export default Contract40;

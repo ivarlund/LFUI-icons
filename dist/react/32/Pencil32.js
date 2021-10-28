@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPencil32(props) {
+function Pencil32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPencil32(props) {
   );
 }
 
-export default SvgPencil32;
+export default Pencil32;

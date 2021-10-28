@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCross70(props) {
+function Cross70(props) {
   return (
     <svg
       width={70}
@@ -24,4 +24,4 @@ function SvgCross70(props) {
   );
 }
 
-export default SvgCross70;
+export default Cross70;

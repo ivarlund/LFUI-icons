@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPhone40(props) {
+function Phone40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPhone40(props) {
   );
 }
 
-export default SvgPhone40;
+export default Phone40;
