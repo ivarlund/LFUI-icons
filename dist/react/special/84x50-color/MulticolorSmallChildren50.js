@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorSmallChildren50(props) {
+function MulticolorSmallChildren50(props) {
   return (
     <svg width={84} height={50} {...props}>
       <g strokeWidth={2} fill="none" fillRule="evenodd">
@@ -26,4 +26,4 @@ function SvgMulticolorSmallChildren50(props) {
   );
 }
 
-export default SvgMulticolorSmallChildren50;
+export default MulticolorSmallChildren50;

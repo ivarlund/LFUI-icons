@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDocument32(props) {
+function Document32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgDocument32(props) {
   );
 }
 
-export default SvgDocument32;
+export default Document32;

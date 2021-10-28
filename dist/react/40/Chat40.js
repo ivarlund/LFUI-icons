@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgChat40(props) {
+function Chat40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgChat40(props) {
   );
 }
 
-export default SvgChat40;
+export default Chat40;

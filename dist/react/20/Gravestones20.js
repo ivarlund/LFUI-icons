@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGravestones20(props) {
+function Gravestones20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgGravestones20(props) {
   );
 }
 
-export default SvgGravestones20;
+export default Gravestones20;

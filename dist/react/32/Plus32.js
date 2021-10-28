@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPlus32(props) {
+function Plus32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgPlus32(props) {
   );
 }
 
-export default SvgPlus32;
+export default Plus32;

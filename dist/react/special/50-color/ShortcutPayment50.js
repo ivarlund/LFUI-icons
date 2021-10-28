@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShortcutPayment50(props) {
+function ShortcutPayment50(props) {
   return (
     <svg width={50} height={40} {...props}>
       <g transform="translate(6 3)" fill="none" fillRule="evenodd">
@@ -55,4 +55,4 @@ function SvgShortcutPayment50(props) {
   );
 }
 
-export default SvgShortcutPayment50;
+export default ShortcutPayment50;

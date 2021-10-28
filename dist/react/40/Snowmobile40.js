@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSnowmobile40(props) {
+function Snowmobile40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgSnowmobile40(props) {
   );
 }
 
-export default SvgSnowmobile40;
+export default Snowmobile40;

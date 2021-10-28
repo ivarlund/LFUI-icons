@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgRadioRound32(props) {
+function RadioRound32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgRadioRound32(props) {
   );
 }
 
-export default SvgRadioRound32;
+export default RadioRound32;

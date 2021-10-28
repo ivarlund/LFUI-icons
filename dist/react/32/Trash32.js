@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTrash32(props) {
+function Trash32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgTrash32(props) {
   );
 }
 
-export default SvgTrash32;
+export default Trash32;

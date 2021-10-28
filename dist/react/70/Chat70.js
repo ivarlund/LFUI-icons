@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgChat70(props) {
+function Chat70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgChat70(props) {
   );
 }
 
-export default SvgChat70;
+export default Chat70;

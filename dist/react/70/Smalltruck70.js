@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSmalltruck70(props) {
+function Smalltruck70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgSmalltruck70(props) {
   );
 }
 
-export default SvgSmalltruck70;
+export default Smalltruck70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationPhone32(props) {
+function NavigationPhone32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgNavigationPhone32(props) {
   );
 }
 
-export default SvgNavigationPhone32;
+export default NavigationPhone32;

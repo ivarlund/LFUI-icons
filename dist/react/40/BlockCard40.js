@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBlockCard40(props) {
+function BlockCard40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgBlockCard40(props) {
   );
 }
 
-export default SvgBlockCard40;
+export default BlockCard40;

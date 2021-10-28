@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGuide40(props) {
+function Guide40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -13,4 +13,4 @@ function SvgGuide40(props) {
   );
 }
 
-export default SvgGuide40;
+export default Guide40;

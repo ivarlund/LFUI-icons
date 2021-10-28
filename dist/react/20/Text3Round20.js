@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgText3Round20(props) {
+function Text3Round20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgText3Round20(props) {
   );
 }
 
-export default SvgText3Round20;
+export default Text3Round20;

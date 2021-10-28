@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgInstagram56(props) {
+function Instagram56(props) {
   return (
     <svg width={56} height={56} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -12,4 +12,4 @@ function SvgInstagram56(props) {
   );
 }
 
-export default SvgInstagram56;
+export default Instagram56;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGuide70(props) {
+function Guide70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgGuide70(props) {
   );
 }
 
-export default SvgGuide70;
+export default Guide70;

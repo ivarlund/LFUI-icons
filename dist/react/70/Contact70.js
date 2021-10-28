@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgContact70(props) {
+function Contact70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgContact70(props) {
   );
 }
 
-export default SvgContact70;
+export default Contact70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPressMedia32(props) {
+function PressMedia32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPressMedia32(props) {
   );
 }
 
-export default SvgPressMedia32;
+export default PressMedia32;

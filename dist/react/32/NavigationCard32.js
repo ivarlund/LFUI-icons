@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationCard32(props) {
+function NavigationCard32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgNavigationCard32(props) {
   );
 }
 
-export default SvgNavigationCard32;
+export default NavigationCard32;

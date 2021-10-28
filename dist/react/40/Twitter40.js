@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTwitter40(props) {
+function Twitter40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgTwitter40(props) {
   );
 }
 
-export default SvgTwitter40;
+export default Twitter40;

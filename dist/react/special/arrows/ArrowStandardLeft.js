@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgArrowStandardLeft(props) {
+function ArrowStandardLeft(props) {
   return (
     <svg width={28} height={16} {...props}>
       <g fillRule="nonzero" fill="currentColor">
@@ -11,4 +11,4 @@ function SvgArrowStandardLeft(props) {
   );
 }
 
-export default SvgArrowStandardLeft;
+export default ArrowStandardLeft;

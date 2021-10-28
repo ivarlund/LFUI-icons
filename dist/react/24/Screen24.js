@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgScreen24(props) {
+function Screen24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgScreen24(props) {
   );
 }
 
-export default SvgScreen24;
+export default Screen24;

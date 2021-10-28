@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgInsuranceBoat32(props) {
+function InsuranceBoat32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgInsuranceBoat32(props) {
   );
 }
 
-export default SvgInsuranceBoat32;
+export default InsuranceBoat32;

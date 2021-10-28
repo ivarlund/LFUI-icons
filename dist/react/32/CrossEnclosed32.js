@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCrossEnclosed32(props) {
+function CrossEnclosed32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgCrossEnclosed32(props) {
   );
 }
 
-export default SvgCrossEnclosed32;
+export default CrossEnclosed32;

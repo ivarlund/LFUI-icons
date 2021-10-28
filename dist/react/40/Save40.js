@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSave40(props) {
+function Save40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgSave40(props) {
   );
 }
 
-export default SvgSave40;
+export default Save40;

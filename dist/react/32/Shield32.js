@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShield32(props) {
+function Shield32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgShield32(props) {
   );
 }
 
-export default SvgShield32;
+export default Shield32;

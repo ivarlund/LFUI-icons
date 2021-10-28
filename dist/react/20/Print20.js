@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPrint20(props) {
+function Print20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgPrint20(props) {
   );
 }
 
-export default SvgPrint20;
+export default Print20;

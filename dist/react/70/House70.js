@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHouse70(props) {
+function House70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgHouse70(props) {
   );
 }
 
-export default SvgHouse70;
+export default House70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFinance32(props) {
+function Finance32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgFinance32(props) {
   );
 }
 
-export default SvgFinance32;
+export default Finance32;

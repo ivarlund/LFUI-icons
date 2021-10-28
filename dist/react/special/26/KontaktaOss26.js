@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgKontaktaOss26(props) {
+function KontaktaOss26(props) {
   return (
     <svg width={26} height={26} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -13,4 +13,4 @@ function SvgKontaktaOss26(props) {
   );
 }
 
-export default SvgKontaktaOss26;
+export default KontaktaOss26;

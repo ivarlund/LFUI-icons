@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTractor40(props) {
+function Tractor40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgTractor40(props) {
   );
 }
 
-export default SvgTractor40;
+export default Tractor40;

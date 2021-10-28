@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgExternalLink20(props) {
+function ExternalLink20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgExternalLink20(props) {
   );
 }
 
-export default SvgExternalLink20;
+export default ExternalLink20;

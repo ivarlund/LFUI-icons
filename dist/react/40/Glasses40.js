@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGlasses40(props) {
+function Glasses40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgGlasses40(props) {
   );
 }
 
-export default SvgGlasses40;
+export default Glasses40;

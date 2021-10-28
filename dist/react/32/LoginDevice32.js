@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLoginDevice32(props) {
+function LoginDevice32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgLoginDevice32(props) {
   );
 }
 
-export default SvgLoginDevice32;
+export default LoginDevice32;

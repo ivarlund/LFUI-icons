@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationPayment32(props) {
+function NavigationPayment32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -22,4 +22,4 @@ function SvgNavigationPayment32(props) {
   );
 }
 
-export default SvgNavigationPayment32;
+export default NavigationPayment32;

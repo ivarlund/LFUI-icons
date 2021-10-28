@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMenu20(props) {
+function Menu20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgMenu20(props) {
   );
 }
 
-export default SvgMenu20;
+export default Menu20;

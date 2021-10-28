@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGravestone32(props) {
+function Gravestone32(props) {
   return (
     <svg width={28} height={29} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgGravestone32(props) {
   );
 }
 
-export default SvgGravestone32;
+export default Gravestone32;

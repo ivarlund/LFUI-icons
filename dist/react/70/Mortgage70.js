@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMortgage70(props) {
+function Mortgage70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgMortgage70(props) {
   );
 }
 
-export default SvgMortgage70;
+export default Mortgage70;

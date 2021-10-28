@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDamage70(props) {
+function Damage70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgDamage70(props) {
   );
 }
 
-export default SvgDamage70;
+export default Damage70;

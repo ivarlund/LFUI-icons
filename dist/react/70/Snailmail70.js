@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSnailmail70(props) {
+function Snailmail70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgSnailmail70(props) {
   );
 }
 
-export default SvgSnailmail70;
+export default Snailmail70;

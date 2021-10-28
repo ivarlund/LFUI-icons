@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgArrowLargeLeft(props) {
+function ArrowLargeLeft(props) {
   return (
     <svg width={32} height={16} {...props}>
       <g fillRule="nonzero" fill="currentColor">
@@ -11,4 +11,4 @@ function SvgArrowLargeLeft(props) {
   );
 }
 
-export default SvgArrowLargeLeft;
+export default ArrowLargeLeft;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBell24(props) {
+function Bell24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBell24(props) {
   );
 }
 
-export default SvgBell24;
+export default Bell24;

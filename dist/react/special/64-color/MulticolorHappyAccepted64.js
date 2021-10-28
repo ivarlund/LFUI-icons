@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorHappyAccepted64(props) {
+function MulticolorHappyAccepted64(props) {
   return (
     <svg
       width={64}
@@ -44,4 +44,4 @@ function SvgMulticolorHappyAccepted64(props) {
   );
 }
 
-export default SvgMulticolorHappyAccepted64;
+export default MulticolorHappyAccepted64;

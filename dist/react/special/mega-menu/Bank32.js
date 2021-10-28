@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBank32(props) {
+function Bank32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -10,4 +10,4 @@ function SvgBank32(props) {
   );
 }
 
-export default SvgBank32;
+export default Bank32;

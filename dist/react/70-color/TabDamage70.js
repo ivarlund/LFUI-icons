@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTabDamage70(props) {
+function TabDamage70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -16,4 +16,4 @@ function SvgTabDamage70(props) {
   );
 }
 
-export default SvgTabDamage70;
+export default TabDamage70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFacebook40(props) {
+function Facebook40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgFacebook40(props) {
   );
 }
 
-export default SvgFacebook40;
+export default Facebook40;

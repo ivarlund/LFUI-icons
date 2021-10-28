@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPercent32(props) {
+function Percent32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -10,4 +10,4 @@ function SvgPercent32(props) {
   );
 }
 
-export default SvgPercent32;
+export default Percent32;

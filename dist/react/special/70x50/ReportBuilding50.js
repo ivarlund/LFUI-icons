@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgReportBuilding50(props) {
+function ReportBuilding50(props) {
   return (
     <svg width={70} height={50} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -25,4 +25,4 @@ function SvgReportBuilding50(props) {
   );
 }
 
-export default SvgReportBuilding50;
+export default ReportBuilding50;

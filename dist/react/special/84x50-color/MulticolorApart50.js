@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorApart50(props) {
+function MulticolorApart50(props) {
   return (
     <svg
       width={84}
@@ -64,4 +64,4 @@ function SvgMulticolorApart50(props) {
   );
 }
 
-export default SvgMulticolorApart50;
+export default MulticolorApart50;

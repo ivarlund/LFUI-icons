@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNotificationSwish32(props) {
+function NotificationSwish32(props) {
   return (
     <svg
       width={32}
@@ -27,4 +27,4 @@ function SvgNotificationSwish32(props) {
   );
 }
 
-export default SvgNotificationSwish32;
+export default NotificationSwish32;

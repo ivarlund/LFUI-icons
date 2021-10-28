@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGrowthArrow40(props) {
+function GrowthArrow40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgGrowthArrow40(props) {
   );
 }
 
-export default SvgGrowthArrow40;
+export default GrowthArrow40;

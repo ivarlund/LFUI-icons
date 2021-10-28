@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPrevent32(props) {
+function Prevent32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgPrevent32(props) {
   );
 }
 
-export default SvgPrevent32;
+export default Prevent32;

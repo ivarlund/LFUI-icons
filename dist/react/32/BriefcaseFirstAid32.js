@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBriefcaseFirstAid32(props) {
+function BriefcaseFirstAid32(props) {
   return (
     <svg
       width={32}
@@ -26,4 +26,4 @@ function SvgBriefcaseFirstAid32(props) {
   );
 }
 
-export default SvgBriefcaseFirstAid32;
+export default BriefcaseFirstAid32;

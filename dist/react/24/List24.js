@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgList24(props) {
+function List24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g transform="translate(3 4)" fill="currentColor" fillRule="evenodd">
@@ -13,4 +13,4 @@ function SvgList24(props) {
   );
 }
 
-export default SvgList24;
+export default List24;

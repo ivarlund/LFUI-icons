@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTravel40(props) {
+function Travel40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgTravel40(props) {
   );
 }
 
-export default SvgTravel40;
+export default Travel40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLoginDevice20(props) {
+function LoginDevice20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -21,4 +21,4 @@ function SvgLoginDevice20(props) {
   );
 }
 
-export default SvgLoginDevice20;
+export default LoginDevice20;

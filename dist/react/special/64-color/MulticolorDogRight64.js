@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorDogRight64(props) {
+function MulticolorDogRight64(props) {
   return (
     <svg width={64} height={64} {...props}>
       <g
@@ -32,4 +32,4 @@ function SvgMulticolorDogRight64(props) {
   );
 }
 
-export default SvgMulticolorDogRight64;
+export default MulticolorDogRight64;

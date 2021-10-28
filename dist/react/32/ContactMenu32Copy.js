@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgContactMenu32Copy(props) {
+function ContactMenu32Copy(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -13,4 +13,4 @@ function SvgContactMenu32Copy(props) {
   );
 }
 
-export default SvgContactMenu32Copy;
+export default ContactMenu32Copy;

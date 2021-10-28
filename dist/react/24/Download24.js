@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDownload24(props) {
+function Download24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgDownload24(props) {
   );
 }
 
-export default SvgDownload24;
+export default Download24;

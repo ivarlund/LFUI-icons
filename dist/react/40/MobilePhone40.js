@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMobilePhone40(props) {
+function MobilePhone40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgMobilePhone40(props) {
   );
 }
 
-export default SvgMobilePhone40;
+export default MobilePhone40;

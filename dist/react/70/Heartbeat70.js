@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHeartbeat70(props) {
+function Heartbeat70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgHeartbeat70(props) {
   );
 }
 
-export default SvgHeartbeat70;
+export default Heartbeat70;

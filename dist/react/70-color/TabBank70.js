@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTabBank70(props) {
+function TabBank70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -18,4 +18,4 @@ function SvgTabBank70(props) {
   );
 }
 
-export default SvgTabBank70;
+export default TabBank70;

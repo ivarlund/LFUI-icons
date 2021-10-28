@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgReportLegal50(props) {
+function ReportLegal50(props) {
   return (
     <svg width={70} height={50} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -33,4 +33,4 @@ function SvgReportLegal50(props) {
   );
 }
 
-export default SvgReportLegal50;
+export default ReportLegal50;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgComputer40(props) {
+function Computer40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgComputer40(props) {
   );
 }
 
-export default SvgComputer40;
+export default Computer40;

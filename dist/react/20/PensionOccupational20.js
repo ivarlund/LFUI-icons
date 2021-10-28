@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPensionOccupational20(props) {
+function PensionOccupational20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgPensionOccupational20(props) {
   );
 }
 
-export default SvgPensionOccupational20;
+export default PensionOccupational20;

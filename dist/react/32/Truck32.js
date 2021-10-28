@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTruck32(props) {
+function Truck32(props) {
   return (
     <svg width={29} height={25} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgTruck32(props) {
   );
 }
 
-export default SvgTruck32;
+export default Truck32;

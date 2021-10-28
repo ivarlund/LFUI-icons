@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBaby32(props) {
+function Baby32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBaby32(props) {
   );
 }
 
-export default SvgBaby32;
+export default Baby32;

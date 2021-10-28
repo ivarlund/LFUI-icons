@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSave24(props) {
+function Save24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgSave24(props) {
   );
 }
 
-export default SvgSave24;
+export default Save24;

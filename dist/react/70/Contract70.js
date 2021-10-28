@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgContract70(props) {
+function Contract70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgContract70(props) {
   );
 }
 
-export default SvgContract70;
+export default Contract70;

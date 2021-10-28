@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgComputer32(props) {
+function Computer32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgComputer32(props) {
   );
 }
 
-export default SvgComputer32;
+export default Computer32;

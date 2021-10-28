@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgEnvelope40(props) {
+function Envelope40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgEnvelope40(props) {
   );
 }
 
-export default SvgEnvelope40;
+export default Envelope40;

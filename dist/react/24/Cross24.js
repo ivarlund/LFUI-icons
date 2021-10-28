@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCross24(props) {
+function Cross24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgCross24(props) {
   );
 }
 
-export default SvgCross24;
+export default Cross24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgInstitution32(props) {
+function Institution32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgInstitution32(props) {
   );
 }
 
-export default SvgInstitution32;
+export default Institution32;

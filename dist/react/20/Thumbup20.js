@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgThumbup20(props) {
+function Thumbup20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgThumbup20(props) {
   );
 }
 
-export default SvgThumbup20;
+export default Thumbup20;

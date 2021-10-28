@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgIdSign24(props) {
+function IdSign24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgIdSign24(props) {
   );
 }
 
-export default SvgIdSign24;
+export default IdSign24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgUser20(props) {
+function User20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgUser20(props) {
   );
 }
 
-export default SvgUser20;
+export default User20;

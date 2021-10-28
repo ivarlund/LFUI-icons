@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgContentcard20(props) {
+function Contentcard20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgContentcard20(props) {
   );
 }
 
-export default SvgContentcard20;
+export default Contentcard20;

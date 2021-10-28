@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgWallet20(props) {
+function Wallet20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgWallet20(props) {
   );
 }
 
-export default SvgWallet20;
+export default Wallet20;

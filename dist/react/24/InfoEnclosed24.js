@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgInfoEnclosed24(props) {
+function InfoEnclosed24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgInfoEnclosed24(props) {
   );
 }
 
-export default SvgInfoEnclosed24;
+export default InfoEnclosed24;

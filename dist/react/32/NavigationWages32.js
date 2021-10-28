@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationWages32(props) {
+function NavigationWages32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgNavigationWages32(props) {
   );
 }
 
-export default SvgNavigationWages32;
+export default NavigationWages32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLightbulb24(props) {
+function Lightbulb24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgLightbulb24(props) {
   );
 }
 
-export default SvgLightbulb24;
+export default Lightbulb24;

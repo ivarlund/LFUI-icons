@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMc70(props) {
+function Mc70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgMc70(props) {
   );
 }
 
-export default SvgMc70;
+export default Mc70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLinkedin32(props) {
+function Linkedin32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgLinkedin32(props) {
   );
 }
 
-export default SvgLinkedin32;
+export default Linkedin32;

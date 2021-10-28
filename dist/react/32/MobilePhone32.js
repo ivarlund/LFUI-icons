@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMobilePhone32(props) {
+function MobilePhone32(props) {
   return (
     <svg
       width={32}
@@ -27,4 +27,4 @@ function SvgMobilePhone32(props) {
   );
 }
 
-export default SvgMobilePhone32;
+export default MobilePhone32;

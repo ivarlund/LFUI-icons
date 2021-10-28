@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShortcutTransfer50(props) {
+function ShortcutTransfer50(props) {
   return (
     <svg width={50} height={40} {...props}>
       <g strokeWidth={2} fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgShortcutTransfer50(props) {
   );
 }
 
-export default SvgShortcutTransfer50;
+export default ShortcutTransfer50;

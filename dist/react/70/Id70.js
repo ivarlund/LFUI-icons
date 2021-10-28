@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgId70(props) {
+function Id70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgId70(props) {
   );
 }
 
-export default SvgId70;
+export default Id70;

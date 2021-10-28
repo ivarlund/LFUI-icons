@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSave32(props) {
+function Save32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgSave32(props) {
   );
 }
 
-export default SvgSave32;
+export default Save32;

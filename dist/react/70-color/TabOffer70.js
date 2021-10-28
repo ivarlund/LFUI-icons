@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTabOffer70(props) {
+function TabOffer70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -20,4 +20,4 @@ function SvgTabOffer70(props) {
   );
 }
 
-export default SvgTabOffer70;
+export default TabOffer70;

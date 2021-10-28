@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgInvestment32(props) {
+function Investment32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgInvestment32(props) {
   );
 }
 
-export default SvgInvestment32;
+export default Investment32;

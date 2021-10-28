@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationMortgage32(props) {
+function NavigationMortgage32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgNavigationMortgage32(props) {
   );
 }
 
-export default SvgNavigationMortgage32;
+export default NavigationMortgage32;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgFundAssortment24(props) {
+function FundAssortment24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgFundAssortment24(props) {
   );
 }
 
-export default SvgFundAssortment24;
+export default FundAssortment24;

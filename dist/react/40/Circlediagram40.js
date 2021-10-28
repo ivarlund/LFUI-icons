@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCirclediagram40(props) {
+function Circlediagram40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -12,4 +12,4 @@ function SvgCirclediagram40(props) {
   );
 }
 
-export default SvgCirclediagram40;
+export default Circlediagram40;

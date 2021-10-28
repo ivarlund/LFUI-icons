@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgStar20(props) {
+function Star20(props) {
   return (
     <svg
       width={20}
@@ -25,4 +25,4 @@ function SvgStar20(props) {
   );
 }
 
-export default SvgStar20;
+export default Star20;

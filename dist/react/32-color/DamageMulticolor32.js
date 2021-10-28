@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDamageMulticolor32(props) {
+function DamageMulticolor32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -15,4 +15,4 @@ function SvgDamageMulticolor32(props) {
   );
 }
 
-export default SvgDamageMulticolor32;
+export default DamageMulticolor32;

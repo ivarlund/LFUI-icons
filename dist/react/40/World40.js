@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgWorld40(props) {
+function World40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -25,4 +25,4 @@ function SvgWorld40(props) {
   );
 }
 
-export default SvgWorld40;
+export default World40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgChevronLeft32(props) {
+function ChevronLeft32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgChevronLeft32(props) {
   );
 }
 
-export default SvgChevronLeft32;
+export default ChevronLeft32;

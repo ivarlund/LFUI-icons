@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHeart70(props) {
+function Heart70(props) {
   return (
     <svg
       width={70}
@@ -26,4 +26,4 @@ function SvgHeart70(props) {
   );
 }
 
-export default SvgHeart70;
+export default Heart70;

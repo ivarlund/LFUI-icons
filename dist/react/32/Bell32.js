@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBell32(props) {
+function Bell32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBell32(props) {
   );
 }
 
-export default SvgBell32;
+export default Bell32;

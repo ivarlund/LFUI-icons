@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTablet40(props) {
+function Tablet40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -21,4 +21,4 @@ function SvgTablet40(props) {
   );
 }
 
-export default SvgTablet40;
+export default Tablet40;

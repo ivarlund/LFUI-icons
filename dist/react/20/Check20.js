@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCheck20(props) {
+function Check20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgCheck20(props) {
   );
 }
 
-export default SvgCheck20;
+export default Check20;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgRadioEnclosed20(props) {
+function RadioEnclosed20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgRadioEnclosed20(props) {
   );
 }
 
-export default SvgRadioEnclosed20;
+export default RadioEnclosed20;

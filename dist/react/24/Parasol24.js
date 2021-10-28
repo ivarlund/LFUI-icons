@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgParasol24(props) {
+function Parasol24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -16,4 +16,4 @@ function SvgParasol24(props) {
   );
 }
 
-export default SvgParasol24;
+export default Parasol24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBoat40(props) {
+function Boat40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -21,4 +21,4 @@ function SvgBoat40(props) {
   );
 }
 
-export default SvgBoat40;
+export default Boat40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCross32(props) {
+function Cross32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgCross32(props) {
   );
 }
 
-export default SvgCross32;
+export default Cross32;

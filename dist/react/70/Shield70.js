@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShield70(props) {
+function Shield70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgShield70(props) {
   );
 }
 
-export default SvgShield70;
+export default Shield70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLoanMulticolor32(props) {
+function LoanMulticolor32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -25,4 +25,4 @@ function SvgLoanMulticolor32(props) {
   );
 }
 
-export default SvgLoanMulticolor32;
+export default LoanMulticolor32;

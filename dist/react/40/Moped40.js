@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMoped40(props) {
+function Moped40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgMoped40(props) {
   );
 }
 
-export default SvgMoped40;
+export default Moped40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAttach20(props) {
+function Attach20(props) {
   return (
     <svg
       width={16}
@@ -26,4 +26,4 @@ function SvgAttach20(props) {
   );
 }
 
-export default SvgAttach20;
+export default Attach20;

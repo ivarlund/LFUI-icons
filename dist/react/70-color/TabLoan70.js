@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTabLoan70(props) {
+function TabLoan70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -37,4 +37,4 @@ function SvgTabLoan70(props) {
   );
 }
 
-export default SvgTabLoan70;
+export default TabLoan70;

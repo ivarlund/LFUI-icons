@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBankidMc40(props) {
+function BankidMc40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -30,4 +30,4 @@ function SvgBankidMc40(props) {
   );
 }
 
-export default SvgBankidMc40;
+export default BankidMc40;

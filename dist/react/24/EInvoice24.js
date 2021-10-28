@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgEInvoice24(props) {
+function EInvoice24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgEInvoice24(props) {
   );
 }
 
-export default SvgEInvoice24;
+export default EInvoice24;

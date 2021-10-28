@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShortcutMessages50(props) {
+function ShortcutMessages50(props) {
   return (
     <svg width={50} height={40} {...props}>
       <g strokeWidth={2} fill="none" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgShortcutMessages50(props) {
   );
 }
 
-export default SvgShortcutMessages50;
+export default ShortcutMessages50;

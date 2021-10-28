@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDamage32(props) {
+function Damage32(props) {
   return (
     <svg
       width={32}
@@ -27,4 +27,4 @@ function SvgDamage32(props) {
   );
 }
 
-export default SvgDamage32;
+export default Damage32;

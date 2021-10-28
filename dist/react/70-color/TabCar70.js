@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTabCar70(props) {
+function TabCar70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -27,4 +27,4 @@ function SvgTabCar70(props) {
   );
 }
 
-export default SvgTabCar70;
+export default TabCar70;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAboutLf32(props) {
+function AboutLf32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -13,4 +13,4 @@ function SvgAboutLf32(props) {
   );
 }
 
-export default SvgAboutLf32;
+export default AboutLf32;

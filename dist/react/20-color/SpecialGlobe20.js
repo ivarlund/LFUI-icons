@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSpecialGlobe20(props) {
+function SpecialGlobe20(props) {
   return (
     <svg width={19} height={19} {...props}>
       <defs>
@@ -39,4 +39,4 @@ function SvgSpecialGlobe20(props) {
   );
 }
 
-export default SvgSpecialGlobe20;
+export default SpecialGlobe20;

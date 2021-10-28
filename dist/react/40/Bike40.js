@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBike40(props) {
+function Bike40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBike40(props) {
   );
 }
 
-export default SvgBike40;
+export default Bike40;

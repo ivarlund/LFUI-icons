@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCardMulticolor32(props) {
+function CardMulticolor32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -15,4 +15,4 @@ function SvgCardMulticolor32(props) {
   );
 }
 
-export default SvgCardMulticolor32;
+export default CardMulticolor32;

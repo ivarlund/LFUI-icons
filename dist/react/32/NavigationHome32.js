@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNavigationHome32(props) {
+function NavigationHome32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgNavigationHome32(props) {
   );
 }
 
-export default SvgNavigationHome32;
+export default NavigationHome32;

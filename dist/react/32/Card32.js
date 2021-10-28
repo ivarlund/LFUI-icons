@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCard32(props) {
+function Card32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgCard32(props) {
   );
 }
 
-export default SvgCard32;
+export default Card32;

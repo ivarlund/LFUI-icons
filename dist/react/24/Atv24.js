@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAtv24(props) {
+function Atv24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgAtv24(props) {
   );
 }
 
-export default SvgAtv24;
+export default Atv24;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMulticolorMoose48(props) {
+function MulticolorMoose48(props) {
   return (
     <svg width={48} height={48} {...props}>
       <g fillRule="nonzero" fill="none">
@@ -25,4 +25,4 @@ function SvgMulticolorMoose48(props) {
   );
 }
 
-export default SvgMulticolorMoose48;
+export default MulticolorMoose48;

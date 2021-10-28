@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCarDamaged20(props) {
+function CarDamaged20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g transform="translate(0 1)" fill="none" fillRule="evenodd">
@@ -37,4 +37,4 @@ function SvgCarDamaged20(props) {
   );
 }
 
-export default SvgCarDamaged20;
+export default CarDamaged20;

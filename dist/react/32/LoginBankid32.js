@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLoginBankid32(props) {
+function LoginBankid32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -10,4 +10,4 @@ function SvgLoginBankid32(props) {
   );
 }
 
-export default SvgLoginBankid32;
+export default LoginBankid32;

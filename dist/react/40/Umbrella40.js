@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgUmbrella40(props) {
+function Umbrella40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgUmbrella40(props) {
   );
 }
 
-export default SvgUmbrella40;
+export default Umbrella40;

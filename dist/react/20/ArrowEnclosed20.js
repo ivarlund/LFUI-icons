@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgArrowEnclosed20(props) {
+function ArrowEnclosed20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgArrowEnclosed20(props) {
   );
 }
 
-export default SvgArrowEnclosed20;
+export default ArrowEnclosed20;

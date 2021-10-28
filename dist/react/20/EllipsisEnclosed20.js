@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgEllipsisEnclosed20(props) {
+function EllipsisEnclosed20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgEllipsisEnclosed20(props) {
   );
 }
 
-export default SvgEllipsisEnclosed20;
+export default EllipsisEnclosed20;

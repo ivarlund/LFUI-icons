@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgHouse32(props) {
+function House32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -11,4 +11,4 @@ function SvgHouse32(props) {
   );
 }
 
-export default SvgHouse32;
+export default House32;

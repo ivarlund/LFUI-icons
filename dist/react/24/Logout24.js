@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgLogout24(props) {
+function Logout24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgLogout24(props) {
   );
 }
 
-export default SvgLogout24;
+export default Logout24;

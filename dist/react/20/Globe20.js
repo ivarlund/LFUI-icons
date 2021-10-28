@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgGlobe20(props) {
+function Globe20(props) {
   return (
     <svg width={20} height={20} {...props}>
       <g fill="currentColor" fillRule="evenodd">
@@ -18,4 +18,4 @@ function SvgGlobe20(props) {
   );
 }
 
-export default SvgGlobe20;
+export default Globe20;

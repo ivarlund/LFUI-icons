@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgShortcutChangeCompany50(props) {
+function ShortcutChangeCompany50(props) {
   return (
     <svg width={50} height={40} {...props}>
       <g strokeWidth={2} fill="none" fillRule="evenodd">
@@ -14,4 +14,4 @@ function SvgShortcutChangeCompany50(props) {
   );
 }
 
-export default SvgShortcutChangeCompany50;
+export default ShortcutChangeCompany50;

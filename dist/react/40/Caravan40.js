@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgCaravan40(props) {
+function Caravan40(props) {
   return (
     <svg width={40} height={40} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgCaravan40(props) {
   );
 }
 
-export default SvgCaravan40;
+export default Caravan40;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPhone70(props) {
+function Phone70(props) {
   return (
     <svg
       width={70}
@@ -27,4 +27,4 @@ function SvgPhone70(props) {
   );
 }
 
-export default SvgPhone70;
+export default Phone70;

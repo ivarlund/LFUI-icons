@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgClipboard32(props) {
+function Clipboard32(props) {
   return (
     <svg width={32} height={32} {...props}>
       <g fill="currentColor" fillRule="nonzero">
@@ -11,4 +11,4 @@ function SvgClipboard32(props) {
   );
 }
 
-export default SvgClipboard32;
+export default Clipboard32;

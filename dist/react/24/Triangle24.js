@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTriangle24(props) {
+function Triangle24(props) {
   return (
     <svg width={24} height={24} {...props}>
       <path
@@ -12,4 +12,4 @@ function SvgTriangle24(props) {
   );
 }
 
-export default SvgTriangle24;
+export default Triangle24;

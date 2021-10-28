@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBillsCoins70(props) {
+function BillsCoins70(props) {
   return (
     <svg width={70} height={70} {...props}>
       <g fill="none" fillRule="evenodd">
@@ -15,4 +15,4 @@ function SvgBillsCoins70(props) {
   );
 }
 
-export default SvgBillsCoins70;
+export default BillsCoins70;
