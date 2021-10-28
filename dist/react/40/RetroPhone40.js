@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function RetroPhone40(props) {
+function RetroPhone40({ title, titleId, ...props }) {
   return (
-    <svg width={37} height={37} {...props}>
+    <svg width={37} height={37} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M-1-1h40v40H-1z" />
         <path

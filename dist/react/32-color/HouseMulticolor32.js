@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function HouseMulticolor32(props) {
+function HouseMulticolor32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           fill="#005AA0"

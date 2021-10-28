@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Truck32(props) {
+function Truck32({ title, titleId, ...props }) {
   return (
-    <svg width={29} height={25} {...props}>
+    <svg width={29} height={25} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M-1-4h32v32H-1z" />
         <path

@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ShortcutTransfer50(props) {
+function ShortcutTransfer50({ title, titleId, ...props }) {
   return (
-    <svg width={50} height={40} {...props}>
+    <svg width={50} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g strokeWidth={2} fill="none" fillRule="evenodd">
         <path d="M19 10h11" stroke="#E30613" />
         <path

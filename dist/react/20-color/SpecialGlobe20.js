@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function SpecialGlobe20(props) {
+function SpecialGlobe20({ title, titleId, ...props }) {
   return (
-    <svg width={19} height={19} {...props}>
+    <svg width={19} height={19} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <linearGradient
           x1="50%"

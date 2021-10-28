@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function InsuranceVehicle32(props) {
+function InsuranceVehicle32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="nonzero">
         <path d="M5 21a5 5 0 1110 0 5 5 0 01-10 0zm2 0a3 3 0 106 0 3 3 0 00-6 0z" />
         <path d="M17.938 20h4.067v2H16v-1a6 6 0 00-10.654-3.787 6.375 6.375 0 00-1.153 2.123l-1.91-.593a8.372 8.372 0 011.513-2.794A8.002 8.002 0 0117.938 20z" />

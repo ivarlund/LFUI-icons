@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Pencil32(props) {
+function Pencil32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path d="M5 2.974v26h19v-10h-2v8H7v-22h15v-2z" />
         <path

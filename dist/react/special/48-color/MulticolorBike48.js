@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorBike48(props) {
+function MulticolorBike48({ title, titleId, ...props }) {
   return (
-    <svg width={48} height={48} {...props}>
+    <svg width={48} height={48} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           d="M12.5 35.956a7.5 7.5 0 110-15 7.5 7.5 0 010 15zm0-2a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM35.5 35.956a7.5 7.5 0 110-15 7.5 7.5 0 010 15zm0-2a5.5 5.5 0 100-11 5.5 5.5 0 000 11z"

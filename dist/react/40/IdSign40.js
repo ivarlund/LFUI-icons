@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function IdSign40(props) {
+function IdSign40({ title, titleId, ...props }) {
   return (
-    <svg width={40} height={40} {...props}>
+    <svg width={40} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path d="M29 32v1.681c0 .691-.624 1.32-1.308 1.32H12.308A1.31 1.31 0 0111 33.68V6.318C11 5.628 11.625 5 12.308 5h15.384C28.375 5 29 5.627 29 6.318V22h2V6.318C31 4.525 29.482 3 27.692 3H12.308C10.518 3 9 4.525 9 6.318v27.363a3.31 3.31 0 003.308 3.32h15.384C29.483 37 31 35.473 31 33.68V32h-2z" />
         <path

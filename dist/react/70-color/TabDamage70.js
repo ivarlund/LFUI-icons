@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function TabDamage70(props) {
+function TabDamage70({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={70} {...props}>
+    <svg width={70} height={70} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path fill="#005AA0" d="M56 12H14v45h9v2H12V10h46v49H34.059v-2H56z" />
         <path d="M18 53h34V16H18v37zm-2-39h38v41H16V14z" fill="#005AA0" />

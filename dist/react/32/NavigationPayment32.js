@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function NavigationPayment32(props) {
+function NavigationPayment32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path d="M30.482 20.814l-8.826 8.826-4.403-4.404 1.515-1.515 2.888 2.888 7.31-7.31z" />
         <path

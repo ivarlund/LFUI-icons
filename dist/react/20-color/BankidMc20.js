@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function BankidMc20(props) {
+function BankidMc20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           d="M7.21 10.557L8 5.694h-.844c-.396 0-.905-.216-1.054-.613-.048-.135-.162-.596.49-1.046.234-.158.384-.334.414-.468a.357.357 0 00-.108-.357C6.754 3.076 6.473 3 6.114 3c-.605 0-1.03.339-1.072.584-.03.182.114.328.24.421.377.275.467.672.233 1.047-.24.385-.76.637-1.317.642h-.863C3.263 6.168 2.09 13.427 2 14h4.677c.042-.257.257-1.63.55-3.443H7.21z"

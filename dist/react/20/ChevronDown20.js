@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ChevronDown20(props) {
+function ChevronDown20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <path
         d="M15.6 8.014L14.186 6.6l-4 4-4-4-1.414 1.414 4 4.001 1.415 1.413 1.413-1.413z"
         fill="currentColor"

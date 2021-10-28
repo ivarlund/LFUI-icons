@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function GrowthArrow24(props) {
+function GrowthArrow24({ title, titleId, ...props }) {
   return (
     <svg
       width={24}
       height={24}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path
           d="M22 5v6h-2l-.001-2.605-6.82 6.743-3.4-3.269-6.086 5.852-1.386-1.442 7.472-7.184 3.38 3.25L18.565 7H16V5h6z"

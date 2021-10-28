@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function DamageMulticolor32(props) {
+function DamageMulticolor32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path fill="#005AA0" d="M25 6H7v20h3.01v2H5V4h22v24h-8.97v-2H25z" />
         <path

@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Cup40(props) {
+function Cup40({ title, titleId, ...props }) {
   return (
-    <svg width={40} height={40} {...props}>
+    <svg width={40} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="nonzero">
         <path d="M11 5v11c0 4.937 4.048 9 9 9s9-4.063 9-9V5H11zm20 11c0 6.04-4.942 11-11 11S9 22.04 9 16V3h22v13z" />
         <path d="M9.594 8H19.5V6H9.594zM21 26v5.222a5.775 5.775 0 005.775 5.775v-2A3.775 3.775 0 0123 31.222V26h-2zM19.005 26v5.222a5.775 5.775 0 01-5.775 5.775v-2a3.775 3.775 0 003.775-3.775V26h2z" />

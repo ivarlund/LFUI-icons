@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function Check70(props) {
+function Check70({ title, titleId, ...props }) {
   return (
     <svg
       width={70}
       height={70}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path
           id="check-70_svg__a"

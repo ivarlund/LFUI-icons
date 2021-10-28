@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Menu24(props) {
+function Menu24({ title, titleId, ...props }) {
   return (
-    <svg width={24} height={24} {...props}>
+    <svg width={24} height={24} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="nonzero">
         <path d="M5 8h14V6H5zM5 13h14v-2H5zM5 18h14v-2H5z" />
       </g>

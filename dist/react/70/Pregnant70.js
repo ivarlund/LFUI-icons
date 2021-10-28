@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Pregnant70(props) {
+function Pregnant70({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={70} {...props}>
+    <svg width={70} height={70} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M0 0h70v70H0z" />
         <path

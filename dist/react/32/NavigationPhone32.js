@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function NavigationPhone32(props) {
+function NavigationPhone32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path
           d="M9 5.319C9 4.628 9.625 4 10.308 4h11.384C22.375 4 23 4.628 23 5.319V26.68c0 .691-.624 1.319-1.308 1.319H10.308A1.31 1.31 0 019 26.681V5.32zM10.308 30h11.384C23.482 30 25 28.474 25 26.681V5.32C25 3.525 23.482 2 21.692 2H10.308C8.518 2 7 3.525 7 5.319V26.68A3.31 3.31 0 0010.308 30z"

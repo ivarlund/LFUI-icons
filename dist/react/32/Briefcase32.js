@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Briefcase32(props) {
+function Briefcase32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M0 0h32v32H0z" />
         <path

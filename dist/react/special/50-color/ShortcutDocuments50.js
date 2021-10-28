@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ShortcutDocuments50(props) {
+function ShortcutDocuments50({ title, titleId, ...props }) {
   return (
-    <svg width={50} height={40} {...props}>
+    <svg width={50} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g strokeWidth={2} fill="none" fillRule="evenodd">
         <path stroke="#005AA0" d="M35 18v12h4l-7 8-7-8h4v-3" />
         <path stroke="#005AA0" d="M27 37H10V3h15l10 10v5" />

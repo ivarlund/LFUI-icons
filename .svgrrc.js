@@ -1,3 +1,3 @@
 module.exports = {
-  template: require('./svgr-template'),
+  template: require('./svgr-template')
 };

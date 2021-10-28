@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorDogLeft64(props) {
+function MulticolorDogLeft64({ title, titleId, ...props }) {
   return (
-    <svg width={64} height={64} {...props}>
+    <svg width={64} height={64} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g
         transform="translate(5 2)"
         strokeWidth={2}

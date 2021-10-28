@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Guide40(props) {
+function Guide40({ title, titleId, ...props }) {
   return (
-    <svg width={40} height={40} {...props}>
+    <svg width={40} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M0 0h40v40H0z" />
         <g fill="currentColor" fillRule="nonzero">

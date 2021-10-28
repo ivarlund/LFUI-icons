@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Suitcase20(props) {
+function Suitcase20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g transform="translate(1 1)" fill="currentColor" fillRule="evenodd">
         <path
           d="M2.5 5c-.274 0-.5.226-.5.5v9c0 .274.226.5.5.5h13c.274 0 .5-.226.5-.5v-9c0-.274-.226-.5-.5-.5h-13zm0-2h13C16.879 3 18 4.122 18 5.5v9c0 1.378-1.121 2.5-2.5 2.5h-13A2.503 2.503 0 010 14.5v-9C0 4.122 1.121 3 2.5 3z"

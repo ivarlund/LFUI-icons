@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function DigitalServices32(props) {
+function DigitalServices32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path d="M19 17H5.5a.507.507 0 01-.5-.5v-10c0-.271.229-.5.5-.5h15c.271 0 .5.229.5.5V14h2V6.5C23 5.122 21.878 4 20.5 4h-15A2.503 2.503 0 003 6.5v10C3 17.878 4.122 19 5.5 19H12v1H9v2h8v-2h-3v-1h5v-2z" />
         <path

@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function Cross70(props) {
+function Cross70({ title, titleId, ...props }) {
   return (
     <svg
       width={70}
       height={70}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path d="M23 7v14h14v2H23v14h-2V23H7v-2h14V7h2z" id="cross-70_svg__a" />
       </defs>

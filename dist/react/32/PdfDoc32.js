@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function PdfDoc32(props) {
+function PdfDoc32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path
           fillRule="nonzero"
