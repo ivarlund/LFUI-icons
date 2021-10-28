@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Plus32(props) {
+function Plus32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <path
         fill="currentColor"
         d="M15 8v7H8v2h7v7h2v-7h7v-2h-7V8z"

@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorChatHeart64(props) {
+function MulticolorChatHeart64({ title, titleId, ...props }) {
   return (
-    <svg width={64} height={64} {...props}>
+    <svg width={64} height={64} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path
           d="M26.127 25.015c-.809 0-1.618.3-2.22.902a3.115 3.115 0 00-.907 2.22c0 .848.322 1.636.907 2.22L30 36.452l6.093-6.093a3.112 3.112 0 00.907-2.22c0-.847-.322-1.636-.907-2.221-1.204-1.204-3.238-1.203-4.441 0L30 27.572l-1.652-1.654a3.135 3.135 0 00-2.221-.902zM30 39.279l-7.507-7.507A5.097 5.097 0 0121 28.138a5.1 5.1 0 011.493-3.635 5.147 5.147 0 017.269 0l.238.239.238-.24a5.146 5.146 0 017.269 0A5.1 5.1 0 0139 28.139c0 1.38-.53 2.672-1.493 3.634L30 39.279z"

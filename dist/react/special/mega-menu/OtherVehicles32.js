@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function OtherVehicles32(props) {
+function OtherVehicles32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="nonzero">
         <path d="M29 21.584c0-1.745-1.351-3.146-3-3.146s-3 1.4-3 3.146c0 1.745 1.351 3.146 3 3.146s3-1.4 3-3.146zm2 0c0 2.834-2.23 5.146-5 5.146s-5-2.312-5-5.146 2.23-5.146 5-5.146 5 2.312 5 5.146zM9 21.584c0-1.745-1.351-3.146-3-3.146s-3 1.4-3 3.146c0 1.745 1.351 3.146 3 3.146s3-1.4 3-3.146zm2 0c0 2.834-2.23 5.146-5 5.146s-5-2.312-5-5.146 2.23-5.146 5-5.146 5 2.312 5 5.146z" />
         <path d="M19.8 22.244h-2c0-4.905 3.675-8.916 8.253-8.916 1.313 0 2.582.332 3.727.958l-.96 1.755a5.735 5.735 0 00-2.767-.713c-3.433 0-6.253 3.078-6.253 6.916z" />

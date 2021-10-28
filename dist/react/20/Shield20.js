@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Shield20(props) {
+function Shield20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path d="M15 1H5c0 1.53-1.438 3-3 3v6.794c0 4.644 8 8.306 8 8.306s8-3.537 8-8.306V4c-1.47 0-3-1.5-3-3m-1.517 2A5.605 5.605 0 0016 5.517v5.277c0 2.314-3.624 4.85-5.99 6.079C7.638 15.614 4 13.051 4 10.794V5.55A5.299 5.299 0 006.55 3h6.933" />
         <path

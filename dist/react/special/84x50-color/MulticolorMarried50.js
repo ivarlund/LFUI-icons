@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function MulticolorMarried50(props) {
+function MulticolorMarried50({ title, titleId, ...props }) {
   return (
     <svg
       width={84}
       height={50}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path id="multicolor-married-50_svg__a" d="M17 24v7h-7v-7z" />
       </defs>

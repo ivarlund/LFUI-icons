@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Contract32(props) {
+function Contract32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path fillRule="nonzero" d="M7 27V5h16v5h2V3H5v26h20v-5h-2v3z" />
         <path

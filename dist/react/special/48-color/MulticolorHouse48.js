@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorHouse48(props) {
+function MulticolorHouse48({ title, titleId, ...props }) {
   return (
-    <svg width={48} height={48} {...props}>
+    <svg width={48} height={48} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           fill="#005AA0"

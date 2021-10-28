@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ShortcutChangeCompany50(props) {
+function ShortcutChangeCompany50({ title, titleId, ...props }) {
   return (
-    <svg width={50} height={40} {...props}>
+    <svg width={50} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g strokeWidth={2} fill="none" fillRule="evenodd">
         <path d="M33 16v8.048" stroke="#E30613" />
         <path

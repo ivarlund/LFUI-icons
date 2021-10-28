@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function TabOffer70(props) {
+function TabOffer70({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={70} {...props}>
+    <svg width={70} height={70} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path fill="#005AA0" d="M17 38v12h2V38z" />
         <path fill="#E30613" d="M38 38v12h2V38z" />

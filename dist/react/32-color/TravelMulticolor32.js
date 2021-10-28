@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function TravelMulticolor32(props) {
+function TravelMulticolor32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           d="M13.463 27.146l-.617.17-8.192-.931-4.452-4.182 5.815-1.637 2.82 1.518 2.054-.6 14.976-4.376 5.131 1.103.167.572a3.094 3.094 0 01-2.102 3.837l-6.49 1.898-4.498 4.793-5.575 1.63.963-3.795zm.715-2.817l1.938.492-.816 3.217 1.69-.494 4.499-4.793.262-.077 6.752-1.974c.397-.116.679-.438.762-.816l-3.323-.714-14.49 4.233-2.84.83-2.83-1.523-1.63.459 1.387 1.304 7.148.812 1.342-.37.149-.586z"

@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function Star24(props) {
+function Star24({ title, titleId, ...props }) {
   return (
     <svg
       width={24}
       height={24}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path id="star-24_svg__a" d="M18 17.593V.1H0v17.493z" />
       </defs>

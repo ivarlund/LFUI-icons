@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Sustainability32(props) {
+function Sustainability32({ title, titleId, ...props }) {
   return (
-    <svg width={28} height={30} {...props}>
+    <svg width={28} height={30} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M-2-1h32v32H-2z" />
         <path

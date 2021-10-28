@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ReportOther50(props) {
+function ReportOther50({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={50} {...props}>
+    <svg width={70} height={50} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path fill="#005AA0" d="M52 5H18v40h7v2h-9V3h38v44H35.059v-2H52z" />
         <path d="M21 42h28V8H21v34zM19 6h32v38H19V6z" fill="#005AA0" />

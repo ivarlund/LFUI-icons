@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MobilePhone40(props) {
+function MobilePhone40({ title, titleId, ...props }) {
   return (
-    <svg width={40} height={40} {...props}>
+    <svg width={40} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M0 0h40v40H0z" />
         <g transform="translate(10 3)" fill="currentColor">

@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Pin40(props) {
+function Pin40({ title, titleId, ...props }) {
   return (
-    <svg width={40} height={40} {...props}>
+    <svg width={40} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="nonzero">
         <path d="M8 37h24v-2H8z" />
         <path d="M20 2c7.68 0 14 6.192 14 13.737 0 3.622-1.491 7.052-4.097 9.732L20 35.172l-.7-.685-9.22-9.035C7.49 22.789 6 19.359 6 15.737 6 8.192 12.32 2 20 2zm8.486 22.058C30.723 21.756 32 18.82 32 15.738 32 9.305 26.585 4 20 4S8 9.306 8 15.737c0 3.083 1.277 6.02 3.496 8.304L20 32.372l8.486-8.314z" />

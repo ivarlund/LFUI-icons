@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function SaveMulticolor32(props) {
+function SaveMulticolor32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           d="M13.11 5.005c.14-.426.378-.819.703-1.147a2.872 2.872 0 014.094 0c.326.329.564.723.705 1.151l2.063.012a4.934 4.934 0 00-1.347-2.57 4.872 4.872 0 00-6.936 0 4.934 4.934 0 00-1.342 2.544l2.06.01z"

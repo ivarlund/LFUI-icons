@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function PressMedia32(props) {
+function PressMedia32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path fillRule="nonzero" d="M12 23v-2h12v2zM12 20v-2h12v2z" />
         <path d="M12 17h8v-7h-8v7zm2.037-2H18v-2.962h-3.963V15z" />

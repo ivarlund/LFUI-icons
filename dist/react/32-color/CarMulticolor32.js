@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function CarMulticolor32(props) {
+function CarMulticolor32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           d="M6 16.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5S8.327 18 7.5 18 6 17.327 6 16.5zM23 16.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5zM9 11.027v2h15.658l-2.655-5.246-1.784.903 1.185 2.343z"

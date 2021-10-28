@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Gravestones24(props) {
+function Gravestones24({ title, titleId, ...props }) {
   return (
-    <svg width={24} height={24} {...props}>
+    <svg width={24} height={24} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M0 0h24v24H0z" />
         <g fill="currentColor" fillRule="nonzero">

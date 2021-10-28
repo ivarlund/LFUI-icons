@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function CardBlock20(props) {
+function CardBlock20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path
           d="M10.008 12H2.992C3.004 12 3 4.009 3 4.009 3 4.002 15.006 4 15.006 4 14.999 4 15 9.063 15 9.063h2V4.005A2 2 0 0015.006 2H2.994A2.003 2.003 0 001 4.009v7.982C1 13.101 1.9 14 2.992 14h7.016v-2zm0 0H2.992C3.004 12 3 4.009 3 4.009 3 4.002 15.006 4 15.006 4 14.999 4 15 9.063 15 9.063h2V4.005A2 2 0 0015.006 2H2.994A2.003 2.003 0 001 4.009v7.982C1 13.101 1.9 14 2.992 14h7.016v-2z"

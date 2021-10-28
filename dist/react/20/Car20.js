@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Car20(props) {
+function Car20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g transform="translate(0 1)" fill="currentColor" fillRule="evenodd">
         <path
           d="M3 9.066l.992-3.094 1.524-2.997a.697.697 0 01.063-.063c.111-.1.28-.209.525-.32C6.908 2.23 8.18 2.002 10 2c1.819-.001 3.09.228 3.894.591.246.111.415.22.527.321.033.03.053.05.063.063l1.519 2.988L17 9.07V15h2V8.758l-1.142-3.559-1.631-3.21C15.882 1.39 14.623-.003 9.999 0 5.375.003 4.12 1.387 3.774 1.988l-1.638 3.22L1 8.754V15h2V9.066z"

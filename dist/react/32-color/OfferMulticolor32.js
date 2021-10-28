@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function OfferMulticolor32(props) {
+function OfferMulticolor32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path fill="#E30613" d="M14 19v6h2v-6z" />
         <path fill="#005AA0" d="M8 19v6h2v-6z" />

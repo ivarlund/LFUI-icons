@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function MulticolorHappyAccepted64(props) {
+function MulticolorHappyAccepted64({ title, titleId, ...props }) {
   return (
     <svg
       width={64}
       height={64}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path
           id="multicolor-happy-accepted-64_svg__a"

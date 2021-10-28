@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorDogLeft48(props) {
+function MulticolorDogLeft48({ title, titleId, ...props }) {
   return (
-    <svg width={48} height={48} {...props}>
+    <svg width={48} height={48} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g transform="translate(4 2)" fill="none" fillRule="evenodd">
         <path
           d="M19.753 37.867c-3.454-.757-5.767-3.876-5.377-7.252.39-3.375 3.358-5.934 6.9-5.948a7.6 7.6 0 014.168 1.3"

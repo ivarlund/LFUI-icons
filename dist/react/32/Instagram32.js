@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Instagram32(props) {
+function Instagram32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="evenodd">
         <path d="M4 4v24h24V4H4zM2 2h28v28H2V2z" fillRule="nonzero" />
         <path d="M13.332 15.997a2.666 2.666 0 105.331.001 2.666 2.666 0 00-5.331 0z" />

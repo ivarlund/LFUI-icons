@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function TabSave70(props) {
+function TabSave70({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={70} {...props}>
+    <svg width={70} height={70} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path
           d="M29.344 17.508a6.733 6.733 0 011.425-7.52c2.674-2.651 7.013-2.651 9.687 0a6.733 6.733 0 011.502 7.34l1.85.757a8.733 8.733 0 00-1.944-9.516c-3.454-3.425-9.05-3.425-12.504 0a8.733 8.733 0 00-1.844 9.75l1.828-.811z"

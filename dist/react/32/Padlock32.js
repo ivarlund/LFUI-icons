@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Padlock32(props) {
+function Padlock32({ title, titleId, ...props }) {
   return (
-    <svg width={32} height={32} {...props}>
+    <svg width={32} height={32} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="currentColor" fillRule="nonzero">
         <path d="M6 28V13.01h20V28H6zm18-2V15.01H8V26h16z" />
         <path d="M23.994 14.5V9.826C23.994 5.498 20.408 2 15.997 2S8 5.498 8 9.826V14.5h2V9.826C10 6.614 12.68 4 15.997 4c3.317 0 5.997 2.614 5.997 5.826V14.5h2z" />

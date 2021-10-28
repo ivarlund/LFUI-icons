@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorAlone50(props) {
+function MulticolorAlone50({ title, titleId, ...props }) {
   return (
-    <svg width={84} height={50} {...props}>
+    <svg width={84} height={50} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g strokeWidth={2} fill="none" fillRule="evenodd">
         <path
           d="M34.745 17.794s1.335 5.01 9.194 5.01h10.769l.227.6c.544 1.576.84 3.266.84 5.026 0 8.498-6.89 15.386-15.387 15.386C31.89 43.816 25 36.928 25 28.43s6.89-15.388 15.388-15.388c4.665 0 8.846 2.076 11.668 5.356M33.311 27.928a1.765 1.765 0 013.53 0M43.933 27.928a1.765 1.765 0 013.53 0M48.656 9.745l.217-4.7"

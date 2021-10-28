@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorAdultChildren50(props) {
+function MulticolorAdultChildren50({ title, titleId, ...props }) {
   return (
-    <svg width={84} height={50} {...props}>
+    <svg width={84} height={50} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g strokeWidth={2} fill="none" fillRule="evenodd">
         <path
           d="M35.413 43.47v6.993M20.5 43.736v6.727M25.04 3.64s.743 2.786 5.11 2.786h5.985l.127.333c.302.875.466 1.815.466 2.793a8.552 8.552 0 11-2.067-5.576"

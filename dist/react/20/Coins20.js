@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function Coins20(props) {
+function Coins20({ title, titleId, ...props }) {
   return (
-    <svg width={20} height={20} {...props}>
+    <svg width={20} height={20} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path d="M0 0h20v20H0z" />
         <path

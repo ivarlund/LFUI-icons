@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function MulticolorCarDamaged48(props) {
+function MulticolorCarDamaged48({ title, titleId, ...props }) {
   return (
-    <svg width={48} height={48} {...props}>
+    <svg width={48} height={48} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fillRule="nonzero" fill="none">
         <path fill="#E30613" d="M36.36 19.833H13.26v-1.666h21.93z" />
         <path

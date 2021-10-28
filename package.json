@@ -23,6 +23,9 @@
   "scripts": {
     "prebuild": "gulp clean",
     "build": "gulp build && yarn svgr",
-    "svgr": "npx @svgr/cli  -d dist/react src/svg --replace-attr-values 'red=currentColor'"
+    "svgr": "npx @svgr/cli  -d dist/react src/svg --replace-attr-values 'red=currentColor' --title-prop"
+  },
+  "dependencies": {
+    "@svgr/plugin-jsx": "^5.5.0"
   }
 }

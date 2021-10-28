@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ShortcutPayment50(props) {
+function ShortcutPayment50({ title, titleId, ...props }) {
   return (
-    <svg width={50} height={40} {...props}>
+    <svg width={50} height={40} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g transform="translate(6 3)" fill="none" fillRule="evenodd">
         <path
           d="M30.44 11.93L28.113.29l-14.01 2.95-1.028.22m-3.245.656L2.853 5.591l2.163 10.766.054.163"

@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ReportBuilding50(props) {
+function ReportBuilding50({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={50} {...props}>
+    <svg width={70} height={50} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <path
           fill="#005AA0"

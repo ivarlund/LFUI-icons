@@ -1,8 +1,9 @@
 import * as React from "react";
 
-function ReportIndemnity50(props) {
+function ReportIndemnity50({ title, titleId, ...props }) {
   return (
-    <svg width={70} height={50} {...props}>
+    <svg width={70} height={50} aria-labelledby={titleId} {...props}>
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="none" fillRule="evenodd">
         <g fill="#005AA0">
           <path d="M36.322 15.641l-9.447 12.91 1.614 1.182 10.628-14.525-11.791-8.627-10.628 14.524 1.614 1.18 9.447-12.91z" />

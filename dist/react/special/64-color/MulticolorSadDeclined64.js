@@ -1,13 +1,15 @@
 import * as React from "react";
 
-function MulticolorSadDeclined64(props) {
+function MulticolorSadDeclined64({ title, titleId, ...props }) {
   return (
     <svg
       width={64}
       height={64}
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      aria-labelledby={titleId}
       {...props}
     >
+      {title ? <title id={titleId}>{title}</title> : null}
       <defs>
         <path
           id="multicolor-sad-declined-64_svg__a"
