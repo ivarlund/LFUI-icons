@@ -6,13 +6,13 @@
 **Install using yarn**
 
 ```jsx
-yarn add https://github.com/lf-digitala-kanaler/LFUI-icons.git#v0.1.0
+yarn add https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0
 ```
 
 **Install using npm**
 
 ```jsx
-npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v0.1.
+npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0
 ```
 
 **Manually copy files**
