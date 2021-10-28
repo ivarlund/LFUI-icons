@@ -6,6 +6,9 @@
   "author": "johanahlin <johan.ahlin@lansforsakringar.se>",
   "license": "MIT",
   "main": "./dist/react/index.js",
+  "files": [
+    "./dist/react/index.js"
+  ],
   "devDependencies": {
     "@svgr/cli": "^5.5.0",
     "@svgr/webpack": "^5.5.0",
