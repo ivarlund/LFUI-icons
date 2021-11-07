@@ -4,9 +4,6 @@
   "description": "LFUI icons",
   "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
   "license": "MIT",
-  "files": [
-    "dist/react"
-  ],
   "devDependencies": {
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
