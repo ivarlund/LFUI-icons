@@ -1,0 +1,11 @@
+export { default as BankidMc32 } from './BankidMc32';
+export { default as CarDamagedMulticolor32 } from './CarDamagedMulticolor32';
+export { default as CarMulticolor32 } from './CarMulticolor32';
+export { default as CardMulticolor32 } from './CardMulticolor32';
+export { default as DamageMulticolor32 } from './DamageMulticolor32';
+export { default as HouseMulticolor32 } from './HouseMulticolor32';
+export { default as LoanMulticolor32 } from './LoanMulticolor32';
+export { default as MooseMulticolor32 } from './MooseMulticolor32';
+export { default as OfferMulticolor32 } from './OfferMulticolor32';
+export { default as SaveMulticolor32 } from './SaveMulticolor32';
+export { default as TravelMulticolor32 } from './TravelMulticolor32';
