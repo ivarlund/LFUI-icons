@@ -3,32 +3,33 @@
   "version": "1.0.0",
   "description": "LFUI icons",
   "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
-  "author": "johanahlin <johan.ahlin@lansforsakringar.se>",
   "license": "MIT",
-  "main": "./dist/react/index.js",
   "files": [
-    "./dist/react/index.js"
+    "dist/react"
   ],
   "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
     "@svgr/cli": "^5.5.0",
     "@svgr/webpack": "^5.5.0",
+    "babel-loader": "^8.2.3",
     "del": "^6.0.0",
     "event-stream": "^4.0.1",
     "gulp": "^3.9.1",
     "gulp-dom": "^1.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-svgo": "^2.2.1",
-    "remove-svg-properties": "^0.3.3"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
   },
   "resolutions": {
     "graceful-fs": "^4.2.4"
   },
   "scripts": {
-    "prebuild": "gulp clean",
-    "build": "gulp build && yarn svgr",
-    "svgr": "npx @svgr/cli  -d dist/react src/svg --replace-attr-values 'red=currentColor' --title-prop"
-  },
-  "dependencies": {
-    "@svgr/plugin-jsx": "^5.5.0"
+    "prebuild": "gulp clean && rimraf dist/react && rimraf src/react",
+    "build": "gulp build && yarn svgr && webpack --mode development",
+    "svgr": "npx @svgr/cli  -d src/react src/svg --replace-attr-values 'red=currentColor' --title-prop"
   }
 }
