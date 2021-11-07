@@ -3,7 +3,7 @@ const glob = require("glob");
 module.exports = {
   entry: glob.sync('./src/react/**/*.js'),
   output: {
-    filename: 'dist/react/index.js',
+    filename: './react/index.js',
   },
   module: {
     rules: [
