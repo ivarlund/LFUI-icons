@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "LFUI icons",
   "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
+  "main": "dist/react/index.js",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.12.17",
@@ -26,7 +27,7 @@
   },
   "scripts": {
     "prebuild": "gulp clean && rimraf dist/react && rimraf src/react",
-    "build": "gulp build && yarn svgr && webpack --mode development",
+    "build": "gulp build && yarn svgr && webpack --mode production",
     "svgr": "npx @svgr/cli  -d src/react src/svg --replace-attr-values 'red=currentColor' --title-prop"
   }
 }
