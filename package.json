@@ -4,10 +4,16 @@
   "description": "LFUI icons",
   "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
   "main": "dist/react/index.d.js",
-  "types": "dist/react/index.d.ts",
   "exports": {
     ".": "./dist/react/index.d.js",
     "./20": "./dist/react/20/index.d.ts"
+  },
+  "typesVersions": {
+    "*": {
+      "20": [
+        "dist/react/20/index.d.ts"
+      ]
+    }
   },
   "files": [
     "dist/react"
