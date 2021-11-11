@@ -7,7 +7,7 @@
   "types": "dist/react/index.d.ts",
   "exports": {
     ".": "./dist/react/index.d.js",
-    "./20": "./dist/react/20/index.tsx"
+    "./20": "./dist/react/20/index.d.ts"
   },
   "files": [
     "dist/react"
