@@ -52,35 +52,6 @@ function BankidMc20(_a) {
                 React.createElement("path", { d: "M14.465 15.012h.999l-.44 3.383h-.998zM15.95 15.012h1.427c1.103 0 1.422.95 1.317 1.738-.1.77-.612 1.645-1.579 1.645h-1.61l.445-3.383zm.925 2.576c.486 0 .753-.285.831-.887.058-.447-.057-.888-.596-.888h-.266l-.23 1.775h.26z" })))));
 }
 
-function CarMulticolor20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { transform: "translate(0 1)", fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M3 9.066l.992-3.094 1.524-2.997a.697.697 0 01.063-.063c.111-.1.28-.209.525-.32C6.908 2.23 8.18 2.002 10 2c1.819-.001 3.09.228 3.894.591.246.111.415.22.527.321.033.03.053.05.063.063l1.519 2.988L17 9.07V15h2V8.758l-1.142-3.559-1.631-3.21C15.882 1.39 14.623-.003 9.999 0 5.375.003 4.12 1.387 3.774 1.988l-1.638 3.22L1 8.754V15h2V9.066z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("path", { fill: "#005AA0", fillRule: "nonzero", d: "M11.978 5.003l-.396-.916 1.836-.794 1.604 3.71H6v-2zM2 16.003v-2h16v2zM2 13.003v-2h5v2zM13 13.003v-2h5v2z" }),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M8 13.003v-2h4v2z" }),
-            React.createElement("path", { d: "M1 7a1 1 0 110-2h1.5a1 1 0 110 2H1zM17.5 7a1 1 0 010-2H19a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("circle", { fill: "#005AA0", cx: 5.5, cy: 8.75, r: 1.25 }),
-            React.createElement("circle", { fill: "#005AA0", cx: 14.5, cy: 8.75, r: 1.25 }),
-            React.createElement("path", { d: "M17 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1h-1zM2 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1H2z", fill: "#005AA0", fillRule: "nonzero" }))));
-}
-
-function CarDamaged20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { transform: "translate(0 1)", fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M3 9.066l.992-3.094 1.524-2.997a.697.697 0 01.063-.063c.111-.1.28-.209.525-.32C6.908 2.23 8.18 2.002 10 2c1.819-.001 3.09.228 3.894.591.246.111.415.22.527.321.033.03.053.05.063.063l1.519 2.988L17 9.07V15h2V8.758l-1.142-3.559-1.631-3.21C15.882 1.39 14.623-.003 9.999 0 5.375.003 4.12 1.387 3.774 1.988l-1.638 3.22L1 8.754V15h2V9.066z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M11.919 5.456l-1.495 1.547H6v-2h3.576l2.255-2.334 2.843 2.595-1.348 1.477z" }),
-            React.createElement("path", { fill: "#005AA0", fillRule: "nonzero", d: "M2 16.003v-2h16v2zM2 13.003v-2h10v2z" }),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M13 13.003v-2h3v2z" }),
-            React.createElement("path", { d: "M1 7a1 1 0 110-2h1.5a1 1 0 110 2H1zM17.5 7a1 1 0 010-2H19a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("circle", { fill: "#005AA0", cx: 5.5, cy: 8.75, r: 1.25 }),
-            React.createElement("circle", { fill: "#005AA0", cx: 14.5, cy: 8.75, r: 1.25 }),
-            React.createElement("path", { d: "M17 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1h-1zM2 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1H2z", fill: "#005AA0", fillRule: "nonzero" }))));
-}
-
 function SpecialGlobe20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 19, height: 19, "aria-labelledby": titleId }, props),
@@ -98,33 +69,25 @@ function SpecialGlobe20(_a) {
                 React.createElement("path", { d: "M3.487 13.28c1.36-1.132 3.198-1.697 5.513-1.697 2.357 0 4.22.586 5.588 1.76M3.438 4.758C4.803 5.918 6.658 6.497 9 6.497c2.383 0 4.26-.6 5.632-1.8", stroke: "#035F8C" })))));
 }
 
+function CarMulticolor20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { transform: "translate(0 1)", fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M3 9.066l.992-3.094 1.524-2.997a.697.697 0 01.063-.063c.111-.1.28-.209.525-.32C6.908 2.23 8.18 2.002 10 2c1.819-.001 3.09.228 3.894.591.246.111.415.22.527.321.033.03.053.05.063.063l1.519 2.988L17 9.07V15h2V8.758l-1.142-3.559-1.631-3.21C15.882 1.39 14.623-.003 9.999 0 5.375.003 4.12 1.387 3.774 1.988l-1.638 3.22L1 8.754V15h2V9.066z", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("path", { fill: "#005AA0", fillRule: "nonzero", d: "M11.978 5.003l-.396-.916 1.836-.794 1.604 3.71H6v-2zM2 16.003v-2h16v2zM2 13.003v-2h5v2zM13 13.003v-2h5v2z" }),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M8 13.003v-2h4v2z" }),
+            React.createElement("path", { d: "M1 7a1 1 0 110-2h1.5a1 1 0 110 2H1zM17.5 7a1 1 0 010-2H19a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("circle", { fill: "#005AA0", cx: 5.5, cy: 8.75, r: 1.25 }),
+            React.createElement("circle", { fill: "#005AA0", cx: 14.5, cy: 8.75, r: 1.25 }),
+            React.createElement("path", { d: "M17 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1h-1zM2 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1H2z", fill: "#005AA0", fillRule: "nonzero" }))));
+}
+
 function SpecialStar20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 14, height: 13, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M7 10.362l-4.114 2.151.785-4.556L.343 4.73l4.6-.665L7-.08l2.057 4.145 4.6.665-3.328 3.227.785 4.556z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
-function CarMulticolor24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { transform: "translate(0 2)", fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M20 7l-2.5-4s-.438-1.003-5.5-1c-5.063.003-5.5 1-5.5 1L4 7l-1 4v5.5c0 .75.5 1 1 1s1-.406 1-1V15h14v1.5c0 .531.5 1 1 1s1-.438 1-1l.044-5.5L20 7zm3 9.5c0 1.666-1.392 3-3 3-1.439 0-2.707-1.095-2.956-2.499l-10.086.004A3.009 3.009 0 014 19.5c-1.632 0-3-1.14-3-3v-5.746l1.136-4.546 2.638-4.22c.346-.6 1-1.067 1.944-1.384C7.881.214 9.588 0 11.998 0c2.418-.001 4.13.212 5.294.605.939.318 1.59.785 1.935 1.384l2.631 4.21 1.19 4.559-.004.271L23 16.5z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("path", { fill: "#005AA0", fillRule: "nonzero", d: "M14.491 3.951l1.782-.908L18.29 7H7V5h8.026zM2 14v-2h7v2zM15 14v-2h7v2z" }),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M10 14v-2h4v2z" }),
-            React.createElement("path", { d: "M1 8a1 1 0 110-2h1.5a1 1 0 110 2H1zM21.5 8a1 1 0 010-2H23a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("circle", { fill: "#005AA0", cx: 6.5, cy: 9.5, r: 1.5 }),
-            React.createElement("circle", { fill: "#005AA0", cx: 17.5, cy: 9.5, r: 1.5 }))));
-}
-
-function CardMulticolor24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fillRule: "nonzero", fill: "none" },
-            React.createElement("path", { d: "M19.697 17H4.317C4.156 17 4 16.846 4 16.727V11h15.997v5.76a.205.205 0 01-.062.15.32.32 0 01-.238.09zm0-10c.083 0 .17.038.233.103a.22.22 0 01.067.17V9H4V7.272C4 7.153 4.155 7 4.318 7h15.379zm2.299.305a2.175 2.175 0 00-.628-1.592A2.342 2.342 0 0019.697 5H4.317C3.063 5 2 6.04 2 7.272v9.455C2 17.96 3.062 19 4.318 19h15.379a2.31 2.31 0 001.675-.7 2.171 2.171 0 00.625-1.573l-.001-9.422z", fill: "#005AA0" }),
-            React.createElement("path", { fill: "#E30613", d: "M5.996 14h4v-2h-4z" }))));
 }
 
 function BankidMc24(_a) {
@@ -143,6 +106,21 @@ function BankidMc24(_a) {
                     React.createElement("path", { d: "M16.558 18.012h1.198l-.527 3.383h-1.198zM18.34 18.012h1.712c1.324 0 1.706.95 1.58 1.738-.118.77-.733 1.645-1.894 1.645h-1.932l.534-3.383zm1.11 2.576c.583 0 .903-.285.997-.887.07-.447-.069-.888-.715-.888h-.32l-.276 1.775h.314z" }))))));
 }
 
+function CarDamaged20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { transform: "translate(0 1)", fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M3 9.066l.992-3.094 1.524-2.997a.697.697 0 01.063-.063c.111-.1.28-.209.525-.32C6.908 2.23 8.18 2.002 10 2c1.819-.001 3.09.228 3.894.591.246.111.415.22.527.321.033.03.053.05.063.063l1.519 2.988L17 9.07V15h2V8.758l-1.142-3.559-1.631-3.21C15.882 1.39 14.623-.003 9.999 0 5.375.003 4.12 1.387 3.774 1.988l-1.638 3.22L1 8.754V15h2V9.066z", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M11.919 5.456l-1.495 1.547H6v-2h3.576l2.255-2.334 2.843 2.595-1.348 1.477z" }),
+            React.createElement("path", { fill: "#005AA0", fillRule: "nonzero", d: "M2 16.003v-2h16v2zM2 13.003v-2h10v2z" }),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M13 13.003v-2h3v2z" }),
+            React.createElement("path", { d: "M1 7a1 1 0 110-2h1.5a1 1 0 110 2H1zM17.5 7a1 1 0 010-2H19a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("circle", { fill: "#005AA0", cx: 5.5, cy: 8.75, r: 1.25 }),
+            React.createElement("circle", { fill: "#005AA0", cx: 14.5, cy: 8.75, r: 1.25 }),
+            React.createElement("path", { d: "M17 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1h-1zM2 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1H2z", fill: "#005AA0", fillRule: "nonzero" }))));
+}
+
 function CarDamaged24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -153,6 +131,28 @@ function CarDamaged24(_a) {
             React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M16 14v-2h4v2z" }),
             React.createElement("path", { d: "M1 8a1 1 0 110-2h1.5a1 1 0 110 2H1zM21.5 8a1 1 0 010-2H23a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
             React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M11.586 5.014H6v2h6.414L14 5.428l1.586 1.586H18v-2h-1.586L14 2.6z" }),
+            React.createElement("circle", { fill: "#005AA0", cx: 6.5, cy: 9.5, r: 1.5 }),
+            React.createElement("circle", { fill: "#005AA0", cx: 17.5, cy: 9.5, r: 1.5 }))));
+}
+
+function CardMulticolor24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fillRule: "nonzero", fill: "none" },
+            React.createElement("path", { d: "M19.697 17H4.317C4.156 17 4 16.846 4 16.727V11h15.997v5.76a.205.205 0 01-.062.15.32.32 0 01-.238.09zm0-10c.083 0 .17.038.233.103a.22.22 0 01.067.17V9H4V7.272C4 7.153 4.155 7 4.318 7h15.379zm2.299.305a2.175 2.175 0 00-.628-1.592A2.342 2.342 0 0019.697 5H4.317C3.063 5 2 6.04 2 7.272v9.455C2 17.96 3.062 19 4.318 19h15.379a2.31 2.31 0 001.675-.7 2.171 2.171 0 00.625-1.573l-.001-9.422z", fill: "#005AA0" }),
+            React.createElement("path", { fill: "#E30613", d: "M5.996 14h4v-2h-4z" }))));
+}
+
+function CarMulticolor24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { transform: "translate(0 2)", fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M20 7l-2.5-4s-.438-1.003-5.5-1c-5.063.003-5.5 1-5.5 1L4 7l-1 4v5.5c0 .75.5 1 1 1s1-.406 1-1V15h14v1.5c0 .531.5 1 1 1s1-.438 1-1l.044-5.5L20 7zm3 9.5c0 1.666-1.392 3-3 3-1.439 0-2.707-1.095-2.956-2.499l-10.086.004A3.009 3.009 0 014 19.5c-1.632 0-3-1.14-3-3v-5.746l1.136-4.546 2.638-4.22c.346-.6 1-1.067 1.944-1.384C7.881.214 9.588 0 11.998 0c2.418-.001 4.13.212 5.294.605.939.318 1.59.785 1.935 1.384l2.631 4.21 1.19 4.559-.004.271L23 16.5z", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("path", { fill: "#005AA0", fillRule: "nonzero", d: "M14.491 3.951l1.782-.908L18.29 7H7V5h8.026zM2 14v-2h7v2zM15 14v-2h7v2z" }),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M10 14v-2h4v2z" }),
+            React.createElement("path", { d: "M1 8a1 1 0 110-2h1.5a1 1 0 110 2H1zM21.5 8a1 1 0 010-2H23a1 1 0 010 2h-1.5z", fill: "#005AA0", fillRule: "nonzero" }),
             React.createElement("circle", { fill: "#005AA0", cx: 6.5, cy: 9.5, r: 1.5 }),
             React.createElement("circle", { fill: "#005AA0", cx: 17.5, cy: 9.5, r: 1.5 }))));
 }
@@ -255,6 +255,16 @@ function OfferMulticolor32(_a) {
             React.createElement("path", { d: "M8 13V8h8v5H8zm6-2v-1h-4v1h4zM7.63 16.001l-1.323-2.078-1.687 1.074L6.532 18H17v-2zM24.913 8.92l-1.085-2.438-1.064 2.44-2.647-.285 1.582 2.147-1.567 2.155 2.652-.29 1.086 2.436 1.063-2.44 2.647.285L26 10.784l1.566-2.156-2.652.292zm6.393-2.463l-3.139 4.32 3.183 4.32-5.326-.574-2.137 4.902-2.182-4.898-5.313.584 3.138-4.32-3.183-4.32 5.326.574 2.137-4.902 2.182 4.898 5.314-.584z", fill: "#005AA0" }))));
 }
 
+function TravelMulticolor32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fillRule: "nonzero", fill: "none" },
+            React.createElement("path", { d: "M13.463 27.146l-.617.17-8.192-.931-4.452-4.182 5.815-1.637 2.82 1.518 2.054-.6 14.976-4.376 5.131 1.103.167.572a3.094 3.094 0 01-2.102 3.837l-6.49 1.898-4.498 4.793-5.575 1.63.963-3.795zm.715-2.817l1.938.492-.816 3.217 1.69-.494 4.499-4.793.262-.077 6.752-1.974c.397-.116.679-.438.762-.816l-3.323-.714-14.49 4.233-2.84.83-2.83-1.523-1.63.459 1.387 1.304 7.148.812 1.342-.37.149-.586z", fill: "#005AA0" }),
+            React.createElement("path", { fill: "#005AA0", d: "M13.457 19.735l5.108 1.237.47-1.944-5.627-1.363-5.63 1.646 3.685 3.251 1.324-1.5-.964-.85zM20 15.494a.5.5 0 10-1 .012.5.5 0 001-.012zm2-.023a2.5 2.5 0 11-5 .058 2.5 2.5 0 015-.058zM10 1C7.592 1 5.558 2.595 5.097 4.743 2.78 5.138 1 7.027 1 9.333 1 11.931 3.257 14 6 14h2v-2H6c-1.676 0-3-1.214-3-2.667 0-1.452 1.324-2.666 3-2.666h1v-1C7 4.214 8.325 3 10 3c1.676 0 3 1.214 3 2.667v1h1c1.675 0 3 1.214 3 2.666 0 .438-.119.86-.345 1.24l1.72 1.022A4.41 4.41 0 0019 9.333c0-2.306-1.779-4.195-4.097-4.59C14.443 2.595 12.409 1 10 1z" }),
+            React.createElement("path", { d: "M14 12.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zm2 0a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0z", fill: "#E30613" }))));
+}
+
 function SaveMulticolor32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -265,14 +275,19 @@ function SaveMulticolor32(_a) {
             React.createElement("path", { d: "M17.98 18.546c0-1.19-.952-2.152-2.12-2.152-1.168 0-2.12.961-2.12 2.152 0 1.19.951 2.151 2.12 2.151s2.12-.961 2.12-2.151zm2 0c0 2.29-1.842 4.151-4.12 4.151s-4.12-1.86-4.12-4.151c0-2.29 1.842-4.152 4.12-4.152s4.12 1.861 4.12 4.152zM12.96 13.424c0-.102.078-.182.17-.182.092 0 .17.08.17.182h2c0-1.202-.97-2.182-2.17-2.182s-2.17.98-2.17 2.182h2zM18.42 13.424c0-.102.078-.182.17-.182.092 0 .17.08.17.182h2c0-1.202-.97-2.182-2.17-2.182s-2.17.98-2.17 2.182h2z", fill: "#005AA0" }))));
 }
 
-function TravelMulticolor32(_a) {
+function Accident20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fillRule: "nonzero", fill: "none" },
-            React.createElement("path", { d: "M13.463 27.146l-.617.17-8.192-.931-4.452-4.182 5.815-1.637 2.82 1.518 2.054-.6 14.976-4.376 5.131 1.103.167.572a3.094 3.094 0 01-2.102 3.837l-6.49 1.898-4.498 4.793-5.575 1.63.963-3.795zm.715-2.817l1.938.492-.816 3.217 1.69-.494 4.499-4.793.262-.077 6.752-1.974c.397-.116.679-.438.762-.816l-3.323-.714-14.49 4.233-2.84.83-2.83-1.523-1.63.459 1.387 1.304 7.148.812 1.342-.37.149-.586z", fill: "#005AA0" }),
-            React.createElement("path", { fill: "#005AA0", d: "M13.457 19.735l5.108 1.237.47-1.944-5.627-1.363-5.63 1.646 3.685 3.251 1.324-1.5-.964-.85zM20 15.494a.5.5 0 10-1 .012.5.5 0 001-.012zm2-.023a2.5 2.5 0 11-5 .058 2.5 2.5 0 015-.058zM10 1C7.592 1 5.558 2.595 5.097 4.743 2.78 5.138 1 7.027 1 9.333 1 11.931 3.257 14 6 14h2v-2H6c-1.676 0-3-1.214-3-2.667 0-1.452 1.324-2.666 3-2.666h1v-1C7 4.214 8.325 3 10 3c1.676 0 3 1.214 3 2.667v1h1c1.675 0 3 1.214 3 2.666 0 .438-.119.86-.345 1.24l1.72 1.022A4.41 4.41 0 0019 9.333c0-2.306-1.779-4.195-4.097-4.59C14.443 2.595 12.409 1 10 1z" }),
-            React.createElement("path", { d: "M14 12.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zm2 0a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0z", fill: "#E30613" }))));
+        React.createElement("path", { d: "M7 2v5H2v6h5v5h5.999v-5H18V7h-5.001V2H7zM3.999 9H9V4h2v5h5v2h-5v5H9v-5H3.999V9z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function Bankid20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M15.627 15.852h1.533c1.183 0 1.533.876 1.417 1.6-.1.706-.667 1.514-1.7 1.514H15.16l.467-3.114zm1 2.374c.517 0 .817-.253.9-.808.067-.404-.067-.808-.633-.808h-.3l-.25 1.633.283-.017zM14.027 15.852h1.083l-.483 3.098h-1.083zM10.727 15.852h.934l-.234 1.532.9-.825h1.15l-1.15 1.027.917 1.38H12.06l-.717-1.11h-.017l-.166 1.11h-.933zM7.611 16.56h.933l-.05.32c.3-.253.517-.354.817-.354.517 0 .767.32.683.858l-.25 1.582h-.933l.2-1.313c.033-.235-.033-.353-.217-.353-.15 0-.283.084-.416.252L8.16 18.95h-.933l.383-2.39zM6.728 18.983c-.467.034-.7-.017-.8-.219A1.54 1.54 0 015.11 19c-.533 0-.716-.27-.666-.59.016-.15.1-.285.25-.403.283-.253 1.016-.286 1.3-.488.016-.219-.067-.303-.334-.303-.316 0-.566.1-1.016.404l.1-.707c.383-.286.75-.404 1.183-.404.55 0 1.033.219.933.825l-.1.69c-.033.235-.033.32.233.32l-.266.64zm-.8-1.06c-.25.151-.717.134-.767.454-.016.152.067.27.217.27s.333-.068.467-.169c-.017-.05 0-.118.016-.219l.067-.336zM1.578 15.852h1.8c.767 0 .95.388.9.758-.05.286-.233.505-.583.64.433.168.6.42.533.824-.083.505-.517.876-1.083.876h-2.05l.483-3.098zm1.183 1.297c.35 0 .517-.186.55-.404.034-.236-.066-.404-.416-.404h-.317l-.133.808h.316zm-.2 1.346c.367 0 .567-.151.617-.454.033-.253-.1-.421-.45-.421h-.35l-.133.875h.317zM12.594 2H8.128l-.6 3.82h.766c.417 0 .817-.184.984-.47a.505.505 0 00.083-.236c0-.152-.1-.286-.217-.354-.3-.218-.35-.454-.35-.622v-.085c.067-.403.6-.841 1.317-.841.433 0 .75.1.95.286.166.168.25.404.2.64-.067.286-.35.521-.517.64-.433.302-.383.572-.35.656.083.235.433.387.7.387h1.167c1.583.017 2.433.74 2.15 2.457-.25 1.582-1.45 2.272-2.884 2.29l-.6 3.652h.834c3.55 0 6.432-2.306 7.016-5.925C19.493 3.801 16.66 2 12.594 2zM7.444 6.14h-.8c-.366 0-.85-.201-1-.589-.05-.134-.15-.589.467-1.026.217-.152.367-.32.383-.455a.353.353 0 00-.1-.353c-.116-.118-.383-.202-.716-.202-.567 0-.967.336-1 .572-.033.185.117.32.233.404.35.27.434.657.217 1.027-.233.37-.717.623-1.233.623h-.817c-.067.454-1.166 7.523-1.25 8.079h4.4c.017-.236.217-1.582.483-3.35l.733-4.73z" }))));
 }
 
 function ArrowEnclosed20(_a) {
@@ -284,11 +299,13 @@ function ArrowEnclosed20(_a) {
             React.createElement("path", { d: "M9.783 7.697L11.049 9H5v2h6.049l-1.266 1.304 1.434 1.393L14.81 10l-3.593-3.696z" }))));
 }
 
-function Accident20(_a) {
+function BillsCoins20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M7 2v5H2v6h5v5h5.999v-5H18V7h-5.001V2H7zM3.999 9H9V4h2v5h5v2h-5v5H9v-5H3.999V9z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M14.518 11.197l-3.911-.849c-.174-1.769-1.652-3.16-3.466-3.16a3.488 3.488 0 00-3.026 1.774l-.734-.15 1.176-5.437 11.102 2.382-1.141 5.44zm-7.377.99c-.827 0-1.5-.673-1.5-1.5s.673-1.5 1.5-1.5 1.5.673 1.5 1.5-.673 1.5-1.5 1.5zM3.024 1L1 10.364l2.664.547c.117 1.824 1.624 3.276 3.477 3.276 1.34 0 2.494-.766 3.082-1.876l5.84 1.267 1.96-9.359L3.024 1z" }),
+            React.createElement("path", { d: "M10.79 17.088c-.283 0-.49-.095-.725-.363a.448.448 0 01-.057-.087l-.053-.13c-.015-.028-.015-.186-.015-.27 0-.461.389-.85.85-.85.461 0 .851.389.851.85 0 .46-.39.85-.851.85m0-3.7a2.853 2.853 0 00-2.85 2.85c0 .287 0 .674.195 1.1.108.29.291.574.464.744a2.802 2.802 0 002.191 1.006 2.853 2.853 0 002.851-2.85 2.853 2.853 0 00-2.851-2.85" }))));
 }
 
 function ArrowsApart20(_a) {
@@ -309,13 +326,38 @@ function Attach20(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#attach-20_svg__a" }))));
 }
 
-function BillsCoins20(_a) {
+function Briefcase20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h20v20H0z" }),
+            React.createElement("path", { d: "M14 2v3h2.5A2.5 2.5 0 0119 7.5v8a2.5 2.5 0 01-2.5 2.5h-13A2.5 2.5 0 011 15.5v-8A2.5 2.5 0 013.5 5H6V2h8zm3 7.999L14.333 12H5.667L3 10.001V15.5a.5.5 0 00.5.5h13a.5.5 0 00.5-.5V9.999zM16.5 7h-13a.5.5 0 00-.5.5v.001L6.333 10h7.334L17 7.5a.5.5 0 00-.5-.5zM12 4H8v1h4V4z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function BreifcaseFirstAid20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M14.518 11.197l-3.911-.849c-.174-1.769-1.652-3.16-3.466-3.16a3.488 3.488 0 00-3.026 1.774l-.734-.15 1.176-5.437 11.102 2.382-1.141 5.44zm-7.377.99c-.827 0-1.5-.673-1.5-1.5s.673-1.5 1.5-1.5 1.5.673 1.5 1.5-.673 1.5-1.5 1.5zM3.024 1L1 10.364l2.664.547c.117 1.824 1.624 3.276 3.477 3.276 1.34 0 2.494-.766 3.082-1.876l5.84 1.267 1.96-9.359L3.024 1z" }),
-            React.createElement("path", { d: "M10.79 17.088c-.283 0-.49-.095-.725-.363a.448.448 0 01-.057-.087l-.053-.13c-.015-.028-.015-.186-.015-.27 0-.461.389-.85.85-.85.461 0 .851.389.851.85 0 .46-.39.85-.851.85m0-3.7a2.853 2.853 0 00-2.85 2.85c0 .287 0 .674.195 1.1.108.29.291.574.464.744a2.802 2.802 0 002.191 1.006 2.853 2.853 0 002.851-2.85 2.853 2.853 0 00-2.851-2.85" }))));
+            React.createElement("path", { d: "M11 8H9v2H7v2h2v2h2v-2h2v-2h-2z" }),
+            React.createElement("path", { d: "M17 15.5c0 .271-.229.5-.5.5H16V6h.5c.271 0 .5.229.5.5v9zm-3 .5H6V6h8v10zM4 16h-.5a.507.507 0 01-.5-.5v-9c0-.271.229-.5.5-.5H4v10zM8 4h4V3H8v1zm8.5 0H14V1H6v3H3.5A2.503 2.503 0 001 6.5v9C1 16.878 2.121 18 3.5 18h13c1.379 0 2.5-1.122 2.5-2.5v-9C19 5.122 17.879 4 16.5 4z" }))));
+}
+
+function Calendar20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M16 6H4V4.33c0-.181.161-.326.345-.33H6v1h2V4h4v1h2V4h1.634c.205.004.366.149.366.33V6zm0 9.662a.331.331 0 01-.346.338H4.345A.33.33 0 014 15.662V8h12v7.662zM15.654 2H14V1h-2v1H8V1H6v1H4.325C3.021 2.026 2 3.05 2 4.33v11.332A2.317 2.317 0 004.345 18h11.309A2.317 2.317 0 0018 15.662V4.33c0-1.28-1.021-2.304-2.346-2.33z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function CalendarCheck20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M16 6H4V4.33c0-.181.161-.326.346-.33H6v1h2V4h4v1h2V4h1.634c.205.004.366.149.366.33V6zm0 9.662a.331.331 0 01-.346.338H4.346A.331.331 0 014 15.662V8h12v7.662zM15.654 2H14V1h-2v1H8V1H6v1H4.325C3.021 2.026 2 3.05 2 4.33v11.332A2.317 2.317 0 004.346 18h11.308A2.317 2.317 0 0018 15.662V4.33c0-1.28-1.021-2.304-2.346-2.33z" }),
+            React.createElement("path", { d: "M14.484 9.709l-1.41-1.418-3.914 3.892-1.448-1.48-1.424 1.405 2.858 2.908z" }))));
 }
 
 function Boat20(_a) {
@@ -327,28 +369,24 @@ function Boat20(_a) {
             React.createElement("path", { d: "M9 2a1 1 0 112 0v2a1 1 0 11-2 0V2zM9 9h2v5H9z" }))));
 }
 
-function Bankid20(_a) {
+function Card20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M15.627 15.852h1.533c1.183 0 1.533.876 1.417 1.6-.1.706-.667 1.514-1.7 1.514H15.16l.467-3.114zm1 2.374c.517 0 .817-.253.9-.808.067-.404-.067-.808-.633-.808h-.3l-.25 1.633.283-.017zM14.027 15.852h1.083l-.483 3.098h-1.083zM10.727 15.852h.934l-.234 1.532.9-.825h1.15l-1.15 1.027.917 1.38H12.06l-.717-1.11h-.017l-.166 1.11h-.933zM7.611 16.56h.933l-.05.32c.3-.253.517-.354.817-.354.517 0 .767.32.683.858l-.25 1.582h-.933l.2-1.313c.033-.235-.033-.353-.217-.353-.15 0-.283.084-.416.252L8.16 18.95h-.933l.383-2.39zM6.728 18.983c-.467.034-.7-.017-.8-.219A1.54 1.54 0 015.11 19c-.533 0-.716-.27-.666-.59.016-.15.1-.285.25-.403.283-.253 1.016-.286 1.3-.488.016-.219-.067-.303-.334-.303-.316 0-.566.1-1.016.404l.1-.707c.383-.286.75-.404 1.183-.404.55 0 1.033.219.933.825l-.1.69c-.033.235-.033.32.233.32l-.266.64zm-.8-1.06c-.25.151-.717.134-.767.454-.016.152.067.27.217.27s.333-.068.467-.169c-.017-.05 0-.118.016-.219l.067-.336zM1.578 15.852h1.8c.767 0 .95.388.9.758-.05.286-.233.505-.583.64.433.168.6.42.533.824-.083.505-.517.876-1.083.876h-2.05l.483-3.098zm1.183 1.297c.35 0 .517-.186.55-.404.034-.236-.066-.404-.416-.404h-.317l-.133.808h.316zm-.2 1.346c.367 0 .567-.151.617-.454.033-.253-.1-.421-.45-.421h-.35l-.133.875h.317zM12.594 2H8.128l-.6 3.82h.766c.417 0 .817-.184.984-.47a.505.505 0 00.083-.236c0-.152-.1-.286-.217-.354-.3-.218-.35-.454-.35-.622v-.085c.067-.403.6-.841 1.317-.841.433 0 .75.1.95.286.166.168.25.404.2.64-.067.286-.35.521-.517.64-.433.302-.383.572-.35.656.083.235.433.387.7.387h1.167c1.583.017 2.433.74 2.15 2.457-.25 1.582-1.45 2.272-2.884 2.29l-.6 3.652h.834c3.55 0 6.432-2.306 7.016-5.925C19.493 3.801 16.66 2 12.594 2zM7.444 6.14h-.8c-.366 0-.85-.201-1-.589-.05-.134-.15-.589.467-1.026.217-.152.367-.32.383-.455a.353.353 0 00-.1-.353c-.116-.118-.383-.202-.716-.202-.567 0-.967.336-1 .572-.033.185.117.32.233.404.35.27.434.657.217 1.027-.233.37-.717.623-1.233.623h-.817c-.067.454-1.166 7.523-1.25 8.079h4.4c.017-.236.217-1.582.483-3.35l.733-4.73z" }))));
+            React.createElement("path", { d: "M16.697 14H3.317C3.156 14 3 13.846 3 13.727V8h13.997v5.76a.205.205 0 01-.062.15.32.32 0 01-.238.09zm0-9c.083 0 .17.038.233.103a.22.22 0 01.067.17V6H3v-.728C3 5.153 3.155 5 3.318 5h13.379zm2.299.305a2.175 2.175 0 00-.628-1.592A2.342 2.342 0 0016.697 3H3.317C2.063 3 1 4.04 1 5.272v8.455C1 14.96 2.062 16 3.318 16h13.379a2.31 2.31 0 001.675-.7 2.171 2.171 0 00.625-1.573l-.001-8.422z" }),
+            React.createElement("path", { d: "M3.996 11h4V9h-4z" }))));
 }
 
-function Briefcase20(_a) {
+function CardBlock20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h20v20H0z" }),
-            React.createElement("path", { d: "M14 2v3h2.5A2.5 2.5 0 0119 7.5v8a2.5 2.5 0 01-2.5 2.5h-13A2.5 2.5 0 011 15.5v-8A2.5 2.5 0 013.5 5H6V2h8zm3 7.999L14.333 12H5.667L3 10.001V15.5a.5.5 0 00.5.5h13a.5.5 0 00.5-.5V9.999zM16.5 7h-13a.5.5 0 00-.5.5v.001L6.333 10h7.334L17 7.5a.5.5 0 00-.5-.5zM12 4H8v1h4V4z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Calendar20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M16 6H4V4.33c0-.181.161-.326.345-.33H6v1h2V4h4v1h2V4h1.634c.205.004.366.149.366.33V6zm0 9.662a.331.331 0 01-.346.338H4.345A.33.33 0 014 15.662V8h12v7.662zM15.654 2H14V1h-2v1H8V1H6v1H4.325C3.021 2.026 2 3.05 2 4.33v11.332A2.317 2.317 0 004.345 18h11.309A2.317 2.317 0 0018 15.662V4.33c0-1.28-1.021-2.304-2.346-2.33z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M10.008 12H2.992C3.004 12 3 4.009 3 4.009 3 4.002 15.006 4 15.006 4 14.999 4 15 9.063 15 9.063h2V4.005A2 2 0 0015.006 2H2.994A2.003 2.003 0 001 4.009v7.982C1 13.101 1.9 14 2.992 14h7.016v-2zm0 0H2.992C3.004 12 3 4.009 3 4.009 3 4.002 15.006 4 15.006 4 14.999 4 15 9.063 15 9.063h2V4.005A2 2 0 0015.006 2H2.994A2.003 2.003 0 001 4.009v7.982C1 13.101 1.9 14 2.992 14h7.016v-2z", fillRule: "nonzero" }),
+            React.createElement("path", { d: "M3.996 10h3V8h-3z" }),
+            React.createElement("path", { d: "M14.5 17a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0 2a5.5 5.5 0 110-11 5.5 5.5 0 010 11z", fillRule: "nonzero" }),
+            React.createElement("path", { fillRule: "nonzero", d: "M10.086 10.5l7.414 7.414 1.414-1.414L11.5 9.086zM1.5 7h15V5h-15z" }))));
 }
 
 function CalendarCross20(_a) {
@@ -358,15 +396,6 @@ function CalendarCross20(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M16 6H4V4.33c0-.181.161-.326.346-.33H6v1h2V4h4v1h2V4h1.634c.205.004.366.149.366.33V6zm0 9.662a.331.331 0 01-.346.338H4.346A.331.331 0 014 15.662V8h12v7.662zM15.654 2H14V1h-2v1H8V1H6v1H4.325C3.021 2.026 2 3.05 2 4.33v11.332A2.317 2.317 0 004.346 18h11.308A2.317 2.317 0 0018 15.662V4.33c0-1.28-1.021-2.304-2.346-2.33z" }),
             React.createElement("path", { d: "M7.965 15.45L10 13.415l2.035 2.035 1.414-1.414L11.414 12l2-2.001L12 8.586l-2 2-2-2L6.586 10l2 2-2.035 2.036z" }))));
-}
-
-function CalendarCheck20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M16 6H4V4.33c0-.181.161-.326.346-.33H6v1h2V4h4v1h2V4h1.634c.205.004.366.149.366.33V6zm0 9.662a.331.331 0 01-.346.338H4.346A.331.331 0 014 15.662V8h12v7.662zM15.654 2H14V1h-2v1H8V1H6v1H4.325C3.021 2.026 2 3.05 2 4.33v11.332A2.317 2.317 0 004.346 18h11.308A2.317 2.317 0 0018 15.662V4.33c0-1.28-1.021-2.304-2.346-2.33z" }),
-            React.createElement("path", { d: "M14.484 9.709l-1.41-1.418-3.914 3.892-1.448-1.48-1.424 1.405 2.858 2.908z" }))));
 }
 
 function Car20(_a) {
@@ -381,26 +410,6 @@ function Car20(_a) {
             React.createElement("path", { d: "M17 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1h-1zM2 17.5a1 1 0 01-1-1v-2h3v2a1 1 0 01-1 1H2z", fillRule: "nonzero" }))));
 }
 
-function BreifcaseFirstAid20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M11 8H9v2H7v2h2v2h2v-2h2v-2h-2z" }),
-            React.createElement("path", { d: "M17 15.5c0 .271-.229.5-.5.5H16V6h.5c.271 0 .5.229.5.5v9zm-3 .5H6V6h8v10zM4 16h-.5a.507.507 0 01-.5-.5v-9c0-.271.229-.5.5-.5H4v10zM8 4h4V3H8v1zm8.5 0H14V1H6v3H3.5A2.503 2.503 0 001 6.5v9C1 16.878 2.121 18 3.5 18h13c1.379 0 2.5-1.122 2.5-2.5v-9C19 5.122 17.879 4 16.5 4z" }))));
-}
-
-function CardBlock20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M10.008 12H2.992C3.004 12 3 4.009 3 4.009 3 4.002 15.006 4 15.006 4 14.999 4 15 9.063 15 9.063h2V4.005A2 2 0 0015.006 2H2.994A2.003 2.003 0 001 4.009v7.982C1 13.101 1.9 14 2.992 14h7.016v-2zm0 0H2.992C3.004 12 3 4.009 3 4.009 3 4.002 15.006 4 15.006 4 14.999 4 15 9.063 15 9.063h2V4.005A2 2 0 0015.006 2H2.994A2.003 2.003 0 001 4.009v7.982C1 13.101 1.9 14 2.992 14h7.016v-2z", fillRule: "nonzero" }),
-            React.createElement("path", { d: "M3.996 10h3V8h-3z" }),
-            React.createElement("path", { d: "M14.5 17a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0 2a5.5 5.5 0 110-11 5.5 5.5 0 010 11z", fillRule: "nonzero" }),
-            React.createElement("path", { fillRule: "nonzero", d: "M10.086 10.5l7.414 7.414 1.414-1.414L11.5 9.086zM1.5 7h15V5h-15z" }))));
-}
-
 function Chat20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -408,13 +417,11 @@ function Chat20(_a) {
         React.createElement("path", { d: "M12.998 2h-6A6.505 6.505 0 00.5 8.498a6.505 6.505 0 006.498 6.498h.804l4.196 4.154V13h-2v1.356l-1.374-1.36H6.998A4.503 4.503 0 012.5 8.498 4.503 4.503 0 016.998 4h6a4.503 4.503 0 014.498 4.498 4.503 4.503 0 01-4.498 4.498v2a6.505 6.505 0 006.498-6.498A6.505 6.505 0 0012.998 2", fill: "currentColor", fillRule: "evenodd" })));
 }
 
-function Card20(_a) {
+function Check20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M16.697 14H3.317C3.156 14 3 13.846 3 13.727V8h13.997v5.76a.205.205 0 01-.062.15.32.32 0 01-.238.09zm0-9c.083 0 .17.038.233.103a.22.22 0 01.067.17V6H3v-.728C3 5.153 3.155 5 3.318 5h13.379zm2.299.305a2.175 2.175 0 00-.628-1.592A2.342 2.342 0 0016.697 3H3.317C2.063 3 1 4.04 1 5.272v8.455C1 14.96 2.062 16 3.318 16h13.379a2.31 2.31 0 001.675-.7 2.171 2.171 0 00.625-1.573l-.001-8.422z" }),
-            React.createElement("path", { d: "M3.996 11h4V9h-4z" }))));
+        React.createElement("path", { d: "M14.907 5.1l-6.64 6.614-2.943-2.98L3.9 10.137l4.353 4.41 8.063-8.03z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function CheckEnclosed20(_a) {
@@ -426,11 +433,11 @@ function CheckEnclosed20(_a) {
             React.createElement("path", { d: "M8.854 14.247l-3.56-3.604L6.72 9.238l2.149 2.176L13.507 6.8l1.41 1.418z" }))));
 }
 
-function Check20(_a) {
+function Chevron20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M14.907 5.1l-6.64 6.614-2.943-2.98L3.9 10.137l4.353 4.41 8.063-8.03z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("path", { d: "M8.014 4.6L6.6 6.014l4 4-4 4 1.414 1.414 4.001-4 1.413-1.415L12.015 8.6z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function ChevronDown20(_a) {
@@ -438,13 +445,6 @@ function ChevronDown20(_a) {
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M15.6 8.014L14.186 6.6l-4 4-4-4-1.414 1.414 4 4.001 1.415 1.413 1.413-1.413z", fill: "currentColor", fillRule: "evenodd" })));
-}
-
-function Chevron20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M8.014 4.6L6.6 6.014l4 4-4 4 1.414 1.414 4.001-4 1.413-1.415L12.015 8.6z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function ChevronLeft20(_a) {
@@ -468,24 +468,6 @@ function ChevronUp20(_a) {
         React.createElement("path", { d: "M4.6 12.186L6.014 13.6l4-4 4 4 1.414-1.414-4-4.001-1.415-1.413L8.6 8.185z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
-function Clipboard20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M16 16.662a.331.331 0 01-.346.338H4.346A.331.331 0 014 16.662V4.33c0-.181.161-.326.346-.33H9v1H7v2h6V5h-2V4h4.634c.205.004.366.149.366.33v12.332zM11 2V1H9v1H4.325C3.021 2.027 2 3.05 2 4.33v12.332A2.317 2.317 0 004.346 19h11.308A2.317 2.317 0 0018 16.662V4.33c0-1.28-1.021-2.303-2.346-2.33H11z" }),
-            React.createElement("path", { d: "M6 11h8V9H6zM6 15h8v-2H6z" }))));
-}
-
-function Clock20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M10 1c-4.961 0-9 4.039-9 9s4.039 9 9 9 9-4.039 9-9-4.039-9-9-9zm0 2c3.873 0 7 3.127 7 7s-3.127 7-7 7a6.99 6.99 0 01-7-7c0-3.873 3.127-7 7-7z" }),
-            React.createElement("path", { d: "M11 9.465l3.305 2.203-1.11 1.664L9 10.535V5h2z" }))));
-}
-
 function Coins20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -504,11 +486,38 @@ function Contentcard20(_a) {
             React.createElement("path", { d: "M19 3v14H1V3h18zm-2 2H3v10h14V5zm-7 2a3 3 0 013 3h-2a1 1 0 10-1 1v2a3 3 0 110-6z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function Clock20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M10 1c-4.961 0-9 4.039-9 9s4.039 9 9 9 9-4.039 9-9-4.039-9-9-9zm0 2c3.873 0 7 3.127 7 7s-3.127 7-7 7a6.99 6.99 0 01-7-7c0-3.873 3.127-7 7-7z" }),
+            React.createElement("path", { d: "M11 9.465l3.305 2.203-1.11 1.664L9 10.535V5h2z" }))));
+}
+
 function Cross20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M14.014 4.6l-4 4-4-4L4.6 6.014l3.999 4-3.999 4 1.414 1.414 4-4 4 4 1.414-1.414-4-4 4-4z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function Clipboard20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M16 16.662a.331.331 0 01-.346.338H4.346A.331.331 0 014 16.662V4.33c0-.181.161-.326.346-.33H9v1H7v2h6V5h-2V4h4.634c.205.004.366.149.366.33v12.332zM11 2V1H9v1H4.325C3.021 2.027 2 3.05 2 4.33v12.332A2.317 2.317 0 004.346 19h11.308A2.317 2.317 0 0018 16.662V4.33c0-1.28-1.021-2.303-2.346-2.33H11z" }),
+            React.createElement("path", { d: "M6 11h8V9H6zM6 15h8v-2H6z" }))));
+}
+
+function ExternalLink20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M12 2v2h2.586l-4.293 4.294 1.414 1.414L16 5.415V8h2V2z" }),
+            React.createElement("path", { d: "M3 3v14h14.001l-.007-7.001-2 .002.005 5H5V5h5V3z" }))));
 }
 
 function CrossEnclosed20(_a) {
@@ -518,15 +527,6 @@ function CrossEnclosed20(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M10 3c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
             React.createElement("path", { d: "M14.425 13.01L11.414 10l3-3L13 5.586l-3 3-3-3L5.586 7l3 3-3.011 3.01 1.414 1.415 3.01-3.011 3.012 3.01z" }))));
-}
-
-function Document20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M3 1v18h14l-.005-14.414L13.415 1H3zm2 2h7.585l2.41 2.415L15 17H5V3z" }),
-            React.createElement("path", { d: "M7 8h6V6H7zM7 11h6V9H7zM7 14h6v-2H7z" }))));
 }
 
 function Dog20(_a) {
@@ -539,6 +539,15 @@ function Dog20(_a) {
             React.createElement("path", { d: "M9.85 8.183l.863-1.804.624.3.112.062c2.787 1.809 4.526 4.915 4.526 8.284 0 1.167-.184 2.29-.548 3.31L15.19 19H7.476v-2h6.266c.154-.62.233-1.285.233-1.975 0-2.66-1.367-5.122-3.562-6.572l-.564-.27z" }))));
 }
 
+function Document20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M3 1v18h14l-.005-14.414L13.415 1H3zm2 2h7.585l2.41 2.415L15 17H5V3z" }),
+            React.createElement("path", { d: "M7 8h6V6H7zM7 11h6V9H7zM7 14h6v-2H7z" }))));
+}
+
 function EllipsisEnclosed20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -546,15 +555,6 @@ function EllipsisEnclosed20(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M12.75 16.436v.004h-.009c-.842.36-1.769.56-2.741.56-.972 0-1.899-.2-2.741-.56H7.16v-.047a7.042 7.042 0 01-3.6-3.652A6.954 6.954 0 013 10c0-.972.2-1.898.56-2.74a7.034 7.034 0 013.6-3.652V3.56h.099a6.98 6.98 0 015.482 0h.009v.005a7.038 7.038 0 013.69 3.695c.36.842.56 1.768.56 2.74 0 .973-.2 1.899-.56 2.74a7.038 7.038 0 01-3.69 3.696m3.69-12.71a8.967 8.967 0 00-12.88 0 8.963 8.963 0 000 12.548c.055.056.11.112.166.166A8.962 8.962 0 0010 19a8.962 8.962 0 006.274-2.56c.056-.054.111-.11.166-.166a8.965 8.965 0 000-12.547" }),
             React.createElement("path", { d: "M7.16 8.801a1.497 1.497 0 00-.85-.24c-.9 0-1.53.63-1.53 1.44 0 .81.72 1.44 1.53 1.44.322 0 .613-.104.85-.275.359-.259.59-.679.59-1.166 0-.507-.211-.943-.59-1.199M10 8.56c-.81 0-1.44.63-1.44 1.44 0 .81.63 1.44 1.44 1.44.81 0 1.44-.63 1.44-1.44 0-.81-.63-1.44-1.44-1.44M13.69 8.56c-.368 0-.687.109-.94.289a1.39 1.39 0 00-.59 1.15c0 .463.238.86.59 1.123.265.197.592.318.94.318.81 0 1.53-.63 1.53-1.44 0-.81-.72-1.44-1.53-1.44" }))));
-}
-
-function ExternalLink20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M12 2v2h2.586l-4.293 4.294 1.414 1.414L16 5.415V8h2V2z" }),
-            React.createElement("path", { d: "M3 3v14h14.001l-.007-7.001-2 .002.005 5H5V5h5V3z" }))));
 }
 
 function ExternalLinkInline20(_a) {
@@ -576,11 +576,14 @@ function Family20(_a) {
             React.createElement("path", { d: "M13.5 16a3.5 3.5 0 110-7 3.5 3.5 0 010 7zm0-2a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" }))));
 }
 
-function Flag20(_a) {
+function Globe20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M15 11.588c-1.655.159-2.846-.291-4.195-.804C9.273 10.202 7.547 9.56 5 9.74v-5.9c2.12-.338 3.55.233 5.052.847 1.376.563 2.914 1.187 4.948 1.039v5.86zm.795-7.991c-2.067.43-3.42-.12-4.986-.76C9.253 2.2 7.501 1.499 5 1.82V1H3v18.033h2v-7.287c2.184-.186 3.605.343 5.094.908 1.26.478 2.55.969 4.223.969.577 0 1.199-.058 1.88-.195l.803-.162V3.344l-1.205.253z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { fillRule: "nonzero", d: "M2.293 1.707L3.707.293l4.036 4.035-1.415 1.415zM11.793 11.207l1.414-1.414 4.038 4.037-1.415 1.415zM9 15h2v3H9z" }),
+            React.createElement("path", { fillRule: "nonzero", d: "M7 19v-2h6v2zM13.5 7.561a3.5 3.5 0 10-7-.122 3.5 3.5 0 007 .122zm2 .035a5.5 5.5 0 11-11-.192 5.5 5.5 0 0111 .192z" }),
+            React.createElement("path", { d: "M14.516 12.19c-2.534 2.446-6.62 2.412-9.11-.077l-.081-.083a6.509 6.509 0 01.16-9.192L4.095 1.4a8.5 8.5 0 1011.81 12.228l-1.39-1.438z" }))));
 }
 
 function Gear20(_a) {
@@ -592,16 +595,6 @@ function Gear20(_a) {
             React.createElement("path", { d: "M15.123 10.861l-.244.649a6.495 6.495 0 01-1.119 1.892l-.455.538.947 1.636-1.503.879-.958-1.654-.715.159c-.808.179-1.515.158-2.124.006l-.731-.183-.968 1.672-1.503-.879.964-1.665-.501-.542c-.541-.586-.881-1.155-1.067-1.79l-.211-.718H3V9.134h1.879l.244-.649a6.508 6.508 0 011.119-1.892l.455-.537-.948-1.636 1.504-.88.958 1.654.715-.159a4.688 4.688 0 012.124-.006l.731.183.968-1.672 1.504.88-.964 1.664.5.542c.542.587.881 1.155 1.067 1.79l.212.718h1.934v1.727h-1.879zm3.879 2V7.134h-2.49a6.358 6.358 0 00-.772-1.293l1.241-2.143L12.024.8l-1.246 2.153a6.77 6.77 0 00-1.552.002L7.978.8 3.021 3.698l1.255 2.168a8.648 8.648 0 00-.749 1.268H1v5.727h2.49c.198.447.454.876.772 1.293L3.02 16.297l4.958 2.898 1.247-2.153c.507.058 1.037.06 1.552-.002l1.247 2.155 4.958-2.898-1.256-2.168c.287-.403.539-.83.749-1.268h2.527z" }))));
 }
 
-function Globe20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { fillRule: "nonzero", d: "M2.293 1.707L3.707.293l4.036 4.035-1.415 1.415zM11.793 11.207l1.414-1.414 4.038 4.037-1.415 1.415zM9 15h2v3H9z" }),
-            React.createElement("path", { fillRule: "nonzero", d: "M7 19v-2h6v2zM13.5 7.561a3.5 3.5 0 10-7-.122 3.5 3.5 0 007 .122zm2 .035a5.5 5.5 0 11-11-.192 5.5 5.5 0 0111 .192z" }),
-            React.createElement("path", { d: "M14.516 12.19c-2.534 2.446-6.62 2.412-9.11-.077l-.081-.083a6.509 6.509 0 01.16-9.192L4.095 1.4a8.5 8.5 0 1011.81 12.228l-1.39-1.438z" }))));
-}
-
 function Gravestones20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -609,6 +602,13 @@ function Gravestones20(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M5 12.437c0-2.082 1.028-3.68 2.685-4.813.958-.655 1.906-1.028 2.574-1.194l.241-.06.241.06c.668.166 1.616.539 2.574 1.194C14.972 8.757 16 10.355 16 12.437V19H5v-6.563zm5.163-3.87a6.834 6.834 0 00-1.348.708C7.659 10.065 7 11.09 7 12.437V17h7v-4.563c0-1.347-.66-2.372-1.815-3.162a6.834 6.834 0 00-1.685-.832 7.026 7.026 0 00-.337.123z" }),
             React.createElement("path", { d: "M3 13.004h2.5v2H1V9.088C1 6.994 2.017 5.383 3.66 4.24c.95-.663 1.892-1.04 2.556-1.208l.247-.063.246.063c.664.17 1.603.55 2.552 1.214.298.208.578.435.837.681a5.79 5.79 0 011.454 2.147l-1.87.71a3.804 3.804 0 00-.961-1.407 5.249 5.249 0 00-.607-.493 6.714 6.714 0 00-1.654-.837 6.715 6.715 0 00-1.658.835C3.656 6.678 3 7.717 3 9.087v3.916zM13.652 3.14a6.199 6.199 0 00-1.201.603c-.366.24-.68.51-.928.81l-1.54-1.277a6.118 6.118 0 011.372-1.206c.874-.572 1.736-.897 2.346-1.043l.23-.055.232.055c.611.144 1.474.468 2.35 1.038C18.042 3.062 19 4.481 19 6.34v6.044h-4.315v-2H17V6.339c0-1.097-.568-1.94-1.58-2.598a6.202 6.202 0 00-1.486-.7c-.08.025-.175.058-.282.099z" }))));
+}
+
+function Flag20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M15 11.588c-1.655.159-2.846-.291-4.195-.804C9.273 10.202 7.547 9.56 5 9.74v-5.9c2.12-.338 3.55.233 5.052.847 1.376.563 2.914 1.187 4.948 1.039v5.86zm.795-7.991c-2.067.43-3.42-.12-4.986-.76C9.253 2.2 7.501 1.499 5 1.82V1H3v18.033h2v-7.287c2.184-.186 3.605.343 5.094.908 1.26.478 2.55.969 4.223.969.577 0 1.199-.058 1.88-.195l.803-.162V3.344l-1.205.253z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function GrowthArrow20(_a) {
@@ -623,6 +623,14 @@ function Heart20(_a) {
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M6.127 4.015c-.809 0-1.618.3-2.22.902A3.115 3.115 0 003 7.137c0 .848.322 1.636.907 2.22L10 15.452l6.093-6.093A3.112 3.112 0 0017 7.138c0-.847-.322-1.636-.907-2.221-1.204-1.204-3.238-1.203-4.441 0L10 6.572 8.348 4.917a3.135 3.135 0 00-2.221-.902zM10 18.279l-7.507-7.507A5.097 5.097 0 011 7.138a5.1 5.1 0 011.493-3.635 5.147 5.147 0 017.269 0l.238.239.238-.24a5.146 5.146 0 017.269 0A5.1 5.1 0 0119 7.139c0 1.38-.53 2.672-1.493 3.634L10 18.279z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function Heartbeat20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M3.395 3.392A1.29 1.29 0 014.325 3c.354 0 .684.14.93.392l1.248 1.284 1.249-1.284c.491-.504 1.369-.504 1.859 0 .526.54.526 1.453.001 1.993L6.503 8.58 3.395 5.385a1.458 1.458 0 010-1.993zm3.108 8.059l4.543-4.672c1.281-1.318 1.281-3.463-.001-4.782C9.855.773 7.769.7 6.503 1.82A3.266 3.266 0 004.326 1h-.001c-.899 0-1.738.354-2.364.998C.68 3.316.68 5.46 1.961 6.778l4.542 4.673zM18.57 13l-3.55-5.915-4.92 7.874-1.988-3.97L5.514 15h-4.51v2H6.6l1.288-1.989 2.018 4.03 5.079-8.126L17.436 15h1.568v-2z" }))));
 }
 
 function HouseSun20(_a) {
@@ -644,12 +652,13 @@ function IdCard20(_a) {
             React.createElement("path", { d: "M12.5 15h-2a3 3 0 00-6 0h-2a5 5 0 1110 0zM12 9h4V7h-4zM12 12h4v-2h-4z" }))));
 }
 
-function Heartbeat20(_a) {
+function House20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M3.395 3.392A1.29 1.29 0 014.325 3c.354 0 .684.14.93.392l1.248 1.284 1.249-1.284c.491-.504 1.369-.504 1.859 0 .526.54.526 1.453.001 1.993L6.503 8.58 3.395 5.385a1.458 1.458 0 010-1.993zm3.108 8.059l4.543-4.672c1.281-1.318 1.281-3.463-.001-4.782C9.855.773 7.769.7 6.503 1.82A3.266 3.266 0 004.326 1h-.001c-.899 0-1.738.354-2.364.998C.68 3.316.68 5.46 1.961 6.778l4.542 4.673zM18.57 13l-3.55-5.915-4.92 7.874-1.988-3.97L5.514 15h-4.51v2H6.6l1.288-1.989 2.018 4.03 5.079-8.126L17.436 15h1.568v-2z" }))));
+            React.createElement("path", { d: "M10.002 1.75L2 7.867v9.142h2V8.855l6.002-4.588L16 8.855v8.154h2V7.867z" }),
+            React.createElement("path", { d: "M7 10.009v7h2v-5h2v5h2v-7z" }))));
 }
 
 function InfoEnclosed20(_a) {
@@ -661,13 +670,12 @@ function InfoEnclosed20(_a) {
             React.createElement("path", { d: "M9 8.8V15h2V8.8zM10 4.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5" }))));
 }
 
-function House20(_a) {
+function Institution20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M10.002 1.75L2 7.867v9.142h2V8.855l6.002-4.588L16 8.855v8.154h2V7.867z" }),
-            React.createElement("path", { d: "M7 10.009v7h2v-5h2v5h2v-7z" }))));
+            React.createElement("path", { d: "M3 16h2V8H3zM1 19h18v-2H1zM10 .848L2.721 5H1v2h2.252L10 3.151 16.789 7H19V5.022h-1.693zM7 16h2V8H7zM11 16h2V8h-2zM15 16h2V8h-2z" }))));
 }
 
 function Letter20(_a) {
@@ -677,14 +685,6 @@ function Letter20(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M3 15h14V5H3v10zM19 3v14H1V3h18z" }),
             React.createElement("path", { d: "M10.038 9.375L3.678 4 2.322 5.472l7.72 6.625 7.636-6.627-1.358-1.468zM17.733 14.5l-3.5-4-1.466 1.36 3.5 4zM3.733 15.86l3.5-4-1.466-1.36-3.5 4z" }))));
-}
-
-function Institution20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M3 16h2V8H3zM1 19h18v-2H1zM10 .848L2.721 5H1v2h2.252L10 3.151 16.789 7H19V5.022h-1.693zM7 16h2V8H7zM11 16h2V8h-2zM15 16h2V8h-2z" }))));
 }
 
 function LoginDevice20(_a) {
@@ -733,6 +733,13 @@ function NotificationFlag20(_a) {
         React.createElement("path", { d: "M15 11.588c-1.655.159-2.846-.291-4.195-.804C9.273 10.202 7.547 9.56 5 9.74v-5.9c2.12-.338 3.55.233 5.052.847 1.376.563 2.914 1.187 4.948 1.039v5.86zm.795-7.991c-2.067.43-3.42-.12-4.986-.76C9.253 2.2 7.501 1.499 5 1.82V1H3v18.033h2v-7.287c2.184-.186 3.605.343 5.094.908 1.26.478 2.55.969 4.223.969.577 0 1.199-.058 1.88-.195l.803-.162V3.344l-1.205.253z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
+function NotificationSwish20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M7.041 17.452l.341-.42c2.318.652 4.869-.193 6.425-2.095 2.082-2.558 1.725-6.424-.892-8.566l-.476-.357 2.164-2.535.438.329C16.904 5.288 18 7.534 18 10c0 4.438-3.562 8-8 8a8.063 8.063 0 01-2.959-.548zm-2.027-1.205A8.002 8.002 0 012 10c0-4.438 3.562-8 8-8 1.151 0 2.246.219 3.233.712l-.361.398c-2.488-.774-5.122-.068-6.739 1.952-2.082 2.618-1.665 6.366.952 8.567l.476.357-2.164 2.589-.383-.328z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
 function NotificationEnvelope20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -740,13 +747,6 @@ function NotificationEnvelope20(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M3 15h14V5H3v10zM19 3v14H1V3h18z" }),
             React.createElement("path", { d: "M10.038 9.375L3.678 4 2.322 5.472l7.72 6.625 7.636-6.627-1.358-1.468zM17.733 14.5l-3.5-4-1.466 1.36 3.5 4zM3.733 15.86l3.5-4-1.466-1.36-3.5 4z" }))));
-}
-
-function NotificationSwish20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M7.041 17.452l.341-.42c2.318.652 4.869-.193 6.425-2.095 2.082-2.558 1.725-6.424-.892-8.566l-.476-.357 2.164-2.535.438.329C16.904 5.288 18 7.534 18 10c0 4.438-3.562 8-8 8a8.063 8.063 0 01-2.959-.548zm-2.027-1.205A8.002 8.002 0 012 10c0-4.438 3.562-8 8-8 1.151 0 2.246.219 3.233.712l-.361.398c-2.488-.774-5.122-.068-6.739 1.952-2.082 2.618-1.665 6.366.952 8.567l.476.357-2.164 2.589-.383-.328z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function Paper20(_a) {
@@ -783,20 +783,20 @@ function Pension20(_a) {
             React.createElement("path", { d: "M7 10V8h6v2zM4.5 14v-2h11v2z" }))));
 }
 
-function PensionCapital20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M14.619 14l1.058 2H4.32l1.059-2H3.118L1 18h18l-2.118-4zM16.352 13l-2.117-4h-8.47l-2.118 4zM10 1L6.293 8h7.412z" }))));
-}
-
 function PensionOccupational20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M16.353 13l-2.118-4h-8.47l-2.118 4zM14.619 14l1.059 2H4.322l1.058-2H3.118L1 18h18l-2.118-4zM10 1L6.294 8h2.262L10 5.274 11.442 8h2.263z" }))));
+}
+
+function PensionCapital20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M14.619 14l1.058 2H4.32l1.059-2H3.118L1 18h18l-2.118-4zM16.352 13l-2.117-4h-8.47l-2.118 4zM10 1L6.293 8h7.412z" }))));
 }
 
 function PensionPrivate20(_a) {
@@ -808,14 +808,6 @@ function PensionPrivate20(_a) {
             React.createElement("path", { d: "M5.91 13l2.117-4H5.764l-2.118 4zM16.353 13l-2.118-4H11.97l2.118 4zM14.619 14l1.059 2H4.322l1.059-2H3.118L1 18h18l-2.118-4z" }))));
 }
 
-function PensionState20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M5.764 9l-2.117 4H5.91l1.06-2h6.06l1.06 2h2.262l-2.118-4zM6.294 8h2.263l1.442-2.724L11.442 8h2.264L9.999 1zM3.117 14L1 18H19l-2.118-4z" }))));
-}
-
 function Percent20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -824,27 +816,19 @@ function Percent20(_a) {
             React.createElement("path", { d: "M14.5 18a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0-2a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM5.5 9a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0-2a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM14.714 2.382l-11 14 1.572 1.236 11-14z" }))));
 }
 
+function PensionState20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M5.764 9l-2.117 4H5.91l1.06-2h6.06l1.06 2h2.262l-2.118-4zM6.294 8h2.263l1.442-2.724L11.442 8h2.264L9.999 1zM3.117 14L1 18H19l-2.118-4z" }))));
+}
+
 function Phone20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M5.122 4.791c-.258.844-.638 3.224 1.395 7.102 1.417 2.704 2.9 4.001 3.894 4.613 1.253.772 2.095.7 2.365.555l1.686-.909c.037-.02.091-.175.066-.22l-1.523-2.905a.138.138 0 00-.188-.055l-1.846.996h-.24c-.582-.002-1.745-.361-3-2.756-1.265-2.414-.899-3.576-.568-4.054l.13-.185 1.835-.992c.046-.026.086-.183.068-.216L7.672 2.857a.128.128 0 00-.08-.07.125.125 0 00-.101.011l-1.689.91c-.202.11-.487.45-.68 1.083m10.234 13.026l-1.682.906c-1.092.59-2.682.361-4.255-.609-1.194-.735-2.959-2.26-4.576-5.344C2.485 8.27 2.99 5.305 3.315 4.239c.316-1.033.88-1.81 1.591-2.193l1.684-.908A2.004 2.004 0 018.144.982c.522.16.949.515 1.202 1l1.522 2.903c.489.928.084 2.258-.843 2.758l-1.304.704c.009.237.087.85.684 1.988.569 1.088 1.016 1.506 1.242 1.662l1.275-.689a2.017 2.017 0 011.554-.154c.52.16.947.512 1.201.995l1.524 2.907c.245.468.293 1.033.135 1.55-.159.52-.516.96-.98 1.21z", fill: "currentColor", fillRule: "evenodd" })));
-}
-
-function Pin20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M5.5 7.538C5.5 5.036 7.519 3 10 3s4.5 2.036 4.5 4.538c0 1.177-.473 2.325-1.315 3.216L10 13.96l-3.167-3.189C5.973 9.863 5.5 8.715 5.5 7.538zm9.121 4.607c1.212-1.28 1.879-2.917 1.879-4.607C16.5 3.933 13.584 1 10 1S3.5 3.933 3.5 7.538c0 1.69.667 3.326 1.896 4.625L9.207 16H4v2h12v-2h-5.207l3.828-3.855z" }),
-            React.createElement("path", { d: "M10 8.501c-.57 0-1-.43-1-1A.978.978 0 0110 6.5c.57 0 1 .43 1 1.001h2A2.969 2.969 0 0010 4.5c-1.682 0-3 1.318-3 3.001 0 1.682 1.318 3 3 3v-2z" }))));
-}
-
-function Plus20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M9 4v5H4v2h5v5h2.001v-5H16V9h-4.999V4z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function PhoneBroken20(_a) {
@@ -856,13 +840,13 @@ function PhoneBroken20(_a) {
             React.createElement("path", { d: "M11.02 6.002H6.621L5.587 4.019 3.85 5l1.558 3.002H9.02V9.8l4.061 3.049-.014-2.512-2.047-1.536zM9 14.499a1.5 1.5 0 11-3 .001 1.5 1.5 0 013-.001zM16 11V9h3v2zM15.58 8.046l-.97-1.75 2.624-1.454.97 1.75zM14.606 13.529l1.03-1.715 2.571 1.545-1.03 1.715z" }))));
 }
 
-function RadioEnclosed20(_a) {
+function Pin20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M10 3c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
-            React.createElement("path", { d: "M10 11.44c-.81 0-1.44-.63-1.44-1.44 0-.81.63-1.44 1.44-1.44.81 0 1.44.63 1.44 1.44 0 .81-.63 1.44-1.44 1.44" }))));
+            React.createElement("path", { d: "M5.5 7.538C5.5 5.036 7.519 3 10 3s4.5 2.036 4.5 4.538c0 1.177-.473 2.325-1.315 3.216L10 13.96l-3.167-3.189C5.973 9.863 5.5 8.715 5.5 7.538zm9.121 4.607c1.212-1.28 1.879-2.917 1.879-4.607C16.5 3.933 13.584 1 10 1S3.5 3.933 3.5 7.538c0 1.69.667 3.326 1.896 4.625L9.207 16H4v2h12v-2h-5.207l3.828-3.855z" }),
+            React.createElement("path", { d: "M10 8.501c-.57 0-1-.43-1-1A.978.978 0 0110 6.5c.57 0 1 .43 1 1.001h2A2.969 2.969 0 0010 4.5c-1.682 0-3 1.318-3 3.001 0 1.682 1.318 3 3 3v-2z" }))));
 }
 
 function Print20(_a) {
@@ -872,6 +856,22 @@ function Print20(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h20v20H0z" }),
             React.createElement("path", { d: "M5 15H1V9.5A3.5 3.5 0 014.5 6H5V1h10v5h.5A3.5 3.5 0 0119 9.5V15h-4v4H5v-4zm0-2v-2h10v2h2V9.5A1.5 1.5 0 0015.5 8h-11A1.5 1.5 0 003 9.5V13h2zm2-7h6V3H7v3zm0 7v4h6v-4H7z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Plus20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M9 4v5H4v2h5v5h2.001v-5H16V9h-4.999V4z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function RadioEnclosed20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M10 3c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
+            React.createElement("path", { d: "M10 11.44c-.81 0-1.44-.63-1.44-1.44 0-.81.63-1.44 1.44-1.44.81 0 1.44.63 1.44 1.44 0 .81-.63 1.44-1.44 1.44" }))));
 }
 
 function RadioRound20(_a) {
@@ -890,6 +890,15 @@ function Screen20(_a) {
         React.createElement("path", { d: "M17 12.5c0 .271-.229.5-.5.5h-13a.507.507 0 01-.5-.5v-8c0-.271.229-.5.5-.5h13c.271 0 .5.229.5.5v8zM3.5 2A2.503 2.503 0 001 4.5v8C1 13.878 2.122 15 3.5 15H9v1H5v2h10v-2h-4v-1h5.5c1.378 0 2.5-1.122 2.5-2.5v-8C19 3.122 17.878 2 16.5 2h-13z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
+function Share20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h20v20H0z" }),
+            React.createElement("path", { d: "M15 1a3 3 0 11-1.911 5.313L7.94 9.402a3.014 3.014 0 010 1.196l5.149 3.09a3 3 0 11-1.03 1.716l-5.149-3.09a3 3 0 110-4.627l5.15-3.089A3 3 0 0115 1zm0 14a1 1 0 100 2 1 1 0 000-2zM5 9a1 1 0 100 2 1 1 0 000-2zm10-6a1 1 0 100 2 1 1 0 000-2z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function Search20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -906,27 +915,6 @@ function Shield20(_a) {
             React.createElement("path", { d: "M15 1H5c0 1.53-1.438 3-3 3v6.794c0 4.644 8 8.306 8 8.306s8-3.537 8-8.306V4c-1.47 0-3-1.5-3-3m-1.517 2A5.605 5.605 0 0016 5.517v5.277c0 2.314-3.624 4.85-5.99 6.079C7.638 15.614 4 13.051 4 10.794V5.55A5.299 5.299 0 006.55 3h6.933" }),
             React.createElement("path", { fillRule: "nonzero", d: "M6.5 7.414L7.914 6l5.657 5.657-1.414 1.414z" }),
             React.createElement("path", { fillRule: "nonzero", d: "M12.157 6l1.414 1.414-5.657 5.657L6.5 11.657z" }))));
-}
-
-function Star20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { id: "star-20_svg__a", d: "M18 17.493V0H0v17.493z" })),
-        React.createElement("g", { transform: "translate(1 1.1)", fill: "none", fillRule: "evenodd" },
-            React.createElement("mask", { id: "star-20_svg__b", fill: "#fff" },
-                React.createElement("use", { xlinkHref: "#star-20_svg__a" })),
-            React.createElement("path", { d: "M9 11.82c.21 0 .42.065.597.196l2.441 1.815-.95-2.955a.999.999 0 01.36-1.11l2.498-1.842-3.065.007h-.002a1 1 0 01-.953-.698L9 4.311l-.926 2.922a1.01 1.01 0 01-.955.698l-3.065-.007 2.5 1.841a.999.999 0 01.358 1.111l-.95 2.955 2.441-1.815c.178-.13.387-.197.597-.197m4.944 5.674a.998.998 0 01-.596-.197L9 14.066l-4.348 3.23a1 1 0 01-1.548-1.109l1.684-5.238-4.38-3.226A1.001 1.001 0 011 5.918h.002l5.388.012L8.047.698a1 1 0 011.906 0L11.61 5.93l5.388-.012H17a1 1 0 01.593 1.805l-4.38 3.226 1.683 5.238a.999.999 0 01-.952 1.306", fill: "currentColor", mask: "url(#star-20_svg__b)" }))));
-}
-
-function Share20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h20v20H0z" }),
-            React.createElement("path", { d: "M15 1a3 3 0 11-1.911 5.313L7.94 9.402a3.014 3.014 0 010 1.196l5.149 3.09a3 3 0 11-1.03 1.716l-5.149-3.09a3 3 0 110-4.627l5.15-3.089A3 3 0 0115 1zm0 14a1 1 0 100 2 1 1 0 000-2zM5 9a1 1 0 100 2 1 1 0 000-2zm10-6a1 1 0 100 2 1 1 0 000-2z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Suitcase20(_a) {
@@ -950,17 +938,25 @@ function Tag20(_a) {
             React.createElement("path", { d: "M13 8.5c-.484 0-.87-.194-1.161-.532a1.046 1.046 0 01-.242-.388C11.5 7.388 11.5 7.194 11.5 7c0-.823.677-1.5 1.5-1.5s1.5.677 1.5 1.5-.677 1.5-1.5 1.5" }))));
 }
 
-function Sustainability20(_a) {
+function Star20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { id: "star-20_svg__a", d: "M18 17.493V0H0v17.493z" })),
+        React.createElement("g", { transform: "translate(1 1.1)", fill: "none", fillRule: "evenodd" },
+            React.createElement("mask", { id: "star-20_svg__b", fill: "#fff" },
+                React.createElement("use", { xlinkHref: "#star-20_svg__a" })),
+            React.createElement("path", { d: "M9 11.82c.21 0 .42.065.597.196l2.441 1.815-.95-2.955a.999.999 0 01.36-1.11l2.498-1.842-3.065.007h-.002a1 1 0 01-.953-.698L9 4.311l-.926 2.922a1.01 1.01 0 01-.955.698l-3.065-.007 2.5 1.841a.999.999 0 01.358 1.111l-.95 2.955 2.441-1.815c.178-.13.387-.197.597-.197m4.944 5.674a.998.998 0 01-.596-.197L9 14.066l-4.348 3.23a1 1 0 01-1.548-1.109l1.684-5.238-4.38-3.226A1.001 1.001 0 011 5.918h.002l5.388.012L8.047.698a1 1 0 011.906 0L11.61 5.93l5.388-.012H17a1 1 0 01.593 1.805l-4.38 3.226 1.683 5.238a.999.999 0 01-.952 1.306", fill: "currentColor", mask: "url(#star-20_svg__b)" }))));
+}
+
+function Text3Round20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h20v20H0z" }),
-            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-                React.createElement("path", { d: "M8.66 19.644l7.2-12.134-1.72-1.02-7.2 12.133z" }),
-                React.createElement("path", { d: "M17 10c0 1.934-1.866 4-3.042 4-.734 0-1.31-.249-1.793-.77l-1.467 1.359c.864.932 1.972 1.411 3.26 1.411C16.287 16 19 12.996 19 10c0-1.856-.168-4.55-.504-8.094L18.39.79l-1.095.23c-3.306.694-5.935 1.746-7.885 3.172-2.937 2.147-2.541 6.263-.228 8.76l1.467-1.36c-1.594-1.72-1.859-4.47-.059-5.786 1.487-1.087 3.493-1.95 6.019-2.578C16.869 6.16 17 8.42 17 10z" }),
-                React.createElement("path", { d: "M11.923 6.615l-1.846.77L12 12h4v-2h-2.667zM9.777 16.514L6.31 12.228l-1.555 1.258 3.469 4.286z" }),
-                React.createElement("path", { d: "M5.45 11.095c.889.814.926 1.61.512 2.119l1.553 1.26c1.066-1.314.973-3.309-.716-4.854-1.153-1.055-2.663-1.79-4.516-2.216l-.924-.212-.26.911c-1.094 3.814-1.094 6.332.275 7.622 1.015.958 2.43.958 4.08.177l-.857-1.808c-.983.466-1.544.466-1.852.176-.557-.525-.616-2.095.02-4.662 1.098.355 1.99.852 2.684 1.487z" })))));
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M10 3c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7m0 16c-4.962 0-9-4.038-9-9s4.038-9 9-9 9 4.038 9 9-4.038 9-9 9" }),
+            React.createElement("path", { d: "M9.083 11.641c.024.624.42 1.032.996 1.032.563 0 .947-.504.947-1.27-.024-1.345-1.115-1.536-1.991-1.345v-.252l1.188-2.674H7.872V5.704h4.545v.252l-1.427 2.94c1.128.226 1.643 1.33 1.643 2.493 0 1.703-1.007 2.831-2.53 2.831-1.476 0-2.471-1.03-2.507-2.579h1.487z" }))));
 }
 
 function Text1Round20(_a) {
@@ -981,15 +977,6 @@ function Text2Round20(_a) {
             React.createElement("path", { d: "M9.307 8.175H7.88c-.012-1.643.85-2.59 2.267-2.59 1.967 0 2.89 2.386 1.523 4.617l-1.427 2.338h2.183v1.56h-4.63v-.384l2.483-4.186c.239-.408.515-.887.515-1.379 0-.684-.252-1.032-.72-1.032-.503 0-.767.361-.767 1.056" }))));
 }
 
-function Text3Round20(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M10 3c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7m0 16c-4.962 0-9-4.038-9-9s4.038-9 9-9 9 4.038 9 9-4.038 9-9 9" }),
-            React.createElement("path", { d: "M9.083 11.641c.024.624.42 1.032.996 1.032.563 0 .947-.504.947-1.27-.024-1.345-1.115-1.536-1.991-1.345v-.252l1.188-2.674H7.872V5.704h4.545v.252l-1.427 2.94c1.128.226 1.643 1.33 1.643 2.493 0 1.703-1.007 2.831-2.53 2.831-1.476 0-2.471-1.03-2.507-2.579h1.487z" }))));
-}
-
 function ThumbsUp20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
@@ -999,12 +986,17 @@ function ThumbsUp20(_a) {
             React.createElement("path", { d: "M9.826 1.333a1 1 0 011.293-.17c.515.338.925.926 1.296 1.767a1 1 0 01.047.677l-1.03 3.615H18a1 1 0 011 1v2.667a1 1 0 01-.09.416l-3.25 7.11a1 1 0 01-.91.585H5a1 1 0 01-1-1V8.222a1 1 0 01.255-.667zM1.011 18.99l.005-5.492.006-5.5 2 .008-.011 10.992H3l-1.989-.008zm9.328-15.231L6 8.605V17h8.108L17 10.671V9.222h-6.893a1 1 0 01-.962-1.274l1.194-4.19zm.2-.7l-.104.362c.024.047.049.096.073.148l.37-.413-.34-.097z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Trash20(_a) {
+function Sustainability20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M4 6l1 12h10l1-12H4zm2.174 2h7.652l-.666 8H6.84l-.666-8zM11.846 3H4v2h12V3zM8 3h4V1H8z" }))));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h20v20H0z" }),
+            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+                React.createElement("path", { d: "M8.66 19.644l7.2-12.134-1.72-1.02-7.2 12.133z" }),
+                React.createElement("path", { d: "M17 10c0 1.934-1.866 4-3.042 4-.734 0-1.31-.249-1.793-.77l-1.467 1.359c.864.932 1.972 1.411 3.26 1.411C16.287 16 19 12.996 19 10c0-1.856-.168-4.55-.504-8.094L18.39.79l-1.095.23c-3.306.694-5.935 1.746-7.885 3.172-2.937 2.147-2.541 6.263-.228 8.76l1.467-1.36c-1.594-1.72-1.859-4.47-.059-5.786 1.487-1.087 3.493-1.95 6.019-2.578C16.869 6.16 17 8.42 17 10z" }),
+                React.createElement("path", { d: "M11.923 6.615l-1.846.77L12 12h4v-2h-2.667zM9.777 16.514L6.31 12.228l-1.555 1.258 3.469 4.286z" }),
+                React.createElement("path", { d: "M5.45 11.095c.889.814.926 1.61.512 2.119l1.553 1.26c1.066-1.314.973-3.309-.716-4.854-1.153-1.055-2.663-1.79-4.516-2.216l-.924-.212-.26.911c-1.094 3.814-1.094 6.332.275 7.622 1.015.958 2.43.958 4.08.177l-.857-1.808c-.983.466-1.544.466-1.852.176-.557-.525-.616-2.095.02-4.662 1.098.355 1.99.852 2.684 1.487z" })))));
 }
 
 function Thumbup20(_a) {
@@ -1023,11 +1015,44 @@ function Triangle20(_a) {
         React.createElement("path", { d: "M6 5.75v8.509l7.025-4.255L6 5.75zM4 2.2l12.886 7.804L4 17.808V2.2z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
+function Trash20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M4 6l1 12h10l1-12H4zm2.174 2h7.652l-.666 8H6.84l-.666-8zM11.846 3H4v2h12V3zM8 3h4V1H8z" }))));
+}
+
 function Umbrella20(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M10 8.814a5.007 5.007 0 00-3.5-1.443c-.657 0-1.297.132-1.889.376.972-2.019 3.002-3.412 5.343-3.412 2.32 0 4.386 1.402 5.395 3.396a4.946 4.946 0 00-1.849-.36A5.007 5.007 0 0010 8.814zM11 1H9v1.4c-3.937.482-7 3.902-7 8.042v.967h1.689s.001-.156.182-.475c.536-.95 1.568-1.563 2.629-1.563 1.022 0 1.932.525 2.5 1.39V16c0 .292-.224.53-.5.53s-.5-.238-.5-.53H6c0 1.394 1.122 2.53 2.5 2.53 1.325 0 2.402-1.053 2.484-2.374l.016-5.42c.562-.834 1.516-1.366 2.5-1.366 1.094 0 2.077.584 2.629 1.562.1.176.171.476.171.476H18v-.967c0-4.112-3.057-7.51-7-8.03V1z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function User20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M10.014 15.85c-3.61 0-5.294-.482-5.947-.745.168-1.383.859-4.848 3.517-6.139.73.577 1.633.934 2.623.934a4.22 4.22 0 002.462-.797c2.457 1.374 3.127 4.647 3.29 5.994-.682.28-2.368.753-5.945.753zM10.207 3c1.286 0 2.33 1.1 2.33 2.45 0 1.351-1.044 2.45-2.33 2.45-1.285 0-2.331-1.099-2.331-2.45C7.876 4.1 8.922 3 10.206 3zm7.806 12.617c-.008-.246-.235-5.674-4.006-8.077a4.485 4.485 0 00.53-2.09c0-2.454-1.942-4.45-4.33-4.45C7.82 1 5.876 2.996 5.876 5.45c0 .692.168 1.34.444 1.925-4.05 2.303-4.297 7.99-4.305 8.242L2 16.052l.309.307c.35.35 1.947 1.491 7.705 1.491s7.354-1.14 7.705-1.49l.309-.308-.015-.435z", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function WalletPlus20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M6 17c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zM19 7h-1V4H6v2h10v1h-1v2h2v1h-2v2h1v1h-4c0-3.309-2.691-6-6-6-.341 0-.674.035-1 .09v-3.2A.89.89 0 015.89 3H17V1H5.89A2.893 2.893 0 003 3.89v3.922A5.999 5.999 0 000 13c0 3.309 2.691 6 6 6 2.607 0 4.824-1.673 5.65-4H18v-3h1V7z" }),
+            React.createElement("path", { d: "M7 10H5v2H3v2h2v2h2v-2h2v-2H7z" }))));
+}
+
+function World20(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M10 1a9 9 0 100 18 9 9 0 000-18m0 2c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.14-7-7 3.14-7 7-7" }),
+            React.createElement("path", { d: "M10.254 16.645c-.09 0-.18-.007-.27-.021-.566-.094-1.537-.56-1.662-2.639-.092-1.528-.643-1.768-1.407-2.101-.671-.292-1.796-.782-1.763-2.336.016-.685.242-1.238.67-1.643.808-.762 2.013-.717 3.18-.676 1.701.062 2.012-.065 2.082-.476.032-.178.008-.246.008-.247-.239-.243-1.62-.153-2.075-.124-.913.059-1.515.099-1.954-.366a1.209 1.209 0 01-.292-.897c.093-.755.73-1.237 1.405-1.746.43-.326.92-.696 1.104-1.027a1 1 0 111.744.979c-.219.391-.526.721-.857 1.015.905.017 1.83.186 2.418.84.307.341.637.949.47 1.914-.391 2.269-2.735 2.19-4.125 2.133-.576-.019-1.536-.055-1.734.132-.007.008-.04.07-.043.232-.003.131.018.174.018.175.05.07.358.204.543.285.912.397 2.436 1.062 2.604 3.813.018.288.053.49.088.627.194-.189.466-.545.696-1.11l.143-.337c.278-.641.658-1.52.658-2.599 0-.848.729-1.624 1.856-1.98 1.334-.42 3.372-.222 4.73 1.719a1 1 0 11-1.637 1.147c-.605-.864-1.335-1.05-1.842-1.054h-.017c-.54 0-.943.201-1.092.326-.034 1.42-.524 2.551-.821 3.236l-.125.295c-.634 1.559-1.671 2.511-2.701 2.511" }))));
 }
 
 function Wallet20(_a) {
@@ -1046,29 +1071,41 @@ function WalletMinus20(_a) {
             React.createElement("path", { d: "M3 14h6v-2H3z" }))));
 }
 
-function WalletPlus20(_a) {
+function BankidMc40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M6 17c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zM19 7h-1V4H6v2h10v1h-1v2h2v1h-2v2h1v1h-4c0-3.309-2.691-6-6-6-.341 0-.674.035-1 .09v-3.2A.89.89 0 015.89 3H17V1H5.89A2.893 2.893 0 003 3.89v3.922A5.999 5.999 0 000 13c0 3.309 2.691 6 6 6 2.607 0 4.824-1.673 5.65-4H18v-3h1V7z" }),
-            React.createElement("path", { d: "M7 10H5v2H3v2h2v2h2v-2h2v-2H7z" }))));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("g", { fillRule: "nonzero" },
+                React.createElement("path", { d: "M13.367 21.094l1.447-9.685h-1.546c-.723 0-1.655-.43-1.93-1.222-.087-.268-.295-1.187.9-2.084.427-.314.701-.663.756-.931.055-.28-.01-.524-.197-.71-.263-.268-.779-.42-1.436-.42-1.107 0-1.886.676-1.962 1.165-.055.36.208.652.438.838.69.547.855 1.339.428 2.084-.439.768-1.392 1.269-2.412 1.28H6.275c-.132.943-2.28 15.4-2.444 16.542h8.56c.077-.513.471-3.248 1.009-6.857h-.033z", fill: "#479CBE" }),
+                React.createElement("path", { d: "M25.17 3h-9.138l-1.218 7.81h1.551c.851 0 1.656-.394 2-.963a.938.938 0 00.161-.5c0-.324-.218-.568-.436-.73-.598-.453-.725-.929-.725-1.265 0-.07 0-.128.012-.186.126-.824 1.23-1.717 2.69-1.717.873 0 1.54.209 1.942.591.357.337.495.813.391 1.312-.126.592-.713 1.08-1.046 1.323-.885.626-.77 1.172-.713 1.334.184.488.886.801 1.426.801h2.356v.012c3.219.023 4.943 1.52 4.403 5.001-.506 3.238-2.966 4.63-5.897 4.654l-1.161 7.474h1.713c7.23 0 13.138-4.689 14.3-12.093C39.216 6.668 33.446 3 25.17 3z", fill: "#00A5C3" }),
+                React.createElement("path", { d: "M25.17 3h-9.138l-1.218 7.81h1.551c.851 0 1.656-.394 2-.963a.938.938 0 00.161-.5c0-.324-.218-.568-.436-.73-.598-.453-.725-.929-.725-1.265 0-.07 0-.128.012-.186.126-.824 1.23-1.717 2.69-1.717.873 0 1.54.209 1.942.591.357.337.495.813.391 1.312-.126.592-.713 1.08-1.046 1.323-.885.626-.77 1.172-.713 1.334.184.488.886.801 1.426.801h2.356v.012c3.219.023 4.943 1.52 4.403 5.001-.506 3.238-2.966 4.63-5.897 4.654l-1.161 7.474h1.713c7.23 0 13.138-4.689 14.3-12.093C39.216 6.668 33.446 3 25.17 3z", fill: "#235971" }),
+                React.createElement("g", { fill: "#235971" },
+                    React.createElement("path", { d: "M2.99 30.409h3.627c1.546 0 1.922.825 1.808 1.578-.091.61-.49 1.064-1.171 1.362.864.347 1.205.885 1.08 1.734-.16 1.064-1.035 1.853-2.183 1.853H2.023l.966-6.527zm2.399 2.701c.705 0 1.034-.394 1.103-.86.068-.502-.148-.85-.853-.85h-.626l-.25 1.71h.626zm-.387 2.821c.728 0 1.149-.31 1.25-.944.08-.55-.215-.873-.92-.873h-.717l-.273 1.83h.66v-.013zM13.417 36.983c-.944.072-1.399-.036-1.626-.466-.5.323-1.058.49-1.65.49-1.068 0-1.443-.586-1.34-1.231.045-.31.215-.61.488-.86.591-.539 2.047-.61 2.615-1.017.046-.454-.125-.621-.66-.621-.625 0-1.148.215-2.046.86l.216-1.482c.773-.586 1.524-.86 2.388-.86 1.103 0 2.081.478 1.9 1.745l-.217 1.434c-.08.502-.057.658.478.67l-.546 1.338zm-1.638-2.247c-.5.335-1.432.275-1.535.968-.045.323.148.562.455.562.296 0 .66-.131.955-.347-.022-.12-.011-.239.023-.466l.102-.717zM15.18 31.88h1.887l-.102.657c.602-.538 1.057-.742 1.649-.742 1.057 0 1.546.682 1.375 1.793l-.489 3.336h-1.887l.41-2.762c.079-.502-.069-.74-.433-.74-.296 0-.568.166-.83.537l-.432 2.953H14.44l.74-5.033zM21.456 30.409h1.888l-.478 3.203 1.808-1.733h2.332l-2.32 2.152 1.865 2.893h-2.377l-1.433-2.331h-.022l-.342 2.33H20.49z" })),
+                React.createElement("g", { fill: "#479CBE" },
+                    React.createElement("path", { d: "M28.582 30.41h2.049l-.901 6.632h-2.05zM31.629 30.41h2.929c2.263 0 2.918 1.861 2.703 3.407-.204 1.51-1.255 3.225-3.24 3.225h-3.304l.912-6.633zm1.899 5.05c.997 0 1.545-.56 1.705-1.74.118-.877-.118-1.74-1.223-1.74h-.547l-.472 3.48h.537z" }))))));
 }
 
-function User20(_a) {
+function DamageMulticolor40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 28, height: 32, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M10.014 15.85c-3.61 0-5.294-.482-5.947-.745.168-1.383.859-4.848 3.517-6.139.73.577 1.633.934 2.623.934a4.22 4.22 0 002.462-.797c2.457 1.374 3.127 4.647 3.29 5.994-.682.28-2.368.753-5.945.753zM10.207 3c1.286 0 2.33 1.1 2.33 2.45 0 1.351-1.044 2.45-2.33 2.45-1.285 0-2.331-1.099-2.331-2.45C7.876 4.1 8.922 3 10.206 3zm7.806 12.617c-.008-.246-.235-5.674-4.006-8.077a4.485 4.485 0 00.53-2.09c0-2.454-1.942-4.45-4.33-4.45C7.82 1 5.876 2.996 5.876 5.45c0 .692.168 1.34.444 1.925-4.05 2.303-4.297 7.99-4.305 8.242L2 16.052l.309.307c.35.35 1.947 1.491 7.705 1.491s7.354-1.14 7.705-1.49l.309-.308-.015-.435z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M22 30h4V19.503l-6.538-4.857v-4.36h-4.829L13.237 7.69 9 6.381V2H2v15.3h7.916l3.01-1.442 5.207 3.324-1.323 3.802L22 25.47V30zm-2 0v-3.27l-5.667-2.714 1.391-3.998-2.936-1.876L10.37 19.3H2V30h3v2H0V0h28v32H17v-2h3zm6-12.989V2H11v2.906l3.61 1.117 1.218 2.263h5.634v5.354L26 17.011z", id: "damage-multicolor-40_svg__a" })),
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M15 30v2H7v-2z" }),
+            React.createElement("path", { d: "M-6-4h40v40H-6z" }),
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-multicolor-40_svg__a" }))));
 }
 
-function World20(_a) {
+function ArrowEnclosed24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 20, height: 20, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M10 1a9 9 0 100 18 9 9 0 000-18m0 2c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.14-7-7 3.14-7 7-7" }),
-            React.createElement("path", { d: "M10.254 16.645c-.09 0-.18-.007-.27-.021-.566-.094-1.537-.56-1.662-2.639-.092-1.528-.643-1.768-1.407-2.101-.671-.292-1.796-.782-1.763-2.336.016-.685.242-1.238.67-1.643.808-.762 2.013-.717 3.18-.676 1.701.062 2.012-.065 2.082-.476.032-.178.008-.246.008-.247-.239-.243-1.62-.153-2.075-.124-.913.059-1.515.099-1.954-.366a1.209 1.209 0 01-.292-.897c.093-.755.73-1.237 1.405-1.746.43-.326.92-.696 1.104-1.027a1 1 0 111.744.979c-.219.391-.526.721-.857 1.015.905.017 1.83.186 2.418.84.307.341.637.949.47 1.914-.391 2.269-2.735 2.19-4.125 2.133-.576-.019-1.536-.055-1.734.132-.007.008-.04.07-.043.232-.003.131.018.174.018.175.05.07.358.204.543.285.912.397 2.436 1.062 2.604 3.813.018.288.053.49.088.627.194-.189.466-.545.696-1.11l.143-.337c.278-.641.658-1.52.658-2.599 0-.848.729-1.624 1.856-1.98 1.334-.42 3.372-.222 4.73 1.719a1 1 0 11-1.637 1.147c-.605-.864-1.335-1.05-1.842-1.054h-.017c-.54 0-.943.201-1.092.326-.034 1.42-.524 2.551-.821 3.236l-.125.295c-.634 1.559-1.671 2.511-2.701 2.511" }))));
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M12 19c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7m0-16c-4.962 0-9 4.038-9 9s4.038 9 9 9 9-4.038 9-9-4.038-9-9-9" }),
+            React.createElement("path", { d: "M14 12.022v-.043l.021.02-.021.023zm-2.217-2.325L13.049 11H7v2h6.049l-1.266 1.304 1.434 1.393L16.81 12l-3.593-3.696-1.434 1.393z" }))));
 }
 
 function Apartment24(_a) {
@@ -1085,24 +1122,6 @@ function ArrowsApart24(_a) {
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M9.071 1.83L.48 9.461 9.071 17.3V13h7.933v-1.799l3.487 3.301-3.487 3.32v-1.796h-6.001v2h4.001v4.247l8.512-7.784-8.512-7.69V11H7.07v1.855L3.527 9.488 7.07 6.17V8h5.934V6H9.071z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
-function ArrowEnclosed24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M12 19c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7m0-16c-4.962 0-9 4.038-9 9s4.038 9 9 9 9-4.038 9-9-4.038-9-9-9" }),
-            React.createElement("path", { d: "M14 12.022v-.043l.021.02-.021.023zm-2.217-2.325L13.049 11H7v2h6.049l-1.266 1.304 1.434 1.393L16.81 12l-3.593-3.696-1.434 1.393z" }))));
-}
-
-function Attach24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("path", { d: "M10.67 16.812c1.311 2.45 2.842 3.061 4.965 2.07 2.124-.99 2.64-2.555 1.628-5.083l-2.981-6.392 1.813-.845 3.002 6.443c1.411 3.519.519 6.228-2.616 7.69-3.136 1.462-5.785.404-7.599-2.988L4.647 8.625l-.04-.102c-.731-2.157.066-3.904 2.2-4.899 2.13-.993 3.985-.49 5.19 1.44l.058.107 4.235 9.082.044.112c.498 1.522.098 2.789-1.219 3.403-1.315.613-2.543.107-3.392-1.252l-.058-.107-2.98-6.392 1.812-.845 2.954 6.334c.334.522.518.59.82.45.3-.141.366-.325.18-.915L10.27 6.074c-.652-1.012-1.405-1.203-2.618-.637C6.442 6 6.113 6.69 6.485 7.832l4.185 8.98z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Atv24(_a) {
@@ -1123,6 +1142,34 @@ function Baby24(_a) {
             React.createElement("path", { d: "M14.744 1.209l.181.042.143.045a2.722 2.722 0 011.74 3.15l-.042.167a2.722 2.722 0 01-3.087 1.928l-.004.014a6.81 6.81 0 102.411 1.205l-.217-.162 1.167-1.624A8.81 8.81 0 113.09 13.132a8.81 8.81 0 0110.733-8.6l.125.03.003-.009a.722.722 0 00.577-1.31l-.033-.018-.237.19a2.91 2.91 0 01-.27.192l-.136.078-.921-1.775.046-.032.157-.125c.246-.2.397-.307.622-.409.311-.141.645-.193.99-.135zM8.717 15.302c.362.402.86.635 1.392.663.473.024.936-.115 1.316-.4l.139-.114 1.337 1.487c-.8.72-1.84 1.08-2.896 1.024a4.004 4.004 0 01-2.616-1.155l-.158-.167 1.486-1.338zm1.458-3.278l.013.149-1.998.093a.095.095 0 00-.184-.028L8 12.275l-1.998.093a2.095 2.095 0 014.173-.344zm4.695-.176l.012.15-1.998.092a.095.095 0 00-.184-.028l-.005.037-1.998.094a2.094 2.094 0 014.173-.345z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function Bank24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M5 18h2v-8H5zM3 21h18v-2H3zM12 2.848L5.721 7H3v2h3.252L12 5.2 17.789 9H21V7.022h-2.693zM9 18h2v-8H9zM13 18h2v-8h-2zM17 18h2v-8h-2z" }))));
+}
+
+function Attach24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("path", { d: "M10.67 16.812c1.311 2.45 2.842 3.061 4.965 2.07 2.124-.99 2.64-2.555 1.628-5.083l-2.981-6.392 1.813-.845 3.002 6.443c1.411 3.519.519 6.228-2.616 7.69-3.136 1.462-5.785.404-7.599-2.988L4.647 8.625l-.04-.102c-.731-2.157.066-3.904 2.2-4.899 2.13-.993 3.985-.49 5.19 1.44l.058.107 4.235 9.082.044.112c.498 1.522.098 2.789-1.219 3.403-1.315.613-2.543.107-3.392-1.252l-.058-.107-2.98-6.392 1.812-.845 2.954 6.334c.334.522.518.59.82.45.3-.141.366-.325.18-.915L10.27 6.074c-.652-1.012-1.405-1.203-2.618-.637C6.442 6 6.113 6.69 6.485 7.832l4.185 8.98z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function BillsCoins24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+                React.createElement("path", { d: "M18.296 3.474l.808 3.648 1.952-.432-1.22-5.511-11.195 1.93.34 1.97zM12 14.5a3.5 3.5 0 10-7 0 3.5 3.5 0 007 0zm-5 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM11.842 23.008a2.75 2.75 0 100-5.5 2.75 2.75 0 000 5.5zm0-2a.75.75 0 110-1.5.75.75 0 010 1.5z" }),
+                React.createElement("path", { d: "M4.424 11.566l1.517-6.85 13.32 2.718-1.517 6.85-6.468-1.32-.4 1.96 8.395 1.714L21.652 5.88 4.413 2.362 2.033 13.12l4.133.844.4-1.96z" })))));
+}
+
 function Bankid24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -1140,12 +1187,13 @@ function Bell24(_a) {
             React.createElement("path", { d: "M12 2a2 2 0 012 2v.178c3.261.627 5 2.902 5 6.635v3.982l2.017 4.705h-6.058a3 3 0 01-5.918 0H2.983L5 14.795v-3.982c0-3.733 1.739-6.008 5-6.635V4a2 2 0 012-2zm.866 17.5h-1.732a1 1 0 001.732 0zM12 6c-3.455 0-5 1.497-5 4.813v4.392L6.017 17.5h11.966L17 15.205v-4.392C17 7.497 15.455 6 12 6z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Bank24(_a) {
+function BreifcaseFirstAid24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M5 18h2v-8H5zM3 21h18v-2H3zM12 2.848L5.721 7H3v2h3.252L12 5.2 17.789 9H21V7.022h-2.693zM9 18h2v-8H9zM13 18h2v-8h-2zM17 18h2v-8h-2z" }))));
+            React.createElement("path", { d: "M13 10h-2v2H9v2h2v2h2v-2h2v-2h-2z" }),
+            React.createElement("path", { d: "M20 17.5c0 .271-.229.5-.5.5H19V8h.5c.271 0 .5.229.5.5v9zm-3 .5H7V8h10v10zM5 18h-.5a.507.507 0 01-.5-.5v-9c0-.271.229-.5.5-.5H5v10zm5-12V5h4v1h-4zm6 0V3H8v3H4.5A2.503 2.503 0 002 8.5v9C2 18.878 3.121 20 4.5 20h15c1.379 0 2.5-1.122 2.5-2.5v-9C22 7.122 20.879 6 19.5 6H16z" }))));
 }
 
 function Boat24(_a) {
@@ -1159,24 +1207,11 @@ function Boat24(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#boat-24_svg__a", transform: "translate(1 2)" }))));
 }
 
-function BillsCoins24(_a) {
+function Calendar24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-                React.createElement("path", { d: "M18.296 3.474l.808 3.648 1.952-.432-1.22-5.511-11.195 1.93.34 1.97zM12 14.5a3.5 3.5 0 10-7 0 3.5 3.5 0 007 0zm-5 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM11.842 23.008a2.75 2.75 0 100-5.5 2.75 2.75 0 000 5.5zm0-2a.75.75 0 110-1.5.75.75 0 010 1.5z" }),
-                React.createElement("path", { d: "M4.424 11.566l1.517-6.85 13.32 2.718-1.517 6.85-6.468-1.32-.4 1.96 8.395 1.714L21.652 5.88 4.413 2.362 2.033 13.12l4.133.844.4-1.96z" })))));
-}
-
-function BreifcaseFirstAid24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M13 10h-2v2H9v2h2v2h2v-2h2v-2h-2z" }),
-            React.createElement("path", { d: "M20 17.5c0 .271-.229.5-.5.5H19V8h.5c.271 0 .5.229.5.5v9zm-3 .5H7V8h10v10zM5 18h-.5a.507.507 0 01-.5-.5v-9c0-.271.229-.5.5-.5H5v10zm5-12V5h4v1h-4zm6 0V3H8v3H4.5A2.503 2.503 0 002 8.5v9C2 18.878 3.121 20 4.5 20h15c1.379 0 2.5-1.122 2.5-2.5v-9C22 7.122 20.879 6 19.5 6H16z" }))));
+        React.createElement("path", { d: "M19 7H5V5.33c0-.181.161-.326.345-.33H8v1h2V5h4v1h2V5h2.634c.205.004.366.149.366.33V7zm0 11.662a.331.331 0 01-.346.338H5.345A.33.33 0 015 18.662V9h14v9.662zM16 3V2h-2v1h-4V2H8v1H5.325C4.021 3.026 3 4.05 3 5.33v13.332A2.317 2.317 0 005.345 21h13.309A2.317 2.317 0 0021 18.662V5.33c0-1.28-1.021-2.304-2.346-2.33H16z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
 function Briefcase24(_a) {
@@ -1197,11 +1232,13 @@ function CalendarCheck24(_a) {
             React.createElement("path", { d: "M16.484 11.709l-1.41-1.418-3.914 3.892-1.448-1.48-1.424 1.405 2.858 2.908z" }))));
 }
 
-function Calendar24(_a) {
+function CalendarCross24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M19 7H5V5.33c0-.181.161-.326.345-.33H8v1h2V5h4v1h2V5h2.634c.205.004.366.149.366.33V7zm0 11.662a.331.331 0 01-.346.338H5.345A.33.33 0 015 18.662V9h14v9.662zM16 3V2h-2v1h-4V2H8v1H5.325C4.021 3.026 3 4.05 3 5.33v13.332A2.317 2.317 0 005.345 21h13.309A2.317 2.317 0 0021 18.662V5.33c0-1.28-1.021-2.304-2.346-2.33H16z", fill: "currentColor", fillRule: "nonzero" })));
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M19 7H5V5.33c0-.181.161-.326.346-.33H8v1h2V5h4v1h2V5h2.634c.205.004.366.149.366.33V7zm0 11.662a.331.331 0 01-.346.338H5.346A.331.331 0 015 18.662V9h14v9.662zM16 3V2h-2v1h-4V2H8v1H5.325C4.021 3.026 3 4.05 3 5.33v13.332A2.317 2.317 0 005.346 21h13.308A2.317 2.317 0 0021 18.662V5.33c0-1.28-1.021-2.304-2.346-2.33H16z" }),
+            React.createElement("path", { d: "M9.965 17.45L12 15.415l2.035 2.035 1.414-1.414L13.414 14l2-2.001L14 10.586l-2 2-2-2L8.586 12l2 2-2.035 2.036z" }))));
 }
 
 function Car24(_a) {
@@ -1231,15 +1268,6 @@ function Caravan24(_a) {
             React.createElement("path", { d: "M19.693 5l3.396 9.057L21.617 17H23v2l-9.171.001a3 3 0 01-5.658 0L3.382 19 .94 14.116 3.22 5h16.473zM11 17a1 1 0 100 2 1 1 0 000-2zm7.306-10H4.781L3.06 13.883 4.618 17h3.553a3.001 3.001 0 015.658 0h5.552l1.529-3.058L18.306 7zM10 8v6H8v-4H7v5H5V8h5zm6 0v3h-2v-1h-2V8h4z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function CalendarCross24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M19 7H5V5.33c0-.181.161-.326.346-.33H8v1h2V5h4v1h2V5h2.634c.205.004.366.149.366.33V7zm0 11.662a.331.331 0 01-.346.338H5.346A.331.331 0 015 18.662V9h14v9.662zM16 3V2h-2v1h-4V2H8v1H5.325C4.021 3.026 3 4.05 3 5.33v13.332A2.317 2.317 0 005.346 21h13.308A2.317 2.317 0 0021 18.662V5.33c0-1.28-1.021-2.304-2.346-2.33H16z" }),
-            React.createElement("path", { d: "M9.965 17.45L12 15.415l2.035 2.035 1.414-1.414L13.414 14l2-2.001L14 10.586l-2 2-2-2L8.586 12l2 2-2.035 2.036z" }))));
-}
-
 function Card24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -1247,6 +1275,13 @@ function Card24(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M19.697 17H4.317C4.156 17 4 16.846 4 16.727V11h15.997v5.76a.205.205 0 01-.062.15.32.32 0 01-.238.09zm0-10c.083 0 .17.038.233.103a.22.22 0 01.067.17V9H4V7.272C4 7.153 4.155 7 4.318 7h15.379zm2.299.305a2.175 2.175 0 00-.628-1.592A2.342 2.342 0 0019.697 5H4.317C3.063 5 2 6.04 2 7.272v9.455C2 17.96 3.062 19 4.318 19h15.379a2.31 2.31 0 001.675-.7 2.171 2.171 0 00.625-1.573l-.001-9.422z" }),
             React.createElement("path", { d: "M5.996 14h4v-2h-4z" }))));
+}
+
+function Check24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M16.907 6.6l-6.64 6.614-2.943-2.98L5.9 11.637l4.353 4.41 8.063-8.03z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
 function CardBlock24(_a) {
@@ -1259,34 +1294,18 @@ function CardBlock24(_a) {
             React.createElement("path", { d: "M13.586 14L20 20.414 21.414 19 15 12.586zM3 10h15V8H3z" }))));
 }
 
-function Chat24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M8.498 4A6.505 6.505 0 002 10.498a6.505 6.505 0 006.498 6.498h.804L14 21.15V15h-2v1.7l-1.876-1.704H8.498A4.503 4.503 0 014 10.498 4.503 4.503 0 018.498 6h7a4.503 4.503 0 014.498 4.498 4.503 4.503 0 01-4.498 4.498v2a6.505 6.505 0 006.498-6.498A6.505 6.505 0 0015.498 4h-7z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
-function Check24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M16.907 6.6l-6.64 6.614-2.943-2.98L5.9 11.637l4.353 4.41 8.063-8.03z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
-function CheckEnclosed24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M12 5c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
-            React.createElement("path", { d: "M10.76 16.147L7.2 12.542l1.424-1.405 2.15 2.177L15.411 8.7l1.41 1.418z" }))));
-}
-
 function Chevron24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M10.014 6.6L8.6 8.014l4 4-4 4 1.414 1.414 4.001-4 1.413-1.415-1.413-1.413z", fill: "currentColor", fillRule: "nonzero" })));
+}
+
+function Chat24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M8.498 4A6.505 6.505 0 002 10.498a6.505 6.505 0 006.498 6.498h.804L14 21.15V15h-2v1.7l-1.876-1.704H8.498A4.503 4.503 0 014 10.498 4.503 4.503 0 018.498 6h7a4.503 4.503 0 014.498 4.498 4.503 4.503 0 01-4.498 4.498v2a6.505 6.505 0 006.498-6.498A6.505 6.505 0 0015.498 4h-7z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
 function ChevronDown24(_a) {
@@ -1303,11 +1322,13 @@ function ChevronLeft24(_a) {
         React.createElement("path", { d: "M14.186 17.6l1.414-1.414-4-4 4-4-1.414-1.414-4.001 4-1.413 1.415 1.413 1.413z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
-function ChevronRight24(_a) {
+function CheckEnclosed24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M10.014 6.6L8.6 8.014l4 4-4 4 1.414 1.414 4.001-4 1.413-1.415-1.413-1.413z", fill: "currentColor", fillRule: "nonzero" })));
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M12 5c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
+            React.createElement("path", { d: "M10.76 16.147L7.2 12.542l1.424-1.405 2.15 2.177L15.411 8.7l1.41 1.418z" }))));
 }
 
 function ChevronUp24(_a) {
@@ -1322,6 +1343,13 @@ function Circle24(_a) {
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2a8 8 0 110 16 8 8 0 010-16z", fill: "currentColor", fillRule: "nonzero" })));
+}
+
+function ChevronRight24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M10.014 6.6L8.6 8.014l4 4-4 4 1.414 1.414 4.001-4 1.413-1.415-1.413-1.413z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
 function Circlediagram24(_a) {
@@ -1360,24 +1388,6 @@ function CommonCamera24(_a) {
             React.createElement("path", { d: "M12 15a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm0 2a4.5 4.5 0 110-9 4.5 4.5 0 010 9z" }))));
 }
 
-function Contract24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M16.016 0v4.011h-2V2H2v15.982h12.016V15.98h2v4.002H0V0h16.016zm.962 3.895l3.71 3.816-7.463 7.464h-3.85l-.027-3.727 7.63-7.553zm-1.732 4.527l-3.892 3.854.007.9h1.035l3.801-3.803-.951-.951zm1.705-1.686l-.638.631.945.945.622-.62-.93-.956zM5.67 12.78c.93.546.966 1.4.547 2.555.687-.914 1.042-1.222 1.734-1.222.509 0 .892.278 1.095.711.109.233.149.42.207.826.017.116.03.193.04.252h2.333v1.5h-2.58c-.505 0-.88-.282-1.077-.714-.103-.227-.14-.402-.198-.808a14.157 14.157 0 00-.01-.071c-.11.128-.269.323-.475.602a30.7 30.7 0 01-.174.236c-.726.967-1.226 1.37-2.045 1.115-.655-.204-.9-.767-.796-1.404.05-.31.103-.455.388-1.155.057-.14.095-.237.13-.332.214-.572.21-.746.12-.798-.413-.244-.74.18-1.009 2.223L2.414 16.1c.387-2.941 1.482-4.364 3.258-3.32zM11 6v2H3V6h8zm0-3v2H3V3h8z", id: "contract-24_svg__a" })),
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#contract-24_svg__a", transform: "translate(2 2)" }))));
-}
-
-function Cross24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M16.014 6.6l-4 4-4-4L6.6 8.014l3.999 4-3.999 4 1.414 1.414 4-4 4 4 1.414-1.414-4-4 4-4z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
 function Coins24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -1396,15 +1406,6 @@ function Computer24(_a) {
             React.createElement("path", { d: "M20 19h-2v1a1 1 0 002 0v-1zm-1-2a1 1 0 00-1 1h2a1 1 0 00-1-1zm-7-3v2H6v-2h6zm3.954.424h1.303c.614 0 1.06.222 1.354.602A3 3 0 0122 18v2a3 3 0 01-6 0v-2c0-1.085.576-2.036 1.44-2.562a1.11 1.11 0 00-.183-.014h-1.303c-1.66 0-2.454-.713-2.454-2.424H9.999L10 14H8l-.001-1H2V2h14v11h-1.5c0 1.134.323 1.424 1.454 1.424zM14 4H4v7h10V4zm-4.3.868l.707.707-4.832 4.832-.707-.707L9.7 4.868zm-2.216.19l.696.717L5.69 8.19l-.696-.718 2.49-2.416z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function CrossEnclosed24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M12 5c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
-            React.createElement("path", { d: "M16.425 15.01L13.414 12l3-3L15 7.586l-3 3-3-3L7.586 9l3 3-3.011 3.01 1.414 1.415 3.01-3.011 3.012 3.01z" }))));
-}
-
 function ContactHeader24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -1416,15 +1417,31 @@ function ContactHeader24(_a) {
             React.createElement("path", { d: "M19.95 8.414v-1.5c2.24 0 4.041 1.828 4.041 4.09 0 2.26-1.802 4.088-4.041 4.088v-1.5c1.406 0 2.541-1.151 2.541-2.589 0-1.437-1.135-2.589-2.541-2.589z" }))));
 }
 
-function Damage24(_a) {
+function Contract24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("defs", null,
-            React.createElement("path", { d: "M2 18h2v2H0V0h18v20h-7v-2h5V2H2v16zm7 0v2H6v-2h3zM7.925 9.865l3.717 2.312-.823 2.302L14 15.963V18h-2v-.763L8.323 15.52l.893-2.498-1.427-.888-1.424.665H2v-2h3.921l2.004-.935zM7 2v.854l2.252.76.754 1.529h3.763v3.952l2.224 1.79.004 2.542-4.228-3.379V7.143H8.763l-.988-1.914L5 4.289V2h2z", id: "damage-24_svg__a" })),
+            React.createElement("path", { d: "M16.016 0v4.011h-2V2H2v15.982h12.016V15.98h2v4.002H0V0h16.016zm.962 3.895l3.71 3.816-7.463 7.464h-3.85l-.027-3.727 7.63-7.553zm-1.732 4.527l-3.892 3.854.007.9h1.035l3.801-3.803-.951-.951zm1.705-1.686l-.638.631.945.945.622-.62-.93-.956zM5.67 12.78c.93.546.966 1.4.547 2.555.687-.914 1.042-1.222 1.734-1.222.509 0 .892.278 1.095.711.109.233.149.42.207.826.017.116.03.193.04.252h2.333v1.5h-2.58c-.505 0-.88-.282-1.077-.714-.103-.227-.14-.402-.198-.808a14.157 14.157 0 00-.01-.071c-.11.128-.269.323-.475.602a30.7 30.7 0 01-.174.236c-.726.967-1.226 1.37-2.045 1.115-.655-.204-.9-.767-.796-1.404.05-.31.103-.455.388-1.155.057-.14.095-.237.13-.332.214-.572.21-.746.12-.798-.413-.244-.74.18-1.009 2.223L2.414 16.1c.387-2.941 1.482-4.364 3.258-3.32zM11 6v2H3V6h8zm0-3v2H3V3h8z", id: "contract-24_svg__a" })),
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-24_svg__a", transform: "translate(3 2)" }))));
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#contract-24_svg__a", transform: "translate(2 2)" }))));
+}
+
+function Cross24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M16.014 6.6l-4 4-4-4L6.6 8.014l3.999 4-3.999 4 1.414 1.414 4-4 4 4 1.414-1.414-4-4 4-4z", fill: "currentColor", fillRule: "nonzero" })));
+}
+
+function CrossEnclosed24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M12 5c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
+            React.createElement("path", { d: "M16.425 15.01L13.414 12l3-3L15 7.586l-3 3-3-3L7.586 9l3 3-3.011 3.01 1.414 1.415 3.01-3.011 3.012 3.01z" }))));
 }
 
 function Cup24(_a) {
@@ -1434,6 +1451,17 @@ function Cup24(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h24v24H0z" }),
             React.createElement("path", { d: "M17 22H7v-2h1.2c.432 0 .8-.383.8-.875v-2.928a6.019 6.019 0 01-2.664-3.212A4 4 0 116 5V2h12v3a4 4 0 11-.337 7.986A6.013 6.013 0 0115 16.196L15 19.126c0 .492.368.875.8.875H17v2zm-5-5a6.04 6.04 0 01-1-.083v2.208c0 .305-.046.6-.133.876h2.266a2.943 2.943 0 01-.133-.876v-2.208A6.04 6.04 0 0112 17zm4-13H8v1h4v2H8v4a4 4 0 108 0V4zm2 3v4a2 2 0 100-4zM6 7a2 2 0 100 4V7z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Damage24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M2 18h2v2H0V0h18v20h-7v-2h5V2H2v16zm7 0v2H6v-2h3zM7.925 9.865l3.717 2.312-.823 2.302L14 15.963V18h-2v-.763L8.323 15.52l.893-2.498-1.427-.888-1.424.665H2v-2h3.921l2.004-.935zM7 2v.854l2.252.76.754 1.529h3.763v3.952l2.224 1.79.004 2.542-4.228-3.379V7.143H8.763l-.988-1.914L5 4.289V2h2z", id: "damage-24_svg__a" })),
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-24_svg__a", transform: "translate(3 2)" }))));
 }
 
 function DigitalServices24(_a) {
@@ -1725,17 +1753,6 @@ function Moped24(_a) {
             React.createElement("path", { d: "M3.388 14.234l1.077 1.685-.121.078-.04.04a1.24 1.24 0 00-.297.694L4 16.863c0 .678.518 1.214 1.14 1.214.306 0 .593-.129.806-.355l.042-.05.12-.236 1.784.904-.168.332-.092.148a3.111 3.111 0 01-2.492 1.257C3.398 20.077 2 18.63 2 16.863c0-.847.324-1.645.888-2.24l.146-.144.14-.108.214-.137zM20 14a3 3 0 110 6 3 3 0 010-6zm0 2a1 1 0 100 2 1 1 0 000-2zM16.66 4l3.003 7.008.099-.004L20 11h2v2h-2c-2.235 0-3.887 1.352-3.994 2.845L16 16v2H8.648L2 12.66V8h10v1c0 1.749-1.032 2.981-2.588 3.583.257.532.762.879 1.318.879.753 0 1.214-.454 1.265-1.299L12 12h2c0 2.017-1.325 3.462-3.27 3.462-1.525 0-2.832-1.026-3.308-2.474l-.183.008L7 13v-2c1.249 0 2.186-.357 2.659-.971L9.678 10H4v1.701L9.352 16H14c0-2.05 1.49-3.84 3.652-4.605L15.34 6H14V4h2.66z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function NotificationSwish24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M5.041 15.452l.341-.42c2.318.652 4.869-.193 6.425-2.095 2.082-2.558 1.725-6.424-.892-8.566l-.476-.357 2.164-2.535.438.329C14.904 3.288 16 5.534 16 8c0 4.438-3.562 8-8 8a8.063 8.063 0 01-2.959-.548zm-2.027-1.205A8.002 8.002 0 010 8c0-4.438 3.562-8 8-8 1.151 0 2.246.219 3.233.712l-.361.398C8.384.336 5.75 1.042 4.133 3.062c-2.082 2.618-1.665 6.366.952 8.567l.476.357-2.164 2.589-.383-.328z", id: "notification-swish-24_svg__a" })),
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#notification-swish-24_svg__a", transform: "translate(4 4)" }))));
-}
-
 function Mortgage24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -1747,22 +1764,15 @@ function Mortgage24(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#mortgage-24_svg__a", transform: "translate(3 1)" }))));
 }
 
-function Paper24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M5 3v18h14l-.005-12.414L13.414 3H5zm2 2h4v6h5.996L17 19H7V5zm6 .415L16.581 9H13V5.415z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
-function Payment24(_a) {
+function NotificationSwish24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("defs", null,
-            React.createElement("path", { d: "M8.828 16.014a2.982 2.982 0 110 5.964 2.982 2.982 0 010-5.964zm12.827-2.88l1.406 1.422-7.129 7.046-3.44-3.525 1.432-1.396 2.034 2.083 5.697-5.63zm-12.827 4.88a.982.982 0 100 1.964.982.982 0 000-1.964zM17.469.503l1.25 4.332 1.064.227-2.23 10.485-7.903-1.68a3.38 3.38 0 01-6.133-1.303L.866 12 3.094 1.514 8.04 2.565 17.47.503zM6.846 10.605a1.378 1.378 0 100 2.756 1.378 1.378 0 000-2.756zM4.634 3.886L3.237 10.46l.537.115a3.379 3.379 0 016.45 1.37l5.79 1.23 1.396-6.573L4.634 3.886zm11.433-1.029l-3.28.717 3.715.79-.435-1.507z", id: "payment-24_svg__a" })),
+            React.createElement("path", { d: "M5.041 15.452l.341-.42c2.318.652 4.869-.193 6.425-2.095 2.082-2.558 1.725-6.424-.892-8.566l-.476-.357 2.164-2.535.438.329C14.904 3.288 16 5.534 16 8c0 4.438-3.562 8-8 8a8.063 8.063 0 01-2.959-.548zm-2.027-1.205A8.002 8.002 0 010 8c0-4.438 3.562-8 8-8 1.151 0 2.246.219 3.233.712l-.361.398C8.384.336 5.75 1.042 4.133 3.062c-2.082 2.618-1.665 6.366.952 8.567l.476.357-2.164 2.589-.383-.328z", id: "notification-swish-24_svg__a" })),
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#payment-24_svg__a", transform: "translate(0 1)" }))));
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#notification-swish-24_svg__a", transform: "translate(4 4)" }))));
 }
 
 function Padlock24(_a) {
@@ -1774,6 +1784,34 @@ function Padlock24(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h24v24H0z" }),
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#padlock-24_svg__a", transform: "translate(3.544 1.052)" }))));
+}
+
+function Paper24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M5 3v18h14l-.005-12.414L13.414 3H5zm2 2h4v6h5.996L17 19H7V5zm6 .415L16.581 9H13V5.415z", fill: "currentColor", fillRule: "nonzero" })));
+}
+
+function Parasol24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("path", { d: "M22.059 18v2c-1.538 0-2.811.253-3.829.748l-.25.129c-1.282.703-2.834 1.072-4.647 1.118l-.392.005H2v-2h10.941c1.538 0 2.811-.253 3.829-.748l.25-.129c1.282-.703 2.834-1.072 4.647-1.118l.392-.005zM9.48 7.145a1 1 0 011.038 0l6.176 3.75a1 1 0 01.42.511l.824 2.25A1 1 0 0117 15h-5.727a1 1 0 01-.274-.038L11 19H9v-4.038a1 1 0 01-.14.03L8.728 15H3a1 1 0 01-.94-1.344l.824-2.25a1 1 0 01.42-.51zM10 9.17l-5.358 3.253L4.43 13h3.95l1.002-.786a1 1 0 011.123-.077l.113.077 1.001.786h3.95l-.212-.578L10 9.169zM22 7v3h-2V7h2zm-4.54-1.817l1.414 1.414-2.122 2.121-1.414-1.414 2.121-2.121zM20 2a2 2 0 001.85 1.995L22 4v2a4 4 0 01-3.995-3.8L18 2h2zm-3 0v2h-3V2h3z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Payment24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M8.828 16.014a2.982 2.982 0 110 5.964 2.982 2.982 0 010-5.964zm12.827-2.88l1.406 1.422-7.129 7.046-3.44-3.525 1.432-1.396 2.034 2.083 5.697-5.63zm-12.827 4.88a.982.982 0 100 1.964.982.982 0 000-1.964zM17.469.503l1.25 4.332 1.064.227-2.23 10.485-7.903-1.68a3.38 3.38 0 01-6.133-1.303L.866 12 3.094 1.514 8.04 2.565 17.47.503zM6.846 10.605a1.378 1.378 0 100 2.756 1.378 1.378 0 000-2.756zM4.634 3.886L3.237 10.46l.537.115a3.379 3.379 0 016.45 1.37l5.79 1.23 1.396-6.573L4.634 3.886zm11.433-1.029l-3.28.717 3.715.79-.435-1.507z", id: "payment-24_svg__a" })),
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#payment-24_svg__a", transform: "translate(0 1)" }))));
 }
 
 function PdfDoc24(_a) {
@@ -1792,16 +1830,6 @@ function Pencil24(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M4 3v18h14.001l-.007-5.001-2 .002.005 3H6v-14h10V3z" }),
             React.createElement("path", { d: "M19.778 7.967l-.739-.739-6.032 6.033V14h.739l6.032-6.033zM14.574 16h-3.567v-3.567L19.039 4.4l3.568 3.567L14.574 16z" }))));
-}
-
-function Parasol24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("path", { d: "M22.059 18v2c-1.538 0-2.811.253-3.829.748l-.25.129c-1.282.703-2.834 1.072-4.647 1.118l-.392.005H2v-2h10.941c1.538 0 2.811-.253 3.829-.748l.25-.129c1.282-.703 2.834-1.072 4.647-1.118l.392-.005zM9.48 7.145a1 1 0 011.038 0l6.176 3.75a1 1 0 01.42.511l.824 2.25A1 1 0 0117 15h-5.727a1 1 0 01-.274-.038L11 19H9v-4.038a1 1 0 01-.14.03L8.728 15H3a1 1 0 01-.94-1.344l.824-2.25a1 1 0 01.42-.51zM10 9.17l-5.358 3.253L4.43 13h3.95l1.002-.786a1 1 0 011.123-.077l.113.077 1.001.786h3.95l-.212-.578L10 9.169zM22 7v3h-2V7h2zm-4.54-1.817l1.414 1.414-2.122 2.121-1.414-1.414 2.121-2.121zM20 2a2 2 0 001.85 1.995L22 4v2a4 4 0 01-3.995-3.8L18 2h2zm-3 0v2h-3V2h3z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Pension24(_a) {
@@ -1848,6 +1876,13 @@ function PensionState24(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#pension-state-24_svg__a", transform: "translate(1 2)" }))));
 }
 
+function Phone24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M16.909 18.571a.388.388 0 00.17-.223.39.39 0 00-.016-.28l-1.613-3.076a.33.33 0 00-.205-.169.334.334 0 00-.264.026l-2.32 1.253-.908-.627c-.633-.437-1.262-1.21-1.886-2.404-.628-1.198-.9-2.125-.929-2.872l-.043-1.122.988-.532 1.38-.745c.113-.06.213-.388.154-.5L9.804 4.223a.33.33 0 00-.204-.171.327.327 0 00-.265.028l-1.783.962c-.298.16-.612.594-.817 1.264-.523 1.709-.295 4.264 1.49 7.67 1.315 2.508 2.771 4.085 4.196 4.963 1.169.72 2.196.867 2.707.591l1.78-.959zm.853 1.585l-1.781.96c-1.156.623-2.839.382-4.505-.645-1.264-.779-3.133-2.394-4.845-5.659C4.135 10.05 4.668 6.91 5.013 5.78c.335-1.093.932-1.916 1.685-2.321l1.783-.962a2.122 2.122 0 011.645-.165A2.129 2.129 0 0111.4 3.39l1.612 3.074c.517.983.089 2.391-.893 2.92l-1.381.745c.01.252.092.901.724 2.106.603 1.151 1.076 1.594 1.315 1.759l1.35-.73a2.136 2.136 0 011.646-.162 2.13 2.13 0 011.271 1.053l1.614 3.078c.26.495.31 1.094.143 1.642a2.184 2.184 0 01-1.038 1.281z", fill: "currentColor", fillRule: "nonzero" })));
+}
+
 function Percent24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -1856,11 +1891,11 @@ function Percent24(_a) {
             React.createElement("path", { d: "M16.5 20a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0-2a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM7.5 11a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0-2a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM16.714 4.382l-11 14 1.572 1.236 11-14z" }))));
 }
 
-function Phone24(_a) {
+function Plus24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M16.909 18.571a.388.388 0 00.17-.223.39.39 0 00-.016-.28l-1.613-3.076a.33.33 0 00-.205-.169.334.334 0 00-.264.026l-2.32 1.253-.908-.627c-.633-.437-1.262-1.21-1.886-2.404-.628-1.198-.9-2.125-.929-2.872l-.043-1.122.988-.532 1.38-.745c.113-.06.213-.388.154-.5L9.804 4.223a.33.33 0 00-.204-.171.327.327 0 00-.265.028l-1.783.962c-.298.16-.612.594-.817 1.264-.523 1.709-.295 4.264 1.49 7.67 1.315 2.508 2.771 4.085 4.196 4.963 1.169.72 2.196.867 2.707.591l1.78-.959zm.853 1.585l-1.781.96c-1.156.623-2.839.382-4.505-.645-1.264-.779-3.133-2.394-4.845-5.659C4.135 10.05 4.668 6.91 5.013 5.78c.335-1.093.932-1.916 1.685-2.321l1.783-.962a2.122 2.122 0 011.645-.165A2.129 2.129 0 0111.4 3.39l1.612 3.074c.517.983.089 2.391-.893 2.92l-1.381.745c.01.252.092.901.724 2.106.603 1.151 1.076 1.594 1.315 1.759l1.35-.73a2.136 2.136 0 011.646-.162 2.13 2.13 0 011.271 1.053l1.614 3.078c.26.495.31 1.094.143 1.642a2.184 2.184 0 01-1.038 1.281z", fill: "currentColor", fillRule: "nonzero" })));
+        React.createElement("path", { d: "M11 6v5H6v2h5v5h2.001v-5H18v-2h-4.999V6z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
 function Pin24(_a) {
@@ -1872,11 +1907,13 @@ function Pin24(_a) {
             React.createElement("path", { d: "M5 19v2h14v-2zM12 10.501c-.57 0-1-.43-1-1A.978.978 0 0112 8.5c.57 0 1 .43 1 1.001h2A2.969 2.969 0 0012 6.5c-1.682 0-3 1.318-3 3.001 0 1.682 1.318 3 3 3v-2z" }))));
 }
 
-function Plus24(_a) {
+function Pregnant24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M11 6v5H6v2h5v5h2.001v-5H18v-2h-4.999V6z", fill: "currentColor", fillRule: "nonzero" })));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("path", { d: "M16 19.5v2.503h-2V19.5h2zM12 2a4 4 0 013.285 6.283c.99.492 1.644 1.37 1.71 2.523L17 11v4.5c0 1.859-1.191 2.922-2.818 2.996L14 18.5h-4a1 1 0 01-.117-1.993L10 16.5h4c.64 0 .956-.23.996-.859L15 15.5V11c0-.6-.44-1.003-1.28-1.133a.998.998 0 01-.335-.114c-.431.16-.898.247-1.385.247-.618 0-1.203-.14-1.725-.39l.142-.067c-1.085.498-1.383.817-1.414 1.338l-.003.1v1.061c.235-.02.478-.034.728-.04L10 12v2c-2.824 0-4 .94-4 3 0 1.995 1.104 2.94 3.74 2.997L10 20v2c-3.843 0-6-1.726-6-5 0-2.288 1.054-3.82 3-4.535V10.98c0-1.184.513-2.044 1.667-2.768A4 4 0 0112 2zm0 2a2 2 0 100 4 2 2 0 000-4z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Print24(_a) {
@@ -1897,24 +1934,6 @@ function RadioEnclosed24(_a) {
             React.createElement("path", { d: "M12 13.44c-.81 0-1.44-.63-1.44-1.44 0-.81.63-1.44 1.44-1.44.81 0 1.44.63 1.44 1.44 0 .81-.63 1.44-1.44 1.44" }))));
 }
 
-function RadioRound24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M12 5c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
-            React.createElement("path", { d: "M12 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm0 2.5a4 4 0 110-8 4 4 0 010 8z" }))));
-}
-
-function Pregnant24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("path", { d: "M16 19.5v2.503h-2V19.5h2zM12 2a4 4 0 013.285 6.283c.99.492 1.644 1.37 1.71 2.523L17 11v4.5c0 1.859-1.191 2.922-2.818 2.996L14 18.5h-4a1 1 0 01-.117-1.993L10 16.5h4c.64 0 .956-.23.996-.859L15 15.5V11c0-.6-.44-1.003-1.28-1.133a.998.998 0 01-.335-.114c-.431.16-.898.247-1.385.247-.618 0-1.203-.14-1.725-.39l.142-.067c-1.085.498-1.383.817-1.414 1.338l-.003.1v1.061c.235-.02.478-.034.728-.04L10 12v2c-2.824 0-4 .94-4 3 0 1.995 1.104 2.94 3.74 2.997L10 20v2c-3.843 0-6-1.726-6-5 0-2.288 1.054-3.82 3-4.535V10.98c0-1.184.513-2.044 1.667-2.768A4 4 0 0112 2zm0 2a2 2 0 100 4 2 2 0 000-4z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function Rv24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -1922,6 +1941,15 @@ function Rv24(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h24v24H0z" }),
             React.createElement("path", { d: "M20.765 4l2.264 8.358L21.807 18l-.979.001A2.998 2.998 0 0118 20a3.001 3.001 0 01-2.829-2l-5.342.001a3 3 0 01-5.658 0L2.193 18 .971 12.358 3.235 4h17.53zM7 16a1 1 0 100 2 1 1 0 000-2zm11 0a1 1 0 100 2 1 1 0 000-2zm1.234-10H4.765L3.41 11H7v2H3.156l.65 3h.365a3.001 3.001 0 015.658 0h5.342a3.001 3.001 0 015.203-.834l.596-2.755L20.316 10H17V8h2.775l-.541-2zM15 8v7h-2v-5h-1v5h-2V8h5z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function RadioRound24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M12 5c-3.859 0-7 3.14-7 7s3.141 7 7 7 7-3.14 7-7-3.141-7-7-7m0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9" }),
+            React.createElement("path", { d: "M12 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm0 2.5a4 4 0 110-8 4 4 0 010 8z" }))));
 }
 
 function Save24(_a) {
@@ -1999,6 +2027,15 @@ function Snowmobile24(_a) {
             React.createElement("path", { d: "M12.707 3.293l8.44 8.44-1.865 1.957-.092.085 1.746 1.75c.302-.226.676-.56 1.175-1.052l.182-.18 1.414 1.414c-1.27 1.27-2.001 1.829-2.827 2.096-.448.144-.775.185-1.47.195l-.42.002h-3.932v-2l3.526-.002-1.073-1.072a1.87 1.87 0 01-.363.067l-.15.007h-2l.004-2h1.973l.033-.006c.073-.024.224-.127.62-.492l.24-.225.484-.51-2.853-2.852L13.414 11H5.75c-.134 0-.436.19-.538.36l-.029.062-1.923-.549c.297-1.038 1.37-1.79 2.331-1.867L5.75 9h5.835l-1.292-1.293 1.414-1.414L13.5 8.085l.585-.585-2.792-2.793 1.414-1.414zM11.37 12C12.872 12 14 13.383 14 15s-1.127 3-2.63 3H4.63C3.129 18 2 16.617 2 15s1.128-3 2.63-3zm0 2H4.631C4.333 14 4 14.408 4 15c0 .592.333 1 .63 1h6.74c.298 0 .63-.408.63-1 0-.592-.332-1-.63-1z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function Sustainability24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h24v24H0z" }),
+            React.createElement("path", { d: "M21.227 1.5l.15 1.393c.415 3.85.623 6.853.623 9.016C22 15.284 18.885 18 16.06 18c-1.07 0-2.03-.269-2.862-.8l-3.351 5.332-1.694-1.064 1.196-1.906-.105.093-4.335-5 1.511-1.31.334.384c-.08-.35-.258-.731-.557-1.132-.613-.826-1.449-1.54-2.515-2.143-.527 2.49-.45 4.157.13 4.961.338.47.8.61 1.602.409l.485 1.94c-1.554.388-2.862-.003-3.71-1.18-1.12-1.553-1.12-4.145-.157-7.836l.296-1.133 1.073.469c1.9.83 3.373 1.936 4.402 3.32 1.113 1.497 1.236 3.083.655 4.29l1.926 2.222 3.417-5.438-1.674-2.99 1.746-.977 1.14 2.038 1.552-2.466 1.693 1.064-1.525 2.424H19v2h-3.524l-1.214 1.934c.513.332 1.104.495 1.797.495C17.837 16 20 14.114 20 11.91c0-1.816-.155-4.286-.466-7.404-3.75 1.78-6.173 3.046-7.232 3.773-1.466 1.007-1.786 3.482-.466 4.843l-1.435 1.393c-2.203-2.27-1.696-6.191.769-7.885 1.297-.89 4.208-2.39 8.788-4.536l1.269-.594z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function Star24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -2009,6 +2046,15 @@ function Star24(_a) {
             React.createElement("mask", { id: "star-24_svg__b", fill: "#fff" },
                 React.createElement("use", { xlinkHref: "#star-24_svg__a" })),
             React.createElement("path", { d: "M9 11.92c.21 0 .42.065.597.196l2.441 1.815-.95-2.955a.999.999 0 01.36-1.11l2.498-1.842-3.065.007h-.002a1 1 0 01-.953-.698L9 4.411l-.926 2.922a1.01 1.01 0 01-.955.698l-3.065-.007 2.5 1.841a.999.999 0 01.358 1.111l-.95 2.955 2.441-1.815c.178-.13.387-.197.597-.197m4.944 5.674a.998.998 0 01-.596-.197L9 14.166l-4.348 3.23a1 1 0 01-1.548-1.109l1.684-5.238-4.38-3.226A1.001 1.001 0 011 6.018h.002l5.388.012L8.047.798a1 1 0 011.906 0L11.61 6.03l5.388-.012H17a1 1 0 01.593 1.805l-4.38 3.226 1.683 5.238a.999.999 0 01-.952 1.306", fill: "currentColor", fillRule: "nonzero", mask: "url(#star-24_svg__b)" }))));
+}
+
+function Tag24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M5.414 13.004L11 18.59l8.004-8.003L19 7.419l-2.415-2.415-3.167-.003-8.004 8.003zm5.586 8a.997.997 0 01-.707-.293l-7-7a.999.999 0 010-1.414l9.004-9.004A1 1 0 0113.004 3h.001l3.996.004c.265 0 .518.105.706.293l3 3a1 1 0 01.293.706l.004 3.996c0 .266-.106.521-.293.708l-9.004 9.004a.997.997 0 01-.707.293z" }),
+            React.createElement("path", { d: "M15 11a1.961 1.961 0 01-1.548-.71 1.395 1.395 0 01-.323-.516C13 9.516 13 9.258 13 9c0-1.097.903-2 2-2s2 .903 2 2-.903 2-2 2" }))));
 }
 
 function Text1Round24(_a) {
@@ -2047,24 +2093,6 @@ function Tractor24(_a) {
             React.createElement("path", { d: "M7.309 13.735a4.074 4.074 0 110 8.147 4.074 4.074 0 010-8.147zM15.8 2a3.235 3.235 0 013.226 2.988l.01.247L19.034 9h1.968v7.311a3.235 3.235 0 11-2-.89L19.003 11h-4.501l-3.05-5.883h-6.51v5.76a7.252 7.252 0 019.432 5.516l.04.237-1.975.307a5.251 5.251 0 00-9.678-1.91l-.119.207-1.754-.96a7.264 7.264 0 012.053-2.355l.001-8.801h9.726L15.717 9h1.318V5.235a1.236 1.236 0 00-1.094-1.227L15.8 4V2zM7.309 15.735a2.074 2.074 0 100 4.147 2.074 2.074 0 000-4.147zm11.456 1.677a1.235 1.235 0 100 2.47 1.235 1.235 0 000-2.47z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Sustainability24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h24v24H0z" }),
-            React.createElement("path", { d: "M21.227 1.5l.15 1.393c.415 3.85.623 6.853.623 9.016C22 15.284 18.885 18 16.06 18c-1.07 0-2.03-.269-2.862-.8l-3.351 5.332-1.694-1.064 1.196-1.906-.105.093-4.335-5 1.511-1.31.334.384c-.08-.35-.258-.731-.557-1.132-.613-.826-1.449-1.54-2.515-2.143-.527 2.49-.45 4.157.13 4.961.338.47.8.61 1.602.409l.485 1.94c-1.554.388-2.862-.003-3.71-1.18-1.12-1.553-1.12-4.145-.157-7.836l.296-1.133 1.073.469c1.9.83 3.373 1.936 4.402 3.32 1.113 1.497 1.236 3.083.655 4.29l1.926 2.222 3.417-5.438-1.674-2.99 1.746-.977 1.14 2.038 1.552-2.466 1.693 1.064-1.525 2.424H19v2h-3.524l-1.214 1.934c.513.332 1.104.495 1.797.495C17.837 16 20 14.114 20 11.91c0-1.816-.155-4.286-.466-7.404-3.75 1.78-6.173 3.046-7.232 3.773-1.466 1.007-1.786 3.482-.466 4.843l-1.435 1.393c-2.203-2.27-1.696-6.191.769-7.885 1.297-.89 4.208-2.39 8.788-4.536l1.269-.594z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Tag24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M5.414 13.004L11 18.59l8.004-8.003L19 7.419l-2.415-2.415-3.167-.003-8.004 8.003zm5.586 8a.997.997 0 01-.707-.293l-7-7a.999.999 0 010-1.414l9.004-9.004A1 1 0 0113.004 3h.001l3.996.004c.265 0 .518.105.706.293l3 3a1 1 0 01.293.706l.004 3.996c0 .266-.106.521-.293.708l-9.004 9.004a.997.997 0 01-.707.293z" }),
-            React.createElement("path", { d: "M15 11a1.961 1.961 0 01-1.548-.71 1.395 1.395 0 01-.323-.516C13 9.516 13 9.258 13 9c0-1.097.903-2 2-2s2 .903 2 2-.903 2-2 2" }))));
-}
-
 function Trailer24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
@@ -2093,18 +2121,18 @@ function Travel24(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#travel-24_svg__a", transform: "translate(.59 1.403)" }))));
 }
 
-function Umbrella24(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M12 9.814a5.007 5.007 0 00-3.5-1.443c-1.438 0-2.438.473-3.11.957.053-.208.126-.402.221-.58.972-2.02 4.002-3.413 6.343-3.413 2.32 0 5.386 1.402 6.395 3.396.111.2.21.4.3.597-.727-.58-2-.957-3.149-.957A5.007 5.007 0 0012 9.814zM13 2h-2v1.4c-3.937.482-8 3.902-8 8.042a1 1 0 001.871.492c.536-.95 2.568-1.563 3.629-1.563 1.022 0 1.932.525 2.5 1.39V19c0 .292-.224.53-.5.53s-.5-.238-.5-.53H8c0 1.394 1.122 2.53 2.5 2.53 1.325 0 2.402-1.053 2.484-2.374l.016-7.42c.562-.834 1.516-1.366 2.5-1.366 1.094 0 3.077.584 3.629 1.562A1.001 1.001 0 0021 11.442c0-4.112-4.057-7.51-8-8.03V2z", fill: "currentColor", fillRule: "nonzero" })));
-}
-
 function Triangle24(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M8 6.837v10.335l8.15-5.168L8 6.837zM6 3.2l13.886 8.804L6 20.808V3.2z", fill: "currentColor", fillRule: "nonzero" })));
+}
+
+function Umbrella24(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 24, height: 24, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M12 9.814a5.007 5.007 0 00-3.5-1.443c-1.438 0-2.438.473-3.11.957.053-.208.126-.402.221-.58.972-2.02 4.002-3.413 6.343-3.413 2.32 0 5.386 1.402 6.395 3.396.111.2.21.4.3.597-.727-.58-2-.957-3.149-.957A5.007 5.007 0 0012 9.814zM13 2h-2v1.4c-3.937.482-8 3.902-8 8.042a1 1 0 001.871.492c.536-.95 2.568-1.563 3.629-1.563 1.022 0 1.932.525 2.5 1.39V19c0 .292-.224.53-.5.53s-.5-.238-.5-.53H8c0 1.394 1.122 2.53 2.5 2.53 1.325 0 2.402-1.053 2.484-2.374l.016-7.42c.562-.834 1.516-1.366 2.5-1.366 1.094 0 3.077.584 3.629 1.562A1.001 1.001 0 0021 11.442c0-4.112-4.057-7.51-8-8.03V2z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
 function User24(_a) {
@@ -2154,32 +2182,13 @@ function WalletPlus24(_a) {
             React.createElement("path", { d: "M8 13H6v2H4v2h2v2h2v-2h2v-2H8z" }))));
 }
 
-function BankidMc40(_a) {
+function Apartment40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("g", { fillRule: "nonzero" },
-                React.createElement("path", { d: "M13.367 21.094l1.447-9.685h-1.546c-.723 0-1.655-.43-1.93-1.222-.087-.268-.295-1.187.9-2.084.427-.314.701-.663.756-.931.055-.28-.01-.524-.197-.71-.263-.268-.779-.42-1.436-.42-1.107 0-1.886.676-1.962 1.165-.055.36.208.652.438.838.69.547.855 1.339.428 2.084-.439.768-1.392 1.269-2.412 1.28H6.275c-.132.943-2.28 15.4-2.444 16.542h8.56c.077-.513.471-3.248 1.009-6.857h-.033z", fill: "#479CBE" }),
-                React.createElement("path", { d: "M25.17 3h-9.138l-1.218 7.81h1.551c.851 0 1.656-.394 2-.963a.938.938 0 00.161-.5c0-.324-.218-.568-.436-.73-.598-.453-.725-.929-.725-1.265 0-.07 0-.128.012-.186.126-.824 1.23-1.717 2.69-1.717.873 0 1.54.209 1.942.591.357.337.495.813.391 1.312-.126.592-.713 1.08-1.046 1.323-.885.626-.77 1.172-.713 1.334.184.488.886.801 1.426.801h2.356v.012c3.219.023 4.943 1.52 4.403 5.001-.506 3.238-2.966 4.63-5.897 4.654l-1.161 7.474h1.713c7.23 0 13.138-4.689 14.3-12.093C39.216 6.668 33.446 3 25.17 3z", fill: "#00A5C3" }),
-                React.createElement("path", { d: "M25.17 3h-9.138l-1.218 7.81h1.551c.851 0 1.656-.394 2-.963a.938.938 0 00.161-.5c0-.324-.218-.568-.436-.73-.598-.453-.725-.929-.725-1.265 0-.07 0-.128.012-.186.126-.824 1.23-1.717 2.69-1.717.873 0 1.54.209 1.942.591.357.337.495.813.391 1.312-.126.592-.713 1.08-1.046 1.323-.885.626-.77 1.172-.713 1.334.184.488.886.801 1.426.801h2.356v.012c3.219.023 4.943 1.52 4.403 5.001-.506 3.238-2.966 4.63-5.897 4.654l-1.161 7.474h1.713c7.23 0 13.138-4.689 14.3-12.093C39.216 6.668 33.446 3 25.17 3z", fill: "#235971" }),
-                React.createElement("g", { fill: "#235971" },
-                    React.createElement("path", { d: "M2.99 30.409h3.627c1.546 0 1.922.825 1.808 1.578-.091.61-.49 1.064-1.171 1.362.864.347 1.205.885 1.08 1.734-.16 1.064-1.035 1.853-2.183 1.853H2.023l.966-6.527zm2.399 2.701c.705 0 1.034-.394 1.103-.86.068-.502-.148-.85-.853-.85h-.626l-.25 1.71h.626zm-.387 2.821c.728 0 1.149-.31 1.25-.944.08-.55-.215-.873-.92-.873h-.717l-.273 1.83h.66v-.013zM13.417 36.983c-.944.072-1.399-.036-1.626-.466-.5.323-1.058.49-1.65.49-1.068 0-1.443-.586-1.34-1.231.045-.31.215-.61.488-.86.591-.539 2.047-.61 2.615-1.017.046-.454-.125-.621-.66-.621-.625 0-1.148.215-2.046.86l.216-1.482c.773-.586 1.524-.86 2.388-.86 1.103 0 2.081.478 1.9 1.745l-.217 1.434c-.08.502-.057.658.478.67l-.546 1.338zm-1.638-2.247c-.5.335-1.432.275-1.535.968-.045.323.148.562.455.562.296 0 .66-.131.955-.347-.022-.12-.011-.239.023-.466l.102-.717zM15.18 31.88h1.887l-.102.657c.602-.538 1.057-.742 1.649-.742 1.057 0 1.546.682 1.375 1.793l-.489 3.336h-1.887l.41-2.762c.079-.502-.069-.74-.433-.74-.296 0-.568.166-.83.537l-.432 2.953H14.44l.74-5.033zM21.456 30.409h1.888l-.478 3.203 1.808-1.733h2.332l-2.32 2.152 1.865 2.893h-2.377l-1.433-2.331h-.022l-.342 2.33H20.49z" })),
-                React.createElement("g", { fill: "#479CBE" },
-                    React.createElement("path", { d: "M28.582 30.41h2.049l-.901 6.632h-2.05zM31.629 30.41h2.929c2.263 0 2.918 1.861 2.703 3.407-.204 1.51-1.255 3.225-3.24 3.225h-3.304l.912-6.633zm1.899 5.05c.997 0 1.545-.56 1.705-1.74.118-.877-.118-1.74-1.223-1.74h-.547l-.472 3.48h.537z" }))))));
-}
-
-function DamageMulticolor40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 28, height: 32, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M22 30h4V19.503l-6.538-4.857v-4.36h-4.829L13.237 7.69 9 6.381V2H2v15.3h7.916l3.01-1.442 5.207 3.324-1.323 3.802L22 25.47V30zm-2 0v-3.27l-5.667-2.714 1.391-3.998-2.936-1.876L10.37 19.3H2V30h3v2H0V0h28v32H17v-2h3zm6-12.989V2H11v2.906l3.61 1.117 1.218 2.263h5.634v5.354L26 17.011z", id: "damage-multicolor-40_svg__a" })),
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M15 30v2H7v-2z" }),
-            React.createElement("path", { d: "M-6-4h40v40H-6z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-multicolor-40_svg__a" }))));
+            React.createElement("path", { d: "M36 2v34h2v2H13v-2h3V26h8v10h10V4H6v32h4v2H2v-2h2V2h32zM22 28h-4v8h4v-8zm10-2v6h-6v-6h6zm-18 0v6H8v-6h6zm16 2h-2v2h2v-2zm-18 0h-2v2h2v-2zm20-12v6h-6v-6h6zm-9 0v6h-6v-6h6zm-9 0v6H8v-6h6zm16 2h-2v2h2v-2zm-9 0h-2v2h2v-2zm-9 0h-2v2h2v-2zM32 6v6h-6V6h6zm-9 0v6h-6V6h6zm-9 0v6H8V6h6zm16 2h-2v2h2V8zm-9 0h-2v2h2V8zm-9 0h-2v2h2V8z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function ArrowsApart40(_a) {
@@ -2189,15 +2198,6 @@ function ArrowsApart40(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
             React.createElement("path", { d: "M15 4.755V11h6v2h-8V9.244L5.494 16 13 22.755V19h12v-6.245L37.495 24 25 35.245V29h-6v-2h8v3.754l7.505-6.755L27 17.245V21H15v6.245L2.505 16z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Apartment40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M36 2v34h2v2H13v-2h3V26h8v10h10V4H6v32h4v2H2v-2h2V2h32zM22 28h-4v8h4v-8zm10-2v6h-6v-6h6zm-18 0v6H8v-6h6zm16 2h-2v2h2v-2zm-18 0h-2v2h2v-2zm20-12v6h-6v-6h6zm-9 0v6h-6v-6h6zm-9 0v6H8v-6h6zm16 2h-2v2h2v-2zm-9 0h-2v2h2v-2zm-9 0h-2v2h2v-2zM32 6v6h-6V6h6zm-9 0v6h-6V6h6zm-9 0v6H8V6h6zm16 2h-2v2h2V8zm-9 0h-2v2h2V8zm-9 0h-2v2h2V8z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Atv40(_a) {
@@ -2216,6 +2216,18 @@ function Baby40(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
             React.createElement("path", { d: "M24.74 2.365l.174.045.157.049a4.013 4.013 0 012.6 4.706l-.052.2a4.013 4.013 0 01-4.484 2.853l-.008.03a12.684 12.684 0 00-3.303-.436c-6.996 0-12.668 5.672-12.668 12.668 0 6.996 5.672 12.668 12.668 12.668 6.996 0 12.667-5.672 12.667-12.668 0-4.01-1.875-7.703-4.995-10.08l-.287-.213 1.167-1.624A14.647 14.647 0 0134.49 22.48c0 8.1-6.567 14.668-14.667 14.668S5.156 30.58 5.156 22.48 11.723 7.812 19.824 7.812c1.14 0 2.265.131 3.357.387l.02.004.004-.014a2.013 2.013 0 001.258-3.824l-.107-.035-.09-.019c-.37-.056-.735.107-.846.302l-.026.059c-.127.443.059.722.814.595l.148-.029.423 1.955c-2.47.535-3.833-1.244-3.307-3.075.378-1.31 1.875-2.049 3.268-1.753zm-3.76 26.5l1.413 1.415a6.262 6.262 0 01-4.438 1.836 6.258 6.258 0 01-4.224-1.632l-.215-.204 1.415-1.414a4.258 4.258 0 003.024 1.25 4.262 4.262 0 002.846-1.082l.178-.169zm-4.353-6.69l.013.172-1.998.093a.916.916 0 00-1.829-.021v.107l-1.999.093a2.916 2.916 0 015.813-.443zm8.215-.306l.013.17-1.998.093a.916.916 0 00-1.828-.021l-.002.107-1.997.094a2.915 2.915 0 015.812-.443z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Bike40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+                React.createElement("path", { d: "M9 17a8 8 0 105.467 2.16L13.1 20.62A6 6 0 119 19v-2zM23.07 27.865C24.283 30.937 27.327 33 30.763 33 35.305 33 39 29.426 39 25s-3.695-8-8.237-8c-.308 0-.613.016-.916.049l.214 1.988c.232-.024.466-.037.702-.037C34.215 19 37 21.694 37 25s-2.785 6-6.237 6c-2.616 0-4.922-1.563-5.833-3.87l-1.86.735z" }),
+                React.createElement("path", { d: "M24.024 14l5.312 10h-7.319l-7.149-12.497-1.736.994L20.858 26H32.664l-7.438-14H18.25v2z" }),
+                React.createElement("path", { d: "M16.263 8H20V6h-5.136L8.06 24.657l1.878.686zM23.606 10.5h5.227a1 1 0 100-2h-5.227a1 1 0 100 2zM22.97 25.243l3-12-1.94-.486-3 12z" })))));
 }
 
 function Bank40(_a) {
@@ -2240,18 +2252,6 @@ function Bankid40(_a) {
                     React.createElement("path", { d: "M28.582 30.41h2.049l-.901 6.632h-2.05zM31.629 30.41h2.929c2.263 0 2.918 1.861 2.703 3.407-.204 1.51-1.255 3.225-3.24 3.225h-3.304l.912-6.633zm1.899 5.05c.997 0 1.545-.56 1.705-1.74.118-.877-.118-1.74-1.223-1.74h-.547l-.472 3.48h.537z" }))))));
 }
 
-function Bike40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-                React.createElement("path", { d: "M9 17a8 8 0 105.467 2.16L13.1 20.62A6 6 0 119 19v-2zM23.07 27.865C24.283 30.937 27.327 33 30.763 33 35.305 33 39 29.426 39 25s-3.695-8-8.237-8c-.308 0-.613.016-.916.049l.214 1.988c.232-.024.466-.037.702-.037C34.215 19 37 21.694 37 25s-2.785 6-6.237 6c-2.616 0-4.922-1.563-5.833-3.87l-1.86.735z" }),
-                React.createElement("path", { d: "M24.024 14l5.312 10h-7.319l-7.149-12.497-1.736.994L20.858 26H32.664l-7.438-14H18.25v2z" }),
-                React.createElement("path", { d: "M16.263 8H20V6h-5.136L8.06 24.657l1.878.686zM23.606 10.5h5.227a1 1 0 100-2h-5.227a1 1 0 100 2zM22.97 25.243l3-12-1.94-.486-3 12z" })))));
-}
-
 function BillsCoins40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2261,15 +2261,6 @@ function BillsCoins40(_a) {
             React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
                 React.createElement("path", { d: "M33.006 4.898l1.213 6.456 1.965-.37-1.59-8.466-18.286 3.859.413 1.957zM20 22.5a5.5 5.5 0 10-11 0 5.5 5.5 0 0011 0zm-9 0a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zM24 33.5a4.5 4.5 0 10-9 0 4.5 4.5 0 009 0zm-7 0a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0z" }),
                 React.createElement("path", { d: "M4.946 20.05L7.867 6.424 35.24 12.18 32.32 25.805 18.87 22.977l-.412 1.957 15.398 3.238 3.76-17.536L6.329 4.058 2.57 21.593l6.979 1.468.411-1.958z" })))));
-}
-
-function Bird40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M34.795 10.049l.285.022.29.029 1.626.197-3.353 4.947.01 1.428-.009.695c-.033 1.433-.17 2.434-.524 3.597-.645 2.115-1.93 3.883-4.022 5.262a8.344 8.344 0 01-.31.195l-.352 5.791-1.996-.12.29-4.767c-.71.217-1.458.364-2.23.448l.726 4.722-1.977.304-.761-4.947c-2.843-.067-5.86-.848-8.498-2.013-2.955 2.126-6.64 3.896-11.068 5.324l-.626.198-.592-1.91c5.815-1.805 10.276-4.18 13.44-7.13l.674-.648.374-.371.283-.292.367-.4.287-.328.426-.509.652-.807 1.048-1.32c.167-.212.326-.41.478-.598l.442-.534a20.53 20.53 0 011.676-1.778c.246-.231.499-.457.762-.68l.402-.33 1.25 1.562a17.182 17.182 0 00-1.625 1.477l-.375.399c-.126.137-.252.28-.381.43l-.4.472-.43.53-1.716 2.156-.585.71-.404.465-.287.315-.32.337-.345.346-.529.515c-.342.333-.699.66-1.07.98l.05.019c4.168 1.585 9.173 2.08 12.15.117 1.694-1.117 2.697-2.497 3.209-4.175.34-1.117.442-2.097.445-3.754l-.009-1.258.003-.451.004-.298 1.777-2.622h-.226c-.993.005-2.02.089-3.017.279l-.494.104c-.262.06-.515.127-.76.201l-.221.071.041.15.092.362c.207.845.35 1.685.4 2.483a7.865 7.865 0 01-.043 1.56c-.274 2.293-1.74 3.937-3.967 5.012-1.28.619-2.655.985-3.917 1.172l-.417.055-.237-1.985c1.172-.14 2.51-.468 3.701-1.043 1.668-.805 2.67-1.928 2.854-3.467.048-.345.057-.742.03-1.179a12.438 12.438 0 00-.346-2.134c-.054-.22-.11-.43-.167-.628l-.115-.381-.08-.243-.31-.873.848-.375c.669-.297 1.393-.53 2.166-.708 1.86-.427 3.805-.504 5.553-.382z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Boat40(_a) {
@@ -2284,6 +2275,15 @@ function Boat40(_a) {
                 React.createElement("path", { d: "M19 4h2a1 1 0 011 1v2h-4V5a1 1 0 011-1z" })))));
 }
 
+function Bird40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M34.795 10.049l.285.022.29.029 1.626.197-3.353 4.947.01 1.428-.009.695c-.033 1.433-.17 2.434-.524 3.597-.645 2.115-1.93 3.883-4.022 5.262a8.344 8.344 0 01-.31.195l-.352 5.791-1.996-.12.29-4.767c-.71.217-1.458.364-2.23.448l.726 4.722-1.977.304-.761-4.947c-2.843-.067-5.86-.848-8.498-2.013-2.955 2.126-6.64 3.896-11.068 5.324l-.626.198-.592-1.91c5.815-1.805 10.276-4.18 13.44-7.13l.674-.648.374-.371.283-.292.367-.4.287-.328.426-.509.652-.807 1.048-1.32c.167-.212.326-.41.478-.598l.442-.534a20.53 20.53 0 011.676-1.778c.246-.231.499-.457.762-.68l.402-.33 1.25 1.562a17.182 17.182 0 00-1.625 1.477l-.375.399c-.126.137-.252.28-.381.43l-.4.472-.43.53-1.716 2.156-.585.71-.404.465-.287.315-.32.337-.345.346-.529.515c-.342.333-.699.66-1.07.98l.05.019c4.168 1.585 9.173 2.08 12.15.117 1.694-1.117 2.697-2.497 3.209-4.175.34-1.117.442-2.097.445-3.754l-.009-1.258.003-.451.004-.298 1.777-2.622h-.226c-.993.005-2.02.089-3.017.279l-.494.104c-.262.06-.515.127-.76.201l-.221.071.041.15.092.362c.207.845.35 1.685.4 2.483a7.865 7.865 0 01-.043 1.56c-.274 2.293-1.74 3.937-3.967 5.012-1.28.619-2.655.985-3.917 1.172l-.417.055-.237-1.985c1.172-.14 2.51-.468 3.701-1.043 1.668-.805 2.67-1.928 2.854-3.467.048-.345.057-.742.03-1.179a12.438 12.438 0 00-.346-2.134c-.054-.22-.11-.43-.167-.628l-.115-.381-.08-.243-.31-.873.848-.375c.669-.297 1.393-.53 2.166-.708 1.86-.427 3.805-.504 5.553-.382z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function BlockCard40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2292,15 +2292,6 @@ function BlockCard40(_a) {
             React.createElement("path", { d: "M21 30l.002-2H5.863c-.99 0-1.855-.813-1.855-1.685v-15.63C4.008 9.813 4.873 9 5.863 9h25.32c1.05 0 1.881.79 1.822 1.613l-.003 7.372h2v-7.3C35.147 8.715 33.34 7 31.182 7H5.864c-2.068 0-3.855 1.68-3.855 3.685v15.63C2.008 28.32 3.795 30 5.863 30h15.139v-2L21 30z" }),
             React.createElement("path", { d: "M33.731 13H3.281v2h30.45zM7 20h12v-2H7zM7 23h6v-2H7zM30.5 32a5.5 5.5 0 100-11 5.5 5.5 0 000 11zm0 2a7.5 7.5 0 110-15 7.5 7.5 0 010 15z" }),
             React.createElement("path", { d: "M25.086 22.5l9.765 9.765 1.414-1.414-9.765-9.765z" }))));
-}
-
-function Briefcase40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M28 5v5h7.5a2.5 2.5 0 012.5 2.5v20a2.5 2.5 0 01-2.5 2.5h-31A2.5 2.5 0 012 32.5v-20A2.5 2.5 0 014.5 10H12V5h16zm8 10.134L31.362 19H8.638L4 15.135V32.5a.5.5 0 00.5.5h31a.5.5 0 00.5-.5V15.134zM30 21v10h-2V21h2zm-18 0v10h-2V21h2zm7-2v2h2v-2h2v4h-6v-4h2zm16.5-7h-31a.5.5 0 00-.5.5v.031L9.362 17h21.276L36 12.53v-.03a.5.5 0 00-.5-.5zM26 7H14v3h12V7z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function BriefcaseFirstAid40(_a) {
@@ -2313,15 +2304,6 @@ function BriefcaseFirstAid40(_a) {
             React.createElement("path", { d: "M21 16v4h2v-6h-6v6h2v-4zM21 26h-2v-4h-2v6h6v-6h-2z" }))));
 }
 
-function Car40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M20 5c6.02 0 9.086.873 10.78 2.642l.634.65c.295.312.56.62.833.971.565.73 1.118 1.607 1.686 2.706l.176.348 3.197.85c.938.196 1.615 1.003 1.688 1.954l.006.169v1.377c0 1.187-.938 2.166-2.118 2.166l.1-.004.07.289c.377 1.615.625 3.636.694 5.452l.015.539.004.443v3.781c0 .775-.4 1.46-1.004 1.844l-.114.066v1.59c0 1.136-.858 2.081-1.965 2.162l-.153.005h-3.47c-1.18 0-2.118-.98-2.117-2.199l.025-.801H10.968l-.033.994c-.076 1.063-.905 1.924-1.96 2L8.825 35H5.47c-1.18 0-2.118-.98-2.118-2.167l-.001-1.59-.113-.066a2.177 2.177 0 01-.998-1.69l-.006-.154v-3.781c0-2.038.267-4.52.712-6.434l.07-.289-.052-.001c-1.056-.077-1.886-.942-1.96-2.008L1 16.667V15.29c0-1.023.701-1.916 1.642-2.11l3.248-.863.177-.348c.505-.977.998-1.778 1.498-2.457l.188-.249c.272-.352.538-.659.833-.97l.76-.78C11.065 5.832 14.126 5 20 5zm0 2l-.41.001c-5.246.036-7.718.763-8.927 2.024-1.537 1.605-1.978 2.142-2.896 4.004l-.476.986-4.188 1.11c-.052.01-.103.075-.103.165v1.377c0 .101.063.166.118.166h2.604l-.56 1.751c-.559 1.753-.927 4.684-.927 6.968V26H13v2H4.235v1.333c0 .081.04.14.085.16l.033.007h1v3.333c0 .102.062.167.118.167h3.353c.055 0 .117-.065.118-.199L9.032 30h22l-.09 2.833c0 .102.062.167.117.167h3.47c.056 0 .118-.065.118-.167V29.5h1c.055 0 .118-.065.118-.167L35.764 28H27v-2h8.764v-.448c0-2.15-.325-4.873-.83-6.647l-.097-.32-.559-1.752h2.604c.055 0 .118-.065.118-.166V15.29c0-.09-.05-.155-.155-.178l-4.136-1.097-.341-.711c-.875-1.804-1.298-2.43-2.435-3.65l-.596-.629C28.097 7.731 25.528 7 20 7zm5 19v2H15v-2h10zm5-8a3 3 0 110 6 3 3 0 010-6zm-20 0a3 3 0 110 6 3 3 0 010-6zm20 2a1 1 0 100 2 1 1 0 000-2zm-20 0a1 1 0 100 2 1 1 0 000-2zm18.622-9.49L31.71 16H12v-2h16.29l-1.412-2.51 1.744-.98z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function CarDamage40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2331,6 +2313,15 @@ function CarDamage40(_a) {
             React.createElement("path", { d: "M20 5c6.02 0 9.086.873 10.78 2.642l.634.65c.295.312.56.62.833.971.565.73 1.118 1.607 1.686 2.706l.176.348 3.197.85c.938.196 1.615 1.003 1.688 1.954l.006.169v1.377c0 1.187-.938 2.166-2.118 2.166l.1-.004.07.289c.377 1.615.625 3.636.694 5.452l.015.539.004.443v3.781c0 .775-.4 1.46-1.004 1.844l-.114.066v1.59c0 1.136-.858 2.081-1.965 2.162l-.153.005h-3.47c-1.18 0-2.118-.98-2.117-2.199l.025-.801H10.968l-.033.994c-.076 1.063-.905 1.924-1.96 2L8.825 35H5.47c-1.18 0-2.118-.98-2.118-2.167l-.001-1.59-.113-.066a2.177 2.177 0 01-.998-1.69l-.006-.154v-3.781c0-2.038.267-4.52.712-6.434l.07-.289-.052-.001c-1.056-.077-1.886-.942-1.96-2.008L1 16.667V15.29c0-1.023.701-1.916 1.642-2.11l3.248-.863.177-.348c.505-.977.998-1.778 1.498-2.457l.188-.249c.272-.352.538-.659.833-.97l.76-.78C11.065 5.832 14.126 5 20 5zm0 2l-.41.001c-5.246.036-7.718.763-8.927 2.024-1.537 1.605-1.978 2.142-2.896 4.004l-.476.986-4.188 1.11c-.052.01-.103.075-.103.165v1.377c0 .101.063.166.118.166h2.604l-.56 1.751c-.559 1.753-.927 4.684-.927 6.968V26h18.986v2H4.235v1.333c0 .081.04.14.085.16l.033.007h1v3.333c0 .102.062.167.118.167h3.353c.055 0 .117-.065.118-.199L9.032 30h22l-.09 2.833c0 .102.062.167.117.167h3.47c.056 0 .118-.065.118-.167V29.5h1c.055 0 .118-.065.118-.167v-3.781c0-2.284-.368-5.215-.928-6.968l-.559-1.75h2.604c.055 0 .118-.066.118-.167V15.29c0-.09-.05-.155-.155-.178l-4.136-1.097-.341-.711c-.875-1.804-1.298-2.43-2.435-3.65l-.596-.629C28.097 7.731 25.528 7 20 7zm12.368 19l2.122 1.808-1.297 1.523L31.632 28H25.37v-2h6.998zM30 18v2a1 1 0 10.993 1.117L31 21h2a3 3 0 11-3.176-2.995L30 18zm-20 0a3 3 0 110 6 3 3 0 010-6zm0 2a1 1 0 100 2 1 1 0 000-2zM21.494 7.56l.865.812H26.6l-.544 2.604 2.927-.408L32.976 16H9v-2l20.023-.001-.946-1.285-4.558.637.621-2.979h-2.571L20.126 9.02l1.368-1.46z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function Car40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M20 5c6.02 0 9.086.873 10.78 2.642l.634.65c.295.312.56.62.833.971.565.73 1.118 1.607 1.686 2.706l.176.348 3.197.85c.938.196 1.615 1.003 1.688 1.954l.006.169v1.377c0 1.187-.938 2.166-2.118 2.166l.1-.004.07.289c.377 1.615.625 3.636.694 5.452l.015.539.004.443v3.781c0 .775-.4 1.46-1.004 1.844l-.114.066v1.59c0 1.136-.858 2.081-1.965 2.162l-.153.005h-3.47c-1.18 0-2.118-.98-2.117-2.199l.025-.801H10.968l-.033.994c-.076 1.063-.905 1.924-1.96 2L8.825 35H5.47c-1.18 0-2.118-.98-2.118-2.167l-.001-1.59-.113-.066a2.177 2.177 0 01-.998-1.69l-.006-.154v-3.781c0-2.038.267-4.52.712-6.434l.07-.289-.052-.001c-1.056-.077-1.886-.942-1.96-2.008L1 16.667V15.29c0-1.023.701-1.916 1.642-2.11l3.248-.863.177-.348c.505-.977.998-1.778 1.498-2.457l.188-.249c.272-.352.538-.659.833-.97l.76-.78C11.065 5.832 14.126 5 20 5zm0 2l-.41.001c-5.246.036-7.718.763-8.927 2.024-1.537 1.605-1.978 2.142-2.896 4.004l-.476.986-4.188 1.11c-.052.01-.103.075-.103.165v1.377c0 .101.063.166.118.166h2.604l-.56 1.751c-.559 1.753-.927 4.684-.927 6.968V26H13v2H4.235v1.333c0 .081.04.14.085.16l.033.007h1v3.333c0 .102.062.167.118.167h3.353c.055 0 .117-.065.118-.199L9.032 30h22l-.09 2.833c0 .102.062.167.117.167h3.47c.056 0 .118-.065.118-.167V29.5h1c.055 0 .118-.065.118-.167L35.764 28H27v-2h8.764v-.448c0-2.15-.325-4.873-.83-6.647l-.097-.32-.559-1.752h2.604c.055 0 .118-.065.118-.166V15.29c0-.09-.05-.155-.155-.178l-4.136-1.097-.341-.711c-.875-1.804-1.298-2.43-2.435-3.65l-.596-.629C28.097 7.731 25.528 7 20 7zm5 19v2H15v-2h10zm5-8a3 3 0 110 6 3 3 0 010-6zm-20 0a3 3 0 110 6 3 3 0 010-6zm20 2a1 1 0 100 2 1 1 0 000-2zm-20 0a1 1 0 100 2 1 1 0 000-2zm18.622-9.49L31.71 16H12v-2h16.29l-1.412-2.51 1.744-.98z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function Caravan40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2338,6 +2329,24 @@ function Caravan40(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
             React.createElement("path", { d: "M19 24a4 4 0 110 8 4 4 0 010-8zm0 2a2 2 0 100 4 2 2 0 000-4zM32.72 9l4.334 13-1.667 5H38v2H24v-2h9.279l1.667-5-3.667-11H5.973l-1.78 10H6v2H4.387l1.333 4H14v2H4.28l-2.31-6.925L4.299 9H32.72zM14 13v13h-2V15H9v11H7V13h7zm9 7v2h-6v-2h6zm5-7v6H17v-6h11zm-2 2h-7v2h7v-2z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Briefcase40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M28 5v5h7.5a2.5 2.5 0 012.5 2.5v20a2.5 2.5 0 01-2.5 2.5h-31A2.5 2.5 0 012 32.5v-20A2.5 2.5 0 014.5 10H12V5h16zm8 10.134L31.362 19H8.638L4 15.135V32.5a.5.5 0 00.5.5h31a.5.5 0 00.5-.5V15.134zM30 21v10h-2V21h2zm-18 0v10h-2V21h2zm7-2v2h2v-2h2v4h-6v-4h2zm16.5-7h-31a.5.5 0 00-.5.5v.031L9.362 17h21.276L36 12.53v-.03a.5.5 0 00-.5-.5zM26 7H14v3h12V7z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Chat40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M20.133 32.188l-4.191-5.148H14.02C8.486 27.04 4 22.554 4 17.02S8.486 7 14.02 7h11.96C31.514 7 36 11.486 36 17.02s-4.486 10.02-10.02 10.02h-1.447v2h1.447c6.638 0 12.02-5.382 12.02-12.02S32.618 5 25.98 5H14.02C7.382 5 2 10.382 2 17.02s5.382 12.02 12.02 12.02h.971l7.142 8.772V26.88h-2v5.308z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Card40(_a) {
@@ -2363,13 +2372,14 @@ function Circle40(_a) {
         React.createElement("path", { d: "M20 38c-9.941 0-18-8.059-18-18S10.059 2 20 2s18 8.059 18 18-8.059 18-18 18zm0-2c8.837 0 16-7.163 16-16S28.837 4 20 4 4 11.163 4 20s7.163 16 16 16z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
-function Chat40(_a) {
+function Circlediagram40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M20.133 32.188l-4.191-5.148H14.02C8.486 27.04 4 22.554 4 17.02S8.486 7 14.02 7h11.96C31.514 7 36 11.486 36 17.02s-4.486 10.02-10.02 10.02h-1.447v2h1.447c6.638 0 12.02-5.382 12.02-12.02S32.618 5 25.98 5H14.02C7.382 5 2 10.382 2 17.02s5.382 12.02 12.02 12.02h.971l7.142 8.772V26.88h-2v5.308z", fill: "currentColor", fillRule: "nonzero" }))));
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M22 6c8.837 0 16 7.163 16 16s-7.163 16-16 16S6 30.837 6 22h2c0 7.732 6.268 14 14 14s14-6.268 14-14S29.732 8 22 8V6z" }),
+            React.createElement("path", { d: "M2 17.97L1.97 19H19V1.964L17.964 2C9.254 2.31 2.26 9.3 2 17.97zM17 4.073V17H4.067C4.755 10.21 10.17 4.798 17 4.073z" }),
+            React.createElement("path", { d: "M21 6h2v17H6v-2h15z" }))));
 }
 
 function Clipboard40(_a) {
@@ -2390,14 +2400,13 @@ function Clock40(_a) {
             React.createElement("path", { d: "M20 2c9.941 0 18 8.059 18 18s-8.059 18-18 18S2 29.941 2 20 10.059 2 20 2zm0 2C11.163 4 4 11.163 4 20s7.163 16 16 16 16-7.163 16-16S28.837 4 20 4zm1 7v9.052l6.734 7.268-1.468 1.36L19 20.836V11h2z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Circlediagram40(_a) {
+function Coins40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M22 6c8.837 0 16 7.163 16 16s-7.163 16-16 16S6 30.837 6 22h2c0 7.732 6.268 14 14 14s14-6.268 14-14S29.732 8 22 8V6z" }),
-            React.createElement("path", { d: "M2 17.97L1.97 19H19V1.964L17.964 2C9.254 2.31 2.26 9.3 2 17.97zM17 4.073V17H4.067C4.755 10.21 10.17 4.798 17 4.073z" }),
-            React.createElement("path", { d: "M21 6h2v17H6v-2h15z" }))));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M21 36v2H4v-2h17zm7.5-17a9.5 9.5 0 110 19 9.5 9.5 0 010-19zm0 2a7.5 7.5 0 100 15 7.5 7.5 0 000-15zM17.846 33v2H4v-2h13.846zM35 29a6 6 0 01-6 6v-2a4 4 0 004-4h2zm-18 1v2H4v-2h13zm0-3v2H4v-2h13zm.846-3v2H4v-2h13.846zM19 21v2H4v-2h15zm2-3v2H4v-2h17zm2-3v2H6v-2h17zm0-3v2H6v-2h17zm-4-3v2H2V9h17zm0-3v2H2V6h17z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function CommonCamera40(_a) {
@@ -2411,13 +2420,11 @@ function CommonCamera40(_a) {
                 React.createElement("path", { d: "M29 22a9 9 0 10-18 0 9 9 0 0018 0zm-16 0a7 7 0 1114 0 7 7 0 01-14 0z" })))));
 }
 
-function Coins40(_a) {
+function Cross40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M21 36v2H4v-2h17zm7.5-17a9.5 9.5 0 110 19 9.5 9.5 0 010-19zm0 2a7.5 7.5 0 100 15 7.5 7.5 0 000-15zM17.846 33v2H4v-2h13.846zM35 29a6 6 0 01-6 6v-2a4 4 0 004-4h2zm-18 1v2H4v-2h13zm0-3v2H4v-2h13zm.846-3v2H4v-2h13.846zM19 21v2H4v-2h15zm2-3v2H4v-2h17zm2-3v2H6v-2h17zm0-3v2H6v-2h17zm-4-3v2H2V9h17zm0-3v2H2V6h17z", fill: "currentColor", fillRule: "nonzero" }))));
+        React.createElement("path", { d: "M29.546 9l-9.54 9.541L10.465 9l-1.454 1.454 9.542 9.542L9 29.549l1.454 1.454 9.552-9.553 9.54 9.542L31 29.538l-9.541-9.542L31 10.454z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function Contract40(_a) {
@@ -2447,13 +2454,6 @@ function Cup40(_a) {
             React.createElement("path", { d: "M11 5v11c0 4.937 4.048 9 9 9s9-4.063 9-9V5H11zm20 11c0 6.04-4.942 11-11 11S9 22.04 9 16V3h22v13z" }),
             React.createElement("path", { d: "M9.594 8H19.5V6H9.594zM21 26v5.222a5.775 5.775 0 005.775 5.775v-2A3.775 3.775 0 0123 31.222V26h-2zM19.005 26v5.222a5.775 5.775 0 01-5.775 5.775v-2a3.775 3.775 0 003.775-3.775V26h2z" }),
             React.createElement("path", { d: "M10 37h20v-2H10zM30.406 8c2.287 0 4.131 1.797 4.131 4 0 2.203-1.844 4-4.131 4v2c3.38 0 6.131-2.68 6.131-6s-2.75-6-6.131-6v2zM9.594 6c-3.38 0-6.131 2.68-6.131 6s2.75 6 6.131 6v-2c-2.287 0-4.131-1.797-4.131-4 0-2.203 1.844-4 4.131-4V6z" }))));
-}
-
-function Cross40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M29.546 9l-9.54 9.541L10.465 9l-1.454 1.454 9.542 9.542L9 29.549l1.454 1.454 9.552-9.553 9.54 9.542L31 29.538l-9.541-9.542L31 10.454z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function Damage40(_a) {
@@ -2495,6 +2495,15 @@ function Dog40(_a) {
                 React.createElement("path", { d: "M29 31c5.238 0 8-2.155 8-7h-2c0 3.617-1.773 5-6 5v2zM24.58 23.877A4.674 4.674 0 0021.858 23C19.16 23 17 25.302 17 28.11c0 2.187 1.32 4.12 3.266 4.83l.685-1.88C19.803 30.642 19 29.465 19 28.11 19 26.38 20.294 25 21.858 25c.563 0 1.1.176 1.562.506l1.16-1.63zM11.568 7l.29-.488c1.358-2.276 3.608-2.999 7.018-2.15 2.216.551 3.61 1.875 4.401 3.793.543 1.319.723 2.647.723 4.001C24 13.345 23.451 14 22.143 14c-1.378 0-1.857-.764-1.857-3.265h-2c0 3.467 1.13 5.265 3.857 5.265C24.642 16 26 14.379 26 12.156c0-1.592-.211-3.155-.874-4.763-1.02-2.477-2.898-4.258-5.767-4.972-3.98-.99-7.023-.136-8.904 2.579H4v4.196c0 4.7 5.145 7.701 9.666 5.546l-.861-1.806C9.579 14.475 6 12.387 6 9.196V7h5.568z" })))));
 }
 
+function EInvoice40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M37 3v34.592l-9.629-4.638L20 37.151l-7.372-4.197L3 37.592V3h34zm-2 2H5v29.409l7.705-3.711L20 34.849l7.295-4.151L35 34.409V5zm-6 20v2h-6v-2h6zm0-4v2H11v-2h18zM19.924 8c2.74 0 3.87 2.114 3.278 5.232h-4.82c.126 1.254.825 1.791 1.954 1.791.842 0 1.791-.25 2.544-.573l.25 1.774c-.877.483-1.88.77-2.884.77-2.454 0-4.246-1.72-4.246-4.604C16 9.38 18.007 8 19.924 8zm.018 1.81c-.896 0-1.541.734-1.577 1.88h2.92c.072-1.164-.376-1.88-1.343-1.88z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function DogRisk40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2515,15 +2524,6 @@ function Envelope40(_a) {
                 React.createElement("path", { d: "M20 20.705L3.636 7.228 2.364 8.772 20 23.295 37.636 8.772l-1.272-1.544zM37.669 31.257l-10-9-1.338 1.486 10 9zM3.669 32.743l10-9-1.338-1.486-10 9z" })))));
 }
 
-function EInvoice40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M37 3v34.592l-9.629-4.638L20 37.151l-7.372-4.197L3 37.592V3h34zm-2 2H5v29.409l7.705-3.711L20 34.849l7.295-4.151L35 34.409V5zm-6 20v2h-6v-2h6zm0-4v2H11v-2h18zM19.924 8c2.74 0 3.87 2.114 3.278 5.232h-4.82c.126 1.254.825 1.791 1.954 1.791.842 0 1.791-.25 2.544-.573l.25 1.774c-.877.483-1.88.77-2.884.77-2.454 0-4.246-1.72-4.246-4.604C16 9.38 18.007 8 19.924 8zm.018 1.81c-.896 0-1.541.734-1.577 1.88h2.92c.072-1.164-.376-1.88-1.343-1.88z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function Facebook40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2531,15 +2531,6 @@ function Facebook40(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M5 5v30h30V5H5zM3 3h34v34H3V3z", fillRule: "nonzero" }),
             React.createElement("path", { d: "M18.012 27.984V19.97H16v-2.91h2.012v-2.146c0-2.49 1.521-3.846 3.743-3.846 1.063 0 1.978.079 2.245.114v2.603h-1.54c-1.21 0-1.443.575-1.443 1.417v1.858h2.881l-.375 2.91h-2.506v8.015h-3.005z" }))));
-}
-
-function Farm40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M23 2.677l15.655 13.567-1.31 1.512L36 16.588V34H38v2H2v-2h3.999v-2.806a5.51 5.51 0 01-2.62-1.22l-.207-.184a5.478 5.478 0 01-1.747-4.015c0-3.039 2.472-5.5 5.52-5.5a5.52 5.52 0 013.055.918L10 16.589l-1.344 1.167-1.31-1.512L23 2.677zm-13 27.68a5.51 5.51 0 01-2 .817L7.999 34h2zM23 5.323l-11.001 9.534L12 34h3.999L16 22h14l-.001 12H34l-.001-15H14v-2h19.999v-2.145L23 5.322zm2.499 26.279L24.5 34h1.999l-1-2.4zm-5 0L19.5 34h1.999l-1-2.4zm-2.5-6.002v6.8l1.417-3.4-1.417-3.4zm5.001 0L21.583 29l1.416 3.399 1.417-3.4L23 25.6zm4.999.003l-1.416 3.397 1.416 3.398v-6.795zM6.945 22.275c-1.945 0-3.52 1.568-3.52 3.5 0 .98.406 1.894 1.111 2.552a3.537 3.537 0 005.141-.344L10 27.62v-3.366l-.443-.823-.082-.089a3.513 3.513 0 00-2.307-1.06zM26.5 24H24.5l.999 2.399 1-2.4zm-5 0H19.5l.999 2.399 1-2.4zM23 9a5 5 0 015 5v1H18v-1a5 5 0 015-5zm0 2c-1.302 0-2.41.83-2.825 1.988L20.17 13h5.659l-.076-.193a3.002 3.002 0 00-2.577-1.802z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Family40(_a) {
@@ -2551,6 +2542,15 @@ function Family40(_a) {
             React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
                 React.createElement("path", { d: "M23.942 12.815c0 4.314-3.528 7.815-7.884 7.815-4.357 0-7.885-3.501-7.885-7.815S11.701 5 16.058 5a7.892 7.892 0 015.987 2.73l1.513-1.309A9.892 9.892 0 0016.058 3C10.6 3 6.173 7.392 6.173 12.815c0 5.422 4.427 9.815 9.885 9.815 5.457 0 9.884-4.393 9.884-9.815 0-.631-.06-1.255-.178-1.866l-.157-.81H17.858c-1.307 0-2.788-1.073-3.523-2.597l-1.801.869c1.049 2.174 3.192 3.728 5.324 3.728h6.055c.02.224.03.45.03.676zM32.37 29.205C34.585 29.948 36 31.77 36 34v4h2v-4c0-3.12-1.991-5.684-4.993-6.691l-.636 1.896zM20 38v-4c0-2.155 1.557-4.02 3.856-4.794l-.638-1.895C20.154 28.34 18 30.922 18 34v4h2z" }),
                 React.createElement("path", { d: "M28.115 31.444c3.705 0 6.712-2.983 6.712-6.666 0-3.684-3.007-6.667-6.712-6.667-3.705 0-6.711 2.983-6.711 6.667 0 3.683 3.006 6.666 6.711 6.666zm0-2c-2.603 0-4.711-2.09-4.711-4.666 0-2.576 2.108-4.667 4.711-4.667 2.604 0 4.712 2.091 4.712 4.667 0 2.575-2.108 4.666-4.712 4.666zM4 38V26c0-2.296 1.744-4.33 5.432-6.098l-.864-1.804C4.256 20.165 2 22.798 2 26v12h2z" })))));
+}
+
+function Farm40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M23 2.677l15.655 13.567-1.31 1.512L36 16.588V34H38v2H2v-2h3.999v-2.806a5.51 5.51 0 01-2.62-1.22l-.207-.184a5.478 5.478 0 01-1.747-4.015c0-3.039 2.472-5.5 5.52-5.5a5.52 5.52 0 013.055.918L10 16.589l-1.344 1.167-1.31-1.512L23 2.677zm-13 27.68a5.51 5.51 0 01-2 .817L7.999 34h2zM23 5.323l-11.001 9.534L12 34h3.999L16 22h14l-.001 12H34l-.001-15H14v-2h19.999v-2.145L23 5.322zm2.499 26.279L24.5 34h1.999l-1-2.4zm-5 0L19.5 34h1.999l-1-2.4zm-2.5-6.002v6.8l1.417-3.4-1.417-3.4zm5.001 0L21.583 29l1.416 3.399 1.417-3.4L23 25.6zm4.999.003l-1.416 3.397 1.416 3.398v-6.795zM6.945 22.275c-1.945 0-3.52 1.568-3.52 3.5 0 .98.406 1.894 1.111 2.552a3.537 3.537 0 005.141-.344L10 27.62v-3.366l-.443-.823-.082-.089a3.513 3.513 0 00-2.307-1.06zM26.5 24H24.5l.999 2.399 1-2.4zm-5 0H19.5l.999 2.399 1-2.4zM23 9a5 5 0 015 5v1H18v-1a5 5 0 015-5zm0 2c-1.302 0-2.41.83-2.825 1.988L20.17 13h5.659l-.076-.193a3.002 3.002 0 00-2.577-1.802z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Fish40(_a) {
@@ -2635,6 +2635,17 @@ function Heartbeat40(_a) {
             React.createElement("path", { d: "M29.017 19.124l5.941 9.626H38v2h-4.158l-4.86-7.874L19.905 37l-3.627-7.051-2.95 4.302H2v-2h10.273l4.25-6.198 3.573 6.949 8.921-13.877zM20.374 5.607a5.357 5.357 0 010 7.717L12 21.388l-8.374-8.064a5.357 5.357 0 010-7.717 5.698 5.698 0 017.904 0l.47.452.47-.452a5.698 5.698 0 017.904 0zm-6.517 1.44L12 8.837l-1.857-1.788a3.698 3.698 0 00-5.22.089 3.357 3.357 0 00.09 4.746L12 18.612l6.987-6.729a3.357 3.357 0 000-4.835 3.698 3.698 0 00-5.13 0z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function House40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+                React.createElement("path", { d: "M6 38V15H4v23zM34 15v23h2V15zM22 25h8v11h2V23H20v13h2zM25.36 14.768l1.28-1.536L20 7.698l-6.64 5.534 1.28 1.536L20 10.302z" }),
+                React.createElement("path", { d: "M20 4.302l17.36 14.466 1.28-1.536L20 1.698 1.36 17.232l1.28 1.536zM18 38h20v-2H18zM2 38h11v-2H2zM18 23v9H9v-9h9zm-7 2v5h5v-5h-5z" })))));
+}
+
 function HouseSun40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2657,15 +2668,13 @@ function IdSign40(_a) {
             React.createElement("path", { d: "M35.49 19.8l-10.009 9.968-4.557-4.615-1.424 1.404 5.967 6.045 11.432-11.384z" }))));
 }
 
-function House40(_a) {
+function Mc40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-                React.createElement("path", { d: "M6 38V15H4v23zM34 15v23h2V15zM22 25h8v11h2V23H20v13h2zM25.36 14.768l1.28-1.536L20 7.698l-6.64 5.534 1.28 1.536L20 10.302z" }),
-                React.createElement("path", { d: "M20 4.302l17.36 14.466 1.28-1.536L20 1.698 1.36 17.232l1.28 1.536zM18 38h20v-2H18zM2 38h11v-2H2zM18 23v9H9v-9h9zm-7 2v5h5v-5h-5z" })))));
+            React.createElement("path", { d: "M25.797 8.396l7.25 9.57h-2.013a6.007 6.007 0 00-3.552 1.156l1.013 1.005a5.994 5.994 0 11-1.407 1.422l-1.006-.998a6.003 6.003 0 00-1.078 3.223L25 24v.494l-3.525 2.695-7.35.08L10.31 23.1l-2.607 2.587-1.408-1.42 2.663-2.643L6.558 19 4 19v-2h3.44l7.556 8.258 5.793-.062 2.227-1.703.018-.238a8.04 8.04 0 016.058-7.053l.093-.022-4.982-6.576 1.594-1.208zM5.56 19.385l.812 1.828a3.995 3.995 0 105.227 5.375l.096-.22 1.854.75a5.95 5.95 0 01-1.317 1.984 5.994 5.994 0 11-6.954-9.583l.282-.134zM31.994 21c-.75 0-1.45.206-2.05.565l2.214 2.195-1.408 1.42-2.21-2.192A3.994 3.994 0 1031.994 21zM22 21v2h-4v-2h4zm-11.764-8l5.979 2.989 6.897-.318c1.278-.13 1.834-.513 1.884-1.516L25 14h2c0 2.259-1.344 3.357-3.513 3.639l-.228.026-7.473.346L9.764 15H3v-2h7.236zM24 12v2h-3v-2h3z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Letter40(_a) {
@@ -2675,15 +2684,6 @@ function Letter40(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M4 32h32V8H4v24zM38 6v28H2V6h36z" }),
             React.createElement("path", { d: "M3.682 6.688L2.318 8.15 20.055 24.69l17.63-16.54-1.37-1.46L20.052 21.95zM37.646 31.94l-9.915-10.622-1.462 1.364 9.915 10.622zM13.293 21.293l-10 10 1.414 1.414 10-10z" }))));
-}
-
-function Mc40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M25.797 8.396l7.25 9.57h-2.013a6.007 6.007 0 00-3.552 1.156l1.013 1.005a5.994 5.994 0 11-1.407 1.422l-1.006-.998a6.003 6.003 0 00-1.078 3.223L25 24v.494l-3.525 2.695-7.35.08L10.31 23.1l-2.607 2.587-1.408-1.42 2.663-2.643L6.558 19 4 19v-2h3.44l7.556 8.258 5.793-.062 2.227-1.703.018-.238a8.04 8.04 0 016.058-7.053l.093-.022-4.982-6.576 1.594-1.208zM5.56 19.385l.812 1.828a3.995 3.995 0 105.227 5.375l.096-.22 1.854.75a5.95 5.95 0 01-1.317 1.984 5.994 5.994 0 11-6.954-9.583l.282-.134zM31.994 21c-.75 0-1.45.206-2.05.565l2.214 2.195-1.408 1.42-2.21-2.192A3.994 3.994 0 1031.994 21zM22 21v2h-4v-2h4zm-11.764-8l5.979 2.989 6.897-.318c1.278-.13 1.834-.513 1.884-1.516L25 14h2c0 2.259-1.344 3.357-3.513 3.639l-.228.026-7.473.346L9.764 15H3v-2h7.236zM24 12v2h-3v-2h3z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function MobilePhone40(_a) {
@@ -2719,6 +2719,16 @@ function Moped40(_a) {
             React.createElement("path", { d: "M33 22a5 5 0 110 10 5 5 0 010-10zm-29.265.255l1.334 1.49a3.205 3.205 0 104.546 4.505l.124-.152 1.58 1.227a5.205 5.205 0 11-7.773-6.893l.189-.177zM33 24a3 3 0 100 6 3 3 0 000-6zM25.578 9l5.841 10.141c.43-.078.872-.124 1.323-.137L33 19c.732 0 1.687.15 2.886.448l.333.084-.504 1.936C34.509 21.154 33.595 21 33 21c-3.257 0-5.849 2.257-5.97 4.83l-.005.19v3.01H12.604L2 19.111v-6.04l16-.077V14c0 2.94-2.103 5.39-4.923 6.444a5.62 5.62 0 005.383 4.01c3.045 0 5.422-2.26 5.536-5.23L24 19v-4h2v4c0 4.193-3.322 7.454-7.54 7.454a7.618 7.618 0 01-7.326-5.528 8.773 8.773 0 01-.886.07L10 21v-2c2.742 0 5.192-1.665 5.836-3.862l.034-.133L4 15.062v3.181l9.393 8.786h11.632v-1.01c0-2.705 1.809-5.11 4.433-6.276l-5.037-8.744L22 11V9h3.578zM10 16v2H5v-2h5zm20.868-3.497l1.827 3.189-1.735.994-1.828-3.189 1.736-.994z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function Padlock40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M7 37V17h26v20H7zm24-2V19H9v16h22z" }),
+            React.createElement("path", { d: "M30 17.226v-5.445C30 6.373 25.518 2 20 2c-5.517 0-10 4.373-10 9.78v5.446h2v-5.445C12 7.489 15.576 4 20 4c4.424 0 8 3.489 8 7.78v5.446h2z" }),
+            React.createElement("path", { d: "M26 17.678v-5.8C26 8.626 23.308 6 20 6s-6 2.626-6 5.878v5.8h2v-5.8C16 9.742 17.786 8 20 8c2.215 0 4 1.742 4 3.878v5.8h2zM22.272 30.025l-1.277-3.86c.526-.315.879-.88.879-1.527 0-.99-.823-1.793-1.838-1.793-1.015 0-1.838.803-1.838 1.793 0 .647.353 1.212.88 1.528l-1.278 3.86h4.472zm-6.074-5.387c0-2.106 1.73-3.793 3.838-3.793 2.109 0 3.838 1.687 3.838 3.793 0 .742-.218 1.445-.603 2.04l1.77 5.347h-10.01l1.77-5.347a3.745 3.745 0 01-.603-2.04z" }))));
+}
+
 function Mortgage40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2739,26 +2749,6 @@ function NotificationSwish40(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#notification-swish-40_svg__a", transform: "translate(3 3)" }))));
 }
 
-function Padlock40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M7 37V17h26v20H7zm24-2V19H9v16h22z" }),
-            React.createElement("path", { d: "M30 17.226v-5.445C30 6.373 25.518 2 20 2c-5.517 0-10 4.373-10 9.78v5.446h2v-5.445C12 7.489 15.576 4 20 4c4.424 0 8 3.489 8 7.78v5.446h2z" }),
-            React.createElement("path", { d: "M26 17.678v-5.8C26 8.626 23.308 6 20 6s-6 2.626-6 5.878v5.8h2v-5.8C16 9.742 17.786 8 20 8c2.215 0 4 1.742 4 3.878v5.8h2zM22.272 30.025l-1.277-3.86c.526-.315.879-.88.879-1.527 0-.99-.823-1.793-1.838-1.793-1.015 0-1.838.803-1.838 1.793 0 .647.353 1.212.88 1.528l-1.278 3.86h4.472zm-6.074-5.387c0-2.106 1.73-3.793 3.838-3.793 2.109 0 3.838 1.687 3.838 3.793 0 .742-.218 1.445-.603 2.04l1.77 5.347h-10.01l1.77-5.347a3.745 3.745 0 01-.603-2.04z" }))));
-}
-
-function Pension40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M25 9h-3v2h3zM38 9h-3v2h3zM31 5V2h-2v3zM31 18v-3h-2v3zM34.243 7.172l2.121-2.122-1.414-1.414-2.122 2.121zM25.05 16.364l2.122-2.121-1.415-1.415-2.121 2.122zM32.828 14.243l2.122 2.121 1.414-1.414-2.121-2.122zM23.636 5.05l2.121 2.122 1.415-1.415-2.122-2.121zM32 10a2 2 0 10-4 0 2 2 0 004 0zm2 0a4 4 0 11-8 0 4 4 0 018 0zM17 19.789l2-.002c0 .353.738 1.214 1.229 1.213l2.539.008c.1 0 .238-.149.238-.307v-1.117L14 14.5l-9 5.084v1.222c0 .141.052.194.17.194h2.58c.501-.001 1.244-.85 1.25-1.208l2 .015c0 .341.745 1.194 1.238 1.193h3.512c.49-.002 1.25-.874 1.25-1.211zM15.754 23H12.24c-.832.002-1.642-.449-2.244-1.074-.602.623-1.41 1.072-2.244 1.074h-2.58c-1.237.003-2.171-.96-2.173-2.192v-2.392l11-6.212 11.004 6.212v.583l.002 1.7c.001 1.23-.994 2.306-2.239 2.309L20.228 23c-.833.002-1.639-.451-2.237-1.08-.604.625-1.412 1.078-2.237 1.08z" }),
-            React.createElement("path", { d: "M13 23v11h2V23z" }),
-            React.createElement("path", { d: "M37 35c-2.16 0-3.183-.387-5.175-1.646-2.283-1.441-3.638-1.954-6.243-1.954-2.606 0-3.963.512-6.253 1.954-2 1.258-3.027 1.646-5.188 1.646H3v2h11.141c2.606 0 3.963-.512 6.253-1.953 2-1.26 3.027-1.647 5.188-1.647 2.159 0 3.182.387 5.175 1.645C33.04 36.487 34.395 37 37 37v-2z" }))));
-}
-
 function Payment40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2777,13 +2767,23 @@ function PensionOccupational40(_a) {
             React.createElement("path", { d: "M33 27.015l5.119 9H1.849l5.151-9h26zm-1.163 2H8.16l-2.861 5H34.68l-2.843-5zM27.37 17.02l5.093 8.978H7.476l5.209-8.978H27.37zM20 3.202l6.961 12.82H13.137L20 3.202zm.013 4.214l-3.537 6.606H23.6l-3.587-6.606z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function PensionPrivate40(_a) {
+function Pension40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M25 9h-3v2h3zM38 9h-3v2h3zM31 5V2h-2v3zM31 18v-3h-2v3zM34.243 7.172l2.121-2.122-1.414-1.414-2.122 2.121zM25.05 16.364l2.122-2.121-1.415-1.415-2.121 2.122zM32.828 14.243l2.122 2.121 1.414-1.414-2.121-2.122zM23.636 5.05l2.121 2.122 1.415-1.415-2.122-2.121zM32 10a2 2 0 10-4 0 2 2 0 004 0zm2 0a4 4 0 11-8 0 4 4 0 018 0zM17 19.789l2-.002c0 .353.738 1.214 1.229 1.213l2.539.008c.1 0 .238-.149.238-.307v-1.117L14 14.5l-9 5.084v1.222c0 .141.052.194.17.194h2.58c.501-.001 1.244-.85 1.25-1.208l2 .015c0 .341.745 1.194 1.238 1.193h3.512c.49-.002 1.25-.874 1.25-1.211zM15.754 23H12.24c-.832.002-1.642-.449-2.244-1.074-.602.623-1.41 1.072-2.244 1.074h-2.58c-1.237.003-2.171-.96-2.173-2.192v-2.392l11-6.212 11.004 6.212v.583l.002 1.7c.001 1.23-.994 2.306-2.239 2.309L20.228 23c-.833.002-1.639-.451-2.237-1.08-.604.625-1.412 1.078-2.237 1.08z" }),
+            React.createElement("path", { d: "M13 23v11h2V23z" }),
+            React.createElement("path", { d: "M37 35c-2.16 0-3.183-.387-5.175-1.646-2.283-1.441-3.638-1.954-6.243-1.954-2.606 0-3.963.512-6.253 1.954-2 1.258-3.027 1.646-5.188 1.646H3v2h11.141c2.606 0 3.963-.512 6.253-1.953 2-1.26 3.027-1.647 5.188-1.647 2.159 0 3.182.387 5.175 1.645C33.04 36.487 34.395 37 37 37v-2z" }))));
+}
+
+function PensionState40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M33 27.01l5.119 9H1.849l5.151-9h26zm-1.163 2H8.16l-2.861 5H34.68l-2.843-5zM27.37 17.014l5.093 8.98H7.476l5.209-8.98H27.37zm-1.165 2H13.837l-2.888 4.98h18.08l-2.824-4.98zM20 3.197l6.961 12.82H13.137L20 3.197z", fill: "currentColor", fillRule: "nonzero" }))));
+            React.createElement("path", { d: "M33 26.998l5.119 9H1.849l5.151-9h26zm-5.63-9.995l5.093 8.98H7.476l5.209-8.98H27.37zm-1.165 2H13.837l-2.888 4.98h18.08l-2.824-4.98zM20 3.186l6.961 12.82H13.137L20 3.186zm.013 4.214l-3.537 6.606H23.6L20.013 7.4z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Percent40(_a) {
@@ -2795,22 +2795,13 @@ function Percent40(_a) {
             React.createElement("path", { d: "M30.164 2.45l1.672 1.1-23 35-1.672-1.1 23-35zM28 24a7 7 0 110 14 7 7 0 010-14zm0 2a5 5 0 100 10 5 5 0 000-10zM11 2a7 7 0 110 14 7 7 0 010-14zm0 2a5 5 0 100 10 5 5 0 000-10z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function PhoneLandscape40(_a) {
+function PensionPrivate40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M34.67 25.339c0 5.808-3.227 8.7-9.245 8.426l2.09 2.089-1.415 1.414-4.384-4.384L26.1 28.5l1.414 1.414-1.859 1.86c4.72.192 6.926-1.789 7.012-6.166l.002-.27h2zM21.83 6.252a3.6 3.6 0 015.092 0l6.576 6.576a3.6 3.6 0 010 5.091L17.376 34.041a3.6 3.6 0 01-5.091 0l-6.576-6.576a3.6 3.6 0 010-5.091zm3.678 1.414a1.6 1.6 0 00-2.263 0L7.123 23.788a1.6 1.6 0 000 2.263l6.576 6.576a1.6 1.6 0 002.263 0l16.122-16.122a1.6 1.6 0 000-2.263zM11.439 26.439a1.5 1.5 0 112.122 2.122 1.5 1.5 0 01-2.122-2.122zM12.833 3l4.46 4.307-4.307 4.46-1.439-1.39 2.143-2.22c-4.29.079-6.27 2.109-6.28 6.29l.002.269-2 .035c-.093-5.387 2.632-8.313 7.833-8.574L11.444 4.44 12.833 3z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function PensionState40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M33 26.998l5.119 9H1.849l5.151-9h26zm-5.63-9.995l5.093 8.98H7.476l5.209-8.98H27.37zm-1.165 2H13.837l-2.888 4.98h18.08l-2.824-4.98zM20 3.186l6.961 12.82H13.137L20 3.186zm.013 4.214l-3.537 6.606H23.6L20.013 7.4z", fill: "currentColor", fillRule: "nonzero" }))));
+            React.createElement("path", { d: "M33 27.01l5.119 9H1.849l5.151-9h26zm-1.163 2H8.16l-2.861 5H34.68l-2.843-5zM27.37 17.014l5.093 8.98H7.476l5.209-8.98H27.37zm-1.165 2H13.837l-2.888 4.98h18.08l-2.824-4.98zM20 3.197l6.961 12.82H13.137L20 3.197z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Phone40(_a) {
@@ -2831,6 +2822,15 @@ function Pin40(_a) {
             React.createElement("path", { d: "M8 37h24v-2H8z" }),
             React.createElement("path", { d: "M20 2c7.68 0 14 6.192 14 13.737 0 3.622-1.491 7.052-4.097 9.732L20 35.172l-.7-.685-9.22-9.035C7.49 22.789 6 19.359 6 15.737 6 8.192 12.32 2 20 2zm8.486 22.058C30.723 21.756 32 18.82 32 15.738 32 9.305 26.585 4 20 4S8 9.306 8 15.737c0 3.083 1.277 6.02 3.496 8.304L20 32.372l8.486-8.314z" }),
             React.createElement("path", { d: "M20 19.503c-1.972 0-3.5-1.529-3.5-3.502 0-1.973 1.528-3.501 3.5-3.501s3.5 1.528 3.5 3.501h2c0-3.077-2.423-5.501-5.5-5.501s-5.5 2.424-5.5 5.501c0 3.078 2.423 5.502 5.5 5.502v-2z" }))));
+}
+
+function PhoneLandscape40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M34.67 25.339c0 5.808-3.227 8.7-9.245 8.426l2.09 2.089-1.415 1.414-4.384-4.384L26.1 28.5l1.414 1.414-1.859 1.86c4.72.192 6.926-1.789 7.012-6.166l.002-.27h2zM21.83 6.252a3.6 3.6 0 015.092 0l6.576 6.576a3.6 3.6 0 010 5.091L17.376 34.041a3.6 3.6 0 01-5.091 0l-6.576-6.576a3.6 3.6 0 010-5.091zm3.678 1.414a1.6 1.6 0 00-2.263 0L7.123 23.788a1.6 1.6 0 000 2.263l6.576 6.576a1.6 1.6 0 002.263 0l16.122-16.122a1.6 1.6 0 000-2.263zM11.439 26.439a1.5 1.5 0 112.122 2.122 1.5 1.5 0 01-2.122-2.122zM12.833 3l4.46 4.307-4.307 4.46-1.439-1.39 2.143-2.22c-4.29.079-6.27 2.109-6.28 6.29l.002.269-2 .035c-.093-5.387 2.632-8.313 7.833-8.574L11.444 4.44 12.833 3z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Pregnant40(_a) {
@@ -2869,6 +2869,15 @@ function Rv40(_a) {
             React.createElement("path", { d: "M14 24a3 3 0 110 6 3 3 0 010-6zm15 0a3 3 0 110 6 3 3 0 010-6zm5.744-14l3.305 11.016L35.72 28H33v-2h1.279l1.672-5.017L33.256 12H5.819l-1.6 8H7v2H4.386l1.334 4H10v2H4.28l-2.313-6.936L4.18 10h30.564zM14 26a1 1 0 100 2 1 1 0 000-2zm15 0a1 1 0 100 2 1 1 0 000-2zm-4 0v2h-7v-2h7zm0-12v11h-2v-9h-3v9h-2V14h7zm7.244 0l2.1 7H27v-7h5.244zm-1.488 2H29v3h2.656l-.9-3zM15 14v5H7v-5h8zm-2 2H9v1h4v-1z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function Shield40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M29.545 2c0 2.88 2.728 5.76 5.455 5.76v12.96C35 27.44 30 33.2 20 38 10 33.2 5 27.44 5 20.72V7.76c2.727 0 5.455-2.88 5.455-5.76h19.09zm-1.7 2h-15.69C11.417 6.479 9.39 8.624 7 9.425V20.72c0 5.625 4.21 10.651 13 15.053 8.79-4.402 13-9.428 13-15.053V9.425C30.611 8.624 28.584 6.479 27.844 4zm-3.865 9.293l1.415 1.414-3.793 3.793 3.793 3.793-1.415 1.414-3.793-3.793-3.792 3.793-1.415-1.414 3.793-3.793-3.793-3.793 1.415-1.414 3.792 3.792 3.793-3.792z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function Save40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -2901,13 +2910,13 @@ function Snailmail40(_a) {
                 React.createElement("path", { d: "M10 18h5v-2H8v14h6.868v-2H10z" })))));
 }
 
-function Shield40(_a) {
+function Star40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M29.545 2c0 2.88 2.728 5.76 5.455 5.76v12.96C35 27.44 30 33.2 20 38 10 33.2 5 27.44 5 20.72V7.76c2.727 0 5.455-2.88 5.455-5.76h19.09zm-1.7 2h-15.69C11.417 6.479 9.39 8.624 7 9.425V20.72c0 5.625 4.21 10.651 13 15.053 8.79-4.402 13-9.428 13-15.053V9.425C30.611 8.624 28.584 6.479 27.844 4zm-3.865 9.293l1.415 1.414-3.793 3.793 3.793 3.793-1.415 1.414-3.793-3.793-3.792 3.793-1.415-1.414 3.793-3.793-3.793-3.793 1.415-1.414 3.792 3.792 3.793-3.792z", fill: "currentColor", fillRule: "nonzero" }))));
+            React.createElement("path", { d: "M0 .833h40v39.024H0z" }),
+            React.createElement("path", { d: "M30.104 34.406l-5.402-11.698.692-.479 8.483-5.86H23.219l-.23-.681-3.147-9.352-3.211 10.033H5.99l9.19 6.285-.372.774-5.256 10.926 10.233-6.352 10.318 6.404zm-2.88-11.01l5.929 12.842a1.11 1.11 0 01-.036 1.06 1.104 1.104 0 01-1.534.38l-11.797-7.322L8 37.671c-.338.21-.764.221-1.114.029-.53-.292-.724-.953-.461-1.456l6.21-12.91-10.209-6.982a1.11 1.11 0 01.68-1.983H15.17L18.768 3.13a1.105 1.105 0 012.1-.017l3.788 11.255h12.08c.349 0 .676.166.884.444.359.48.271 1.162-.252 1.573l-10.145 7.01z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Snowmobile40(_a) {
@@ -2917,15 +2926,6 @@ function Snowmobile40(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h40v40H0z" }),
             React.createElement("path", { d: "M19.787 23C21.591 23 23 24.592 23 26.5S21.59 30 19.787 30H5.213C3.41 30 2 28.408 2 26.5S3.41 23 5.213 23zm2.92-12.707L34.425 22.01l-2.904 2.818-.141.136 2.648 2.648.012-.007c.205-.143.439-.35.764-.677l.73-.769 1.745-1.853 1.442 1.386-2.167 2.304c-.651.683-1.071 1.065-1.528 1.355-.748.475-1.453.628-2.74.646L32 30h-7v-2h6.585l-1.81-1.81a6.54 6.54 0 01-1.069.493 5.076 5.076 0 01-1.48.308l-.2.009c-.046 0-.184.002-.406.002L23.998 27l.004-2h2.971c.347-.009.643-.052 1.065-.202.603-.214 1.226-.59 1.865-1.186l1.671-1.623L26 16.415 22.414 20H8c-.623 0-1.319.422-1.494 1.036l-.293 1.05-1.927-.536.296-1.063c.428-1.498 1.846-2.409 3.237-2.482L8 18h13.584v-.001L20.585 17H18v-2h3.414L23 16.584l1.585-1.585-3.291-3.292 1.414-1.414zM19.787 25H5.213C4.573 25 4 25.646 4 26.5S4.572 28 5.213 28h14.574c.641 0 1.213-.646 1.213-1.5s-.572-1.5-1.213-1.5z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Star40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 .833h40v39.024H0z" }),
-            React.createElement("path", { d: "M30.104 34.406l-5.402-11.698.692-.479 8.483-5.86H23.219l-.23-.681-3.147-9.352-3.211 10.033H5.99l9.19 6.285-.372.774-5.256 10.926 10.233-6.352 10.318 6.404zm-2.88-11.01l5.929 12.842a1.11 1.11 0 01-.036 1.06 1.104 1.104 0 01-1.534.38l-11.797-7.322L8 37.671c-.338.21-.764.221-1.114.029-.53-.292-.724-.953-.461-1.456l6.21-12.91-10.209-6.982a1.11 1.11 0 01.68-1.983H15.17L18.768 3.13a1.105 1.105 0 012.1-.017l3.788 11.255h12.08c.349 0 .676.166.884.444.359.48.271 1.162-.252 1.573l-10.145 7.01z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Sustainability40(_a) {
@@ -2974,15 +2974,6 @@ function Tractor40(_a) {
             React.createElement("path", { d: "M12.163 22.479a6.44 6.44 0 110 12.88 6.44 6.44 0 010-12.88zm9.301-17.33l4.177 13.249h3.108v-7.143c0-.138-.022-.299-.062-.451a1.721 1.721 0 00-1.519-1.28l-.146-.005v-2a3.721 3.721 0 013.6 2.781c.061.233.102.477.118.716l.009.239v7.143h4.165l.068 7.413a5.08 5.08 0 11-7.487 4.108h-6.812v-1a8.52 8.52 0 00-8.52-8.52 8.524 8.524 0 00-8.125 5.947l-.076.252-1.924-.543a10.504 10.504 0 013.685-5.456V5.15h15.741zm-9.301 19.33a4.44 4.44 0 100 8.88 4.44 4.44 0 000-8.88zm20.4 2.72a3.08 3.08 0 100 6.16 3.08 3.08 0 000-6.16zM12.423 7.147l-4.701.001.001 12.232a10.495 10.495 0 014.44-.981c5.429 0 9.897 4.112 10.46 9.392l.012.127h5.428a5.08 5.08 0 014.914-2.703l-.046-4.817h-8.756l-4.177-13.25h-5.575v8.926h-2V7.147z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Trailer40(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h40v40H0z" }),
-            React.createElement("path", { d: "M11 19a4 4 0 110 8 4 4 0 010-8zm0 2a2 2 0 100 4 2 2 0 000-4zm27-6v3h-2v-1h-7v7H16v-2l11-.001V17h-2v-.001H5v5L6 22v2H3v-6H2v-3h36z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function Travel40(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
@@ -3000,6 +2991,15 @@ function Twitter40(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M5 5v30h30V5H5zM3 3h34v34H3V3z", fillRule: "nonzero" }),
             React.createElement("path", { d: "M16.764 26.797c6.407 0 9.91-5.307 9.91-9.91l-.003-.288a.31.31 0 01.121-.257c.52-.394.986-.86 1.378-1.382.07-.092-.024-.218-.132-.177a6.992 6.992 0 01-1.526.385c-.025.003-.038-.031-.016-.045a3.504 3.504 0 001.295-1.497.141.141 0 00-.195-.183 6.996 6.996 0 01-1.709.623.307.307 0 01-.279-.08 3.484 3.484 0 00-5.866 3.076.173.173 0 01-.181.201 9.884 9.884 0 01-6.75-3.383.213.213 0 00-.354.047 3.478 3.478 0 001.136 4.297c.026.019.012.06-.02.059a3.453 3.453 0 01-1.26-.325.141.141 0 00-.2.138 3.487 3.487 0 002.664 3.188c.032.008.031.051 0 .058a3.487 3.487 0 01-1.258.06.116.116 0 00-.125.156 3.49 3.49 0 002.886 2.214c.103.01.14.142.055.203a6.988 6.988 0 01-4.079 1.306h-.071c-.192 0-.256.256-.088.346a9.849 9.849 0 004.667 1.17" }))));
+}
+
+function Trailer40(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 40, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h40v40H0z" }),
+            React.createElement("path", { d: "M11 19a4 4 0 110 8 4 4 0 010-8zm0 2a2 2 0 100 4 2 2 0 000-4zm27-6v3h-2v-1h-7v7H16v-2l11-.001V17h-2v-.001H5v5L6 22v2H3v-6H2v-3h36z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Umbrella40(_a) {
@@ -3060,15 +3060,6 @@ function Wristwatch40(_a) {
             React.createElement("path", { d: "M12.067 10.996L13.567 2h12.917l1.45 8.998A11.971 11.971 0 0132 20c0 3.582-1.57 6.797-4.057 8.996l-1.495 8.96H13.53l-1.44-8.93A11.972 11.972 0 018 20c0-3.586 1.573-6.805 4.067-9.004zm2.293-1.59A11.947 11.947 0 0120 8c2.044 0 3.969.511 5.654 1.413L24.78 4h-9.52l-.9 5.405zm.011 21.195l.864 5.355h9.519l.895-5.366C23.965 31.49 22.042 32 20 32c-2.034 0-3.95-.506-5.629-1.4zM20 30c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10zm5.724-7.1l-1.172 1.622L19 20.512V11.5h2v7.989l4.724 3.412z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Apartment32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M29 2v26h1v2H2v-2h1V2h26zm-2 2H5v24h8v-8h6v8h8V4zM17 22h-2v6h2v-6zm-6-2v5H6v-5h5zm15 0v5h-5v-5h5zM9 22H8v1h1v-1zm15 0h-1v1h1v-1zm-13-9v5H6v-5h5zm15 0v5h-5v-5h5zm-7 0v5h-6v-5h6zM9 15H8v1h1v-1zm15 0h-1v1h1v-1zm-7 0h-2v1h2v-1zm-6-9v5H6V6h5zm15 0v5h-5V6h5zm-7 0v5h-6V6h6zM9 8H8v1h1V8zm15 0h-1v1h1V8zm-7 0h-2v1h2V8z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function ArrowEnclosed32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3085,11 +3076,13 @@ function ArrowsApart232(_a) {
         React.createElement("path", { d: "M11.8 8.857v-5.19L1.493 13.483 11.8 21.977V17h10.4v-2.737l5.293 4.362-5.293 5.042v-2.524h-7.5v2h5.5v5.19l10.307-9.816L20.2 10.023V15H9.8v2.737l-5.293-4.362L9.8 8.333v2.524h7.5v-2z", fill: "currentColor", fillRule: "nonzero" })));
 }
 
-function ArrowsApart32(_a) {
+function Apartment32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { fill: "currentColor", d: "M12 3.8L1.47 13 12 22.484v-5.5h10v-2.868L27.451 19 22 23.81v-2.825h-8v2h6v5.174L30.517 19 20 9.74v5.245H10v3.024L4.498 13 10 8.17v2.815h8v-2h-6z", fillRule: "evenodd" })));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M29 2v26h1v2H2v-2h1V2h26zm-2 2H5v24h8v-8h6v8h8V4zM17 22h-2v6h2v-6zm-6-2v5H6v-5h5zm15 0v5h-5v-5h5zM9 22H8v1h1v-1zm15 0h-1v1h1v-1zm-13-9v5H6v-5h5zm15 0v5h-5v-5h5zm-7 0v5h-6v-5h6zM9 15H8v1h1v-1zm15 0h-1v1h1v-1zm-7 0h-2v1h2v-1zm-6-9v5H6V6h5zm15 0v5h-5V6h5zm-7 0v5h-6V6h6zM9 8H8v1h1V8zm15 0h-1v1h1V8zm-7 0h-2v1h2V8z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Attach32(_a) {
@@ -3110,6 +3103,13 @@ function Atv32(_a) {
             React.createElement("path", { d: "M17.331 4.835L22.47 11h3.066l2.101 3.149c.643.118 1.27.306 1.87.56l.326.146-.852 1.809A6.969 6.969 0 0026 16a6.967 6.967 0 00-3.772 1.102l1.265 1.37a4.5 4.5 0 11-1.549 1.27l-1.23-1.331a6.971 6.971 0 00-1.71 4.348L19 23h-2c0-.338.019-.672.055-1h-2.47l-3.371-3.372-1.12 1.163c.529.7.858 1.562.901 2.497L11 22.5a4.5 4.5 0 11-2.44-4.002l1.239-1.285-1.506-1.506 1.414-1.414L15.415 20h2.097a9.008 9.008 0 017.645-5.961L24.464 13h-2.932l-1.538-1.846-7.308 4.177L10.464 12H4v2h3v2H2v-6h9.535l1.779 2.668 5.379-3.074-2.025-2.43-2.352.785-.632-1.898 3.647-1.216zM25.5 20a2.5 2.5 0 100 5 2.5 2.5 0 000-5zm-19 0a2.5 2.5 0 100 5 2.5 2.5 0 000-5z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function ArrowsApart32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { fill: "currentColor", d: "M12 3.8L1.47 13 12 22.484v-5.5h10v-2.868L27.451 19 22 23.81v-2.825h-8v2h6v5.174L30.517 19 20 9.74v5.245H10v3.024L4.498 13 10 8.17v2.815h8v-2h-6z", fillRule: "evenodd" })));
+}
+
 function Baby32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3117,6 +3117,14 @@ function Baby32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("path", { d: "M19.75 2.288l.135.033.035.008-.001.002.152.047a3.368 3.368 0 012.17 3.926l-.049.185a3.368 3.368 0 01-3.785 2.39l-.006.022a9.752 9.752 0 00-2.54-.334c-5.378 0-9.739 4.36-9.739 9.739 0 5.378 4.361 9.739 9.74 9.739 5.378 0 9.738-4.36 9.738-9.74 0-3.07-1.43-5.898-3.811-7.727l-.25-.186 1.167-1.624a11.723 11.723 0 014.894 9.538c0 6.483-5.255 11.739-11.739 11.739-6.483 0-11.739-5.256-11.739-11.74 0-6.482 5.256-11.738 11.74-11.738.893 0 1.775.1 2.633.297l.078.02.005-.013a1.367 1.367 0 00.882-2.587l-.092-.032-.076-.014c-.18-.018-.347.05-.402.108l-.017.027c-.055.19-.028.265.297.216l.207-.04.424 1.955c-2.112.457-3.306-1.1-2.85-2.685.329-1.138 1.606-1.775 2.799-1.531zM16.618 23.17l1.414 1.415a5.134 5.134 0 01-3.639 1.505 5.131 5.131 0 01-3.452-1.328l-.187-.177 1.414-1.415c.598.598 1.394.92 2.225.92.762 0 1.494-.271 2.072-.776l.153-.144zm-3.057-5.144l.013.164-1.998.093a.505.505 0 00-1.006-.044l-.004.092-1.997.093a2.505 2.505 0 014.992-.398zm6.455-.242l.013.165-1.998.093a.505.505 0 00-1.006-.045l-.004.092-1.997.094a2.505 2.505 0 014.992-.399z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function BillsCoins32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M23.684 19.035l-7.281-1.58c0-.034.01-.064.01-.097a4.314 4.314 0 00-4.31-4.309 4.314 4.314 0 00-3.971 2.641l-1.75-.359 1.93-8.918 17.24 3.698-1.868 8.924zm-11.58.632a2.31 2.31 0 01-2.31-2.309 2.311 2.311 0 012.31-2.309 2.312 2.312 0 012.309 2.31 2.311 2.311 0 01-2.31 2.308zM23.689 4.863l.636 2.94-7.266-1.559 6.63-1.38zm2.78 3.4L25.225 2.5 12.229 5.208l-5.45-1.17-2.78 12.846 3.828.785c.162 2.23 2.007 3.998 4.277 3.998 1.638 0 3.049-.93 3.777-2.279l9.348 2.028 2.689-12.842-1.448-.31zM16.22 27.093c-.511 0-.902-.18-1.284-.62a.831.831 0 01-.174-.274l-.054-.13c-.057-.116-.06-.276-.06-.55 0-.852.72-1.572 1.573-1.572.854 0 1.574.72 1.574 1.573 0 .852-.72 1.573-1.574 1.573m0-5.146a3.576 3.576 0 00-3.573 3.573c0 .365 0 .859.24 1.38.132.357.357.71.582.93a3.523 3.523 0 002.75 1.263 3.577 3.577 0 003.575-3.573 3.577 3.577 0 00-3.574-3.573" }))));
 }
 
 function Bell32(_a) {
@@ -3135,14 +3143,6 @@ function Briefcase32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("path", { d: "M22 4v4h5.5a2.5 2.5 0 012.5 2.5v15a2.5 2.5 0 01-2.5 2.5h-23A2.5 2.5 0 012 25.5v-15A2.5 2.5 0 014.5 8H10V4h12zm6 9.079L24.35 16H7.65L4 13.08V25.5a.5.5 0 00.5.5H8V16h2v10h12V16h2v10h3.5a.5.5 0 00.5-.5V13.079zM18 16v2h-4v-2h4zm9.5-6h-23a.5.5 0 00-.5.5v.02L8.35 14h15.3L28 10.519V10.5a.5.5 0 00-.5-.5zM20 6h-8v2h8V6z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function BillsCoins32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M23.684 19.035l-7.281-1.58c0-.034.01-.064.01-.097a4.314 4.314 0 00-4.31-4.309 4.314 4.314 0 00-3.971 2.641l-1.75-.359 1.93-8.918 17.24 3.698-1.868 8.924zm-11.58.632a2.31 2.31 0 01-2.31-2.309 2.311 2.311 0 012.31-2.309 2.312 2.312 0 012.309 2.31 2.311 2.311 0 01-2.31 2.308zM23.689 4.863l.636 2.94-7.266-1.559 6.63-1.38zm2.78 3.4L25.225 2.5 12.229 5.208l-5.45-1.17-2.78 12.846 3.828.785c.162 2.23 2.007 3.998 4.277 3.998 1.638 0 3.049-.93 3.777-2.279l9.348 2.028 2.689-12.842-1.448-.31zM16.22 27.093c-.511 0-.902-.18-1.284-.62a.831.831 0 01-.174-.274l-.054-.13c-.057-.116-.06-.276-.06-.55 0-.852.72-1.572 1.573-1.572.854 0 1.574.72 1.574 1.573 0 .852-.72 1.573-1.574 1.573m0-5.146a3.576 3.576 0 00-3.573 3.573c0 .365 0 .859.24 1.38.132.357.357.71.582.93a3.523 3.523 0 002.75 1.263 3.577 3.577 0 003.575-3.573 3.577 3.577 0 00-3.574-3.573" }))));
 }
 
 function Boat32(_a) {
@@ -3190,13 +3190,13 @@ function CalendarCross32(_a) {
             React.createElement("path", { d: "M19.996 14.585l-3.996 4-3.995-4-1.415 1.413L14.587 20l-4.008 4.012 1.415 1.413L16 21.415l3.996 4 1.415-1.413L17.413 20l3.998-4.002z" }))));
 }
 
-function CarDamage32(_a) {
+function Car32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M16 4c6.625 0 9.094 2.187 9.664 3l1.419 3.019C29.316 10.09 32 10.661 32 13v1c0 .672-.449 1.961-2.147 2.025-.08.003-.176.005-.283.006l.38 1.464.05.254v1.264l-.012 1.869L30 21v2a2 2 0 01-.984 1.724L29 26a2 2 0 01-2 2h-2a2 2 0 01-2-2v-1H9v1a2 2 0 01-2 2H5a2 2 0 01-2-2l.013-1.26A1.998 1.998 0 012.001 23v-5.246l.06-.239.37-1.484a10.325 10.325 0 01-.284-.006C.45 15.961 0 14.672 0 14v-1c0-2.339 2.75-2.911 4.917-2.981L6.232 7C6.62 6.344 9.375 4.004 16 4zm0 2c-5.717.004-7.64 1.641-7.952 1.95l-.031.032L8 8l-2 4h-.054C5.467 12.01 2 12.1 2 13v1c0 .025.333.033.778.033C3.667 14.033 5 14 5 14l-1 4v1h14v2H4v2h1v3h2v-3h18v3h2v-3h1l.044-5L27 14s1.333.033 2.222.033c.445 0 .778-.008.778-.033v-1c0-.901-3.467-.991-3.946-1H26l-2-4s-.014-.017-.044-.048l-.043-.044C23.506 7.515 21.576 6 16 6zm8.414 13l2.266 2.258-1.414 1.414L23.586 21H20v-2h4.414zM7.5 15c.827 0 1.5.673 1.5 1.5S8.327 18 7.5 18 6 17.327 6 16.5 6.673 15 7.5 15zm17 0c.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5.673-1.5 1.5-1.5zm-6.961-8.146l.923 1.28 3.563-.47L24.59 13H9v-2h12.41l-.56-1.164-3.312.437-1.622-2.249 1.623-1.17z", fill: "currentColor", fillRule: "nonzero" }))));
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M6 16.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5S8.327 18 7.5 18 6 17.327 6 16.5zM23 16.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5zM9 11.027v2h15.658l-2.655-5.246-1.784.903 1.185 2.343z" }),
+            React.createElement("path", { d: "M30 14c0 .025-.333.033-.778.033C28.333 14.033 27 14 27 14l1.044 4L28 19h-6v2h6v2h-1v3h-2v-3H7v3H5v-3H4v-2h16v-2H4v-1l1-4s-1.333.033-2.222.033C2.333 14.033 2 14.025 2 14v-1c0-.968 4-1 4-1l2-4s1.687-1.996 8-2c6.406 0 8 2 8 2l2 4s4 .032 4 1v1zm-4.336-7c-.57-.813-3.039-3-9.664-3-6.625.004-9.38 2.344-9.768 3l-1.315 3.019C2.75 10.089 0 10.661 0 13v1c0 .672.45 1.961 2.147 2.025.08.003.176.005.284.006l-.37 1.484-.06.239V23c0 .746.407 1.396 1.012 1.74L3 26a2 2 0 002 2h2a2 2 0 002-2v-1h14v1a2 2 0 002 2h2a2 2 0 002-2l.016-1.276c.589-.348.984-.99.984-1.724v-2c0-.04-.01-.078-.012-.118L30 19.013v-1.264l-.05-.254-.38-1.464c.107-.001.203-.003.283-.006C31.551 15.961 32 14.672 32 14v-1c0-2.339-2.684-2.91-4.917-2.981L25.664 7z" }))));
 }
 
 function Caravan32(_a) {
@@ -3208,22 +3208,13 @@ function Caravan32(_a) {
             React.createElement("path", { d: "M15 19a3 3 0 110 6 3 3 0 010-6zM26.744 6l3.314 11.047L28.477 21 30 21v2l-2.323-.001V23H19v-2h7.322l1.619-4.048L25.256 8H5.496l-1.465 8.887L5.677 21H11v2H4.323l-2.355-5.887L3.798 6h22.946zM15 21a1 1 0 100 2 1 1 0 000-2zm-4-11v10H9v-8.001H8V20H6V10h5zm7 6v2h-4v-2h4zm4-6v5h-8v-5h8zm-2 2h-4v1h4v-1z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Car32(_a) {
+function CarDamage32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M6 16.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5S8.327 18 7.5 18 6 17.327 6 16.5zM23 16.5c0-.827.673-1.5 1.5-1.5s1.5.673 1.5 1.5-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5zM9 11.027v2h15.658l-2.655-5.246-1.784.903 1.185 2.343z" }),
-            React.createElement("path", { d: "M30 14c0 .025-.333.033-.778.033C28.333 14.033 27 14 27 14l1.044 4L28 19h-6v2h6v2h-1v3h-2v-3H7v3H5v-3H4v-2h16v-2H4v-1l1-4s-1.333.033-2.222.033C2.333 14.033 2 14.025 2 14v-1c0-.968 4-1 4-1l2-4s1.687-1.996 8-2c6.406 0 8 2 8 2l2 4s4 .032 4 1v1zm-4.336-7c-.57-.813-3.039-3-9.664-3-6.625.004-9.38 2.344-9.768 3l-1.315 3.019C2.75 10.089 0 10.661 0 13v1c0 .672.45 1.961 2.147 2.025.08.003.176.005.284.006l-.37 1.484-.06.239V23c0 .746.407 1.396 1.012 1.74L3 26a2 2 0 002 2h2a2 2 0 002-2v-1h14v1a2 2 0 002 2h2a2 2 0 002-2l.016-1.276c.589-.348.984-.99.984-1.724v-2c0-.04-.01-.078-.012-.118L30 19.013v-1.264l-.05-.254-.38-1.464c.107-.001.203-.003.283-.006C31.551 15.961 32 14.672 32 14v-1c0-2.339-2.684-2.91-4.917-2.981L25.664 7z" }))));
-}
-
-function Card32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M26.803 22.688c-.187.2-.471.312-.8.312H6.016C5.493 23 5 22.557 5 22.09V14h21.995v8.162a.685.685 0 01-.192.525zM6.015 9h19.989c.302 0 .599.124.793.333.082.087.216.27.197.575V12H5V9.909c0-.468.493-.91 1.015-.91zm22.976.98a2.648 2.648 0 00-.73-2.01A3.086 3.086 0 0026.004 7H6.014C4.382 7 3 8.332 3 9.907v12.183C3 23.666 4.38 25 6.015 25h19.989c.876 0 1.7-.348 2.263-.952.52-.559.778-1.28.727-1.959L28.99 9.98z" }),
-            React.createElement("path", { d: "M6.994 18h6v-2h-6z" }))));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M16 4c6.625 0 9.094 2.187 9.664 3l1.419 3.019C29.316 10.09 32 10.661 32 13v1c0 .672-.449 1.961-2.147 2.025-.08.003-.176.005-.283.006l.38 1.464.05.254v1.264l-.012 1.869L30 21v2a2 2 0 01-.984 1.724L29 26a2 2 0 01-2 2h-2a2 2 0 01-2-2v-1H9v1a2 2 0 01-2 2H5a2 2 0 01-2-2l.013-1.26A1.998 1.998 0 012.001 23v-5.246l.06-.239.37-1.484a10.325 10.325 0 01-.284-.006C.45 15.961 0 14.672 0 14v-1c0-2.339 2.75-2.911 4.917-2.981L6.232 7C6.62 6.344 9.375 4.004 16 4zm0 2c-5.717.004-7.64 1.641-7.952 1.95l-.031.032L8 8l-2 4h-.054C5.467 12.01 2 12.1 2 13v1c0 .025.333.033.778.033C3.667 14.033 5 14 5 14l-1 4v1h14v2H4v2h1v3h2v-3h18v3h2v-3h1l.044-5L27 14s1.333.033 2.222.033c.445 0 .778-.008.778-.033v-1c0-.901-3.467-.991-3.946-1H26l-2-4s-.014-.017-.044-.048l-.043-.044C23.506 7.515 21.576 6 16 6zm8.414 13l2.266 2.258-1.414 1.414L23.586 21H20v-2h4.414zM7.5 15c.827 0 1.5.673 1.5 1.5S8.327 18 7.5 18 6 17.327 6 16.5 6.673 15 7.5 15zm17 0c.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5-1.5-.673-1.5-1.5.673-1.5 1.5-1.5zm-6.961-8.146l.923 1.28 3.563-.47L24.59 13H9v-2h12.41l-.56-1.164-3.312.437-1.622-2.249 1.623-1.17z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function CardBlock32(_a) {
@@ -3242,6 +3233,15 @@ function Chat32(_a) {
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("path", { d: "M27.544 7.813C25.787 6.025 23.258 5 20.604 5h-9.162C6.172 5 2.024 8.951 2 14.004 2.024 19.132 5.947 23 11.125 23h1.44L19 29.407v-8.323h-2v3.508L13.393 21h-2.268C7.015 21 4.02 18.054 4 14.004 4.02 10.011 7.219 7 11.442 7h9.163c2.12 0 4.129.807 5.512 2.215 1.265 1.286 1.915 2.935 1.883 4.802.033 1.846-.65 3.576-1.922 4.871A7.154 7.154 0 0121 21v2a9.172 9.172 0 006.505-2.71A8.687 8.687 0 0030 14.017c.04-2.347-.831-4.55-2.456-6.204", fill: "currentColor", fillRule: "evenodd" })));
+}
+
+function Card32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M26.803 22.688c-.187.2-.471.312-.8.312H6.016C5.493 23 5 22.557 5 22.09V14h21.995v8.162a.685.685 0 01-.192.525zM6.015 9h19.989c.302 0 .599.124.793.333.082.087.216.27.197.575V12H5V9.909c0-.468.493-.91 1.015-.91zm22.976.98a2.648 2.648 0 00-.73-2.01A3.086 3.086 0 0026.004 7H6.014C4.382 7 3 8.332 3 9.907v12.183C3 23.666 4.38 25 6.015 25h19.989c.876 0 1.7-.348 2.263-.952.52-.559.778-1.28.727-1.959L28.99 9.98z" }),
+            React.createElement("path", { d: "M6.994 18h6v-2h-6z" }))));
 }
 
 function Check32(_a) {
@@ -3302,6 +3302,15 @@ function ChevronUp32(_a) {
         React.createElement("path", { d: "M24.492 18.621l-1.414 1.414-7.072-7.07-7.072 7.07L7.52 18.62l7.071-7.07 1.415-1.414 1.413 1.413z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
+function Circlediagram32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M17 4c7.18 0 13 5.82 13 13s-5.82 13-13 13S4 24.18 4 17v-1h12V4h1zm1 2.045V18H6.045C6.55 23.607 11.262 28 17 28c6.075 0 11-4.925 11-11 0-5.738-4.393-10.45-10-10.955zM15 2v13H2v-1C2 7.373 7.373 2 14 2h1zm-2 2.05A10.003 10.003 0 004.05 13H13V4.05z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function Circle32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -3313,15 +3322,6 @@ function Circle32(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#circle-32_svg__a", transform: "translate(2 2)" }))));
 }
 
-function Circlediagram32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M17 4c7.18 0 13 5.82 13 13s-5.82 13-13 13S4 24.18 4 17v-1h12V4h1zm1 2.045V18H6.045C6.55 23.607 11.262 28 17 28c6.075 0 11-4.925 11-11 0-5.738-4.393-10.45-10-10.955zM15 2v13H2v-1C2 7.373 7.373 2 14 2h1zm-2 2.05A10.003 10.003 0 004.05 13H13V4.05z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function Clipboard32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3331,15 +3331,6 @@ function Clipboard32(_a) {
             React.createElement("path", { d: "M11 16h10v-2H11zM11 20h10v-2H11zM11 24h10v-2H11z" }))));
 }
 
-function Clock32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M16 3C8.834 3 3 8.834 3 16s5.834 13 13 13 13-5.834 13-13S23.166 3 16 3zm0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16 9.913 5 16 5z" }),
-            React.createElement("path", { d: "M22.08 19.796l-1.285 1.533L15 16.466V8h2v7.534z" }))));
-}
-
 function Coins32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3347,15 +3338,6 @@ function Coins32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("path", { d: "M15 28v2H4v-2h11zm6.5-15a8.5 8.5 0 110 17 8.5 8.5 0 010-17zm0 2a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM13 25v2H4v-2h9zm14-3.5a5.5 5.5 0 01-5.5 5.5v-2a3.5 3.5 0 003.5-3.5h2zM12 22v2H4v-2h8zm0-3v2H4v-2h8zm1-3v2H4v-2h9zm2-3v2H4v-2h11zm4-3v2H4v-2h15zm2-3v2H6V7h15zm-4-3v2H2V4h15z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Computer32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M26 23a2 2 0 00-2 2v2a2 2 0 104 0v-2a2 2 0 00-2-2zm1 1v2h-2v-2h2zm-3.857-5h1.428c1.34 0 2.122.802 2.35 1.966l.026.147A4.002 4.002 0 0130 25v2a4 4 0 11-8 0v-2a4.002 4.002 0 012.904-3.848c-.05-.127-.132-.152-.333-.152h-1.428C21.093 21 20 20.07 20 18h-4v2h3v2H8v-2h3v-2H2V2h23v16h-3c0 .888.132 1 1.143 1zM14 18h-1v2h1v-2zm9-14H4v12h19V4zM10.347 5.514L11.76 6.93 6.929 11.76l-1.415-1.414 4.833-4.833zm-3.211-.816l1.393 1.436-2.49 2.416-1.393-1.435 2.49-2.417z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function ContactMenu32(_a) {
@@ -3369,15 +3351,13 @@ function ContactMenu32(_a) {
             React.createElement("path", { d: "M25.672 11.896v-2c2.774 0 5.006 2.264 5.006 5.064 0 2.8-2.232 5.065-5.006 5.065v-2c1.663 0 3.006-1.363 3.006-3.065s-1.343-3.064-3.006-3.064z" }))));
 }
 
-function ContactMenu32Copy(_a) {
+function Clock32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M15.994 28.78c-1.917 0-3.466-1.571-3.466-3.502 0-1.93 1.549-3.501 3.466-3.501 1.917 0 3.466 1.57 3.466 3.501 0 1.93-1.549 3.502-3.466 3.502zm0-2c.806 0 1.466-.67 1.466-1.502s-.66-1.501-1.466-1.501c-.806 0-1.466.669-1.466 1.501 0 .833.66 1.502 1.466 1.502zM15.994 3.205c3.356 0 6.495 1.5 8.652 4.042l-1.524 1.294c-1.783-2.1-4.369-3.336-7.128-3.336-3.881 0-7.324 2.419-8.715 5.962l-.141.495c-.328.941-.5 2.016-.5 3.11 0 1.337.27 2.645.785 3.864l.587 1.389H6.317c-2.775 0-5.007-2.264-5.007-5.065 0-2.566 1.875-4.683 4.324-5.018 1.85-4.064 5.858-6.737 10.36-6.737zM3.31 14.96a3.06 3.06 0 001.7 2.764 12.123 12.123 0 01-.11-5.47 3.064 3.064 0 00-1.59 2.706z" }),
-            React.createElement("path", { d: "M24.709 11.167l1.925-.542.105.38c.403 1.158.61 2.455.61 3.768 0 4.298-2.357 8.24-6.006 10.195-.87.475-1.82.826-2.794 1.037l-.425-1.954a8.524 8.524 0 002.267-.842c3.006-1.611 4.959-4.875 4.959-8.436 0-1.095-.172-2.17-.518-3.168l-.123-.438z" }),
-            React.createElement("path", { d: "M11.207 7.716l1.931-.52c.072.268.328.754.853 1.26.927.892 2.342 1.44 4.407 1.44h7.352v2h-7.352c-2.573 0-4.487-.742-5.794-2-.816-.784-1.238-1.588-1.397-2.18zM18.795 17.322l1.425 1.405a6.003 6.003 0 01-4.288 1.798 6.003 6.003 0 01-4.287-1.798l1.425-1.405a4.003 4.003 0 002.862 1.203 4.003 4.003 0 002.863-1.203z" }),
-            React.createElement("path", { d: "M25.672 11.896v-2c2.774 0 5.006 2.264 5.006 5.064 0 2.8-2.232 5.065-5.006 5.065v-2c1.663 0 3.006-1.363 3.006-3.065s-1.343-3.064-3.006-3.064z" }))));
+            React.createElement("path", { d: "M16 3C8.834 3 3 8.834 3 16s5.834 13 13 13 13-5.834 13-13S23.166 3 16 3zm0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16 9.913 5 16 5z" }),
+            React.createElement("path", { d: "M22.08 19.796l-1.285 1.533L15 16.466V8h2v7.534z" }))));
 }
 
 function Contract32(_a) {
@@ -3389,6 +3369,26 @@ function Contract32(_a) {
             React.createElement("path", { fillRule: "nonzero", d: "M10 11h10V9H10zM10 15h10v-2H10zM10 19h7v-2h-7zM13 25h7v-2h-7z" }),
             React.createElement("path", { d: "M26.378 13.214l-8.364 8.364v1.414h1.414l8.364-8.364-1.414-1.414zm-6.121 11.778h-4.243V20.75l10.364-10.364 4.243 4.242-10.364 10.364z", fillRule: "nonzero" }),
             React.createElement("path", { d: "M24.914 13.5l2.829 2.828-1.415 1.414-2.828-2.828z" }))));
+}
+
+function Computer32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M26 23a2 2 0 00-2 2v2a2 2 0 104 0v-2a2 2 0 00-2-2zm1 1v2h-2v-2h2zm-3.857-5h1.428c1.34 0 2.122.802 2.35 1.966l.026.147A4.002 4.002 0 0130 25v2a4 4 0 11-8 0v-2a4.002 4.002 0 012.904-3.848c-.05-.127-.132-.152-.333-.152h-1.428C21.093 21 20 20.07 20 18h-4v2h3v2H8v-2h3v-2H2V2h23v16h-3c0 .888.132 1 1.143 1zM14 18h-1v2h1v-2zm9-14H4v12h19V4zM10.347 5.514L11.76 6.93 6.929 11.76l-1.415-1.414 4.833-4.833zm-3.211-.816l1.393 1.436-2.49 2.416-1.393-1.435 2.49-2.417z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function ContactMenu32Copy(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M15.994 28.78c-1.917 0-3.466-1.571-3.466-3.502 0-1.93 1.549-3.501 3.466-3.501 1.917 0 3.466 1.57 3.466 3.501 0 1.93-1.549 3.502-3.466 3.502zm0-2c.806 0 1.466-.67 1.466-1.502s-.66-1.501-1.466-1.501c-.806 0-1.466.669-1.466 1.501 0 .833.66 1.502 1.466 1.502zM15.994 3.205c3.356 0 6.495 1.5 8.652 4.042l-1.524 1.294c-1.783-2.1-4.369-3.336-7.128-3.336-3.881 0-7.324 2.419-8.715 5.962l-.141.495c-.328.941-.5 2.016-.5 3.11 0 1.337.27 2.645.785 3.864l.587 1.389H6.317c-2.775 0-5.007-2.264-5.007-5.065 0-2.566 1.875-4.683 4.324-5.018 1.85-4.064 5.858-6.737 10.36-6.737zM3.31 14.96a3.06 3.06 0 001.7 2.764 12.123 12.123 0 01-.11-5.47 3.064 3.064 0 00-1.59 2.706z" }),
+            React.createElement("path", { d: "M24.709 11.167l1.925-.542.105.38c.403 1.158.61 2.455.61 3.768 0 4.298-2.357 8.24-6.006 10.195-.87.475-1.82.826-2.794 1.037l-.425-1.954a8.524 8.524 0 002.267-.842c3.006-1.611 4.959-4.875 4.959-8.436 0-1.095-.172-2.17-.518-3.168l-.123-.438z" }),
+            React.createElement("path", { d: "M11.207 7.716l1.931-.52c.072.268.328.754.853 1.26.927.892 2.342 1.44 4.407 1.44h7.352v2h-7.352c-2.573 0-4.487-.742-5.794-2-.816-.784-1.238-1.588-1.397-2.18zM18.795 17.322l1.425 1.405a6.003 6.003 0 01-4.288 1.798 6.003 6.003 0 01-4.287-1.798l1.425-1.405a4.003 4.003 0 002.862 1.203 4.003 4.003 0 002.863-1.203z" }),
+            React.createElement("path", { d: "M25.672 11.896v-2c2.774 0 5.006 2.264 5.006 5.064 0 2.8-2.232 5.065-5.006 5.065v-2c1.663 0 3.006-1.363 3.006-3.065s-1.343-3.064-3.006-3.064z" }))));
 }
 
 function Cross32(_a) {
@@ -3427,6 +3427,16 @@ function Damage32(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-32_svg__a", transform: "translate(4 2)" }))));
 }
 
+function Dog32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M16.308 23.281l-.458 1.947c-1.88-.442-3.24-2.102-3.24-4.06A4.17 4.17 0 0116.779 17c.876 0 1.731.29 2.46.795l-1.137 1.645a2.353 2.353 0 00-1.323-.44 2.17 2.17 0 00-2.169 2.169c0 1.015.708 1.88 1.698 2.112zM11.97 27v2H6v-3.7c0-1.302.937-2.3 2.192-2.3H12v2H8.192c-.121 0-.192.076-.192.3V27h3.97zM6.156 7.016l-.134.685c-.079.59.053 1.236.396 1.808.806 1.42 2.622 1.898 4.074 1.074l.987 1.74c-2.404 1.363-5.444.563-6.788-1.805a4.83 4.83 0 01-.642-3.14l.459-2.362H7.98a6.752 6.752 0 015.025-2.227c3.541 0 6.687 2.744 6.995 6.281v1.092c0 1.588-1.485 2.864-3.084 2.864-1.59 0-2.916-1.277-2.916-2.864V9h2v1.162c0 .465.414.864.916.864.556 0 1.084-.453 1.084-.864v-.363l.004-.64c-.211-2.397-2.474-4.37-4.999-4.37-1.5 0-2.884.692-3.765 1.836l-.3.39H6.156z" }),
+            React.createElement("path", { d: "M9 14h2v10.91H9zM26.332 18.719h2a5.619 5.619 0 01-5.608 5.609v-2a3.619 3.619 0 003.608-3.61z" }),
+            React.createElement("path", { d: "M21.723 23.327c0-4.088-1.945-7.9-5.164-10.357l1.213-1.59c3.708 2.829 5.951 7.226 5.951 11.947 0 1.774-.278 3.453-.834 5.01l-.237.663H11.866v-2h9.355c.334-1.149.502-2.376.502-3.673z" }))));
+}
+
 function Document32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3436,14 +3446,13 @@ function Document32(_a) {
             React.createElement("path", { d: "M11 13h10v-2H11zM11 17h10v-2H11zM11 21h10v-2H11z" }))));
 }
 
-function Dog32(_a) {
+function EInvoice32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M16.308 23.281l-.458 1.947c-1.88-.442-3.24-2.102-3.24-4.06A4.17 4.17 0 0116.779 17c.876 0 1.731.29 2.46.795l-1.137 1.645a2.353 2.353 0 00-1.323-.44 2.17 2.17 0 00-2.169 2.169c0 1.015.708 1.88 1.698 2.112zM11.97 27v2H6v-3.7c0-1.302.937-2.3 2.192-2.3H12v2H8.192c-.121 0-.192.076-.192.3V27h3.97zM6.156 7.016l-.134.685c-.079.59.053 1.236.396 1.808.806 1.42 2.622 1.898 4.074 1.074l.987 1.74c-2.404 1.363-5.444.563-6.788-1.805a4.83 4.83 0 01-.642-3.14l.459-2.362H7.98a6.752 6.752 0 015.025-2.227c3.541 0 6.687 2.744 6.995 6.281v1.092c0 1.588-1.485 2.864-3.084 2.864-1.59 0-2.916-1.277-2.916-2.864V9h2v1.162c0 .465.414.864.916.864.556 0 1.084-.453 1.084-.864v-.363l.004-.64c-.211-2.397-2.474-4.37-4.999-4.37-1.5 0-2.884.692-3.765 1.836l-.3.39H6.156z" }),
-            React.createElement("path", { d: "M9 14h2v10.91H9zM26.332 18.719h2a5.619 5.619 0 01-5.608 5.609v-2a3.619 3.619 0 003.608-3.61z" }),
-            React.createElement("path", { d: "M21.723 23.327c0-4.088-1.945-7.9-5.164-10.357l1.213-1.59c3.708 2.829 5.951 7.226 5.951 11.947 0 1.774-.278 3.453-.834 5.01l-.237.663H11.866v-2h9.355c.334-1.149.502-2.376.502-3.673z" }))));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M29 3v25.563l-7.463-3.445L16 28.139l-5.538-3.021L3 28.563V3h26zm-2.001 2h-22v20.437l5.538-2.556L16 25.861l5.463-2.98 5.536 2.556V5zM15.924 9c2.74 0 3.87 2.114 3.278 5.232h-4.82c.126 1.254.825 1.791 1.954 1.791.842 0 1.791-.25 2.544-.573l.25 1.774c-.877.483-1.88.77-2.884.77-2.454 0-4.246-1.72-4.246-4.604C12 10.38 14.007 9 15.924 9zm.018 1.81c-.896 0-1.541.734-1.577 1.88h2.92c.072-1.164-.376-1.88-1.343-1.88z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function EllipsisEnclosed32(_a) {
@@ -3464,13 +3473,13 @@ function ExternalLink32(_a) {
             React.createElement("path", { d: "M4 7v21h21V16h-2v10H6V9h10V7z" }))));
 }
 
-function EInvoice32(_a) {
+function Family32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M29 3v25.563l-7.463-3.445L16 28.139l-5.538-3.021L3 28.563V3h26zm-2.001 2h-22v20.437l5.538-2.556L16 25.861l5.463-2.98 5.536 2.556V5zM15.924 9c2.74 0 3.87 2.114 3.278 5.232h-4.82c.126 1.254.825 1.791 1.954 1.791.842 0 1.791-.25 2.544-.573l.25 1.774c-.877.483-1.88.77-2.884.77-2.454 0-4.246-1.72-4.246-4.604C12 10.38 14.007 9 15.924 9zm.018 1.81c-.896 0-1.541.734-1.577 1.88h2.92c.072-1.164-.376-1.88-1.343-1.88z", fill: "currentColor", fillRule: "nonzero" }))));
+            React.createElement("path", { d: "M12.5 2a7.983 7.983 0 016.072 2.791l-1.517 1.303a6 6 0 101.437 3.575h-4.574c-1.769 0-3.528-1.285-4.387-3.08l1.804-.863c.547 1.142 1.643 1.943 2.583 1.943H20.2l.156.811c.095.498.144 1.006.144 1.52a7.968 7.968 0 01-1.907 5.184 5.5 5.5 0 018.404 6.616A6.002 6.002 0 0130 27v3h-2v-3c0-1.523-.86-2.882-2.166-3.556A5.483 5.483 0 0122 25a5.482 5.482 0 01-3.834-1.556A4.002 4.002 0 0016 27v3h-2v-3a6.002 6.002 0 013.003-5.2 5.481 5.481 0 01-.503-2.3c0-1.287.442-2.47 1.182-3.407A7.958 7.958 0 0112.5 18a7.97 7.97 0 01-5.283-1.993l.212-.104C5.084 17.017 4 18.42 4 20.175V30H2v-9.825c0-2.396 1.332-4.317 3.858-5.713A8 8 0 0112.5 2zM22 16a3.5 3.5 0 100 7 3.5 3.5 0 000-7z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Facebook32(_a) {
@@ -3482,13 +3491,11 @@ function Facebook32(_a) {
             React.createElement("path", { d: "M14.012 24.984V16.97H12v-2.91h2.012v-2.146c0-2.49 1.521-3.846 3.743-3.846 1.063 0 1.978.079 2.245.114v2.603h-1.54c-1.21 0-1.443.575-1.443 1.417v1.858h2.881l-.375 2.91h-2.506v8.015h-3.005z" }))));
 }
 
-function Family32(_a) {
+function Flag32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M12.5 2a7.983 7.983 0 016.072 2.791l-1.517 1.303a6 6 0 101.437 3.575h-4.574c-1.769 0-3.528-1.285-4.387-3.08l1.804-.863c.547 1.142 1.643 1.943 2.583 1.943H20.2l.156.811c.095.498.144 1.006.144 1.52a7.968 7.968 0 01-1.907 5.184 5.5 5.5 0 018.404 6.616A6.002 6.002 0 0130 27v3h-2v-3c0-1.523-.86-2.882-2.166-3.556A5.483 5.483 0 0122 25a5.482 5.482 0 01-3.834-1.556A4.002 4.002 0 0016 27v3h-2v-3a6.002 6.002 0 013.003-5.2 5.481 5.481 0 01-.503-2.3c0-1.287.442-2.47 1.182-3.407A7.958 7.958 0 0112.5 18a7.97 7.97 0 01-5.283-1.993l.212-.104C5.084 17.017 4 18.42 4 20.175V30H2v-9.825c0-2.396 1.332-4.317 3.858-5.713A8 8 0 0112.5 2zM22 16a3.5 3.5 0 100 7 3.5 3.5 0 000-7z", fill: "currentColor", fillRule: "nonzero" }))));
+        React.createElement("path", { d: "M23 17.613c-2.189.27-3.725-.325-5.468-1.005-1.958-.763-4.175-1.612-7.532-1.263V7.397c2.91-.596 4.78.184 6.758 1.014 1.808.76 3.678 1.543 6.242 1.276v7.926zm.789-10.074c-2.606.56-4.298-.15-6.257-.972-1.99-.836-4.247-1.758-7.532-1.193V4H8v24h2V17.351c2.986-.355 4.848.356 6.806 1.12 1.53.597 3.099 1.21 5.13 1.21.695 0 1.445-.073 2.266-.242l.798-.165V7.278l-1.211.261z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function Farm32(_a) {
@@ -3498,13 +3505,6 @@ function Farm32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("path", { d: "M19 1.643l12.676 11.62-1.352 1.474L29 13.522V28L30 28v2H2v-2h2.889v-1.666a4.508 4.508 0 01-1.947-.952l-.182-.161a4.483 4.483 0 01-1.43-3.285c0-2.486 2.023-4.5 4.516-4.5 1.198 0 2.322.469 3.155 1.28L9 13.522l-1.324 1.215-1.352-1.474L19 1.643zM9 25.157a4.51 4.51 0 01-2.11 1.158L6.888 28h2.11zM19 4.356l-8 7.333V28h3V19.11h10V28L27 28V17H13v-2h14v-3.31l-8-7.334zm0 21.647L17.226 28h3.548L19 26.003zm3-3.375L20.337 24.5 22 26.37v-3.742zm-6 0v3.742l1.663-1.87L16 22.627zM5.846 19.436a2.508 2.508 0 00-2.515 2.5c0 .7.29 1.352.793 1.823a2.512 2.512 0 001.722.677c.76 0 1.463-.336 1.96-.93l.193-.219v-2.481l-.304-.563-.058-.063a2.51 2.51 0 00-1.605-.737zm14.829 1.674h-3.35L19 22.995l1.675-1.885zM19 8a4 4 0 014 4v1h-8v-1a4 4 0 014-4zm0 2c-.703 0-1.321.363-1.678.91l-.054.09h3.463l-.053-.089a2 2 0 00-1.529-.906z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Flag32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M23 17.613c-2.189.27-3.725-.325-5.468-1.005-1.958-.763-4.175-1.612-7.532-1.263V7.397c2.91-.596 4.78.184 6.758 1.014 1.808.76 3.678 1.543 6.242 1.276v7.926zm.789-10.074c-2.606.56-4.298-.15-6.257-.972-1.99-.836-4.247-1.758-7.532-1.193V4H8v24h2V17.351c2.986-.355 4.848.356 6.806 1.12 1.53.597 3.099 1.21 5.13 1.21.695 0 1.445-.073 2.266-.242l.798-.165V7.278l-1.211.261z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function Gear32(_a) {
@@ -3550,19 +3550,19 @@ function Guide32(_a) {
             React.createElement("path", { d: "M16 5v2.001h6.172L23.67 8.5 22.172 10H18V12h5l3.5-3.5L23 5zM16 13v2.001h8.172L25.67 16.5 24.172 18H18V20h7l3.5-3.5L25 13zM14 15v-2H7.828L6.33 11.5 7.828 10H16V8H7l-3.5 3.5L7 15zM11 27h10v2H11z" }))));
 }
 
+function Heart32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("path", { d: "M25.508 15.89l-9.493 9.492-9.493-9.492c-1.996-1.997-1.996-5.37 0-7.368 1-.998 2.341-1.498 3.684-1.498 1.342 0 2.685.5 3.684 1.498l2.125 2.125 2.125-2.125c2-1.996 5.371-1.995 7.368 0 1.997 1.997 1.997 5.371 0 7.368m1.414-8.782c-2.81-2.81-7.385-2.812-10.196 0l-.71.711-.712-.71c-2.812-2.813-7.387-2.81-10.196 0-2.81 2.81-2.81 7.384 0 10.195L16.015 28.21l10.907-10.906a7.154 7.154 0 002.094-5.099 7.151 7.151 0 00-2.094-5.097", fill: "currentColor", fillRule: "evenodd" })));
+}
+
 function Heartbeat32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M5.762 5.767A2.575 2.575 0 017.612 5c.704 0 1.361.272 1.85.767L11 7.327l1.54-1.56c.974-.99 2.722-.99 3.698 0 1.013 1.027 1.013 2.762 0 3.789L11 14.868 5.762 9.556c-1.013-1.027-1.013-2.762 0-3.79zM11 17.715l6.662-6.755c1.794-1.82 1.794-4.778 0-6.597A4.559 4.559 0 0014.39 3a4.557 4.557 0 00-3.273 1.363L11 4.48l-.115-.117A4.561 4.561 0 007.611 3a4.559 4.559 0 00-3.273 1.363c-1.794 1.819-1.794 4.778 0 6.597L11 17.715zM28.614 20l-4.557-7.895-7.934 11.907-2.952-5.899L9.47 23H2v2h8.466l2.357-3.113 3.054 6.101 8.058-12.093L27.46 22h2.59v-2z" }))));
-}
-
-function Heart32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M25.508 15.89l-9.493 9.492-9.493-9.492c-1.996-1.997-1.996-5.37 0-7.368 1-.998 2.341-1.498 3.684-1.498 1.342 0 2.685.5 3.684 1.498l2.125 2.125 2.125-2.125c2-1.996 5.371-1.995 7.368 0 1.997 1.997 1.997 5.371 0 7.368m1.414-8.782c-2.81-2.81-7.385-2.812-10.196 0l-.71.711-.712-.71c-2.812-2.813-7.387-2.81-10.196 0-2.81 2.81-2.81 7.384 0 10.195L16.015 28.21l10.907-10.906a7.154 7.154 0 002.094-5.099 7.151 7.151 0 00-2.094-5.097", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function House32(_a) {
@@ -3583,6 +3583,15 @@ function HouseSun32(_a) {
             React.createElement("path", { d: "M9 29h2v-6h3v6h2v-8H9z" }))));
 }
 
+function InfoEnclosed32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M15 23h2v-9h-2zM16.017 9.062a1.5 1.5 0 100 3 1.5 1.5 0 000-3" }),
+            React.createElement("path", { d: "M16 27C9.935 27 5 22.065 5 16S9.935 5 16 5s11 4.935 11 11-4.935 11-11 11m0-24C8.832 3 3 8.832 3 16s5.832 13 13 13 13-5.832 13-13S23.168 3 16 3" }))));
+}
+
 function IdCard32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3593,13 +3602,12 @@ function IdCard32(_a) {
             React.createElement("path", { d: "M18 23h-2a4 4 0 10-8 0H6a6 6 0 1112 0z" }))));
 }
 
-function InfoEnclosed32(_a) {
+function Institution32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M15 23h2v-9h-2zM16.017 9.062a1.5 1.5 0 100 3 1.5 1.5 0 000-3" }),
-            React.createElement("path", { d: "M16 27C9.935 27 5 22.065 5 16S9.935 5 16 5s11 4.935 11 11-4.935 11-11 11m0-24C8.832 3 3 8.832 3 16s5.832 13 13 13 13-5.832 13-13S23.168 3 16 3" }))));
+            React.createElement("path", { d: "M7 21h2V11H7zM3 27h26v-2H3zM5 24h22v-2H5zM15.99 3.9L7.798 8.014H4v2h4.273l7.738-3.887 8.107 3.887H28v-2h-3.428zM11 21h2V11h-2zM15 21h2V11h-2zM19 21h2V11h-2zM23 21h2V11h-2z" }))));
 }
 
 function Instagram32(_a) {
@@ -3610,23 +3618,6 @@ function Instagram32(_a) {
             React.createElement("path", { d: "M4 4v24h24V4H4zM2 2h28v28H2V2z", fillRule: "nonzero" }),
             React.createElement("path", { d: "M13.332 15.997a2.666 2.666 0 105.331.001 2.666 2.666 0 00-5.331 0z" }),
             React.createElement("path", { d: "M19.286 11.715a1 1 0 112-.001 1 1 0 01-2 0zM11.892 16a4.108 4.108 0 118.216 0 4.108 4.108 0 01-8.216 0zm11.688-5.24a3.91 3.91 0 00-.923-1.417 3.92 3.92 0 00-1.417-.923c-.509-.198-1.09-.333-1.942-.372C18.445 8.009 18.173 8 16 8s-2.445.01-3.298.048c-.852.039-1.433.174-1.942.372a3.92 3.92 0 00-1.417.923c-.445.444-.718.89-.923 1.417-.198.508-.333 1.09-.372 1.942C8.009 13.555 8 13.827 8 16s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.205.526.478.972.923 1.417.445.445.89.718 1.417.923.509.198 1.09.333 1.942.371.853.04 1.125.048 3.298.048s2.445-.009 3.298-.048c.852-.038 1.433-.173 1.942-.371a3.925 3.925 0 001.417-.923c.445-.445.718-.89.923-1.417.198-.509.333-1.09.372-1.942.039-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.039-.852-.174-1.434-.372-1.942z" }))));
-}
-
-function Institution32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M7 21h2V11H7zM3 27h26v-2H3zM5 24h22v-2H5zM15.99 3.9L7.798 8.014H4v2h4.273l7.738-3.887 8.107 3.887H28v-2h-3.428zM11 21h2V11h-2zM15 21h2V11h-2zM19 21h2V11h-2zM23 21h2V11h-2z" }))));
-}
-
-function Letter32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M5 24h22V8H5v16zM29 6v20H3V6h26z" }),
-            React.createElement("path", { d: "M16.038 16.962L4.678 6.587 3.322 8.06l12.72 11.625L28.679 8.057 27.321 6.59zM27.733 23.32l-5.5-6-1.466 1.36 5.5 6zM5.733 24.68l5.5-6-1.466-1.36-5.5 6z" }))));
 }
 
 function Linkedin32(_a) {
@@ -3647,6 +3638,15 @@ function List32(_a) {
             React.createElement("circle", { cx: 2, cy: 2, r: 1.5 }),
             React.createElement("circle", { cx: 2, cy: 9, r: 1.5 }),
             React.createElement("circle", { cx: 2, cy: 16, r: 1.5 }))));
+}
+
+function Letter32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M5 24h22V8H5v16zM29 6v20H3V6h26z" }),
+            React.createElement("path", { d: "M16.038 16.962L4.678 6.587 3.322 8.06l12.72 11.625L28.679 8.057 27.321 6.59zM27.733 23.32l-5.5-6-1.466 1.36 5.5 6zM5.733 24.68l5.5-6-1.466-1.36-5.5 6z" }))));
 }
 
 function LoginBankid32(_a) {
@@ -3684,6 +3684,14 @@ function Logout32(_a) {
             React.createElement("path", { d: "M14.887 25.425a9.32 9.32 0 01-6.641-2.752c-3.663-3.673-3.663-9.648 0-13.32A9.316 9.316 0 0114.887 6.6c2.512 0 4.87.977 6.641 2.752l1.416-1.412a11.303 11.303 0 00-8.057-3.34A11.303 11.303 0 006.83 7.94c-4.44 4.451-4.44 11.694 0 16.145a11.303 11.303 0 008.057 3.34c3.047 0 5.908-1.186 8.057-3.34l-1.416-1.412a9.32 9.32 0 01-6.641 2.752" }))));
 }
 
+function Menu32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M7 11h18V8.999H7zM7 17h18v-2H7zM7 23h18v-2H7z" }))));
+}
+
 function Mc32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3691,14 +3699,6 @@ function Mc32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("path", { d: "M20.768 5.36L27.135 13H25c-.987 0-2.167.596-3.22 1.467l.744.737a4.819 4.819 0 11-1.408 1.423l-.74-.735c-.774.964-1.311 2.026-1.37 2.941L19 19v.414L17.414 21h-4.828l-3.087-3.085-1.792 1.792-1.414-1.414L8.085 16.5l-2.501-2.501L3 14v-2h3.414l7 6.999h3.171l.437-.437.02-.168c.368-2.716 3.09-5.797 5.863-6.938l.256-.1-3.93-4.716 1.537-1.28zM4.862 14.726l.812 1.828a2.82 2.82 0 103.665 3.842l.092-.203 1.854.75a4.819 4.819 0 11-6.687-6.09l.264-.127zm20.31 1.686c-.42 0-.817.091-1.174.255l1.465 1.453-1.408 1.42-1.462-1.45a2.819 2.819 0 102.578-1.678zM8.289 9l4.928 3.109L17 12c1.206 0 1.932-.75 1.995-1.842L19 10h2c0 2.167-1.485 3.893-3.756 3.995l-4.579.131L7.71 11 3 11V9h5.29zM19 8v2h-2V8h2z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
-function Menu32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M7 11h18V8.999H7zM7 17h18v-2H7zM7 23h18v-2H7z" }))));
 }
 
 function MenuEnvelope32(_a) {
@@ -3710,6 +3710,15 @@ function MenuEnvelope32(_a) {
             React.createElement("path", { d: "M16.038 16.962L4.678 6.587 3.322 8.06l12.72 11.625L28.679 8.057 27.321 6.59zM27.733 23.32l-5.5-6-1.466 1.36 5.5 6zM5.733 24.68l5.5-6-1.466-1.36-5.5 6z" }))));
 }
 
+function Moped32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M26 17a4 4 0 110 8 4 4 0 010-8zm-22.326.955l1.07 1.69-.187.118-.072.073c-.27.299-.439.681-.477 1.096l-.008.18c0 1.035.808 1.864 1.793 1.864.5 0 .967-.213 1.303-.583l.062-.077.171-.333 1.78.91-.219.43-.093.148a3.762 3.762 0 01-3.004 1.505c-2.1 0-3.793-1.735-3.793-3.864 0-1.034.402-2.005 1.1-2.722l.155-.15.14-.108.279-.177zM26 19a2 2 0 100 4 2 2 0 000-4zM20.618 6l3.864 7.727c.22-.037.44-.06.662-.07l.219-.004c.51 0 1.148.047 1.917.141l.338.043-.264 1.983c-.842-.112-1.509-.167-1.991-.167-2.238 0-4.62 2.42-4.75 4.426l-.006.171v.355L19.477 22H9.632L2 15.497V10h13v1c0 2.148-1.523 3.998-3.568 4.953.631.626 1.664 1.047 2.84 1.047 2.093 0 3.492-.806 3.59-1.88l.005-.12h2c0 2.501-2.463 4-5.595 4-2.09 0-3.972-.952-4.897-2.43a6.78 6.78 0 01-.797.073l-.225.004v-2c1.872 0 3.675-1.078 4.358-2.465l.082-.182H4v2.573L10.369 20h8.153l.101-.124.002-.026c.188-2.13 1.84-4.347 3.95-5.462L19.381 8H17V6h3.618zm4.25 2.503l1.397 2.438-1.735.995-1.398-2.439 1.736-.994z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function MobilePhone32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -3719,15 +3728,6 @@ function MobilePhone32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#mobile-phone-32_svg__a", transform: "translate(7 2)" }))));
-}
-
-function Moped32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M26 17a4 4 0 110 8 4 4 0 010-8zm-22.326.955l1.07 1.69-.187.118-.072.073c-.27.299-.439.681-.477 1.096l-.008.18c0 1.035.808 1.864 1.793 1.864.5 0 .967-.213 1.303-.583l.062-.077.171-.333 1.78.91-.219.43-.093.148a3.762 3.762 0 01-3.004 1.505c-2.1 0-3.793-1.735-3.793-3.864 0-1.034.402-2.005 1.1-2.722l.155-.15.14-.108.279-.177zM26 19a2 2 0 100 4 2 2 0 000-4zM20.618 6l3.864 7.727c.22-.037.44-.06.662-.07l.219-.004c.51 0 1.148.047 1.917.141l.338.043-.264 1.983c-.842-.112-1.509-.167-1.991-.167-2.238 0-4.62 2.42-4.75 4.426l-.006.171v.355L19.477 22H9.632L2 15.497V10h13v1c0 2.148-1.523 3.998-3.568 4.953.631.626 1.664 1.047 2.84 1.047 2.093 0 3.492-.806 3.59-1.88l.005-.12h2c0 2.501-2.463 4-5.595 4-2.09 0-3.972-.952-4.897-2.43a6.78 6.78 0 01-.797.073l-.225.004v-2c1.872 0 3.675-1.078 4.358-2.465l.082-.182H4v2.573L10.369 20h8.153l.101-.124.002-.026c.188-2.13 1.84-4.347 3.95-5.462L19.381 8H17V6h3.618zm4.25 2.503l1.397 2.438-1.735.995-1.398-2.439 1.736-.994z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function NavigationAccounts32(_a) {
@@ -3811,16 +3811,6 @@ function NavigationPension32(_a) {
         React.createElement("path", { d: "M16.004 3l-5.192 9h10.385l-5.193-9zm0 4.002L17.734 10h-3.459l1.729-2.998zM10.235 13l-4.038 7h19.615l-4.038-7H10.235zm1.155 2h9.228l1.731 3H9.66l1.73-3zm-5.77 6l-4.04 7.003L30.428 28 26.389 21H5.62zm1.154 2h18.459l1.732 3-21.922.003L6.774 23z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
-function NavigationPhone32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M9 5.319C9 4.628 9.625 4 10.308 4h11.384C22.375 4 23 4.628 23 5.319V26.68c0 .691-.624 1.319-1.308 1.319H10.308A1.31 1.31 0 019 26.681V5.32zM10.308 30h11.384C23.482 30 25 28.474 25 26.681V5.32C25 3.525 23.482 2 21.692 2H10.308C8.518 2 7 3.525 7 5.319V26.68A3.31 3.31 0 0010.308 30z", fillRule: "nonzero" }),
-            React.createElement("path", { fillRule: "nonzero", d: "M23 10V8H9v2zM23 23v-2H9v2z" }),
-            React.createElement("path", { d: "M16 24a1.5 1.5 0 110 3 1.5 1.5 0 010-3" }))));
-}
-
 function NavigationPiggybank32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3829,6 +3819,16 @@ function NavigationPiggybank32(_a) {
             React.createElement("path", { d: "M3.753 11.845c-.476-.476-.476-1.33.002-1.809L2.339 8.624c-1.256 1.26-1.256 3.377 0 4.636 1.261 1.257 3.137 1.116 4.394-.142l-1.44-1.272c-.477.477-1.061.477-1.54 0z" }),
             React.createElement("path", { d: "M22 22.37V26h-2v-3h-8.01v3H10v-3.63C7.901 21.366 6 18.843 6 16c0-3.16 2.859-6.03 5.99-6h6.499c.035-.078.063-.987 1.012-2C20.45 6.987 20.973 6.862 22 6.862v3.762c2 .625 2.906 2.157 3.154 4.376H28v2h-2.932C25 20.78 23.399 21.683 22 22.37zM29 19h1v-6h-3.233c-.289-1.558-1.444-3-2.767-3.563V5c-2.76 0-3.82 0-5.021 1-1.083.901-1.386 1.479-1.618 2H12c-.909.013-1.96.2-2.789.528C6.24 9.708 4 12.708 4 16c0 3.593 1.768 6.573 4 7.535V28h6v-3h4v3h6v-4.465c2-.963 3.06-3.018 3.062-4.535H29z" }),
             React.createElement("path", { d: "M12.033 11.924v2H18v-2z" }))));
+}
+
+function NavigationPhone32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M9 5.319C9 4.628 9.625 4 10.308 4h11.384C22.375 4 23 4.628 23 5.319V26.68c0 .691-.624 1.319-1.308 1.319H10.308A1.31 1.31 0 019 26.681V5.32zM10.308 30h11.384C23.482 30 25 28.474 25 26.681V5.32C25 3.525 23.482 2 21.692 2H10.308C8.518 2 7 3.525 7 5.319V26.68A3.31 3.31 0 0010.308 30z", fillRule: "nonzero" }),
+            React.createElement("path", { fillRule: "nonzero", d: "M23 10V8H9v2zM23 23v-2H9v2z" }),
+            React.createElement("path", { d: "M16 24a1.5 1.5 0 110 3 1.5 1.5 0 010-3" }))));
 }
 
 function NavigationTransfer32(_a) {
@@ -3854,6 +3854,16 @@ function NavigationWages32(_a) {
         React.createElement("path", { d: "M26 27.006H6.898C5.852 27.006 5 26.183 5 25.17V11.84c0-1.012.852-1.835 1.898-1.835h4.143l-2.144 2h-1.83v2H26v3h-3v2h4v3h-4v2h3v3zm-.32-16.978l-2.121 1.978h-11.73l8.395-7.83 5.456 5.852zM29 17.006h-1v-5h-1.508l2.014-1.88-8.183-8.776-7.137 6.656H6.898C4.749 8.006 3 9.726 3 11.84v13.33c0 2.115 1.749 3.835 3.898 3.835H28v-5h1v-7z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
+function Padlock32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M6 28V13.01h20V28H6zm18-2V15.01H8V26h16z" }),
+            React.createElement("path", { d: "M23.994 14.5V9.826C23.994 5.498 20.408 2 15.997 2S8 5.498 8 9.826V14.5h2V9.826C10 6.614 12.68 4 15.997 4c3.317 0 5.997 2.614 5.997 5.826V14.5h2z" }),
+            React.createElement("path", { d: "M21 14.542v-4.64C21 7.19 18.756 5 16 5s-5 2.19-5 4.903v4.64h2v-4.64C13 8.305 14.338 7 16 7s3 1.305 3 2.903v4.64h2zM17.492 22l-.712-2.15a.992.992 0 00.49-.851c0-.552-.459-.999-1.024-.999-.566 0-1.024.447-1.024.999 0 .36.196.675.49.85L15 22h2.492zm-4.27-3.001c0-1.668 1.365-2.999 3.024-2.999s3.024 1.331 3.024 2.999c0 .43-.093.844-.262 1.22L20.26 24h-8.029l1.252-3.782a2.968 2.968 0 01-.261-1.22z" }))));
+}
+
 function NotificationSwish32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -3863,16 +3873,6 @@ function NotificationSwish32(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h32v32H0z" }),
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#notification-swish-32_svg__a", transform: "translate(5 5)" }))));
-}
-
-function Padlock32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M6 28V13.01h20V28H6zm18-2V15.01H8V26h16z" }),
-            React.createElement("path", { d: "M23.994 14.5V9.826C23.994 5.498 20.408 2 15.997 2S8 5.498 8 9.826V14.5h2V9.826C10 6.614 12.68 4 15.997 4c3.317 0 5.997 2.614 5.997 5.826V14.5h2z" }),
-            React.createElement("path", { d: "M21 14.542v-4.64C21 7.19 18.756 5 16 5s-5 2.19-5 4.903v4.64h2v-4.64C13 8.305 14.338 7 16 7s3 1.305 3 2.903v4.64h2zM17.492 22l-.712-2.15a.992.992 0 00.49-.851c0-.552-.459-.999-1.024-.999-.566 0-1.024.447-1.024.999 0 .36.196.675.49.85L15 22h2.492zm-4.27-3.001c0-1.668 1.365-2.999 3.024-2.999s3.024 1.331 3.024 2.999c0 .43-.093.844-.262 1.22L20.26 24h-8.029l1.252-3.782a2.968 2.968 0 01-.261-1.22z" }))));
 }
 
 function Paper32(_a) {
@@ -3891,16 +3891,6 @@ function PdfDoc32(_a) {
             React.createElement("path", { d: "M11.352 14.02v7.969h1.62V19.73h1.173c1.528 0 2.588-1.128 2.588-2.815 0-1.733-1.083-2.896-2.656-2.896h-2.725zm1.585 4.252v-2.77h1.208c.605 0 1.038.547 1.038 1.368 0 .844-.433 1.402-1.038 1.402h-1.208zm4.777-4.252V22h2.553c2.018 0 3.363-1.607 3.363-4.013 0-2.382-1.345-3.967-3.363-3.967h-2.553zm1.607 6.441v-4.902h.923c1.072 0 1.779.98 1.779 2.44 0 1.482-.707 2.462-1.779 2.462h-.923zm7.068-1.3h2.303v-1.493h-2.303v-2.155h2.588V14.02h-4.195V22h1.607v-2.839z" }))));
 }
 
-function Pencil32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M5 2.974v26h19v-10h-2v8H7v-22h15v-2z" }),
-            React.createElement("path", { d: "M26.364 7.228L16 17.592v1.415h1.414L27.778 8.643l-1.414-1.415zm-8.121 13.779H14v-4.243L26.364 4.4l4.243 4.243-12.364 12.364z", fillRule: "nonzero" }),
-            React.createElement("path", { d: "M24.414 7.6l2.829 2.828-1.415 1.414L23 9.014z" }))));
-}
-
 function Pension32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -3909,6 +3899,16 @@ function Pension32(_a) {
             React.createElement("path", { d: "M23.5 2H20v2h3.5zM30 7a5 5 0 01-5-5h2a3 3 0 003 3v2zM30 12V8.5h-2V12zM23.364 10.09l2.475-2.476L24.425 6.2 21.95 8.675zM15 13.789l2-.002c0 .353.738 1.214 1.229 1.213l1.539.008c.1 0 .238-.149.238-.307v-1.117L12 8.5l-8 5.084v1.222c0 .141.052.194.17.194h1.58c.501-.001 1.244-.85 1.25-1.208l2 .015c0 .341.745 1.194 1.238 1.193h3.512c.49-.002 1.25-.874 1.25-1.211zM13.754 17H10.24c-.832.002-1.642-.449-2.244-1.074-.602.623-1.41 1.072-2.244 1.074h-1.58c-1.237.003-2.171-.96-2.173-2.192v-2.392l10-6.212 10.004 6.212v.583l.002 1.7c.001 1.23-.994 2.306-2.239 2.309L18.228 17c-.833.002-1.639-.451-2.237-1.08-.604.625-1.412 1.078-2.237 1.08z" }),
             React.createElement("path", { d: "M11 16v11h2V16z" }),
             React.createElement("path", { d: "M30 28c-1.375 0-2.4-.387-4.06-1.646-1.903-1.441-3.284-1.954-5.455-1.954-2.171 0-3.557.512-5.465 1.954C13.353 27.612 12.35 28 10.55 28H2v2h8.951c2.171 0 3.302-.512 5.21-1.953 1.668-1.26 2.523-1.647 4.324-1.647 1.8 0 2.652.387 4.312 1.645C26.7 29.487 27.83 30 30 30v-2z" }))));
+}
+
+function Pencil32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M5 2.974v26h19v-10h-2v8H7v-22h15v-2z" }),
+            React.createElement("path", { d: "M26.364 7.228L16 17.592v1.415h1.414L27.778 8.643l-1.414-1.415zm-8.121 13.779H14v-4.243L26.364 4.4l4.243 4.243-12.364 12.364z", fillRule: "nonzero" }),
+            React.createElement("path", { d: "M24.414 7.6l2.829 2.828-1.415 1.414L23 9.014z" }))));
 }
 
 function PensionCapital32(_a) {
@@ -4000,15 +4000,6 @@ function Print32(_a) {
                 React.createElement("path", { d: "M12 26h8.065v-2H12zM12 22h8.065v-2H12z" })))));
 }
 
-function RadioEnclosed32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M16 27C9.935 27 5 22.065 5 16S9.935 5 16 5s11 4.935 11 11-4.935 11-11 11m0-24C8.832 3 3 8.832 3 16s5.832 13 13 13 13-5.832 13-13S23.168 3 16 3" }),
-            React.createElement("path", { d: "M16.058 14.09c-1.157 0-1.967.836-1.967 1.91 0 1.074.926 1.909 1.967 1.909s1.851-.835 1.851-1.91c0-1.073-.694-1.908-1.851-1.908" }))));
-}
-
 function RadioRound32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -4036,6 +4027,15 @@ function Rv32(_a) {
             React.createElement("path", { d: "M10 20a3 3 0 110 6 3 3 0 010-6zm13 0a3 3 0 110 6 3 3 0 010-6zm4.72-13l3.334 10-2.333 7H27v-2h.279l1.667-5.001L26.279 9H4.802l-1.555 6.999L6 16v2l-2.613-.001L4.72 22H6v2H3.28L.963 17.053 3.198 7H27.72zM10 22a1 1 0 100 2 1 1 0 000-2zm13 0a1 1 0 100 2 1 1 0 000-2zm-4 0v2h-5v-2h5zm0-11v10h-2v-8h-1v8h-2V11h5zm6.641 0l1.677 6H21v-6h4.641zm-1.518 2H23v2h1.682l-.559-2zM12 11v4h-2v-2H8v2H6v-4h6z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
+function RadioEnclosed32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M16 27C9.935 27 5 22.065 5 16S9.935 5 16 5s11 4.935 11 11-4.935 11-11 11m0-24C8.832 3 3 8.832 3 16s5.832 13 13 13 13-5.832 13-13S23.168 3 16 3" }),
+            React.createElement("path", { d: "M16.058 14.09c-1.157 0-1.967.836-1.967 1.91 0 1.074.926 1.909 1.967 1.909s1.851-.835 1.851-1.91c0-1.073-.694-1.908-1.851-1.908" }))));
+}
+
 function Screen32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -4051,6 +4051,15 @@ function Search32(_a) {
             React.createElement("path", { d: "M26.07 27.485L21 22.415 22.414 21l5.071 5.07zM5.984 13.5c0 4.145 3.371 7.516 7.516 7.516 4.144 0 7.516-3.371 7.516-7.516S17.644 5.984 13.5 5.984c-4.145 0-7.516 3.371-7.516 7.516zM4 13.5C4 8.262 8.262 4 13.5 4S23 8.262 23 13.5c0 5.239-4.262 9.5-9.5 9.5S4 18.739 4 13.5z" }))));
 }
 
+function Smalltruck32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h32v32H0z" }),
+            React.createElement("path", { d: "M23 5v14H4.219l.6 3h1.216a3.251 3.251 0 016.186 0h8.289a3.251 3.251 0 016.186 0H28v-2.817L25.306 12H24v-2h2.693L30 18.819V24h-3.304a3.25 3.25 0 01-6.186 0h-8.29a3.25 3.25 0 01-6.186 0H3.181l-1-5H2V5h21zm.603 16.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zm-14.475 0a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zM21 7H4v10h17V7zm-3 7v2h-2v-2h2zM8 14v2H6v-2h2zm5 0v2h-2v-2h2z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
 function Shield32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -4059,15 +4068,6 @@ function Shield32(_a) {
             React.createElement("path", { d: "M23.25 4H8.75c0 1.912-1.798 3.75-3.75 3.75v9.492C5 24.062 16 29 16 29s11-4.938 11-11.758V7.75c-1.837 0-3.75-1.876-3.75-3.75m-1.581 2A6.393 6.393 0 0025 9.331v7.911c0 4.115-5.89 7.958-9 9.539-3.111-1.582-9-5.425-9-9.539v-7.88A6.072 6.072 0 0010.362 6h11.307" }),
             React.createElement("path", { fillRule: "nonzero", d: "M11.5 12.414L12.914 11l7.657 7.657-1.414 1.414z" }),
             React.createElement("path", { fillRule: "nonzero", d: "M19.157 11l1.414 1.414-7.657 7.657-1.414-1.414z" }))));
-}
-
-function Smalltruck32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h32v32H0z" }),
-            React.createElement("path", { d: "M23 5v14H4.219l.6 3h1.216a3.251 3.251 0 016.186 0h8.289a3.251 3.251 0 016.186 0H28v-2.817L25.306 12H24v-2h2.693L30 18.819V24h-3.304a3.25 3.25 0 01-6.186 0h-8.29a3.25 3.25 0 01-6.186 0H3.181l-1-5H2V5h21zm.603 16.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zm-14.475 0a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zM21 7H4v10h17V7zm-3 7v2h-2v-2h2zM8 14v2H6v-2h2zm5 0v2h-2v-2h2z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Snailmail32(_a) {
@@ -4098,13 +4098,13 @@ function Star32(_a) {
         React.createElement("path", { d: "M19.588 17.253a.997.997 0 00-.359 1.111l1.664 5.178-4.296-3.193a1 1 0 00-1.194 0l-4.294 3.192 1.664-5.177a1.001 1.001 0 00-.36-1.11l-4.359-3.21 5.361.013h.002a.999.999 0 00.953-.7L16 8.213l1.631 5.146a1 1 0 00.953.699h.002l5.36-.012-4.358 3.209zm8.362-4.529a1.001 1.001 0 00-.95-.687h-.002l-7.682.017-2.363-7.456a1 1 0 00-1.906 0l-2.36 7.456-7.685-.017H5a1.002 1.002 0 00-.593 1.806l6.242 4.595-2.399 7.46a1 1 0 001.55 1.108l6.2-4.608 6.202 4.608a1.001 1.001 0 001.55-1.108l-2.399-7.46 6.24-4.595a1 1 0 00.357-1.119z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
-function Sustainability32(_a) {
+function Text1Round32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 28, height: 30, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M-2-1h32v32H-2z" }),
-            React.createElement("path", { d: "M9.416 19.32l2.839 4.26 4.731-7.458-1.935-5.806 1.898-.632 1.42 4.26 2.963-4.672 1.689 1.071-2.466 3.887 3.17-.906.55 1.923-5.332 1.524-1.072 1.69c.696.36 1.489.539 2.392.539C22.888 19 26 16.442 26 13.455c0-2.43-.228-5.76-.685-9.987-5.41 2.411-8.893 4.12-10.404 5.099-2.156 1.396-2.617 4.752-.689 6.625l-1.393 1.434c-2.878-2.795-2.21-7.662.995-9.738 1.745-1.13 5.703-3.053 11.93-5.803l1.243-.549.154 1.35c.566 4.944.849 8.797.849 11.569C28 17.642 23.915 21 20.263 21c-1.286 0-2.447-.283-3.467-.846l-5.952 9.382-1.688-1.072 1.927-3.037-5.915-8.872 1.664-1.11 1.451 2.177c.91-.971 1.007-1.705.157-2.849-.892-1.2-2.993-2.111-6.307-2.64-.335 2.94-.032 5.017.838 6.224.483.67 1.202.831 2.416.429l.629 1.899c-1.982.656-3.624.288-4.667-1.16C.013 17.674-.31 14.785.286 10.852l.146-.967.97.124c4.376.56 7.26 1.71 8.643 3.572 1.706 2.296 1.172 3.984-.63 5.74z", fill: "currentColor", fillRule: "nonzero" }))));
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M16 27C9.935 27 5 22.065 5 16S9.935 5 16 5s11 4.935 11 11-4.935 11-11 11m0-24C8.832 3 3 8.832 3 16s5.832 13 13 13 13-5.832 13-13S23.168 3 16 3" }),
+            React.createElement("path", { d: "M16.979 10.5h-3.3v1.755h1.26v7.02H13.5V21h4.964v-1.725h-1.485z" }))));
 }
 
 function Tag32(_a) {
@@ -4116,13 +4116,13 @@ function Tag32(_a) {
             React.createElement("path", { d: "M20.036 13.098c-.367 0-.648-.128-.937-.461a.5.5 0 01-.1-.156l-.055-.131c-.032-.064-.032-.209-.032-.376a1.14 1.14 0 011.124-1.124 1.14 1.14 0 011.124 1.124 1.14 1.14 0 01-1.124 1.124m0-4.248a3.127 3.127 0 00-3.124 3.124c0 .316 0 .744.212 1.205.116.315.315.627.51.816a3.076 3.076 0 002.402 1.103 3.127 3.127 0 003.124-3.124 3.127 3.127 0 00-3.124-3.124" }))));
 }
 
-function Text1Round32(_a) {
+function Sustainability32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 28, height: 30, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M16 27C9.935 27 5 22.065 5 16S9.935 5 16 5s11 4.935 11 11-4.935 11-11 11m0-24C8.832 3 3 8.832 3 16s5.832 13 13 13 13-5.832 13-13S23.168 3 16 3" }),
-            React.createElement("path", { d: "M16.979 10.5h-3.3v1.755h1.26v7.02H13.5V21h4.964v-1.725h-1.485z" }))));
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M-2-1h32v32H-2z" }),
+            React.createElement("path", { d: "M9.416 19.32l2.839 4.26 4.731-7.458-1.935-5.806 1.898-.632 1.42 4.26 2.963-4.672 1.689 1.071-2.466 3.887 3.17-.906.55 1.923-5.332 1.524-1.072 1.69c.696.36 1.489.539 2.392.539C22.888 19 26 16.442 26 13.455c0-2.43-.228-5.76-.685-9.987-5.41 2.411-8.893 4.12-10.404 5.099-2.156 1.396-2.617 4.752-.689 6.625l-1.393 1.434c-2.878-2.795-2.21-7.662.995-9.738 1.745-1.13 5.703-3.053 11.93-5.803l1.243-.549.154 1.35c.566 4.944.849 8.797.849 11.569C28 17.642 23.915 21 20.263 21c-1.286 0-2.447-.283-3.467-.846l-5.952 9.382-1.688-1.072 1.927-3.037-5.915-8.872 1.664-1.11 1.451 2.177c.91-.971 1.007-1.705.157-2.849-.892-1.2-2.993-2.111-6.307-2.64-.335 2.94-.032 5.017.838 6.224.483.67 1.202.831 2.416.429l.629 1.899c-1.982.656-3.624.288-4.667-1.16C.013 17.674-.31 14.785.286 10.852l.146-.967.97.124c4.376.56 7.26 1.71 8.643 3.572 1.706 2.296 1.172 3.984-.63 5.74z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Text2Round32(_a) {
@@ -4213,15 +4213,6 @@ function Twitter32(_a) {
             React.createElement("path", { d: "M13.42 22.8c5.944 0 9.194-4.924 9.194-9.194 0-.09-.001-.178-.004-.267a.288.288 0 01.113-.238 6.555 6.555 0 001.279-1.283c.064-.085-.023-.202-.123-.164-.45.17-.924.29-1.416.357-.023.003-.035-.029-.015-.041a3.251 3.251 0 001.201-1.39.131.131 0 00-.18-.169 6.49 6.49 0 01-1.586.578.285.285 0 01-.258-.075 3.232 3.232 0 00-5.442 2.853.16.16 0 01-.169.188 9.17 9.17 0 01-6.262-3.139.198.198 0 00-.328.044 3.227 3.227 0 001.054 3.986c.024.018.011.057-.02.055a3.204 3.204 0 01-1.167-.301.131.131 0 00-.185.128 3.235 3.235 0 002.472 2.958c.028.006.027.047-.001.053a3.235 3.235 0 01-1.168.056.108.108 0 00-.116.144 3.237 3.237 0 002.678 2.054c.095.01.13.132.051.188a6.483 6.483 0 01-3.784 1.213H9.17c-.177 0-.237.237-.08.32A9.137 9.137 0 0013.42 22.8" }))));
 }
 
-function Umbrella32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M17 6h-2c-4.57 0-8.865 3.854-9.809 8.236 1.329-1.007 3.017-1.509 4.878-1.509 2.311 0 4.47 1.062 5.938 2.796 1.492-1.7 3.788-2.796 5.993-2.796 1.879 0 3.511.473 4.789 1.434C25.803 9.824 21.506 6 17 6zm12 11.527h-2c-.957-1.995-2.76-2.8-5-2.8-1.886 0-3.968 1.146-5 2.8h-2c-1.032-1.654-2.867-2.8-4.93-2.8-2.064 0-4.042.778-5.07 2.8H3V16C3 10 8.562 4 15 4h2c6.375 0 12 6 12 12v1.527zM14.791 27.079c-.306.503-.751.885-1.783.885s-1.935-.891-1.935-2.037H9.14c0 2.164 1.676 3.946 3.869 3.946C14.942 29.873 17 28.48 17 26c0-2.48-2 0-2 0s.097.575-.209 1.079z" }),
-            React.createElement("path", { d: "M15 16v10h2V16zM17 5V2h-2v3z" }))));
-}
-
 function User32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -4229,6 +4220,15 @@ function User32(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
             React.createElement("path", { d: "M23.963 14.62c.346 1.043.537 2.203.537 3.38 0 5.81-4.705 10.5-10.5 10.5-5.775 0-10.5-4.725-10.5-10.5C3.5 12.19 8.205 7.5 14 7.5c3.094 0 5.981 1.35 7.993 3.672l1.511-1.31C21.117 7.107 17.681 5.5 14 5.5 7.102 5.5 1.5 11.083 1.5 18c0 6.88 5.62 12.5 12.5 12.5 6.898 0 12.5-5.583 12.5-12.5 0-1.394-.226-2.767-.657-4.058l-.31-.804-.249-.638h-8.588c-2.34 0-3.91-.545-4.89-1.42-.538-.479-.777-.927-.834-1.162l-1.944.47c.146.603.577 1.41 1.447 2.185 1.364 1.217 3.41 1.927 6.221 1.927h7.22l.047.12z" }),
             React.createElement("path", { d: "M10.088 17.826c0-.181.135-.326.236-.326.1 0 .235.145.235.326h2c0-1.256-.998-2.326-2.235-2.326-1.238 0-2.236 1.07-2.236 2.326h2zM17.5 17.826c0-.181.135-.326.235-.326.1 0 .236.145.236.326h2c0-1.256-.998-2.326-2.236-2.326-1.237 0-2.235 1.07-2.235 2.326h2zM17.452 21.61a4.91 4.91 0 01-3.423 1.376 4.91 4.91 0 01-3.423-1.376l-1.389 1.438a6.91 6.91 0 004.812 1.938 6.91 6.91 0 004.813-1.938l-1.39-1.438zM20.212 5.15l.775-3.331-1.949-.453-.774 3.332zM24.355 7.426l2.132-2.698-1.569-1.24-2.132 2.698zM26.63 11.283l3.09-1.549-.897-1.788-3.09 1.55z" }))));
+}
+
+function Umbrella32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M17 6h-2c-4.57 0-8.865 3.854-9.809 8.236 1.329-1.007 3.017-1.509 4.878-1.509 2.311 0 4.47 1.062 5.938 2.796 1.492-1.7 3.788-2.796 5.993-2.796 1.879 0 3.511.473 4.789 1.434C25.803 9.824 21.506 6 17 6zm12 11.527h-2c-.957-1.995-2.76-2.8-5-2.8-1.886 0-3.968 1.146-5 2.8h-2c-1.032-1.654-2.867-2.8-4.93-2.8-2.064 0-4.042.778-5.07 2.8H3V16C3 10 8.562 4 15 4h2c6.375 0 12 6 12 12v1.527zM14.791 27.079c-.306.503-.751.885-1.783.885s-1.935-.891-1.935-2.037H9.14c0 2.164 1.676 3.946 3.869 3.946C14.942 29.873 17 28.48 17 26c0-2.48-2 0-2 0s.097.575-.209 1.079z" }),
+            React.createElement("path", { d: "M15 16v10h2V16zM17 5V2h-2v3z" }))));
 }
 
 function UserHappy32(_a) {
@@ -4310,17 +4310,6 @@ function PensionOccupationalInMc70(_a) {
             React.createElement("path", { d: "M35.003 11.096L25.857 28h18.351l-9.205-16.904zM14.734 49L8.69 60H61.3l-6.121-11H14.734z", stroke: "#005AA0", strokeWidth: 2 }))));
 }
 
-function PensionOccupationalMc70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("g", { strokeWidth: 2 },
-                React.createElement("path", { d: "M23.95 32l-7.121 13h36.574l-7.341-13H23.95z", stroke: "#E30613" }),
-                React.createElement("path", { d: "M35.003 11.216L25.863 28h18.34l-9.2-16.784zM14.734 49L8.69 60H61.3l-6.121-11H14.734z", stroke: "#005AA0" })))));
-}
-
 function PensionOccupationalOutMc70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
@@ -4331,6 +4320,17 @@ function PensionOccupationalOutMc70(_a) {
             React.createElement("path", { d: "M47.222 36h2.28l-2.737-5H23.474L15 46h39.975l-2.737-5h-2.28l1.642 3H18.427l6.214-11H45.58l1.642 3z", fill: "#E30613", fillRule: "nonzero" }),
             React.createElement("path", { d: "M35.003 11.096L25.857 28h18.351l-9.205-16.904z", stroke: "#005AA0", strokeWidth: 2 }),
             React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M54.322 36.136l1.435 1.388H44v1.988h11.757l-1.435 1.444 1.435 1.386 3.761-3.824-3.761-3.768z" }))));
+}
+
+function PensionOccupationalMc70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("g", { strokeWidth: 2 },
+                React.createElement("path", { d: "M23.95 32l-7.121 13h36.574l-7.341-13H23.95z", stroke: "#E30613" }),
+                React.createElement("path", { d: "M35.003 11.216L25.863 28h18.34l-9.2-16.784zM14.734 49L8.69 60H61.3l-6.121-11H14.734z", stroke: "#005AA0" })))));
 }
 
 function PensionPrivateInMc70(_a) {
@@ -4503,15 +4503,6 @@ function Bank70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#bank-70_svg__a" }))));
 }
 
-function BillsCoins70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("path", { d: "M32.5 53a5.5 5.5 0 110 11 5.5 5.5 0 010-11zm0 2a3.5 3.5 0 100 7 3.5 3.5 0 000-7zM54.53 5.81l5.331 22.904 2.942.626-5.407 25.438-6.174-1.358c-.646 3.323-3.345 5.764-6.515 5.709-3.635-.064-6.476-3.363-6.407-7.318.007-.408.045-.812.112-1.207l-2.466-.542.43-1.954 19.482 4.284 4.573-21.512-43.039-9.148-2.995 14.088.023.098-.046.01-1.556 7.323 5.937 1.26a7 7 0 11-.415 1.958l-7.894-1.677 1.903-8.954-3.592-15.513-.632-2.735-.225-.975L20.527 13.7l.45 1.949-10.678 2.465.406 1.76 2.626 11.342 2.52-11.856L57.7 28.255 53.035 8.208 25.75 14.507l-.45-1.949L54.53 5.81zM40.3 51.846c-.051 2.898 1.965 5.24 4.442 5.283 2.165.038 4.074-1.702 4.525-4.138l-8.898-1.957a5.997 5.997 0 00-.07.812zm-14.887-9.913a5 5 0 10-.175 9.998 5 5 0 00.175-9.998zM55.33 31.819a3 3 0 11-1.247 5.868 3 3 0 011.247-5.868zm-6.847-1.456a3 3 0 11-1.247 5.87 3 3 0 011.247-5.87zm5.245 4.182a1 1 0 101.957.416 1 1 0 00-1.957-.416zm-11.603-5.533l1.957.416-1.248 5.868-1.956-.415 1.247-5.87zm4.756 4.078a1 1 0 101.957.416 1 1 0 00-1.957-.416zM38.41 13.643l1.35 5.846-1.95.45-1.35-5.846 1.95-.45zm7.982 1.236a3 3 0 11-5.846 1.35 3 3 0 015.846-1.35zm6.82-1.574a3 3 0 11-5.845 1.35 3 3 0 015.846-1.35zm-9.968 1.275a1 1 0 10.45 1.948 1 1 0 00-.45-1.948zm6.82-1.575a1 1 0 10.45 1.949 1 1 0 00-.45-1.949z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function Boat70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -4521,6 +4512,15 @@ function Boat70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#boat-70_svg__a", transform: "translate(6 7)" }))));
+}
+
+function BillsCoins70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("path", { d: "M32.5 53a5.5 5.5 0 110 11 5.5 5.5 0 010-11zm0 2a3.5 3.5 0 100 7 3.5 3.5 0 000-7zM54.53 5.81l5.331 22.904 2.942.626-5.407 25.438-6.174-1.358c-.646 3.323-3.345 5.764-6.515 5.709-3.635-.064-6.476-3.363-6.407-7.318.007-.408.045-.812.112-1.207l-2.466-.542.43-1.954 19.482 4.284 4.573-21.512-43.039-9.148-2.995 14.088.023.098-.046.01-1.556 7.323 5.937 1.26a7 7 0 11-.415 1.958l-7.894-1.677 1.903-8.954-3.592-15.513-.632-2.735-.225-.975L20.527 13.7l.45 1.949-10.678 2.465.406 1.76 2.626 11.342 2.52-11.856L57.7 28.255 53.035 8.208 25.75 14.507l-.45-1.949L54.53 5.81zM40.3 51.846c-.051 2.898 1.965 5.24 4.442 5.283 2.165.038 4.074-1.702 4.525-4.138l-8.898-1.957a5.997 5.997 0 00-.07.812zm-14.887-9.913a5 5 0 10-.175 9.998 5 5 0 00.175-9.998zM55.33 31.819a3 3 0 11-1.247 5.868 3 3 0 011.247-5.868zm-6.847-1.456a3 3 0 11-1.247 5.87 3 3 0 011.247-5.87zm5.245 4.182a1 1 0 101.957.416 1 1 0 00-1.957-.416zm-11.603-5.533l1.957.416-1.248 5.868-1.956-.415 1.247-5.87zm4.756 4.078a1 1 0 101.957.416 1 1 0 00-1.957-.416zM38.41 13.643l1.35 5.846-1.95.45-1.35-5.846 1.95-.45zm7.982 1.236a3 3 0 11-5.846 1.35 3 3 0 015.846-1.35zm6.82-1.574a3 3 0 11-5.845 1.35 3 3 0 015.846-1.35zm-9.968 1.275a1 1 0 10.45 1.948 1 1 0 00-.45-1.948zm6.82-1.575a1 1 0 10.45 1.949 1 1 0 00-.45-1.949z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Briefcase70(_a) {
@@ -4543,15 +4543,6 @@ function BriefcaseFirstAid70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#briefcase-first-aid-70_svg__a" }))));
 }
 
-function Car70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("path", { d: "M35 15c8.751 0 13.146 1.213 15.535 3.63 1.16 1.175 2.772 3.867 4.908 8.154l6.431 1.301A2.662 2.662 0 0164 30.7v1.967a2.657 2.657 0 01-2.647 2.666h-1.92a29.645 29.645 0 011.273 8.598v5.402c0 1.115-.68 2.072-1.647 2.47v2.53A2.657 2.657 0 0156.412 57H51.47a2.657 2.657 0 01-2.647-2.667V52H21.176v2.333A2.657 2.657 0 0118.53 57h-4.94a2.657 2.657 0 01-2.648-2.667v-2.53a2.668 2.668 0 01-1.647-2.47v-5.402c0-2.915.43-5.813 1.274-8.598h-1.92A2.657 2.657 0 016 32.667V30.7c0-1.269.888-2.364 2.126-2.615l6.431-1.301c2.136-4.287 3.747-6.979 4.908-8.154C21.855 16.213 26.25 15 35 15zM19.176 51.999h-6.235v2.334c0 .371.293.667.647.667h4.941a.657.657 0 00.647-.667V52zm37.882 0h-6.235v2.334c0 .371.293.667.648.667h4.94a.657.657 0 00.648-.667L57.058 52zM35 17c-8.268 0-12.178 1.079-14.112 3.036-.996 1.008-2.609 3.727-4.756 8.074l-.218.44-7.392 1.496A.662.662 0 008 30.7v1.967c0 .37.292.666.647.666h4.676l-.642 1.951a27.64 27.64 0 00-1.387 8.647V46L45 46v2l-33.706-.001v1.334c0 .371.292.667.647.667H58.06a.657.657 0 00.647-.667L58.705 48 48 48v-2l10.705-.001v-2.068c0-2.939-.467-5.859-1.386-8.647l-.642-1.95h4.676a.657.657 0 00.647-.667V30.7c0-.32-.22-.593-.522-.654l-7.392-1.497-.218-.44c-2.147-4.346-3.76-7.065-4.756-8.073C47.178 18.08 43.268 17 35 17zm8 24v2H27v-2h16zm-24.5-8a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm33 0a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm-33 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5zm33 0a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM43 38v2H27v-2h16zm5.857-15.514L52.767 29H19v-2h30.234l-2.091-3.486 1.714-1.028zM26 19v2c-1.352 0-2.389.518-3.2 1.6l-1.6-1.2c1.189-1.585 2.819-2.4 4.8-2.4z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function CarDamage70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
@@ -4559,6 +4550,15 @@ function CarDamage70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("path", { d: "M35 15c8.751 0 13.146 1.213 15.535 3.63 1.16 1.175 2.772 3.867 4.908 8.154l6.431 1.301A2.662 2.662 0 0164 30.7v1.967a2.657 2.657 0 01-2.647 2.666h-1.92a29.645 29.645 0 011.273 8.598v5.402c0 1.115-.68 2.072-1.647 2.47v2.53A2.657 2.657 0 0156.412 57H51.47a2.657 2.657 0 01-2.647-2.667V52H21.176v2.333A2.657 2.657 0 0118.53 57h-4.94a2.657 2.657 0 01-2.648-2.667v-2.53a2.668 2.668 0 01-1.647-2.47v-5.402c0-2.915.43-5.813 1.274-8.598h-1.92A2.657 2.657 0 016 32.667V30.7c0-1.269.888-2.364 2.126-2.615l6.431-1.301c2.136-4.287 3.747-6.979 4.908-8.154C21.855 16.213 26.25 15 35 15zM19.176 51.999h-6.235v2.334c0 .371.293.667.647.667h4.941a.657.657 0 00.647-.667V52zm37.882 0h-6.235v2.334c0 .371.293.667.648.667h4.94a.657.657 0 00.648-.667L57.058 52zM35 17c-8.268 0-12.178 1.079-14.112 3.036-.996 1.008-2.609 3.727-4.756 8.074l-.218.44-7.392 1.496A.662.662 0 008 30.7v1.967c0 .37.292.666.647.666h4.676l-.642 1.951a27.64 27.64 0 00-1.387 8.647V46L24 46v2l-12.706-.001v1.334c0 .371.292.667.647.667H58.06a.657.657 0 00.647-.667v-5.402c0-2.939-.468-5.859-1.387-8.647l-.642-1.95h4.676a.657.657 0 00.647-.667V30.7c0-.32-.22-.593-.522-.654l-7.392-1.497-.218-.44c-2.147-4.346-3.76-7.065-4.756-8.073C47.178 18.08 43.268 17 35 17zm18.841 29l2.782 2.218-1.246 1.564L53.14 48H46v-2h7.841zM44 46v2H26v-2h18zm-1-5v2H27v-2h16zm-24.5-8a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm33 0v2a2.5 2.5 0 102.5 2.5h2a4.5 4.5 0 11-4.5-4.5zm-33 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM43 38v2H27v-2h16zM30.832 18.445l1.629 2.443 10.892-2.178-1.022 4.09 6.185-.884L52.766 29H19v-2h30.234l-1.75-2.916L39.67 25.2l.978-3.91-9.108 1.822-2.371-3.557 1.664-1.11z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Car70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("path", { d: "M35 15c8.751 0 13.146 1.213 15.535 3.63 1.16 1.175 2.772 3.867 4.908 8.154l6.431 1.301A2.662 2.662 0 0164 30.7v1.967a2.657 2.657 0 01-2.647 2.666h-1.92a29.645 29.645 0 011.273 8.598v5.402c0 1.115-.68 2.072-1.647 2.47v2.53A2.657 2.657 0 0156.412 57H51.47a2.657 2.657 0 01-2.647-2.667V52H21.176v2.333A2.657 2.657 0 0118.53 57h-4.94a2.657 2.657 0 01-2.648-2.667v-2.53a2.668 2.668 0 01-1.647-2.47v-5.402c0-2.915.43-5.813 1.274-8.598h-1.92A2.657 2.657 0 016 32.667V30.7c0-1.269.888-2.364 2.126-2.615l6.431-1.301c2.136-4.287 3.747-6.979 4.908-8.154C21.855 16.213 26.25 15 35 15zM19.176 51.999h-6.235v2.334c0 .371.293.667.647.667h4.941a.657.657 0 00.647-.667V52zm37.882 0h-6.235v2.334c0 .371.293.667.648.667h4.94a.657.657 0 00.648-.667L57.058 52zM35 17c-8.268 0-12.178 1.079-14.112 3.036-.996 1.008-2.609 3.727-4.756 8.074l-.218.44-7.392 1.496A.662.662 0 008 30.7v1.967c0 .37.292.666.647.666h4.676l-.642 1.951a27.64 27.64 0 00-1.387 8.647V46L45 46v2l-33.706-.001v1.334c0 .371.292.667.647.667H58.06a.657.657 0 00.647-.667L58.705 48 48 48v-2l10.705-.001v-2.068c0-2.939-.467-5.859-1.386-8.647l-.642-1.95h4.676a.657.657 0 00.647-.667V30.7c0-.32-.22-.593-.522-.654l-7.392-1.497-.218-.44c-2.147-4.346-3.76-7.065-4.756-8.073C47.178 18.08 43.268 17 35 17zm8 24v2H27v-2h16zm-24.5-8a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm33 0a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm-33 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5zm33 0a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM43 38v2H27v-2h16zm5.857-15.514L52.767 29H19v-2h30.234l-2.091-3.486 1.714-1.028zM26 19v2c-1.352 0-2.389.518-3.2 1.6l-1.6-1.2c1.189-1.585 2.819-2.4 4.8-2.4z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Caravan70(_a) {
@@ -4590,17 +4590,6 @@ function CardBlock70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#card-block-70_svg__a" }))));
 }
 
-function Chat70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M35 58.199V49h2v14.801L26.526 51H25C14.507 51 6 42.493 6 32s8.507-19 19-19h20c10.493 0 19 8.507 19 19s-8.507 19-19 19h-6v-2h6c9.389 0 17-7.611 17-17s-7.611-17-17-17H25c-9.389 0-17 7.611-17 17s7.611 17 17 17h2.474L35 58.199z", id: "chat-70_svg__a" })),
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#chat-70_svg__a" }))));
-}
-
 function Check70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -4610,6 +4599,17 @@ function Check70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#check-70_svg__a" }))));
+}
+
+function Chat70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M35 58.199V49h2v14.801L26.526 51H25C14.507 51 6 42.493 6 32s8.507-19 19-19h20c10.493 0 19 8.507 19 19s-8.507 19-19 19h-6v-2h6c9.389 0 17-7.611 17-17s-7.611-17-17-17H25c-9.389 0-17 7.611-17 17s7.611 17 17 17h2.474L35 58.199z", id: "chat-70_svg__a" })),
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#chat-70_svg__a" }))));
 }
 
 function Circle70(_a) {
@@ -4652,13 +4652,15 @@ function Coins70(_a) {
             React.createElement("path", { d: "M32 14v4h8v6h-5v16H12v2h21v2H12l-.001 2H32v2H12v2h20v2H12l-.001 2H33v2H12v2h23v6H10V22h5v-2H7v-6h25zm17 20c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15 0-8.284 6.716-15 15-15zM33 60H12v2h21v-2zm16-24c-7.18 0-13 5.82-13 13s5.82 13 13 13 13-5.82 13-13-5.82-13-13-13zm0 2c6.075 0 11 4.925 11 11 0 1.06-.15 2.086-.43 3.057l-.036.121-.008.028a10.923 10.923 0 01-2.06 3.817l.016-.018a11.063 11.063 0 01-2.072 1.935l-.035.025c-.068.049-.136.096-.204.142l-.07.047a10.91 10.91 0 01-1.565.87l-.123.055a7.597 7.597 0 01-.265.112c-.367.15-.744.28-1.13.39l-.11.03-.17.046-.06.014a10.99 10.99 0 01-2.39.325L49 60c-6.075 0-11-4.925-11-11a11.16 11.16 0 01.202-2.109l.002-.01a11.012 11.012 0 018.638-8.67l.062-.012c.11-.02.22-.04.33-.058l-.392.07a10.963 10.963 0 011.28-.176l.008-.001A10.996 10.996 0 0149 38zm0 2l-.316.005a9.12 9.12 0 00-.289.015l.153-.009a9.079 9.079 0 00-.318.022l.165-.013c-.15.01-.3.024-.448.04l.283-.027c-.124.01-.247.023-.369.038l.086-.01a8.998 8.998 0 00-.325.044l.24-.034a8.99 8.99 0 00-.316.046l.076-.012c-.124.019-.247.04-.37.065l.294-.053a9.009 9.009 0 00-7.363 7.07l-.016.077-.053.298a8.977 8.977 0 00-.093.811l.01-.136c-.008.11-.016.22-.02.33l.01-.194a9.102 9.102 0 00-.015.307l.004-.112a9 9 0 0011.494 9.079l.139-.041-.138.04a8.929 8.929 0 00.89-.308l-.106.042c.087-.034.174-.07.26-.107l-.154.065c.079-.032.157-.066.235-.1l-.08.035a8.95 8.95 0 00.264-.119l-.184.084c.087-.039.174-.079.26-.12l-.076.036c.075-.035.15-.07.223-.108l-.147.072c.087-.042.173-.085.259-.129l-.112.057c.09-.045.178-.091.265-.139l-.153.082a8.987 8.987 0 00.688-.398l-.12.075a9.013 9.013 0 00.589-.396l-.14.1c.066-.046.132-.094.198-.142l-.058.042c.069-.05.137-.102.205-.154l-.147.112c.08-.06.158-.12.235-.181l-.088.069a9.053 9.053 0 00.694-.596l-.037.034a9.056 9.056 0 00.674-.707l-.08.092c.064-.073.127-.146.189-.22l-.109.128c.057-.066.112-.133.167-.2l-.058.071c.057-.07.114-.14.17-.212l-.112.14a9.028 9.028 0 00.607-.848l-.026.04c.039-.06.076-.12.113-.181l-.087.14c.059-.092.116-.187.172-.282l-.085.142c.045-.075.09-.15.132-.226l-.047.084.108-.192-.06.108.128-.235-.068.127c.153-.28.292-.568.416-.864l.041-.103-.041.103c.032-.078.064-.157.094-.236l-.053.133c.036-.088.07-.176.102-.265l-.049.132c.034-.087.066-.175.096-.263l-.047.13a8.93 8.93 0 00.093-.265l-.046.135c.042-.119.08-.238.117-.359l.013-.046A9 9 0 0049 40zm1.304 2.8v9.36h1.584V54h-5.296v-1.84h1.536v-7.488h-1.344V42.8h3.52zM33 36H12v2h21v-2zm0-4H12v2h21v-2zm0-4H12v2h21v-2zm0-4H12v2h21v-2zm5-4H17v2h21v-2zm-8-4H9v2h21v-2z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Computer70(_a) {
+function Contract70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M43 0v21.107h-2V2H2v54h39v-8h2v10H0V0h43zM12.518 39.098c2.37 1.202 2.634 3.374 1.729 6.737-.094.349-.193.691-.341 1.185-.55 1.837-.677 2.322-.72 2.934-.04.548.028.686.262.76.438.14 1.047-.602 2.208-2.941l.133-.268c1.667-3.367 2.518-4.492 4.331-4.333 1.219.106 2.031.715 2.309 1.725.183.665.128 1.337-.09 2.381l-.073.337c-.172.784-.232 1.134-.224 1.365v.016l.037-.003h4.936v2h-4.936c-1.139 0-1.88-.634-2.014-1.664-.072-.563-.01-.967.247-2.141l.069-.32c.155-.742.191-1.18.12-1.44-.045-.162-.132-.227-.555-.264-.52-.045-1.167.81-2.365 3.228l-.133.27c-1.692 3.41-2.653 4.578-4.605 3.959-1.249-.397-1.75-1.43-1.653-2.809.06-.828.193-1.34.8-3.366.143-.478.238-.804.326-1.13.684-2.544.53-3.809-.703-4.435-2.343-1.188-3.898 1.179-4.55 8.334l-1.993-.181c.764-8.364 3.209-12.087 7.448-9.936zM48.8 21.586l8.614 8.614-20.8 20.8H28v-8.614l20.8-20.8zM30 45.415V49h3.585L30 45.415zm14.4-16.6L30.315 42.9l5.785 5.785L50.185 34.6 44.4 28.815zm1.893 4.478l1.414 1.414-11 11-1.414-1.414 11-11zm2.507-8.879L45.815 27.4l5.785 5.785 2.986-2.985-5.786-5.786zM21 21v2H8v-2h13zm12-5v2H8v-2h25zm0-5v2H8v-2h25z", id: "contract-70_svg__a" })),
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("path", { d: "M56.5 50h-1a2.5 2.5 0 00-2.5 2.5v5a2.5 2.5 0 002.5 2.5h1a2.5 2.5 0 002.5-2.5v-5a2.5 2.5 0 00-2.5-2.5zm1.5 2v3h-4v-3h4zm-8.286-8.5h3.143c2.32 0 3.594 1.338 3.992 3.418.072.378.111.714.132 1.107A4.501 4.501 0 0161 52.5v5a4.5 4.5 0 01-4.5 4.5h-1a4.5 4.5 0 01-4.5-4.5v-5a4.5 4.5 0 013.976-4.47 5.683 5.683 0 00-.092-.736c-.233-1.219-.78-1.794-2.027-1.794h-3.143C45.822 45.5 44 43.912 44 40h-8v8h7v2H21v-2h7v-8H11V12h42v28h-7c0 2.742.87 3.5 3.714 3.5zM34 40h-4v8h4v-8zm17-26H13v24h38V14zm-25.707 3.293l1.414 1.414-9 9-1.414-1.414 9-9zm-5-1l1.414 1.414-5 5-1.414-1.414 5-5z", fill: "currentColor", fillRule: "nonzero" }))));
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#contract-70_svg__a", transform: "translate(9 6)" }))));
 }
 
 function Contact70(_a) {
@@ -4672,17 +4674,6 @@ function Contact70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#contact-70_svg__a", transform: "translate(9 13)" }))));
 }
 
-function Contract70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M43 0v21.107h-2V2H2v54h39v-8h2v10H0V0h43zM12.518 39.098c2.37 1.202 2.634 3.374 1.729 6.737-.094.349-.193.691-.341 1.185-.55 1.837-.677 2.322-.72 2.934-.04.548.028.686.262.76.438.14 1.047-.602 2.208-2.941l.133-.268c1.667-3.367 2.518-4.492 4.331-4.333 1.219.106 2.031.715 2.309 1.725.183.665.128 1.337-.09 2.381l-.073.337c-.172.784-.232 1.134-.224 1.365v.016l.037-.003h4.936v2h-4.936c-1.139 0-1.88-.634-2.014-1.664-.072-.563-.01-.967.247-2.141l.069-.32c.155-.742.191-1.18.12-1.44-.045-.162-.132-.227-.555-.264-.52-.045-1.167.81-2.365 3.228l-.133.27c-1.692 3.41-2.653 4.578-4.605 3.959-1.249-.397-1.75-1.43-1.653-2.809.06-.828.193-1.34.8-3.366.143-.478.238-.804.326-1.13.684-2.544.53-3.809-.703-4.435-2.343-1.188-3.898 1.179-4.55 8.334l-1.993-.181c.764-8.364 3.209-12.087 7.448-9.936zM48.8 21.586l8.614 8.614-20.8 20.8H28v-8.614l20.8-20.8zM30 45.415V49h3.585L30 45.415zm14.4-16.6L30.315 42.9l5.785 5.785L50.185 34.6 44.4 28.815zm1.893 4.478l1.414 1.414-11 11-1.414-1.414 11-11zm2.507-8.879L45.815 27.4l5.785 5.785 2.986-2.985-5.786-5.786zM21 21v2H8v-2h13zm12-5v2H8v-2h25zm0-5v2H8v-2h25z", id: "contract-70_svg__a" })),
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#contract-70_svg__a", transform: "translate(9 6)" }))));
-}
-
 function Cross70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -4694,15 +4685,13 @@ function Cross70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", transform: "rotate(45 12.808 44.192)", xlinkHref: "#cross-70_svg__a" }))));
 }
 
-function Damage70(_a) {
+function Computer70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M2 49h4v2H0V0h44v51H27v-2h15V2H2v47zm22 0v2H9v-2h15zM11.164 19.014l6.428 1.07 4.24 6.361-.072.048 6.79 4.497-2.182 6.502L35 41.78V49h-2v-5.98l-9.082-4.512 2.247-6.698-4.541-3.008-1.648 7.415-1.952-.434 1.687-7.598-11.145 1.904L5.2 25.6l1.6-1.2 2.634 3.511 9.85-1.682-2.876-4.314-5.572-.929.328-1.972zM17 2v5.27l5.928 1.904L24.915 13l6.004-.001-3.184-3.98L31.2 4.4l1.6 1.2-2.535 3.38 2.909 3.638L36.4 10.2l1.2 1.6-3.985 2.987v6.721l9.995 7.7-1.22 1.584-10.775-8.3V15H23.7l-2.167-4.174L15 8.73V2h2z", id: "damage-70_svg__a" })),
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-70_svg__a", transform: "translate(13 10)" }))));
+            React.createElement("path", { d: "M56.5 50h-1a2.5 2.5 0 00-2.5 2.5v5a2.5 2.5 0 002.5 2.5h1a2.5 2.5 0 002.5-2.5v-5a2.5 2.5 0 00-2.5-2.5zm1.5 2v3h-4v-3h4zm-8.286-8.5h3.143c2.32 0 3.594 1.338 3.992 3.418.072.378.111.714.132 1.107A4.501 4.501 0 0161 52.5v5a4.5 4.5 0 01-4.5 4.5h-1a4.5 4.5 0 01-4.5-4.5v-5a4.5 4.5 0 013.976-4.47 5.683 5.683 0 00-.092-.736c-.233-1.219-.78-1.794-2.027-1.794h-3.143C45.822 45.5 44 43.912 44 40h-8v8h7v2H21v-2h7v-8H11V12h42v28h-7c0 2.742.87 3.5 3.714 3.5zM34 40h-4v8h4v-8zm17-26H13v24h38V14zm-25.707 3.293l1.414 1.414-9 9-1.414-1.414 9-9zm-5-1l1.414 1.414-5 5-1.414-1.414 5-5z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Cup70(_a) {
@@ -4712,6 +4701,17 @@ function Cup70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("path", { d: "M52 7l.001 6.05C57.054 13.551 61 17.814 61 23c0 5.223-4.005 9.511-9.11 9.961-.78 6.776-5.543 12.341-11.89 14.292v9.122C40 58.915 42.225 61 45 61h6v2H19v-2h6c2.775 0 5-2.086 5-4.625v-9.122c-6.346-1.95-11.11-7.515-11.888-14.293C13.005 32.511 9 28.223 9 23c0-5.185 3.947-9.449 9-9.95V7h34zM35 48c-1.023 0-2.026-.09-3-.264v8.639c0 1.804-.76 3.434-1.988 4.625h9.976C38.759 59.81 38 58.18 38 56.375v-8.639c-.974.173-1.976.264-3 .264zM50 9H20v4h16v2H20v2h11v2H20v12c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15V9zm2.001 6.062v2.021a6.002 6.002 0 010 11.834v2.021a8.001 8.001 0 000-15.876zM11 23a8.001 8.001 0 007 7.938v-2.02a6.002 6.002 0 010-11.835v-2.021A8.001 8.001 0 0011 23zm4 0a4.002 4.002 0 003 3.874v-7.748c-1.725.444-3 2.01-3 3.874zm37-3.874v7.748a4.002 4.002 0 000-7.748zM43 13v2h-5v-2h5z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Damage70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M2 49h4v2H0V0h44v51H27v-2h15V2H2v47zm22 0v2H9v-2h15zM11.164 19.014l6.428 1.07 4.24 6.361-.072.048 6.79 4.497-2.182 6.502L35 41.78V49h-2v-5.98l-9.082-4.512 2.247-6.698-4.541-3.008-1.648 7.415-1.952-.434 1.687-7.598-11.145 1.904L5.2 25.6l1.6-1.2 2.634 3.511 9.85-1.682-2.876-4.314-5.572-.929.328-1.972zM17 2v5.27l5.928 1.904L24.915 13l6.004-.001-3.184-3.98L31.2 4.4l1.6 1.2-2.535 3.38 2.909 3.638L36.4 10.2l1.2 1.6-3.985 2.987v6.721l9.995 7.7-1.22 1.584-10.775-8.3V15H23.7l-2.167-4.174L15 8.73V2h2z", id: "damage-70_svg__a" })),
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#damage-70_svg__a", transform: "translate(13 10)" }))));
 }
 
 function DigitalServices70(_a) {
@@ -4814,15 +4814,6 @@ function Heartbeat70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#heartbeat-70_svg__a" }))));
 }
 
-function House70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("path", { d: "M58 32.187L35 13.294 12 32.186V59h11v2H6v-2h4l-.001-25.171-2.364 1.944-1.27-1.546L35 10.706l28.635 23.521-1.27 1.546L60 33.829V59h4v2H33v-2h25V32.187zM51 40v19h-2V42h-8v17h-2V40h12zm-18 0v12H19V40h14zm-2 2H21v8h10v-8zm4-23.302l6.64 5.534-1.28 1.536L35 21.302l-5.36 4.466-1.28-1.536L35 18.698z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function HouseSun70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
@@ -4830,6 +4821,15 @@ function HouseSun70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("path", { d: "M46 62v2H33v-2h13zM26.5 24.706L43.92 39 44 39v.065l2.634 2.162-1.268 1.546L44 41.653V62h-2V40.012L26.5 27.294 11 40.01V62h3V48h12v14h2v2H7v-2h2V41.652l-1.366 1.121-1.268-1.546L9 39.065V39l.08-.001L26.5 24.706zM24 62V50h-8v12h8zm15-14v10H29V48h10zm-2 2h-6v6h6v-6zM26.5 32.738l7.11 5.47-1.22 1.585-5.89-4.531-5.89 4.53-1.22-1.585 7.11-5.469zM64.051 25v9h-2v-9h2zm-7.945-2.027l1.79.89-2.298 4.626-1.791-.89 2.299-4.626zm-5.813-4.68l1.414 1.414-7 7-1.414-1.414 7-7zM51 6c0 7.18 5.82 13 13 13v2c-8.284 0-15-6.716-15-15h2zm-5.453 6.94l1.017 1.722-4.447 2.627-1.017-1.722 4.447-2.627zM44 6v2h-9V6h9z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function House70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("path", { d: "M58 32.187L35 13.294 12 32.186V59h11v2H6v-2h4l-.001-25.171-2.364 1.944-1.27-1.546L35 10.706l28.635 23.521-1.27 1.546L60 33.829V59h4v2H33v-2h25V32.187zM51 40v19h-2V42h-8v17h-2V40h12zm-18 0v12H19V40h14zm-2 2H21v8h10v-8zm4-23.302l6.64 5.534-1.28 1.536L35 21.302l-5.36 4.466-1.28-1.536L35 18.698z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Id70(_a) {
@@ -4952,15 +4952,6 @@ function PensionOccupational70(_a) {
             React.createElement("path", { d: "M55.767 48L63 61H7l7.142-13h41.625zm-1.176 2H15.325l-4.944 9h49.217l-5.007-9zm-7.946-19l8.47 15H15.142l8.217-15h23.287zM35 9.13L45.891 29H24.18L35 9.13zm.006 4.172L27.546 27h14.968l-7.508-13.698z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function PensionPrivate70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("path", { d: "M55.767 48L63 61H7l7.142-13h41.625zm-1.176 2H15.325l-4.944 9h49.217l-5.007-9zm-7.946-19l8.47 15H15.142l8.217-15h23.287zm-1.167 2H24.542l-6.025 11H51.69l-6.212-11zM35 9.13L45.891 29H24.18L35 9.13z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function PensionState70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
@@ -4970,6 +4961,15 @@ function PensionState70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#pension-state-70_svg__a", transform: "translate(5 8)" }))));
+}
+
+function PensionPrivate70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("path", { d: "M55.767 48L63 61H7l7.142-13h41.625zm-1.176 2H15.325l-4.944 9h49.217l-5.007-9zm-7.946-19l8.47 15H15.142l8.217-15h23.287zm-1.167 2H24.542l-6.025 11H51.69l-6.212-11zM35 9.13L45.891 29H24.18L35 9.13z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Percent70(_a) {
@@ -5083,15 +5083,6 @@ function Snailmail70(_a) {
             React.createElement("path", { d: "M47 6v6h-6v15.639h-2V21H24.423C26.603 22.68 28 25.267 28 28.168v26.729h34V28.159c0-3.91-2.958-7.03-6.761-7.155L55 21H44v-2h11c5.034 0 9 4.076 9 9.16v28.738l-26-.001v7h-2v-7h-2v7h-2v-7H6v-2h20V53H13V31h13v-2.832c0-3.878-3.264-7.037-7.255-7.162l-.245-.004c-4.101 0-7.5 3.208-7.5 7.166v24.866H9V28.168c0-4.925 4.024-8.943 9.072-9.159l.001-.009H39V6h8zM25.818 43.29L15 34.152v15.431l5.293-5.291 1.414 1.414L16.414 51H26v-7.928l-.182.217zM26 33h-9.266L26 40.825V33zM45 8h-4v2h4V8z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Snowmobile70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("path", { d: "M33.506 39C36.02 39 38 41.266 38 44s-1.98 5-4.494 5H10.494C7.98 49 6 46.734 6 44s1.98-5 4.494-5zm6.201-18.707L56.425 37.01l-4.216 4.091a11.657 11.657 0 01-1.09.964l5.154 4.82c.404-.073.675-.19.953-.369.476-.308 3.346-3.361 4.55-4.66l.504-.548 1.441 1.384c-.332.345-.648.679-.964 1.015l-.956 1.03c-.23.252-1.177 1.288-1.4 1.53l-.386.413c-.727.766-1.193 1.186-1.704 1.516-.951.615-1.755.776-3.718.8L54 49H42v-2h11.466l-4.116-3.848c-.473.223-.954.4-1.442.534a8.486 8.486 0 01-2.332.317L38.999 44 39 42l6.258.002c1.834.028 3.385-.375 5.082-1.886l.306-.283.157-.154 2.77-2.69-9.08-9.08L38.088 34H14.46c-1.576 0-2.073.179-2.388 1.16l-.51 1.817-1.927-.535.474-1.698c.61-2.14 1.828-2.707 4.11-2.742L37.289 32l.497-.473L36.528 30H33v-2h4.472l1.767 2.146 3.841-3.651-4.787-4.788 1.414-1.414zM33.506 41H10.494C9.15 41 8 42.315 8 44s1.15 3 2.494 3h23.012C34.85 47 36 45.685 36 44s-1.149-3-2.494-3zM32 36v2H14v-2h18zm21.707-6.707l3 3-1.414 1.414-3-3 1.414-1.414z", fill: "currentColor", fillRule: "nonzero" }))));
-}
-
 function Sustainability70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
@@ -5099,6 +5090,15 @@ function Sustainability70(_a) {
         React.createElement("g", { fill: "none", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 0h70v70H0z" }),
             React.createElement("path", { d: "M59.116 6.547l.239 1.268c1.768 9.42 2.317 17.514 1.64 24.285-.898 8.985-6.538 12.9-14.02 12.9-3.175 0-5.902-.972-8.14-2.905L24.837 63.546l-1.674-1.092 6.725-10.307-10.712-15.58 1.648-1.134 3.716 5.403c2.754-2.712 3.428-4.75 1.21-7.909-1.94-2.764-6.392-4.73-13.375-5.794-.838 6.652-.264 11.386 1.642 14.187 1.165 1.71 2.913 2.126 5.532 1.207l.662 1.887c-3.417 1.199-6.129.555-7.847-1.969-2.342-3.44-2.924-8.964-1.836-16.586l.14-.983.985.133c8.054 1.093 13.306 3.31 15.734 6.77 1.702 2.424 2.008 4.743 1.157 6.897-.566 1.435-1.357 2.4-2.854 3.831l5.379 7.828L41.22 34.779 38.043 24.29l1.914-.58 2.69 8.882 6.868-10.523 1.675 1.093-6.663 10.21 9.213-2.48.52 1.93-11.373 3.065-2.946 4.516C41.85 42.138 44.178 43 46.975 43c6.546 0 11.246-3.263 12.03-11.1.626-6.259.167-13.742-1.383-22.443-10.28 4.84-16.982 8.308-20.065 10.374-4.993 3.345-6.892 11.268-2.899 15.282l-1.418 1.41c-4.985-5.01-2.741-14.37 3.203-18.354 3.313-2.22 10.466-5.901 21.504-11.074l1.17-.548z", fill: "currentColor", fillRule: "nonzero" }))));
+}
+
+function Snowmobile70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("path", { d: "M33.506 39C36.02 39 38 41.266 38 44s-1.98 5-4.494 5H10.494C7.98 49 6 46.734 6 44s1.98-5 4.494-5zm6.201-18.707L56.425 37.01l-4.216 4.091a11.657 11.657 0 01-1.09.964l5.154 4.82c.404-.073.675-.19.953-.369.476-.308 3.346-3.361 4.55-4.66l.504-.548 1.441 1.384c-.332.345-.648.679-.964 1.015l-.956 1.03c-.23.252-1.177 1.288-1.4 1.53l-.386.413c-.727.766-1.193 1.186-1.704 1.516-.951.615-1.755.776-3.718.8L54 49H42v-2h11.466l-4.116-3.848c-.473.223-.954.4-1.442.534a8.486 8.486 0 01-2.332.317L38.999 44 39 42l6.258.002c1.834.028 3.385-.375 5.082-1.886l.306-.283.157-.154 2.77-2.69-9.08-9.08L38.088 34H14.46c-1.576 0-2.073.179-2.388 1.16l-.51 1.817-1.927-.535.474-1.698c.61-2.14 1.828-2.707 4.11-2.742L37.289 32l.497-.473L36.528 30H33v-2h4.472l1.767 2.146 3.841-3.651-4.787-4.788 1.414-1.414zM33.506 41H10.494C9.15 41 8 42.315 8 44s1.15 3 2.494 3h23.012C34.85 47 36 45.685 36 44s-1.149-3-2.494-3zM32 36v2H14v-2h18zm21.707-6.707l3 3-1.414 1.414-3-3 1.414-1.414z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
 function Tag70(_a) {
@@ -5128,17 +5128,6 @@ function Trailer70(_a) {
             React.createElement("path", { d: "M20 33a6 6 0 110 12 6 6 0 010-12zm0 2a4 4 0 100 8 4 4 0 000-8zm0 1a3 3 0 110 6 3 3 0 010-6zm0 2a.997.997 0 00-1 1 1 1 0 101-1zm44-10v4h-2v-2H49v10H27v-2h20v-8H11v8h2v2H9V28h55zM8 28v4H6v-4h2z", fill: "currentColor", fillRule: "nonzero" }))));
 }
 
-function Travel70(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { d: "M45.38 32.26l7.467 1.208.128.693c.416 2.243-.467 4.12-2.527 5.465l-.129.084-11.713 3.292-7.461 7.945-8.57 2.688 1.669-6.571-2.124.66-13.724-1.501-7.43-6.273 9.175-2.635 6.187 3.383 5.298-1.54-5.197-3.877 8.31-2.45 8.96 2.82 11.68-3.392zm.124 2.045l-29.411 8.543-6.19-3.384-4.785 1.374 4.102 3.463 12.704 1.389 2.897-.9.3-1.181 1.939.492-1.664 6.553 4.65-1.459 7.483-7.968 11.948-3.357c1.088-.747 1.6-1.606 1.598-2.662l-5.57-.903zm-20.785.617l-3.89 1.147 3.204 2.39 6.202-1.802-5.516-1.735zm7.62-9.506a3.564 3.564 0 110 7.129 3.564 3.564 0 010-7.13zm0 2a1.564 1.564 0 100 3.129 1.564 1.564 0 000-3.13zm-7.943-11.417a5.35 5.35 0 110 10.701 5.35 5.35 0 010-10.7zM16.777.487c4.818 0 8.783 3.65 9.282 8.335 4.676 0 8.389 3.713 8.389 8.294 0 1.59-.45 3.116-1.283 4.432l-1.69-1.07a6.293 6.293 0 00-5.321-9.655h-2.042v-1a7.335 7.335 0 00-14.67 0v1.002l-1.002-.003a6.278 6.278 0 00-6.291 6.284 6.293 6.293 0 006.293 6.293h8.335v2H8.442a8.293 8.293 0 01-8.293-8.293 8.28 8.28 0 017.34-8.231c.476-4.71 4.453-8.388 9.288-8.388zM24.397 18a3.35 3.35 0 100 6.701 3.35 3.35 0 000-6.7z", id: "travel-70_svg__a" })),
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 0h70v70H0z" }),
-            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#travel-70_svg__a", transform: "translate(8.3 8.051)" }))));
-}
-
 function Truck70(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 70, "aria-labelledby": titleId }, props),
@@ -5152,6 +5141,17 @@ function Truck70(_a) {
                 React.createElement("path", { d: "M42.737 48.4v2h2.676l.226-.688c1.144-3.489 4.404-5.932 8.078-5.932 1.818 0 3.546.57 4.985 1.614l1.175-1.619a10.456 10.456 0 00-6.16-1.995c-4.305 0-8.13 2.693-9.726 6.62h-1.254z" }),
                 React.createElement("path", { d: "M35.865 9H12.788l-2.243 22.739 2.191 7.27 1.915-.578-2.077-6.89L14.6 11h19.77l6.389 21.64h14.543l.089 10.408 2-.016-.106-12.392H42.254z" }),
                 React.createElement("path", { d: "M23.777 10v22h2V10zM49.749 32.196V17.255c0-.315-.046-.644-.127-.955a3.721 3.721 0 00-3.6-2.781v2c.788 0 1.47.534 1.665 1.285.04.152.062.313.062.45v14.942h2z" })))));
+}
+
+function Travel70(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 70, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { d: "M45.38 32.26l7.467 1.208.128.693c.416 2.243-.467 4.12-2.527 5.465l-.129.084-11.713 3.292-7.461 7.945-8.57 2.688 1.669-6.571-2.124.66-13.724-1.501-7.43-6.273 9.175-2.635 6.187 3.383 5.298-1.54-5.197-3.877 8.31-2.45 8.96 2.82 11.68-3.392zm.124 2.045l-29.411 8.543-6.19-3.384-4.785 1.374 4.102 3.463 12.704 1.389 2.897-.9.3-1.181 1.939.492-1.664 6.553 4.65-1.459 7.483-7.968 11.948-3.357c1.088-.747 1.6-1.606 1.598-2.662l-5.57-.903zm-20.785.617l-3.89 1.147 3.204 2.39 6.202-1.802-5.516-1.735zm7.62-9.506a3.564 3.564 0 110 7.129 3.564 3.564 0 010-7.13zm0 2a1.564 1.564 0 100 3.129 1.564 1.564 0 000-3.13zm-7.943-11.417a5.35 5.35 0 110 10.701 5.35 5.35 0 010-10.7zM16.777.487c4.818 0 8.783 3.65 9.282 8.335 4.676 0 8.389 3.713 8.389 8.294 0 1.59-.45 3.116-1.283 4.432l-1.69-1.07a6.293 6.293 0 00-5.321-9.655h-2.042v-1a7.335 7.335 0 00-14.67 0v1.002l-1.002-.003a6.278 6.278 0 00-6.291 6.284 6.293 6.293 0 006.293 6.293h8.335v2H8.442a8.293 8.293 0 01-8.293-8.293 8.28 8.28 0 017.34-8.231c.476-4.71 4.453-8.388 9.288-8.388zM24.397 18a3.35 3.35 0 100 6.701 3.35 3.35 0 000-6.7z", id: "travel-70_svg__a" })),
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 0h70v70H0z" }),
+            React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#travel-70_svg__a", transform: "translate(8.3 8.051)" }))));
 }
 
 function Umbrella70(_a) {
@@ -5198,11 +5198,11 @@ function Wallet70(_a) {
             React.createElement("use", { fill: "currentColor", fillRule: "nonzero", xlinkHref: "#wallet-70_svg__a" }))));
 }
 
-function Calendar26(_a) {
+function Plus10(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 26, height: 26, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 10, height: 10, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M20.2 22H5.244C4.574 22 4 21.44 4 20.767V12h18v8.767c0 .717-.556 1.233-1.227 1.233M5.176 5H8v2h2V5h6v2h2V5h2.793C21.47 5.025 22 5.57 22 6.24V10H4V6.24c0-.67.53-1.215 1.176-1.24M18 3V1h-2v2h-6V1H8v2H4.999C3.318 3.064 2 4.487 2 6.24V21C2 22.827 3.3 24 5 24h15.97c1.7 0 3.031-1.173 3.031-3V6.24C24 4.487 22.682 3.064 20.97 3H18z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("path", { d: "M4 0v4H0v2h4v4h2.001V6H10V4H6.001V0z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function KontaktaOss26(_a) {
@@ -5216,11 +5216,11 @@ function KontaktaOss26(_a) {
             React.createElement("path", { d: "M21.659 9.907v-1.5c2.397 0 4.327 1.957 4.327 4.379 0 2.422-1.93 4.38-4.327 4.38v-1.5c1.564 0 2.827-1.282 2.827-2.88 0-1.598-1.263-2.88-2.827-2.88z" }))));
 }
 
-function Plus10(_a) {
+function Calendar26(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 10, height: 10, "aria-labelledby": titleId }, props),
+    return (React.createElement("svg", __assign({ width: 26, height: 26, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { d: "M4 0v4H0v2h4v4h2.001V6H10V4H6.001V0z", fill: "currentColor", fillRule: "evenodd" })));
+        React.createElement("path", { d: "M20.2 22H5.244C4.574 22 4 21.44 4 20.767V12h18v8.767c0 .717-.556 1.233-1.227 1.233M5.176 5H8v2h2V5h6v2h2V5h2.793C21.47 5.025 22 5.57 22 6.24V10H4V6.24c0-.67.53-1.215 1.176-1.24M18 3V1h-2v2h-6V1H8v2H4.999C3.318 3.064 2 4.487 2 6.24V21C2 22.827 3.3 24 5 24h15.97c1.7 0 3.031-1.173 3.031-3V6.24C24 4.487 22.682 3.064 20.97 3H18z", fill: "currentColor", fillRule: "evenodd" })));
 }
 
 function MulticolorBike48(_a) {
@@ -5283,17 +5283,6 @@ function MulticolorDogRight48(_a) {
             React.createElement("path", { d: "M41 28.6c-.013 4.45-3.653 8.054-8.148 8.067M16 40.004h-1.885a1.985 1.985 0 00-1.426.572c-.377.374-.586.696-.578 1.224V44h18.686C34.649 32.98 30.424 22.428 20 17", stroke: "#005AA0", strokeWidth: 2 }))));
 }
 
-function MulticolorMoose48(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 48, height: 48, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fillRule: "nonzero", fill: "none" },
-            React.createElement("path", { d: "M9.426 23.386l-.28-.081c-1.324-.375-2.229-.338-3.08.47-.131.105-.283.259-.431.466-.66.924-.66 2.129.32 3.356 2.452 2.668 7.49 2.308 11.625-.713l-1.024-1.41c-3.498 2.557-7.57 2.848-9.282.986-.442-.555-.442-.9-.225-1.204a.765.765 0 01.1-.118l.092-.078c.297-.29.627-.305 1.432-.077.072.02.137.039.26.076 1.09.322 1.568.401 2.237.218 1.581-.435 1.68-1.724.736-3.047-.53-.743-1.082-1.3-2.868-2.984l-.231-.218c-1.49-1.41-2.23-2.21-2.565-2.838-.198-.372-.237-.369.33-.453l.057.04c.17.124.399.328.685.608.453.442.406.392 2.003 2.11l.23.247c2.335 2.5 3.213 3.271 4.22 3.06 1.203-.253 1.869-.976 1.874-2.024.003-.632-.148-1.09-.647-2.283l-.076-.182-.073-.18-1.612.656.08.193.077.187c.391.936.513 1.305.512 1.6 0 .179-.052.234-.492.326.117-.024.107-.027.03-.072a4.84 4.84 0 01-.68-.52c-.497-.438-1.083-1.031-1.944-1.953l-.227-.244-.54-.583-.53-.567a33.96 33.96 0 00-.99-1.02c-.921-.9-1.397-1.248-2.026-1.152-1.915.295-2.597 1.519-1.795 3.026.46.865 1.26 1.729 2.905 3.286l.233.22c1.676 1.58 2.212 2.12 2.645 2.728.104.146.175.266.22.351-.235.064-.525.016-1.285-.209z", fill: "#005AA0" }),
-            React.createElement("path", { d: "M21.035 19.348c-1.435-.943-2.467-2.013-3.187-3.216-.86-1.439-1.089-2.343-1.506-5.058-.198-1.288-.366-1.894-.805-2.424-1.617-1.958-3.748-1.385-4.515.659-.512 1.366-.429 1.648 1.821 7.635l1.628-.615c-1.941-5.164-2.093-5.68-1.821-6.407.326-.87.846-1.01 1.548-.16.159.192.278.62.425 1.578.452 2.94.716 3.989 1.734 5.69.856 1.43 2.072 2.69 3.725 3.776l.953-1.458z", fill: "#E30613" }),
-            React.createElement("path", { d: "M38.952 22.438l-.326.089c-.784.217-1.083.263-1.327.196-.152-.042-.118-.01-.107.075-.004-.029.063-.212.25-.496.405-.619.954-1.203 2.534-2.77l.153-.152c1.539-1.529 2.264-2.333 2.736-3.16.804-1.41.426-2.677-1.23-3.091-1.21-.304-2.46.521-4.193 2.277-.317.32-.646.67-1.026 1.085-.27.296-1.14 1.263-1.204 1.333-.37.408-.647.704-.882.94.096-.78.364-2.017.809-3.722l.092-.352c.927-3.529 1.112-4.394.936-5.25-.311-1.514-2.12-2.568-3.952-1.44-.775.478-.997 1.243-1.276 3.24l-.11.8a46.53 46.53 0 01-.122.838c-.1.641-.207 1.194-.336 1.717-.52 2.108-1.39 3.585-2.842 4.486a6.002 6.002 0 00-.405-.183c-1.62-.663-3.461-.663-5.307.437l.888 1.499c1.331-.793 2.61-.793 3.761-.322.28.116.473.225.556.284l.43.305.468-.241c2.214-1.137 3.463-3.106 4.14-5.846.142-.577.258-1.178.365-1.866.042-.266.08-.535.127-.868.013-.095.088-.647.11-.799.107-.766.187-1.213.287-1.557.085-.294.163-.43.176-.438.705-.434 1.252-.116 1.338.305.09.437-.135 1.49-.914 4.455l-.093.355c-.905 3.467-1.149 4.918-.654 5.882.342.667 1.023.743 1.619.437.297-.152.61-.407.999-.785.294-.286.62-.633 1.078-1.138.068-.075.935-1.037 1.2-1.327.365-.4.68-.734.98-1.037 1.265-1.282 2.197-1.898 2.536-1.813.433.109.416.052.14.534-.361.635-1.036 1.384-2.45 2.787l-.151.151c-1.691 1.677-2.261 2.285-2.764 3.052-.886 1.35-.722 2.629.85 3.06.666.184 1.145.11 2.25-.197l.303-.082c.793-.208 1.147-.189 1.448.085l.07.057c.004.003.05.046.1.117.217.304.217.649-.264 1.25-2.3 2.453-6.409 1.65-9.04-1.734l-1.371 1.072c3.224 4.148 8.555 5.189 11.724 1.804 1.025-1.278 1.025-2.483.365-3.407a2.339 2.339 0 00-.444-.477c-.844-.75-1.737-.792-3.028-.454zM23.54 26.82c0-1.076-.87-1.948-1.944-1.948a1.946 1.946 0 00-1.944 1.948h1.74a.205.205 0 11.408 0h1.74zM29.626 26.82c0-1.076-.87-1.948-1.943-1.948a1.946 1.946 0 00-1.944 1.948h1.74a.205.205 0 11.408 0h1.74z", fill: "#005AA0" }),
-            React.createElement("path", { d: "M31.829 31.588c.114-.28.255-.676.396-1.16.343-1.182.523-2.38.45-3.525-.073-1.134-.396-2.147-1.018-2.987l-1.396 1.04c.405.546.625 1.24.678 2.059.059.914-.093 1.922-.384 2.925a11.11 11.11 0 01-.39 1.115l-.075.17v6.288l.004.092c.004.078-.07.294-.373.567-.724.65-2.261 1.084-4.851 1.084V41c2.98 0 4.92-.547 6.012-1.53.724-.652.977-1.38.947-1.985v-5.897zM17.905 37.485c-.03.604.223 1.333.947 1.984 1.093.984 3.032 1.531 6.012 1.531v-1.744c-2.59 0-4.127-.433-4.85-1.084-.304-.273-.378-.489-.372-.599l.002-.06v-6.288l-.075-.17a11.11 11.11 0 01-.657-2.254l-1.712.303c.079.45.184.892.309 1.323.14.485.282.881.396 1.16v5.898z", fill: "#005AA0" }))));
-}
-
 function MulticolorHouse48(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 48, height: 48, "aria-labelledby": titleId }, props),
@@ -5317,6 +5306,17 @@ function MulticolorThings48(_a) {
             React.createElement("path", { d: "M29.036 29.043v3.997", stroke: "#005C9C", strokeWidth: 2 }))));
 }
 
+function MulticolorMoose48(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 48, height: 48, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fillRule: "nonzero", fill: "none" },
+            React.createElement("path", { d: "M9.426 23.386l-.28-.081c-1.324-.375-2.229-.338-3.08.47-.131.105-.283.259-.431.466-.66.924-.66 2.129.32 3.356 2.452 2.668 7.49 2.308 11.625-.713l-1.024-1.41c-3.498 2.557-7.57 2.848-9.282.986-.442-.555-.442-.9-.225-1.204a.765.765 0 01.1-.118l.092-.078c.297-.29.627-.305 1.432-.077.072.02.137.039.26.076 1.09.322 1.568.401 2.237.218 1.581-.435 1.68-1.724.736-3.047-.53-.743-1.082-1.3-2.868-2.984l-.231-.218c-1.49-1.41-2.23-2.21-2.565-2.838-.198-.372-.237-.369.33-.453l.057.04c.17.124.399.328.685.608.453.442.406.392 2.003 2.11l.23.247c2.335 2.5 3.213 3.271 4.22 3.06 1.203-.253 1.869-.976 1.874-2.024.003-.632-.148-1.09-.647-2.283l-.076-.182-.073-.18-1.612.656.08.193.077.187c.391.936.513 1.305.512 1.6 0 .179-.052.234-.492.326.117-.024.107-.027.03-.072a4.84 4.84 0 01-.68-.52c-.497-.438-1.083-1.031-1.944-1.953l-.227-.244-.54-.583-.53-.567a33.96 33.96 0 00-.99-1.02c-.921-.9-1.397-1.248-2.026-1.152-1.915.295-2.597 1.519-1.795 3.026.46.865 1.26 1.729 2.905 3.286l.233.22c1.676 1.58 2.212 2.12 2.645 2.728.104.146.175.266.22.351-.235.064-.525.016-1.285-.209z", fill: "#005AA0" }),
+            React.createElement("path", { d: "M21.035 19.348c-1.435-.943-2.467-2.013-3.187-3.216-.86-1.439-1.089-2.343-1.506-5.058-.198-1.288-.366-1.894-.805-2.424-1.617-1.958-3.748-1.385-4.515.659-.512 1.366-.429 1.648 1.821 7.635l1.628-.615c-1.941-5.164-2.093-5.68-1.821-6.407.326-.87.846-1.01 1.548-.16.159.192.278.62.425 1.578.452 2.94.716 3.989 1.734 5.69.856 1.43 2.072 2.69 3.725 3.776l.953-1.458z", fill: "#E30613" }),
+            React.createElement("path", { d: "M38.952 22.438l-.326.089c-.784.217-1.083.263-1.327.196-.152-.042-.118-.01-.107.075-.004-.029.063-.212.25-.496.405-.619.954-1.203 2.534-2.77l.153-.152c1.539-1.529 2.264-2.333 2.736-3.16.804-1.41.426-2.677-1.23-3.091-1.21-.304-2.46.521-4.193 2.277-.317.32-.646.67-1.026 1.085-.27.296-1.14 1.263-1.204 1.333-.37.408-.647.704-.882.94.096-.78.364-2.017.809-3.722l.092-.352c.927-3.529 1.112-4.394.936-5.25-.311-1.514-2.12-2.568-3.952-1.44-.775.478-.997 1.243-1.276 3.24l-.11.8a46.53 46.53 0 01-.122.838c-.1.641-.207 1.194-.336 1.717-.52 2.108-1.39 3.585-2.842 4.486a6.002 6.002 0 00-.405-.183c-1.62-.663-3.461-.663-5.307.437l.888 1.499c1.331-.793 2.61-.793 3.761-.322.28.116.473.225.556.284l.43.305.468-.241c2.214-1.137 3.463-3.106 4.14-5.846.142-.577.258-1.178.365-1.866.042-.266.08-.535.127-.868.013-.095.088-.647.11-.799.107-.766.187-1.213.287-1.557.085-.294.163-.43.176-.438.705-.434 1.252-.116 1.338.305.09.437-.135 1.49-.914 4.455l-.093.355c-.905 3.467-1.149 4.918-.654 5.882.342.667 1.023.743 1.619.437.297-.152.61-.407.999-.785.294-.286.62-.633 1.078-1.138.068-.075.935-1.037 1.2-1.327.365-.4.68-.734.98-1.037 1.265-1.282 2.197-1.898 2.536-1.813.433.109.416.052.14.534-.361.635-1.036 1.384-2.45 2.787l-.151.151c-1.691 1.677-2.261 2.285-2.764 3.052-.886 1.35-.722 2.629.85 3.06.666.184 1.145.11 2.25-.197l.303-.082c.793-.208 1.147-.189 1.448.085l.07.057c.004.003.05.046.1.117.217.304.217.649-.264 1.25-2.3 2.453-6.409 1.65-9.04-1.734l-1.371 1.072c3.224 4.148 8.555 5.189 11.724 1.804 1.025-1.278 1.025-2.483.365-3.407a2.339 2.339 0 00-.444-.477c-.844-.75-1.737-.792-3.028-.454zM23.54 26.82c0-1.076-.87-1.948-1.944-1.948a1.946 1.946 0 00-1.944 1.948h1.74a.205.205 0 11.408 0h1.74zM29.626 26.82c0-1.076-.87-1.948-1.943-1.948a1.946 1.946 0 00-1.944 1.948h1.74a.205.205 0 11.408 0h1.74z", fill: "#005AA0" }),
+            React.createElement("path", { d: "M31.829 31.588c.114-.28.255-.676.396-1.16.343-1.182.523-2.38.45-3.525-.073-1.134-.396-2.147-1.018-2.987l-1.396 1.04c.405.546.625 1.24.678 2.059.059.914-.093 1.922-.384 2.925a11.11 11.11 0 01-.39 1.115l-.075.17v6.288l.004.092c.004.078-.07.294-.373.567-.724.65-2.261 1.084-4.851 1.084V41c2.98 0 4.92-.547 6.012-1.53.724-.652.977-1.38.947-1.985v-5.897zM17.905 37.485c-.03.604.223 1.333.947 1.984 1.093.984 3.032 1.531 6.012 1.531v-1.744c-2.59 0-4.127-.433-4.85-1.084-.304-.273-.378-.489-.372-.599l.002-.06v-6.288l-.075-.17a11.11 11.11 0 01-.657-2.254l-1.712.303c.079.45.184.892.309 1.323.14.485.282.881.396 1.16v5.898z", fill: "#005AA0" }))));
+}
+
 function MulticolorTravel48(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 48, height: 48, "aria-labelledby": titleId }, props),
@@ -5326,74 +5326,6 @@ function MulticolorTravel48(_a) {
             React.createElement("path", { d: "M23 20a2 2 0 10-4 0 2 2 0 004 0zm2 0a4 4 0 11-8 0 4 4 0 018 0z", fill: "#E30613" }),
             React.createElement("path", { fill: "#005AA0", d: "M23.015 30.388l5.586 1.208.423-1.955-6.082-1.315-6.24 1.824 3.553 3.335 1.369-1.459-1-.939z" }),
             React.createElement("path", { d: "M20.934 39.226l-9.636-1.096-5.002-4.698 6.516-1.835 3.352 1.805 2.515-.735 17.749-5.187 5.941 1.278.167.572a3.488 3.488 0 01-2.37 4.326l-7.76 2.269-5.346 5.696-6.26 1.829 1.144-4.503-1.01.279zm1.576-2.511l.203-.802 1.939.492-1.051 4.143 2.374-.694 5.346-5.696.261-.076 8.024-2.346a1.488 1.488 0 001.065-1.298l-4.168-.896-17.263 5.044-3.302.965-3.362-1.81-2.33.657 1.937 1.82 8.592.977 1.735-.48zm-.566 2.232l.566-2.232-.566 2.232zM27.989 24.03a1.001 1.001 0 00-.755.352.968.968 0 00-.234.644.993.993 0 001.012.974.992.992 0 00.988-.996.993.993 0 00-1.011-.974zm.046 3.97A2.993 2.993 0 0125 25.05a2.968 2.968 0 01.713-1.967 3 3 0 012.253-1.052A2.993 2.993 0 0131 24.98c.019 1.65-1.31 3-2.965 3.019z", fill: "#005AA0" }))));
-}
-
-function MulticolorChatHeart64(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 64, height: 64, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M26.127 25.015c-.809 0-1.618.3-2.22.902a3.115 3.115 0 00-.907 2.22c0 .848.322 1.636.907 2.22L30 36.452l6.093-6.093a3.112 3.112 0 00.907-2.22c0-.847-.322-1.636-.907-2.221-1.204-1.204-3.238-1.203-4.441 0L30 27.572l-1.652-1.654a3.135 3.135 0 00-2.221-.902zM30 39.279l-7.507-7.507A5.097 5.097 0 0121 28.138a5.1 5.1 0 011.493-3.635 5.147 5.147 0 017.269 0l.238.239.238-.24a5.146 5.146 0 017.269 0A5.1 5.1 0 0139 28.139c0 1.38-.53 2.672-1.493 3.634L30 39.279z", fill: "#E30613" }),
-            React.createElement("path", { d: "M38.222 15H21.86C12.45 15 5.043 21.637 5 30.125c.043 8.615 6.754 14.913 16 14.913h5.997L38 55.954V43.019h-2v8.072l-8-8.072h-7c-7.337 0-13.964-6.09-14-12.894.036-6.707 6.32-13.252 15-13.125h16.313C42.1 17 46.258 18.54 49 21.217c2.742 2.677 4.057 5.794 4 8.93.059 3.101-1.733 7.007-4.006 9.183-2.353 2.254-4.63 3.689-8.037 3.689L41 45.038c4.359 0 6.521-1.462 9.542-4.353 2.948-2.826 4.53-6.589 4.455-10.538.074-3.942-1.483-7.643-4.385-10.422C47.475 16.722 42.959 15 38.222 15z", fill: "#005AA0" }),
-            React.createElement("path", { d: "M44.424 8.466l.576 4.64M50 15.49L53.593 11M59 16l-4 2.698", stroke: "#005AA0", strokeWidth: 2 }))));
-}
-
-function MulticolorDogLeft64(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 64, height: 64, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { transform: "translate(5 2)", strokeWidth: 2, fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M25.316 53c-4.662-1.032-7.784-5.285-7.258-9.888.526-4.603 4.533-8.093 9.315-8.112A10.19 10.19 0 0133 36.773", stroke: "#E30613" }),
-            React.createElement("path", { d: "M13 54H5.625c-.7-.012-1.373.298-1.867.86-.495.56-.768 1.325-.758 2.118V60h12M14 16.781a9.569 9.569 0 01-7.065.916c-2.387-.615-4.422-2.124-5.655-4.194A8.37 8.37 0 01.068 8", stroke: "#005AA0" }),
-            React.createElement("circle", { stroke: "#005AA0", cx: 0.5, cy: 5.5, r: 0.5 }),
-            React.createElement("path", { d: "M22.293 11.406v3.079c0 2.494 1.95 4.515 4.354 4.515S31 16.979 31 14.485v-2.052C30.538 6.858 26.83 2.147 21.658.559 16.485-1.028 10.903.833 7.59 5.25H3", stroke: "#005AA0" }),
-            React.createElement("path", { d: "M11 22v30", stroke: "#005AA0", fill: "#000" }),
-            React.createElement("path", { d: "M54 39c-.017 6.068-4.932 10.983-11 11M20.677 54.55h-2.972c-.72-.01-1.415.271-1.924.78-.51.51-.791.95-.78 1.67v3h25.224c5.202-15.026-1.354-30.599-15.426-38", stroke: "#005AA0" }))));
-}
-
-function MulticolorDogRight64(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 64, height: 64, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { transform: "matrix(-1 0 0 1 59 2)", strokeWidth: 2, fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M25.316 53c-4.662-1.032-7.784-5.285-7.258-9.888.526-4.603 4.533-8.093 9.315-8.112A10.19 10.19 0 0133 36.773", stroke: "#E30613" }),
-            React.createElement("path", { d: "M13 54H5.625c-.7-.012-1.373.298-1.867.86-.495.56-.768 1.325-.758 2.118V60h12M14 16.781a9.569 9.569 0 01-7.065.916c-2.387-.615-4.422-2.124-5.655-4.194A8.37 8.37 0 01.068 8", stroke: "#005AA0" }),
-            React.createElement("circle", { stroke: "#005AA0", cx: 0.5, cy: 5.5, r: 0.5 }),
-            React.createElement("path", { d: "M22.293 11.406v3.079c0 2.494 1.95 4.515 4.354 4.515S31 16.979 31 14.485v-2.052C30.538 6.858 26.83 2.147 21.658.559 16.485-1.028 10.903.833 7.59 5.25H3", stroke: "#005AA0" }),
-            React.createElement("path", { d: "M11 22v30", stroke: "#005AA0", fill: "#000" }),
-            React.createElement("path", { d: "M54 39c-.017 6.068-4.932 10.983-11 11M20.677 54.55h-2.972c-.72-.01-1.415.271-1.924.78-.51.51-.791.95-.78 1.67v3h25.224c5.202-15.026-1.354-30.599-15.426-38", stroke: "#005AA0" }))));
-}
-
-function MulticolorHappyAccepted64(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 64, height: 64, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { id: "multicolor-happy-accepted-64_svg__a", d: "M34.503.25h-3.33v6.907h3.33z" })),
-        React.createElement("g", { transform: "translate(8 1)", fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M23 54.985c-12.682 0-23-10.317-23-23s10.318-23 23-23c6.694 0 13.07 2.927 17.493 8.03l-1.512 1.31c-4.042-4.665-9.867-7.34-15.981-7.34-11.58 0-21 9.421-21 21 0 11.58 9.42 21 21 21s21-9.42 21-21c0-2.337-.372-4.639-1.106-6.84l-.06-.16H28.158c-11.896 0-14.039-7.579-14.125-7.9l1.932-.519c.073.262 1.906 6.42 12.193 6.42h16.061l.56 1.491A23.634 23.634 0 0146 31.985c0 12.683-10.318 23-23 23", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("path", { d: "M19.275 31.388h-2c0-.833-.73-1.563-1.56-1.563-.83 0-1.557.73-1.557 1.563h-2c0-1.932 1.63-3.563 3.558-3.563 1.93 0 3.559 1.63 3.559 3.563M34.13 31.388h-2c0-.833-.73-1.563-1.56-1.563-.83 0-1.558.73-1.558 1.563h-2c0-1.932 1.63-3.563 3.558-3.563 1.93 0 3.56 1.63 3.56 3.563M23.804 44.934c-3.155 0-6.132-1.242-8.383-3.497l1.415-1.412c1.874 1.876 4.348 2.909 6.968 2.909s5.095-1.033 6.968-2.91l1.415 1.413c-2.25 2.255-5.228 3.497-8.383 3.497", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M41.291 11.05l-1.6-1.201 3.99-5.312 1.6 1.2zM46.065 18.192l-.94-1.767 5.857-3.115.939 1.766z" }),
-            React.createElement("mask", { id: "multicolor-happy-accepted-64_svg__b", fill: "#fff" },
-                React.createElement("use", { xlinkHref: "#multicolor-happy-accepted-64_svg__a" })),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", mask: "url(#multicolor-happy-accepted-64_svg__b)", d: "M33.13 7.157l-1.958-.414L32.546.25l1.957.414z" }))));
-}
-
-function MulticolorSadDeclined64(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 64, height: 64, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("defs", null,
-            React.createElement("path", { id: "multicolor-sad-declined-64_svg__a", d: "M34.503.25h-3.33v6.907h3.33z" })),
-        React.createElement("g", { transform: "translate(8 1)", fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M23 54.985c-12.682 0-23-10.317-23-23s10.318-23 23-23c6.694 0 13.07 2.927 17.493 8.03l-1.512 1.31c-4.042-4.665-9.867-7.34-15.981-7.34-11.58 0-21 9.421-21 21 0 11.58 9.42 21 21 21s21-9.42 21-21c0-2.337-.372-4.639-1.106-6.84l-.06-.16H28.158c-11.896 0-14.039-7.579-14.125-7.9l1.932-.519c.073.262 1.906 6.42 12.193 6.42h16.061l.56 1.491A23.634 23.634 0 0146 31.985c0 12.683-10.318 23-23 23", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("path", { d: "M23 47c-3.325 0-6-2.676-6-6s2.675-6 6-6c3.323 0 5.998 2.676 5.998 6 .081 3.243-2.675 6-5.999 6zm-.002-10C20.818 37 19 38.818 19 41s1.817 4 3.998 4 3.999-1.818 3.999-4c.09-2.182-1.727-4-3.999-4z", fill: "#005AA0", fillRule: "nonzero" }),
-            React.createElement("circle", { fill: "#005AA0", fillRule: "nonzero", cx: 14.25, cy: 29.25, r: 1.25 }),
-            React.createElement("circle", { fill: "#005AA0", fillRule: "nonzero", cx: 31.25, cy: 29.25, r: 1.25 }),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M41.291 11.05l-1.6-1.201 3.99-5.312 1.6 1.2zM46.065 18.192l-.94-1.767 5.857-3.115.939 1.766z" }),
-            React.createElement("mask", { id: "multicolor-sad-declined-64_svg__b", fill: "#fff" },
-                React.createElement("use", { xlinkHref: "#multicolor-sad-declined-64_svg__a" })),
-            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", mask: "url(#multicolor-sad-declined-64_svg__b)", d: "M33.13 7.157l-1.958-.414L32.546.25l1.957.414z" }))));
 }
 
 function ShortcutBankid50(_a) {
@@ -5449,16 +5381,6 @@ function ShortcutMessages50(_a) {
             React.createElement("path", { stroke: "#005AA0", d: "M8 17h28v20H8z" }))));
 }
 
-function ShortcutReportDamage50(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 50, height: 40, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { strokeWidth: 2, fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M36 8h9c1.2 0 2 .8 2 2v25c0 1.2-.8 2-2 2H6c-1.2 0-2-.8-2-2V10c0-1.2.8-2 2-2h28M24 3c-2.44 0-5 2.56-5 5h13c.08-2.44-1.951-5-4.393-5H24z", stroke: "#005AA0" }),
-            React.createElement("path", { stroke: "#E30613", d: "M33 24.036h-5V19h-4v5.036h-5V28h5v5h4v-5h5z" }),
-            React.createElement("path", { d: "M7 15h37", stroke: "#005AA0" }))));
-}
-
 function ShortcutPayment50(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 50, height: 40, "aria-labelledby": titleId }, props),
@@ -5474,6 +5396,16 @@ function ShortcutPayment50(_a) {
             React.createElement("path", { stroke: "#005AA0", strokeWidth: 2, d: "M7.756 22.133L4 21.34 7.005 7.426 32 12.663l-3.004 13.913-12.283-2.592M6 30.902c0 1.622-1.28 2.95-2.845 2.95a2.832 2.832 0 01-2.18-1.034 2.984 2.984 0 01-.427-.738 3.013 3.013 0 01-.237-1.13c0-1.623 1.28-2.95 2.844-2.95C4.72 28 6 29.278 6 30.902h0z" }),
             React.createElement("circle", { stroke: "#005AA0", strokeWidth: 2, cx: 11.5, cy: 26.5, r: 3.5 }),
             React.createElement("path", { stroke: "#005AA0", strokeWidth: 2, d: "M26 29l5 5 10-10" }))));
+}
+
+function ShortcutReportDamage50(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 50, height: 40, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { strokeWidth: 2, fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M36 8h9c1.2 0 2 .8 2 2v25c0 1.2-.8 2-2 2H6c-1.2 0-2-.8-2-2V10c0-1.2.8-2 2-2h28M24 3c-2.44 0-5 2.56-5 5h13c.08-2.44-1.951-5-4.393-5H24z", stroke: "#005AA0" }),
+            React.createElement("path", { stroke: "#E30613", d: "M33 24.036h-5V19h-4v5.036h-5V28h5v5h4v-5h5z" }),
+            React.createElement("path", { d: "M7 15h37", stroke: "#005AA0" }))));
 }
 
 function ShortcutTransfer50(_a) {
@@ -5504,15 +5436,6 @@ function Instagram56(_a) {
             React.createElement("path", { d: "M33.75 20.501a1.75 1.75 0 113.5-.001 1.75 1.75 0 01-3.5.001zM20.81 28c0-3.97 3.22-7.19 7.19-7.19A7.19 7.19 0 1120.81 28zm20.454-9.17a6.842 6.842 0 00-1.614-2.48 6.86 6.86 0 00-2.48-1.615c-.89-.346-1.908-.583-3.398-.65-1.493-.069-1.97-.085-5.773-.085-3.801 0-4.278.016-5.771.084-1.49.068-2.508.305-3.399.65a6.86 6.86 0 00-2.48 1.616 6.856 6.856 0 00-1.614 2.48c-.346.89-.583 1.907-.651 3.398C14.016 23.721 14 24.198 14 28c0 3.802.016 4.278.084 5.772.068 1.49.305 2.508.65 3.399.36.92.837 1.7 1.616 2.48a6.87 6.87 0 002.48 1.613c.89.347 1.908.583 3.398.651 1.493.068 1.97.084 5.771.084 3.803 0 4.28-.016 5.773-.084 1.49-.068 2.508-.304 3.398-.65a6.87 6.87 0 002.48-1.615 6.857 6.857 0 001.614-2.48c.346-.89.584-1.908.652-3.398.068-1.494.084-1.97.084-5.772 0-3.802-.016-4.279-.084-5.772-.068-1.49-.306-2.508-.652-3.398z" }))));
 }
 
-function Linkedin56(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 56, height: 56, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M0 56h56V0H0v56zm2.887-2.887h50.226V2.887H2.887v50.226z" }),
-            React.createElement("path", { d: "M18.799 15.43a2.888 2.888 0 00-2.888 2.889 2.888 2.888 0 105.777 0 2.891 2.891 0 00-2.89-2.89zM24.418 23.401v16.035H29.4v-7.932c0-2.092.396-4.117 2.989-4.117 2.554 0 2.59 2.391 2.59 4.251v7.798h4.979v-8.795c0-4.319-.932-7.64-5.975-7.64-2.424 0-4.05 1.33-4.716 2.591h-.068v-2.19h-4.781zM16.306 39.436h4.986V23.401h-4.986z" }))));
-}
-
 function Twitter56(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 56, height: 56, "aria-labelledby": titleId }, props),
@@ -5522,6 +5445,15 @@ function Twitter56(_a) {
             React.createElement("path", { d: "M23.328 40.31c11.05 0 17.093-9.154 17.093-17.092 0-.167-.002-.333-.007-.498a.536.536 0 01.21-.443c.898-.68 1.7-1.484 2.377-2.384.12-.158-.042-.375-.228-.305a12.06 12.06 0 01-2.631.664c-.044.006-.066-.054-.03-.077a6.044 6.044 0 002.234-2.583.244.244 0 00-.335-.315c-.92.479-1.909.843-2.948 1.074a.53.53 0 01-.48-.139 6.009 6.009 0 00-10.117 5.305.298.298 0 01-.315.35A17.047 17.047 0 0116.51 18.03a.368.368 0 00-.61.081 5.98 5.98 0 00-.555 2.522c0 2.015.99 3.8 2.514 4.89.045.032.021.104-.035.101a5.956 5.956 0 01-2.17-.56.244.244 0 00-.346.238c.012.205.032.41.06.59a6.015 6.015 0 004.536 4.91c.053.012.052.088-.001.1a6.014 6.014 0 01-2.171.102.2.2 0 00-.216.269 6.018 6.018 0 004.978 3.818c.177.018.24.247.096.35a12.054 12.054 0 01-7.037 2.254h-.123c-.33 0-.441.44-.15.597a16.987 16.987 0 008.05 2.018" }))));
 }
 
+function Linkedin56(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 56, height: 56, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M0 56h56V0H0v56zm2.887-2.887h50.226V2.887H2.887v50.226z" }),
+            React.createElement("path", { d: "M18.799 15.43a2.888 2.888 0 00-2.888 2.889 2.888 2.888 0 105.777 0 2.891 2.891 0 00-2.89-2.89zM24.418 23.401v16.035H29.4v-7.932c0-2.092.396-4.117 2.989-4.117 2.554 0 2.59 2.391 2.59 4.251v7.798h4.979v-8.795c0-4.319-.932-7.64-5.975-7.64-2.424 0-4.05 1.33-4.716 2.591h-.068v-2.19h-4.781zM16.306 39.436h4.986V23.401h-4.986z" }))));
+}
+
 function Youtube56(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 56, height: 56, "aria-labelledby": titleId }, props),
@@ -5529,6 +5461,74 @@ function Youtube56(_a) {
         React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
             React.createElement("path", { d: "M0 56h56V0H0v56zm2.887-2.887h50.226V2.887H2.887v50.226z" }),
             React.createElement("path", { d: "M24.769 31.776l-.001-8.794 8.456 4.412-8.455 4.382zM43.336 21.46s-.306-2.157-1.244-3.107c-1.19-1.246-2.524-1.252-3.136-1.325-4.38-.317-10.95-.317-10.95-.317h-.013s-6.57 0-10.95.317c-.611.073-1.944.08-3.135 1.325-.938.95-1.244 3.107-1.244 3.107s-.313 2.533-.313 5.065V28.9c0 2.532.313 5.065.313 5.065s.306 2.157 1.244 3.107c1.19 1.246 2.755 1.207 3.45 1.337 2.505.24 10.642.315 10.642.315s6.576-.01 10.956-.327c.612-.073 1.946-.079 3.136-1.325.938-.95 1.244-3.107 1.244-3.107s.313-2.533.313-5.065v-2.375c0-2.532-.313-5.065-.313-5.065z" }))));
+}
+
+function MulticolorChatHeart64(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 64, height: 64, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M26.127 25.015c-.809 0-1.618.3-2.22.902a3.115 3.115 0 00-.907 2.22c0 .848.322 1.636.907 2.22L30 36.452l6.093-6.093a3.112 3.112 0 00.907-2.22c0-.847-.322-1.636-.907-2.221-1.204-1.204-3.238-1.203-4.441 0L30 27.572l-1.652-1.654a3.135 3.135 0 00-2.221-.902zM30 39.279l-7.507-7.507A5.097 5.097 0 0121 28.138a5.1 5.1 0 011.493-3.635 5.147 5.147 0 017.269 0l.238.239.238-.24a5.146 5.146 0 017.269 0A5.1 5.1 0 0139 28.139c0 1.38-.53 2.672-1.493 3.634L30 39.279z", fill: "#E30613" }),
+            React.createElement("path", { d: "M38.222 15H21.86C12.45 15 5.043 21.637 5 30.125c.043 8.615 6.754 14.913 16 14.913h5.997L38 55.954V43.019h-2v8.072l-8-8.072h-7c-7.337 0-13.964-6.09-14-12.894.036-6.707 6.32-13.252 15-13.125h16.313C42.1 17 46.258 18.54 49 21.217c2.742 2.677 4.057 5.794 4 8.93.059 3.101-1.733 7.007-4.006 9.183-2.353 2.254-4.63 3.689-8.037 3.689L41 45.038c4.359 0 6.521-1.462 9.542-4.353 2.948-2.826 4.53-6.589 4.455-10.538.074-3.942-1.483-7.643-4.385-10.422C47.475 16.722 42.959 15 38.222 15z", fill: "#005AA0" }),
+            React.createElement("path", { d: "M44.424 8.466l.576 4.64M50 15.49L53.593 11M59 16l-4 2.698", stroke: "#005AA0", strokeWidth: 2 }))));
+}
+
+function MulticolorDogLeft64(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 64, height: 64, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { transform: "translate(5 2)", strokeWidth: 2, fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M25.316 53c-4.662-1.032-7.784-5.285-7.258-9.888.526-4.603 4.533-8.093 9.315-8.112A10.19 10.19 0 0133 36.773", stroke: "#E30613" }),
+            React.createElement("path", { d: "M13 54H5.625c-.7-.012-1.373.298-1.867.86-.495.56-.768 1.325-.758 2.118V60h12M14 16.781a9.569 9.569 0 01-7.065.916c-2.387-.615-4.422-2.124-5.655-4.194A8.37 8.37 0 01.068 8", stroke: "#005AA0" }),
+            React.createElement("circle", { stroke: "#005AA0", cx: 0.5, cy: 5.5, r: 0.5 }),
+            React.createElement("path", { d: "M22.293 11.406v3.079c0 2.494 1.95 4.515 4.354 4.515S31 16.979 31 14.485v-2.052C30.538 6.858 26.83 2.147 21.658.559 16.485-1.028 10.903.833 7.59 5.25H3", stroke: "#005AA0" }),
+            React.createElement("path", { d: "M11 22v30", stroke: "#005AA0", fill: "#000" }),
+            React.createElement("path", { d: "M54 39c-.017 6.068-4.932 10.983-11 11M20.677 54.55h-2.972c-.72-.01-1.415.271-1.924.78-.51.51-.791.95-.78 1.67v3h25.224c5.202-15.026-1.354-30.599-15.426-38", stroke: "#005AA0" }))));
+}
+
+function MulticolorHappyAccepted64(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 64, height: 64, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { id: "multicolor-happy-accepted-64_svg__a", d: "M34.503.25h-3.33v6.907h3.33z" })),
+        React.createElement("g", { transform: "translate(8 1)", fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M23 54.985c-12.682 0-23-10.317-23-23s10.318-23 23-23c6.694 0 13.07 2.927 17.493 8.03l-1.512 1.31c-4.042-4.665-9.867-7.34-15.981-7.34-11.58 0-21 9.421-21 21 0 11.58 9.42 21 21 21s21-9.42 21-21c0-2.337-.372-4.639-1.106-6.84l-.06-.16H28.158c-11.896 0-14.039-7.579-14.125-7.9l1.932-.519c.073.262 1.906 6.42 12.193 6.42h16.061l.56 1.491A23.634 23.634 0 0146 31.985c0 12.683-10.318 23-23 23", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("path", { d: "M19.275 31.388h-2c0-.833-.73-1.563-1.56-1.563-.83 0-1.557.73-1.557 1.563h-2c0-1.932 1.63-3.563 3.558-3.563 1.93 0 3.559 1.63 3.559 3.563M34.13 31.388h-2c0-.833-.73-1.563-1.56-1.563-.83 0-1.558.73-1.558 1.563h-2c0-1.932 1.63-3.563 3.558-3.563 1.93 0 3.56 1.63 3.56 3.563M23.804 44.934c-3.155 0-6.132-1.242-8.383-3.497l1.415-1.412c1.874 1.876 4.348 2.909 6.968 2.909s5.095-1.033 6.968-2.91l1.415 1.413c-2.25 2.255-5.228 3.497-8.383 3.497", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M41.291 11.05l-1.6-1.201 3.99-5.312 1.6 1.2zM46.065 18.192l-.94-1.767 5.857-3.115.939 1.766z" }),
+            React.createElement("mask", { id: "multicolor-happy-accepted-64_svg__b", fill: "#fff" },
+                React.createElement("use", { xlinkHref: "#multicolor-happy-accepted-64_svg__a" })),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", mask: "url(#multicolor-happy-accepted-64_svg__b)", d: "M33.13 7.157l-1.958-.414L32.546.25l1.957.414z" }))));
+}
+
+function MulticolorDogRight64(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 64, height: 64, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { transform: "matrix(-1 0 0 1 59 2)", strokeWidth: 2, fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M25.316 53c-4.662-1.032-7.784-5.285-7.258-9.888.526-4.603 4.533-8.093 9.315-8.112A10.19 10.19 0 0133 36.773", stroke: "#E30613" }),
+            React.createElement("path", { d: "M13 54H5.625c-.7-.012-1.373.298-1.867.86-.495.56-.768 1.325-.758 2.118V60h12M14 16.781a9.569 9.569 0 01-7.065.916c-2.387-.615-4.422-2.124-5.655-4.194A8.37 8.37 0 01.068 8", stroke: "#005AA0" }),
+            React.createElement("circle", { stroke: "#005AA0", cx: 0.5, cy: 5.5, r: 0.5 }),
+            React.createElement("path", { d: "M22.293 11.406v3.079c0 2.494 1.95 4.515 4.354 4.515S31 16.979 31 14.485v-2.052C30.538 6.858 26.83 2.147 21.658.559 16.485-1.028 10.903.833 7.59 5.25H3", stroke: "#005AA0" }),
+            React.createElement("path", { d: "M11 22v30", stroke: "#005AA0", fill: "#000" }),
+            React.createElement("path", { d: "M54 39c-.017 6.068-4.932 10.983-11 11M20.677 54.55h-2.972c-.72-.01-1.415.271-1.924.78-.51.51-.791.95-.78 1.67v3h25.224c5.202-15.026-1.354-30.599-15.426-38", stroke: "#005AA0" }))));
+}
+
+function MulticolorSadDeclined64(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 64, height: 64, xmlnsXlink: "http://www.w3.org/1999/xlink", "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("defs", null,
+            React.createElement("path", { id: "multicolor-sad-declined-64_svg__a", d: "M34.503.25h-3.33v6.907h3.33z" })),
+        React.createElement("g", { transform: "translate(8 1)", fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M23 54.985c-12.682 0-23-10.317-23-23s10.318-23 23-23c6.694 0 13.07 2.927 17.493 8.03l-1.512 1.31c-4.042-4.665-9.867-7.34-15.981-7.34-11.58 0-21 9.421-21 21 0 11.58 9.42 21 21 21s21-9.42 21-21c0-2.337-.372-4.639-1.106-6.84l-.06-.16H28.158c-11.896 0-14.039-7.579-14.125-7.9l1.932-.519c.073.262 1.906 6.42 12.193 6.42h16.061l.56 1.491A23.634 23.634 0 0146 31.985c0 12.683-10.318 23-23 23", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("path", { d: "M23 47c-3.325 0-6-2.676-6-6s2.675-6 6-6c3.323 0 5.998 2.676 5.998 6 .081 3.243-2.675 6-5.999 6zm-.002-10C20.818 37 19 38.818 19 41s1.817 4 3.998 4 3.999-1.818 3.999-4c.09-2.182-1.727-4-3.999-4z", fill: "#005AA0", fillRule: "nonzero" }),
+            React.createElement("circle", { fill: "#005AA0", fillRule: "nonzero", cx: 14.25, cy: 29.25, r: 1.25 }),
+            React.createElement("circle", { fill: "#005AA0", fillRule: "nonzero", cx: 31.25, cy: 29.25, r: 1.25 }),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", d: "M41.291 11.05l-1.6-1.201 3.99-5.312 1.6 1.2zM46.065 18.192l-.94-1.767 5.857-3.115.939 1.766z" }),
+            React.createElement("mask", { id: "multicolor-sad-declined-64_svg__b", fill: "#fff" },
+                React.createElement("use", { xlinkHref: "#multicolor-sad-declined-64_svg__a" })),
+            React.createElement("path", { fill: "#E30613", fillRule: "nonzero", mask: "url(#multicolor-sad-declined-64_svg__b)", d: "M33.13 7.157l-1.958-.414L32.546.25l1.957.414z" }))));
 }
 
 function ReportIndemnity50(_a) {
@@ -5568,17 +5568,6 @@ function ReportLegal50(_a) {
             React.createElement("path", { d: "M37.5 9a2.5 2.5 0 10-2.5 2.5v-2a.5.5 0 11.5-.5h2z", fill: "#E30613" }))));
 }
 
-function ReportPerson50(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 70, height: 50, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M47.256 33c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13c3.838 0 7.402 1.672 9.858 4.525l1.516-1.304A14.966 14.966 0 0034.256 18c-8.284 0-15 6.716-15 15 0 8.285 6.715 15 15 15 8.284 0 15-6.715 15-15a14.98 14.98 0 00-.818-4.898l-.218-.574-.244-.645h-10.49c-2.876 0-4.867-.76-6.173-2.004a5.109 5.109 0 01-1.005-1.31c-.132-.25-.2-.43-.22-.503l-1.932.515c.196.735.732 1.75 1.778 2.746 1.687 1.606 4.173 2.556 7.553 2.556h9.104c.435 1.296.665 2.69.665 4.117z", fill: "#005AA0" }),
-            React.createElement("path", { d: "M36 38.192c-.39 0-.532-.056-.946-.332-.711-.473-1.195-.667-2.054-.667-.859 0-1.342.194-2.054.667-.413.276-.555.332-.946.332-.391 0-.533-.056-.946-.332-.711-.473-1.195-.667-2.054-.667v2c.39 0 .532.057.946.332.711.474 1.195.667 2.054.667.859 0 1.343-.193 2.054-.667.414-.275.555-.332.946-.332.391 0 .533.057.946.332.711.474 1.195.667 2.054.667v-2zM36 40.189c.859 0 1.342-.194 2.054-.667.413-.276.555-.332.946-.332.39 0 .532.057.945.332.712.473 1.196.667 2.055.667v-2c-.391 0-.533-.057-.946-.332-.712-.474-1.195-.667-2.054-.667-.86 0-1.343.193-2.054.667-.414.275-.555.332-.946.332v2zM27 30a2.612 2.612 0 005.223 0h-2A.611.611 0 0129 30h-2zM36 30a2.611 2.611 0 105.223 0h-2A.611.611 0 0138 30h-2z", fill: "#005AA0" }),
-            React.createElement("path", { d: "M28.996 2.846c.5.415.5 1.181 0 1.596a3.037 3.037 0 000 4.674c.5.415.5 1.181 0 1.596a3.038 3.038 0 00-.002 4.675l1.278-1.539c-.5-.414-.499-1.18.003-1.597a3.037 3.037 0 00-.002-4.674c-.5-.414-.499-1.18.001-1.596a3.038 3.038 0 000-4.673l-1.278 1.538z", fill: "#E30613" }),
-            React.createElement("path", { d: "M33.664 2.846c.5.415.5 1.181 0 1.596a3.037 3.037 0 000 4.674c.5.415.5 1.181 0 1.596a3.038 3.038 0 00-.002 4.675l1.278-1.539c-.5-.414-.499-1.18.003-1.597a3.037 3.037 0 00-.002-4.674c-.5-.414-.499-1.18.001-1.596a3.038 3.038 0 000-4.673l-1.278 1.538zM38.333 2.846c.499.415.499 1.181 0 1.596a3.037 3.037 0 00-.001 4.674c.5.415.5 1.181 0 1.596a3.038 3.038 0 00-.002 4.675l1.278-1.539c-.5-.414-.499-1.18.003-1.597a3.037 3.037 0 00-.002-4.674c-.499-.414-.499-1.18.001-1.596a3.038 3.038 0 000-4.673l-1.277 1.538z", fill: "#005AA0" }))));
-}
-
 function ReportOther50(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 70, height: 50, "aria-labelledby": titleId }, props),
@@ -5588,6 +5577,17 @@ function ReportOther50(_a) {
             React.createElement("path", { d: "M21 42h28V8H21v34zM19 6h32v38H19V6z", fill: "#005AA0" }),
             React.createElement("path", { fill: "#005AA0", d: "M31.877 30.018l-1.898 5.453 5.66 2.237v4.706h2v-6.066l-5.14-2.031 1.838-5.281-5.347-2.754-3.415 1.289H20v2h5.94l2.925-1.104zM43.193 15.602l-6.804-.002-1.755-3.041-3.473-.897L31 7.025l-1.998.07.214 6.13 4.106 1.06 1.912 3.315 5.96.002.002 5.208 7.808 5.354 1.17-1.622-6.978-4.756z" }),
             React.createElement("path", { fill: "#E30613", d: "M27 47h6v-2h-6z" }))));
+}
+
+function ReportPerson50(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 70, height: 50, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M47.256 33c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13c3.838 0 7.402 1.672 9.858 4.525l1.516-1.304A14.966 14.966 0 0034.256 18c-8.284 0-15 6.716-15 15 0 8.285 6.715 15 15 15 8.284 0 15-6.715 15-15a14.98 14.98 0 00-.818-4.898l-.218-.574-.244-.645h-10.49c-2.876 0-4.867-.76-6.173-2.004a5.109 5.109 0 01-1.005-1.31c-.132-.25-.2-.43-.22-.503l-1.932.515c.196.735.732 1.75 1.778 2.746 1.687 1.606 4.173 2.556 7.553 2.556h9.104c.435 1.296.665 2.69.665 4.117z", fill: "#005AA0" }),
+            React.createElement("path", { d: "M36 38.192c-.39 0-.532-.056-.946-.332-.711-.473-1.195-.667-2.054-.667-.859 0-1.342.194-2.054.667-.413.276-.555.332-.946.332-.391 0-.533-.056-.946-.332-.711-.473-1.195-.667-2.054-.667v2c.39 0 .532.057.946.332.711.474 1.195.667 2.054.667.859 0 1.343-.193 2.054-.667.414-.275.555-.332.946-.332.391 0 .533.057.946.332.711.474 1.195.667 2.054.667v-2zM36 40.189c.859 0 1.342-.194 2.054-.667.413-.276.555-.332.946-.332.39 0 .532.057.945.332.712.473 1.196.667 2.055.667v-2c-.391 0-.533-.057-.946-.332-.712-.474-1.195-.667-2.054-.667-.86 0-1.343.193-2.054.667-.414.275-.555.332-.946.332v2zM27 30a2.612 2.612 0 005.223 0h-2A.611.611 0 0129 30h-2zM36 30a2.611 2.611 0 105.223 0h-2A.611.611 0 0138 30h-2z", fill: "#005AA0" }),
+            React.createElement("path", { d: "M28.996 2.846c.5.415.5 1.181 0 1.596a3.037 3.037 0 000 4.674c.5.415.5 1.181 0 1.596a3.038 3.038 0 00-.002 4.675l1.278-1.539c-.5-.414-.499-1.18.003-1.597a3.037 3.037 0 00-.002-4.674c-.5-.414-.499-1.18.001-1.596a3.038 3.038 0 000-4.673l-1.278 1.538z", fill: "#E30613" }),
+            React.createElement("path", { d: "M33.664 2.846c.5.415.5 1.181 0 1.596a3.037 3.037 0 000 4.674c.5.415.5 1.181 0 1.596a3.038 3.038 0 00-.002 4.675l1.278-1.539c-.5-.414-.499-1.18.003-1.597a3.037 3.037 0 00-.002-4.674c-.5-.414-.499-1.18.001-1.596a3.038 3.038 0 000-4.673l-1.278 1.538zM38.333 2.846c.499.415.499 1.181 0 1.596a3.037 3.037 0 00-.001 4.674c.5.415.5 1.181 0 1.596a3.038 3.038 0 00-.002 4.675l1.278-1.539c-.5-.414-.499-1.18.003-1.597a3.037 3.037 0 00-.002-4.674c-.499-.414-.499-1.18.001-1.596a3.038 3.038 0 000-4.673l-1.277 1.538z", fill: "#005AA0" }))));
 }
 
 function ReportTransportation50(_a) {
@@ -5610,16 +5610,6 @@ function MulticolorAdultChildren50(_a) {
             React.createElement("path", { d: "M31.097 13.166a4.119 4.119 0 01-2.92 1.208 4.112 4.112 0 01-2.92-1.208M21.774 25.002v16.84a2.387 2.387 0 01-4.774 0V25.33c0-4.26 3.3-7.75 7.484-8.05h.297M34.58 25.002v16.84a2.387 2.387 0 104.773 0V25.33a8.072 8.072 0 00-7.484-8.05h-.297M29.787 50.463v-3.16M26.566 50.463V45.81a2.238 2.238 0 012.238-2.238M66.509 51l-2.035-7.623M46.219 43.377L44.186 51M52.215 3.936s.741 2.781 5.103 2.781h5.977l.126.333a8.54 8.54 0 11-1.599-2.779", stroke: "#005AA0" }),
             React.createElement("path", { d: "M58.264 13.449a4.113 4.113 0 01-2.917 1.206 4.112 4.112 0 01-2.917-1.206M48.819 25.076V41.42a2.316 2.316 0 01-4.634 0V25.394a7.835 7.835 0 017.264-7.814h.288M61.875 25.076V41.42a2.316 2.316 0 004.634 0V25.394a7.835 7.835 0 00-7.265-7.814h-.288", stroke: "#005AA0" }),
             React.createElement("path", { d: "M28.95 27.686h-4.517M56.53 47.037h5.397", stroke: "#E30613" }))));
-}
-
-function MulticolorAlone50(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 84, height: 50, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { strokeWidth: 2, fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M34.745 17.794s1.335 5.01 9.194 5.01h10.769l.227.6c.544 1.576.84 3.266.84 5.026 0 8.498-6.89 15.386-15.387 15.386C31.89 43.816 25 36.928 25 28.43s6.89-15.388 15.388-15.388c4.665 0 8.846 2.076 11.668 5.356M33.311 27.928a1.765 1.765 0 013.53 0M43.933 27.928a1.765 1.765 0 013.53 0M48.656 9.745l.217-4.7", stroke: "#005AA0" }),
-            React.createElement("path", { d: "M54.308 11.82l2.674-3.87", stroke: "#E30613" }),
-            React.createElement("path", { d: "M58.003 16.573l4.318-1.865M45.71 35.194a7.503 7.503 0 01-5.323 2.2 7.502 7.502 0 01-5.322-2.2", stroke: "#005AA0" }))));
 }
 
 function MulticolorApart50(_a) {
@@ -5670,16 +5660,14 @@ function MulticolorMarried50(_a) {
                 React.createElement("path", { d: "M63.33 10.838L61 13l-5.964-5.429c-1.345-1.225-1.386-3.25-.09-4.521l.09-.086c1.413-1.285 3.648-1.285 5.06 0l.904.823.903-.823c1.413-1.285 3.648-1.285 5.06 0 .977.89 1.266 2.2.856 3.338" })))));
 }
 
-function MulticolorSmallChildren50(_a) {
+function MulticolorAlone50(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 84, height: 50, "aria-labelledby": titleId }, props),
         title ? React.createElement("title", { id: titleId }, title) : null,
         React.createElement("g", { strokeWidth: 2, fill: "none", fillRule: "evenodd" },
-            React.createElement("path", { d: "M56.49 50V37.072M63.264 39.288l-2.417-5.445c-.963-2.913-3.314-4.174-6.01-4.543M44.599 47.39V50M45.882 35.068v10.385a2.128 2.128 0 11-4.255 0V34.686a5.386 5.386 0 015.385-5.386M43.902 24.186a7.221 7.221 0 11.899 2.636", stroke: "#005AA0" }),
-            React.createElement("path", { d: "M62.285 37.072l1.907 4.19a2.153 2.153 0 01-3.92 1.782l-1.613-3.618M64.036 40.689v-19.6M73.05 9.786c0 4.978-8.786 11-8.786 11s-8.786-6.022-8.786-11M55.478 9.786A8.786 8.786 0 0164.264 1a8.785 8.785 0 018.786 8.786M54.102 25.208a3.638 3.638 0 01-5.1.674M41.88 25.807a2.346 2.346 0 002.009-2.642", stroke: "#005AA0" }),
-            React.createElement("path", { d: "M59.478 9.584A4.583 4.583 0 0164.06 5", stroke: "#E30613" }),
-            React.createElement("path", { d: "M21.192 50v-3M33.165 47v3M32.13 35.068v10.385a2.127 2.127 0 104.255 0V34.686A5.386 5.386 0 0031 29.3M34.11 24.186a7.221 7.221 0 10-.899 2.636M23.91 25.208a3.64 3.64 0 005.101.674", stroke: "#005AA0" }),
-            React.createElement("path", { d: "M22.255 35.068v10.385a2.127 2.127 0 11-4.255 0V34.686a5.386 5.386 0 015.385-5.386", stroke: "#005AA0" }))));
+            React.createElement("path", { d: "M34.745 17.794s1.335 5.01 9.194 5.01h10.769l.227.6c.544 1.576.84 3.266.84 5.026 0 8.498-6.89 15.386-15.387 15.386C31.89 43.816 25 36.928 25 28.43s6.89-15.388 15.388-15.388c4.665 0 8.846 2.076 11.668 5.356M33.311 27.928a1.765 1.765 0 013.53 0M43.933 27.928a1.765 1.765 0 013.53 0M48.656 9.745l.217-4.7", stroke: "#005AA0" }),
+            React.createElement("path", { d: "M54.308 11.82l2.674-3.87", stroke: "#E30613" }),
+            React.createElement("path", { d: "M58.003 16.573l4.318-1.865M45.71 35.194a7.503 7.503 0 01-5.323 2.2 7.502 7.502 0 01-5.322-2.2", stroke: "#005AA0" }))));
 }
 
 function MulticolorSingle50(_a) {
@@ -5698,6 +5686,18 @@ function MulticolorSingle50(_a) {
                 React.createElement("use", { stroke: "#979797", xlinkHref: "#multicolor-single-50_svg__a" }),
                 React.createElement("use", { stroke: "#005AA0", strokeWidth: 2, xlinkHref: "#multicolor-single-50_svg__a" })),
             React.createElement("path", { d: "M61 3.795l.905-.822a3.77 3.77 0 015.069 0h0a3.108 3.108 0 010 4.603L61 13l-5.974-5.424a3.108 3.108 0 010-4.603h0a3.77 3.77 0 015.07 0l.904.822z", stroke: "#E30613", strokeWidth: 2 }))));
+}
+
+function MulticolorSmallChildren50(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 84, height: 50, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { strokeWidth: 2, fill: "none", fillRule: "evenodd" },
+            React.createElement("path", { d: "M56.49 50V37.072M63.264 39.288l-2.417-5.445c-.963-2.913-3.314-4.174-6.01-4.543M44.599 47.39V50M45.882 35.068v10.385a2.128 2.128 0 11-4.255 0V34.686a5.386 5.386 0 015.385-5.386M43.902 24.186a7.221 7.221 0 11.899 2.636", stroke: "#005AA0" }),
+            React.createElement("path", { d: "M62.285 37.072l1.907 4.19a2.153 2.153 0 01-3.92 1.782l-1.613-3.618M64.036 40.689v-19.6M73.05 9.786c0 4.978-8.786 11-8.786 11s-8.786-6.022-8.786-11M55.478 9.786A8.786 8.786 0 0164.264 1a8.785 8.785 0 018.786 8.786M54.102 25.208a3.638 3.638 0 01-5.1.674M41.88 25.807a2.346 2.346 0 002.009-2.642", stroke: "#005AA0" }),
+            React.createElement("path", { d: "M59.478 9.584A4.583 4.583 0 0164.06 5", stroke: "#E30613" }),
+            React.createElement("path", { d: "M21.192 50v-3M33.165 47v3M32.13 35.068v10.385a2.127 2.127 0 104.255 0V34.686A5.386 5.386 0 0031 29.3M34.11 24.186a7.221 7.221 0 10-.899 2.636M23.91 25.208a3.64 3.64 0 005.101.674", stroke: "#005AA0" }),
+            React.createElement("path", { d: "M22.255 35.068v10.385a2.127 2.127 0 11-4.255 0V34.686a5.386 5.386 0 015.385-5.386", stroke: "#005AA0" }))));
 }
 
 function ArrowLargeLeft(_a) {
@@ -5843,6 +5843,15 @@ function Insurance32(_a) {
             React.createElement("path", { fillRule: "nonzero", d: "M15 16v9h2v-9zM17 7V4h-2v3zM10 25h2a1.5 1.5 0 003 0h2a3.5 3.5 0 01-7 0z" }))));
 }
 
+function InsuranceBoat32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
+            React.createElement("path", { d: "M22.79 6.652c.246.16.438.346.583.56.057.085.103.168.146.256a4.396 4.396 0 01.087.197l1.826 4.698-1.864.724c-.71-1.827-.71-1.827-1.795-4.628l-.015-.03c-.06-.133-.024-.078-.056-.1-.475-.307-1.96-.54-4.84-.54h-1.716c-2.874.004-4.36.238-4.839.546-.035.023 0-.028-.056.093l-1.819 4.677-1.864-.725c.712-1.83.712-1.83 1.864-4.783.015-.034.037-.084.058-.127a1.95 1.95 0 01.148-.257c.146-.214.34-.4.587-.56.804-.517 2.305-.795 4.92-.853V4.425c0-1.047.815-1.925 1.858-1.925 1.044 0 1.86.878 1.86 1.925v1.373c2.621.054 4.125.333 4.927.854zM1.456 27.483l1.088-1.678a3.446 3.446 0 003.763.03 6.983 6.983 0 017.7-.028l-1.086 1.68c-1.705-1.104-3.816-1.096-5.529.03a5.452 5.452 0 01-5.936-.034zm11.443 0l1.088-1.678a3.446 3.446 0 003.764.03 6.983 6.983 0 017.7-.028l-1.087 1.68c-1.705-1.104-3.816-1.096-5.529.03a5.452 5.452 0 01-5.936-.034zm11.437 0l1.089-1.678a3.452 3.452 0 003.777.022l1.07 1.69a5.452 5.452 0 01-5.936-.034zM27.7 14.836c.347.573.396 1.292.114 1.949L24.27 24.18l-1.804-.864 3.526-7.356a.115.115 0 00-.006-.093l-.092-.006-9.898-1.352-9.837 1.344-.181.008c.02.026.018.068.015.063l3.524 7.364-1.805.863-3.539-7.398A2.112 2.112 0 014.3 14.83c.36-.593.983-.962 1.662-.969l10.034-1.37 10.108 1.38a1.932 1.932 0 011.596.965z" }),
+            React.createElement("path", { d: "M15 16h2v6.608h-2z" }))));
+}
+
 function InsuranceAnimal32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -5851,15 +5860,6 @@ function InsuranceAnimal32(_a) {
             React.createElement("path", { d: "M17.308 23.281l-.458 1.947c-1.88-.442-3.24-2.102-3.24-4.06A4.17 4.17 0 0117.779 17c.876 0 1.731.29 2.46.795l-1.137 1.645a2.353 2.353 0 00-1.323-.44 2.17 2.17 0 00-2.169 2.169c0 1.015.708 1.88 1.698 2.112zM12.97 27v2H7v-3.7c0-1.302.937-2.3 2.192-2.3H13v2H9.192c-.121 0-.192.076-.192.3V27h3.97zM7.156 7.016l-.134.685c-.079.59.053 1.236.396 1.808.806 1.42 2.622 1.898 4.074 1.074l.987 1.74c-2.404 1.363-5.444.563-6.788-1.805a4.83 4.83 0 01-.642-3.14l.459-2.362H8.98a6.752 6.752 0 015.025-2.227c3.541 0 6.687 2.744 6.995 6.281v1.092c0 1.588-1.485 2.864-3.084 2.864-1.59 0-2.916-1.277-2.916-2.864V9h2v1.162c0 .465.414.864.916.864.556 0 1.084-.453 1.084-.864v-.363l.004-.64c-.211-2.397-2.474-4.37-4.999-4.37-1.5 0-2.884.692-3.765 1.836l-.3.39H7.156z" }),
             React.createElement("path", { d: "M10 14h2v10.91h-2zM27.332 18.719h2a5.619 5.619 0 01-5.608 5.609v-2a3.619 3.619 0 003.608-3.61z" }),
             React.createElement("path", { d: "M22.723 23.327c0-4.088-1.945-7.9-5.164-10.357l1.213-1.59c3.708 2.829 5.951 7.226 5.951 11.947 0 1.774-.278 3.453-.834 5.01l-.237.663H12.866v-2h9.355c.334-1.149.502-2.376.502-3.673z" }))));
-}
-
-function InsuranceBoat32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "nonzero" },
-            React.createElement("path", { d: "M22.79 6.652c.246.16.438.346.583.56.057.085.103.168.146.256a4.396 4.396 0 01.087.197l1.826 4.698-1.864.724c-.71-1.827-.71-1.827-1.795-4.628l-.015-.03c-.06-.133-.024-.078-.056-.1-.475-.307-1.96-.54-4.84-.54h-1.716c-2.874.004-4.36.238-4.839.546-.035.023 0-.028-.056.093l-1.819 4.677-1.864-.725c.712-1.83.712-1.83 1.864-4.783.015-.034.037-.084.058-.127a1.95 1.95 0 01.148-.257c.146-.214.34-.4.587-.56.804-.517 2.305-.795 4.92-.853V4.425c0-1.047.815-1.925 1.858-1.925 1.044 0 1.86.878 1.86 1.925v1.373c2.621.054 4.125.333 4.927.854zM1.456 27.483l1.088-1.678a3.446 3.446 0 003.763.03 6.983 6.983 0 017.7-.028l-1.086 1.68c-1.705-1.104-3.816-1.096-5.529.03a5.452 5.452 0 01-5.936-.034zm11.443 0l1.088-1.678a3.446 3.446 0 003.764.03 6.983 6.983 0 017.7-.028l-1.087 1.68c-1.705-1.104-3.816-1.096-5.529.03a5.452 5.452 0 01-5.936-.034zm11.437 0l1.089-1.678a3.452 3.452 0 003.777.022l1.07 1.69a5.452 5.452 0 01-5.936-.034zM27.7 14.836c.347.573.396 1.292.114 1.949L24.27 24.18l-1.804-.864 3.526-7.356a.115.115 0 00-.006-.093l-.092-.006-9.898-1.352-9.837 1.344-.181.008c.02.026.018.068.015.063l3.524 7.364-1.805.863-3.539-7.398A2.112 2.112 0 014.3 14.83c.36-.593.983-.962 1.662-.969l10.034-1.37 10.108 1.38a1.932 1.932 0 011.596.965z" }),
-            React.createElement("path", { d: "M15 16h2v6.608h-2z" }))));
 }
 
 function InsuranceCar32(_a) {
@@ -5891,15 +5891,6 @@ function InsuranceTruck32(_a) {
             React.createElement("path", { d: "M21.75 23.5a1.75 1.75 0 103.5 0 1.75 1.75 0 00-3.5 0zm-1.75 0a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0zM8.25 23.5a1.75 1.75 0 103.5 0 1.75 1.75 0 00-3.5 0zm-1.75 0a3.5 3.5 0 117 0 3.5 3.5 0 01-7 0z" }))));
 }
 
-function Investment32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M21.017 6v2h3.586l-7.586 7.586-4-4.001-8.707 8.708 1.414 1.414 7.293-7.293 4 4 9-9V13h2V6zM7 23l2-2v5H7z" }),
-            React.createElement("path", { d: "M11 19l2-2v9h-2zM15 19l2 2v5h-2zM19 19l2-2v9h-2zM23 15l2-2v13h-2z" }))));
-}
-
 function InsuranceVehicle32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -5910,6 +5901,15 @@ function InsuranceVehicle32(_a) {
             React.createElement("path", { d: "M21 22a4 4 0 118 0 4 4 0 01-8 0zm2 0a2 2 0 104 0 2 2 0 00-4 0z" }),
             React.createElement("path", { d: "M20.072 13H27v6.798h-2V15h-6.222l-3.146-7H7v7.703H5V6h11.926z" }),
             React.createElement("path", { d: "M20.3 7V5a2.702 2.702 0 012.701 2.701v7.173h-2V7.7A.702.702 0 0020.3 7zM10 7.64h2V12h-2z" }))));
+}
+
+function Investment32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M21.017 6v2h3.586l-7.586 7.586-4-4.001-8.707 8.708 1.414 1.414 7.293-7.293 4 4 9-9V13h2V6zM7 23l2-2v5H7z" }),
+            React.createElement("path", { d: "M11 19l2-2v9h-2zM15 19l2 2v5h-2zM19 19l2-2v9h-2zM23 15l2-2v13h-2z" }))));
 }
 
 function Loan32(_a) {
@@ -5951,6 +5951,15 @@ function PensionMega32(_a) {
             React.createElement("path", { d: "M16.002 4l-5.192 9h10.385l-5.193-9zm0 4.002L17.732 11h-3.46l1.73-2.998zM10.233 18l1.153-2h9.228l1.154 2H10.233zm11.538-4h-11.54L6.77 20h18.462l-3.461-6zM6.193 21L2.73 27.003h26.542L25.809 21H6.193zm1.154 2.001h17.305l1.157 2.002H6.192l1.155-2.002z" }))));
 }
 
+function Prevent32(_a) {
+    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
+    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
+        title ? React.createElement("title", { id: titleId }, title) : null,
+        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
+            React.createElement("path", { d: "M24 17.242c0 3.41-5.227 6.981-7.988 8.5C13.246 24.183 8 20.554 8 17.241v-6.88A6.075 6.075 0 0011.362 7h9.307A6.393 6.393 0 0024 10.331v6.911zM22.25 5H9.75c0 1.912-1.798 3.75-3.75 3.75v8.492C6 23.048 16 28 16 28s10-4.797 10-10.758V8.75c-1.837 0-3.75-1.876-3.75-3.75z" }),
+            React.createElement("path", { fillRule: "nonzero", d: "M19.907 12.6l-4.64 4.614-2.343-2.295-1.424 1.405 3.753 3.723 6.063-6.029z" }))));
+}
+
 function PressMedia32(_a) {
     var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
     return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
@@ -5959,15 +5968,6 @@ function PressMedia32(_a) {
             React.createElement("path", { fillRule: "nonzero", d: "M12 23v-2h12v2zM12 20v-2h12v2z" }),
             React.createElement("path", { d: "M12 17h8v-7h-8v7zm2.037-2H18v-2.962h-3.963V15z" }),
             React.createElement("path", { d: "M25.806 25c.74 0 1.194-.546 1.194-1.5V7.135c-.271.084-.565.214-.959.408-1.11.546-1.748.748-2.841.748-1.098 0-1.73-.205-2.805-.755C19.576 7.117 19.215 7 18.5 7c-.717 0-1.088.119-1.927.54-1.092.548-1.728.751-2.823.751-1.094 0-1.748-.206-2.845-.749A7.158 7.158 0 0010 7.147V23.5c0 .56-.087 1.063-.253 1.5h16.059zM6.5 27C4.366 27 3 25.659 3 23.5v-12C3 10.08 4.044 9 5.5 9H7v2H5.5c-.336 0-.5.17-.5.5v12c0 1.046.463 1.5 1.5 1.5 1.066 0 1.5-.419 1.5-1.5V5h1c1.048 0 1.684.202 2.749.728.888.44 1.28.563 2.001.563.717 0 1.088-.119 1.927-.54C16.769 5.205 17.405 5 18.5 5c1.098 0 1.73.205 2.805.755.819.419 1.18.536 1.895.536.72 0 1.1-.12 1.959-.543C26.269 5.202 26.907 5 28 5h1v18.5c0 1.985-1.258 3.5-3.194 3.5H7c-.161-.008-.328 0-.5 0z", fillRule: "nonzero" }))));
-}
-
-function Prevent32(_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ width: 32, height: 32, "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("g", { fill: "currentColor", fillRule: "evenodd" },
-            React.createElement("path", { d: "M24 17.242c0 3.41-5.227 6.981-7.988 8.5C13.246 24.183 8 20.554 8 17.241v-6.88A6.075 6.075 0 0011.362 7h9.307A6.393 6.393 0 0024 10.331v6.911zM22.25 5H9.75c0 1.912-1.798 3.75-3.75 3.75v8.492C6 23.048 16 28 16 28s10-4.797 10-10.758V8.75c-1.837 0-3.75-1.876-3.75-3.75z" }),
-            React.createElement("path", { fillRule: "nonzero", d: "M19.907 12.6l-4.64 4.614-2.343-2.295-1.424 1.405 3.753 3.723 6.063-6.029z" }))));
 }
 
 function ReportDamage32(_a) {
