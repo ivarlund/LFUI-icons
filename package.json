@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "LFUI icons",
   "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
-  "module": "dist/react/index.d.js",
+  "main": "dist/react/index.d.js",
   "files": [
-    "dist"
+    "dist/react"
   ],
+  "exports": {
+    ".": "./dist/react/index.d.js",
+    "./20": {
+      "import": "./dist/react/20/index.js",
+      "types": "./dist/react/20/index.d.ts"
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-multi-entry": "^4.1.0",
