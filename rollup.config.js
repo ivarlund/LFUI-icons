@@ -19,7 +19,7 @@ export default {
   ],
   // Plugins array
   plugins: [
-    multi({ entryFileName: 'index.d.js' }),
+    multi({ entryFileName: 'index.js' }),
     peerDepsExternal(), // prevents bundling peerDependencies
     resolve(), // resolves package entrypoints
     typescript({ useTsconfigDeclarationDir: true }), // typescript

@@ -22,11 +22,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "paths": {
-      "lfui-icons/*": [
-        "../dist/react/*"
-      ]
-    }
   },
   "include": [
     "src/react"
