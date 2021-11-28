@@ -21,8 +21,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
-          yarn install
-          yarn build
+          npm install
+          npm run build
       - uses: marvinpinto/action-automatic-releases@latest
         with: # See https://github.com/marvinpinto/action-automatic-releases/tree/v1.1.0#supported-parameters
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
