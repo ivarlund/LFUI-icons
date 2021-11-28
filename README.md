@@ -1,27 +1,22 @@
 # LFUI-icons 
 
-## Installation
+## Getting started
 
-
-**Install using yarn**
+To install lfui-components in your project, you will need to run the following command using yarn:
 
 ```jsx
 yarn add https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0
 ```
 
-**Install using npm**
+If you prefer Npm, use the following command instead:
 
 ```jsx
 npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0
 ```
 
-**Manually copy files**
-
-Copy everything inside dist/sprite and place it in your project.
-
 ## Usage
 
-LFUI icons ships with svg sprites to be self-hosted in your project(we can't store them in a cdn because of CORS Policy issues) which means you need to copy all sprites to your project from the package. You can of course do this manually but it might be easier to add a script that can do this for you. In this example I'm using `copyfiles` to help with this.
+LFUI icons ships with svg sprites to be self-hosted in your project(we can't store them in a cdn because of CORS Policy issues) which means you need to copy all sprites to your project from the package. You can of course do this manually but it might be easier to add a script that can do this for you. In this example I'm using `copyfiles` to do that.
 
 ```jsx
 yarn add copyfiles --dev
@@ -43,7 +38,7 @@ Our `.icon` class helps with alignment. Note that most icons inherits the color 
 
 ## Migrating fron LFUI 6.x.x
 
-First you need to be using LFUI-componets and not LFUI 6.x.x in order to use LFUI-icons(you can use it without LFUI-components if you want but not with any version below 7.0.0). 
+First you need to use LFUI-componets and not LFUI 6.x.x in order to use LFUI-icons(you can use it without LFUI-components if you want but not with any version below 7.0.0). 
 
 There is no automatic way to upgrade from the old icon system, you will have to change the path of all icons in your project to the new structure. 
 
@@ -88,8 +83,28 @@ Let's have a look how the structure have changed from LFUI [6.7.0](https://lf-di
 * **Mega menu icons** ---> special/ (these icons have updated names, "icon-" have been removed from the name to match the rest so icon-insurance_home-32 will now be insurance_home-32) 
 * **Special** ---> 32/ :sweat_smile:
 
+ ## find an icon 
+  Export icon from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color.
+  Place the new icon in src/{size}
+
+  run yarn build 
+## Contributing
  
-### TODO
-* Add example page of all icons. 
-* Add how too add an icon
-* Add how to contribute  
+ # 1. Clone rep: 
+ # 2. Work in a branch:
+ To create a new branch
+
+```jsx
+ git pull
+ git checkout -b {your-branch-name}
+ ```
+
+ # 3. Build and add a new icon 
+
+ ```jsx
+  # To install the project's dependencies
+    yarn install
+
+    # To build the project:
+    yarn build
+```
