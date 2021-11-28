@@ -56,5 +56,3 @@ const buildSprite = () => {
 
 
 module.exports = buildSprite;
-
-
