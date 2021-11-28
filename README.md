@@ -84,28 +84,38 @@ Let's have a look how the structure have changed from LFUI [6.7.0](https://lf-di
 * **Mega menu icons** ---> special/ (these icons have updated names, "icon-" have been removed from the name to match the rest so icon-insurance_home-32 will now be insurance_home-32) 
 * **Special** ---> 32/ :sweat_smile:
 
- ## find an icon 
-  Export icon from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color.
-  Place the new icon in src/{size}
 
-  run yarn build 
 ## Contributing
  
- # 1. Clone rep: 
- # 2. Work in a branch:
- To create a new branch
+ ### 1. Clone rep
+ ### 2. Work in a branch
+ 
+To create a new branch
 
 ```jsx
  git pull
  git checkout -b {your-branch-name}
  ```
-
- # 3. Build and add a new icon 
-
- ```jsx
-  # To install the project's dependencies
+ 
+ To install the project's dependencies
+  ```jsx
     yarn install
 
-    # To build the project:
-    yarn build
 ```
+
+ ### 3. Add a new icon 
+
+  Export from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color.
+  Place the new icon in src/{size}
+
+  Run `yarn build` to add the new icon to the icon system
+  
+  After your changes are committed, run:
+ 
+ ```jsx
+ git push origin { YOUR_BRANCH_NAME }
+
+ ```
+### 4.Pull request
+
+
