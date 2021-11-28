@@ -1,6 +1,6 @@
 # LFUI-icons 
 
-[![Create Release](https://github.com/LF-digitala-kanaler/LFUI-icons/actions/workflows/main.yml/badge.svg)](https://github.com/LF-digitala-kanaler/LFUI-icons/actions/workflows/main.yml)
+
 ## Getting started
 
 To install lfui-components in your project, you will need to run the following command using yarn:
@@ -118,4 +118,8 @@ To create a new branch
  ```
 ### 4.Pull request
 
+After you have merged your branch with a pull request a Github Action will start and create a release automatic. It's now ready to be used in a project with the new icon if you update the version too latest.  
 
+```jsx
+npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.x.x
+```
