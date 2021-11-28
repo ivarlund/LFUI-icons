@@ -28,9 +28,7 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ steps.tag_version.outputs.new_tag }}"
           prerelease: false
-          title: "LFUI-icons ${{ steps.tag_version.outputs.new_tag }}"
-          files: |
-            CHANGELOG.md    
+          title: "LFUI-icons ${{ steps.tag_version.outputs.new_tag }}"    
           
           
       
