@@ -1,5 +1,6 @@
 # LFUI-icons 
 
+[![Create Release](https://github.com/LF-digitala-kanaler/LFUI-icons/actions/workflows/main.yml/badge.svg)](https://github.com/LF-digitala-kanaler/LFUI-icons/actions/workflows/main.yml)
 ## Getting started
 
 To install lfui-components in your project, you will need to run the following command using yarn:
