@@ -1,8 +1,9 @@
 # LFUI-icons 
 
-LFUI-icons 
+SVG icon library for LF design system
 
 You can view a full reference of our icons [here](https://lf-digitala-kanaler.github.io/visual-identity/graphics/icons/)
+
 ## Getting started
 
 To install lfui-components in your project, you will need to run the following command using yarn:
