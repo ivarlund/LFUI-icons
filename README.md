@@ -89,10 +89,11 @@ Let's have a look how the structure have changed from LFUI [6.7.0](https://lf-di
  ### 1. Clone rep
  ### 2. Work in a branch
  
-To create a new branch
+ When contributing to LFUI-icons, your work should always be done in a branch off of your repo, this is also how you will submit your pull request when your work is done.
+
+To create a new branch:
 
 ```jsx
- git pull
  git checkout -b {your-branch-name}
  ```
  
@@ -104,17 +105,22 @@ To create a new branch
 
  ### 3. Add a new icon 
 
-  Export from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color.
+  Export from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color ( #ff000 will be transformed to currentColor when we transform the icons to sprites).
+  
   Place the new icon in src/{size}
 
   Run `yarn build` to add the new icon to the icon system
-  
-  After your changes are committed, run:
- 
- ```jsx
+   
+### 4.Make a pull request
+
+When you are finished with your work it's time to make a pull request. To do so commit your code to your working branch and push it. 
+
+```jsx
+ git add .
+ git commit -m "YOUR  COMMIT MESSAGE HERE"
  git push origin { YOUR_BRANCH_NAME }
 
  ```
-### 4.Pull request
+### 5. Deploy
 
-
+When the pull request is accepted and merged a Github action will automaticly creat a new release and update the version number. 
