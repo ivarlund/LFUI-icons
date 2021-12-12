@@ -127,4 +127,6 @@ When you are finished with your work it's time to make a pull request. To do so 
  ```
 ### 5. Deploy
 
-When the pull request is accepted and merged a Github action will automaticly creat a new release and update the version number. 
+When the pull request is accepted and merged a Github action will automatically create a new minor release and bumb the version. You can control the release type with your [commit message](https://github.com/mathieudutour/github-tag-action#bumping)  
+
+
