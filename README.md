@@ -109,7 +109,7 @@ To create a new branch:
 
  ### 3. Add a new icon 
 
-  Export from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color ( #ff000 will be transformed to currentColor when we transform the icons to sprites).
+  Export an icon from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color ( #ff000 will be transformed to currentColor when we transform the icons to sprites).
   
   Place the new icon in src/{size}
 
