@@ -1,5 +1,5 @@
 {
-  "name": "lfui-icons",
+  "name": "@lf-digitala-kanaler/lfui-icons",
   "version": "1.2.0",
   "description": "LFUI icons",
   "repository": "https://github.com/LF-digitala-kanaler/LFUI-icons.git",
@@ -12,9 +12,6 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-svgo": "^2.2.1",
     "remove-svg-properties": "^0.3.3"
-  },
-  "resolutions": {
-    "graceful-fs": "^4.2.4"
   },
   "scripts": {
     "prebuild": "gulp clean",
