@@ -13,6 +13,10 @@
     "gulp-svgo": "^2.2.1",
     "remove-svg-properties": "^0.3.3"
   },
+  "files": [
+    "dist",
+    "src/svg"
+  ],
   "scripts": {
     "prebuild": "gulp clean",
     "build": "gulp build",
