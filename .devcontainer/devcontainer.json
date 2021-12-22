@@ -1,0 +1,16 @@
+{
+	"name": "@lf-digitala-kanaler/lfui-icons",
+	"settings": {
+  },
+	"extensions": [
+		"github.copilot",
+		"esbenp.prettier-vscode",
+		"stylelint.vscode-stylelint"
+	],
+	"forwardPorts": [8000],
+	"postCreateCommand": "npm install",
+  "features": {
+    "git": "latest",
+    "homebrew": "latest"
+  }
+}
