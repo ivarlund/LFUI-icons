@@ -1,132 +1,109 @@
-# LFUI-icons 
+# <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Icons
 
-SVG icon library for LF design system
+Crisp SVG icon library for Länsförsäkringar web development.
 
-You can view a full reference of our icons [here](https://lf-digitala-kanaler.github.io/visual-identity/graphics/icons/)
+[Full icon reference →](https://lf-digitala-kanaler.github.io/visual-identity/graphics/icons/)
 
-## Getting started
+# Table of contents
 
-To install lfui-components in your project, you will need to run the following command using yarn:
+- [Getting started](#getting-started)
+- [Usage](#usage)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contributing](#contributing)
+- [Making a release](#making-a-release)
 
-```jsx
-yarn add https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0
+# Getting started
+
+To install Icons in your project, you will need to configure your environment for [GitHub Packages][github-packages].
+
+First, authenticate npm with GitHub Packages. To do that, generate a [personal access token][personal-access-token] which you use as your password. Make sure to give the token access rights to both `repo` and `read:packages` scopes.
+
+```
+npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
 ```
 
-If you prefer Npm, use the following command instead:
+Add a `.npmrc` file in your project root folder.
 
-```jsx
-npm install https://github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0
+```
+@lf-digitala-kanaler:registry=https://npm.pkg.github.com
 ```
 
-## Usage
+Add an `.env` file in your project root folder.
 
-LFUI icons ships with svg sprites to be self-hosted in your project(we can't store them in a cdn because of CORS Policy issues) which means you need to copy all sprites to your project from the package. You can of course do this manually but it might be easier to add a script that can do this for you. In this example I'm using `copyfiles` to do that.
-
-```jsx
-yarn add copyfiles --dev
+```
+GITHUB_TOKEN=<PERSONAL_ACCESS_TOKEN>
 ```
 
-Once that's done add a script that you can run to copy the icons to your project. It's important to keep the folder structure inside the sprite folder since be don't want to load icons we do not need. 
+Install the package as you normally would.
 
-```jsx
+```
+npm install @lf-digitala-kanaler/lfui-icons
+```
+
+# Usage
+
+Icons ships with **svg sprites**. They are self-hosted in your project (because of CORS), so you need to copy the icon sprites to your project from this package. This can be done manually, but preferably automaticlly. In below example, we're using `copyfiles`.
+
+```
+npm install copyfiles --save-dev
+```
+
+Add a script to your `package.json`. Make sure to keep the exact folder structure inside the sprite folder, so we don't load any unused sprites. 
+
+```json
 "script": { 
  "copy:icons": "copyfiles copyfiles -u 4 node_modules/lfui-icons/dist/sprite/**/* src/icons"
 }
 ```
 
-Now you can start using the icons in your project like this 
-```jsx
+Now, use the the icons in your project
+
+```html
 <svg role="presentation" class="icon" width="20" height="20"><use xlink:href="{{path-to-icon}}/sprite.svg#icon-wallet-20"></use></svg>
 ```
-Our `.icon` class helps with alignment. Note that most icons inherits the color CSS property from the parent element in the DOM (using [currentColor](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentcolor_keyword)).
 
-## Migrating fron LFUI 6.x.x
+The `.icon` is part of [Components][components] and helps with alignment. Colors are controlled with `currentColor`.
 
-First you need to use LFUI-componets and not LFUI 6.x.x in order to use LFUI-icons(you can use it without LFUI-components if you want but not with any version below 7.0.0). 
+# Bugs and feature requests
 
-There is no automatic way to upgrade from the old icon system, you will have to change the path of all icons in your project to the new structure. 
+If you with to report a bug or submit a feature request, feel free to [open an issue](https://github.com/LF-digitala-kanaler/LFUI-icons/issues/). The more information that you provide, the better.
 
-Icons is now combined to sprites depending on size and the structure looks like:
+# Contributing
 
-```jsx
-├── 20/
-├── 20-color/
-├── 24/
-├── 24-color/
-├── 32/
-├── 32-color/
-├── 40/
-├── 40-color/
-├── 70/
-├── 70-color/
-├── special/
-```
-
-Let's have a look how the structure have changed from LFUI [6.7.0](https://lf-digitala-kanaler.github.io/LFUI/670/#/icon). 
-
-#### 10px icons
-
-* **10 px icons** ---> special/
-* **20 px icons** ---> 20/
-* **20 px color icons** ---> 20-color/
-* **24 px icons** ---> 24/
-* **24 px color icons** ---> 24-color/
-* **26 px icons** ---> special/
-* **32 px icons** ---> 32/
-* **32 px color icons** ---> 32-color/
-* **40 px icons** ---> 40/
-* **40 px color icons** ---> 40-color/
-* **48 px color icons** ---> special/
-* **50 px color icons** ---> special/
-* **70x50 px color icons** ---> special/
-* **56 px color icons** ---> special/
-* **64 px color icons** ---> special/
-* **70 px icons** ---> 70/
-* **70 px color icons** ---> 70-color/
-* **84x50 px color icons** ---> special/
-* **Mega menu icons** ---> special/ (these icons have updated names, "icon-" have been removed from the name to match the rest so icon-insurance_home-32 will now be insurance_home-32) 
-* **Special** ---> 32/ :sweat_smile:
-
-
-## Contributing
- 
- ### 1. Clone rep
- ### 2. Work in a branch
- 
- When contributing to LFUI-icons, your work should always be done in a branch off of your repo, this is also how you will submit your pull request when your work is done.
-
-To create a new branch:
-
-```jsx
- git checkout -b {your-branch-name}
- ```
- 
- To install the project's dependencies
-  ```jsx
-    yarn install
+After cloning this repo, install the dependencies and build the icons.
 
 ```
+npm install
+npm run build
+```
 
- ### 3. Add a new icon 
+## Working with branches and pull requests
 
-  Export an icon from sketch/figma and make sure to only use filled outlines with color #ff0000 to make sure that the icons use the current color ( #ff000 will be transformed to currentColor when we transform the icons to sprites).
-  
-  Place the new icon in src/{size}
+The latest and stable version is always in the `main` branch. New features and patches are then added through dedicated branches and pull requests. 
 
-  Run `yarn build` to add the new icon to the icon system
-   
-### 4.Make a pull request
+When working on a new feature, begin by creating a new branch from `main`. After finishing your work, squash merge `main` into your branch and then create a pull request.
 
-When you are finished with your work it's time to make a pull request. To do so commit your code to your working branch and push it. 
+Please document the changes that you make in the pull request, along with potential changes to existing classes or variables that should be added to a migration guide later on.
 
-```jsx
- git add .
- git commit -m "YOUR  COMMIT MESSAGE HERE"
- git push origin { YOUR_BRANCH_NAME }
+## Adding an icon
 
- ```
-### 5. Deploy
+Export icon from sketch/figma and make sure to only use filled outlines of the color `#ff0000`. That color will be transformed to `currentColor` when the icon sprites are built.
 
-When the pull request is accepted and merged a Github action will automatically create a new minor release and bumb the version. You can control the release type with your [commit message](https://github.com/mathieudutour/github-tag-action#bumping)  
+Place the new icon in `src/{size}` and build, `npm run build`.
+
+## Linting
+The project uses [standard][standard]. There are no automated tests beyond that.
+
+```
+npm test
+```
+
+# Making a release
+
+When the pull request is accepted and merged, a Github Action will automatically create a new minor release and bumb the version. You can control the release type with your [commit message](https://github.com/mathieudutour/github-tag-action#bumping)
 
 
+[components]: https://github.com/LF-digitala-kanaler/LFUI-components
+[standard]: https://standardjs.com
+[github-packages]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages
+[personal-access-token]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
