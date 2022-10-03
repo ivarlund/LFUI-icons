@@ -60,7 +60,7 @@ Now, use the the icons in your project
 
 ```html
 <svg role="presentation" class="icon" width="20" height="20">
-  <use xlink:href="{{path-to-icon}}/sprite.svg#icon-wallet-20"></use>
+  <use xlink:href="{{path-to-icons}}/sprite/20/icons.svg#icon-wallet-20"></use>
 </svg>
 ```
 
