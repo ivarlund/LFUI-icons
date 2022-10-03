@@ -48,10 +48,10 @@ Icons ships with **svg sprites**. They are self-hosted in your project (because 
 npm install copyfiles --save-dev
 ```
 
-Add a script to your `package.json`. Make sure to keep the exact folder structure inside the sprite folder, so we don't load any unused sprites. 
+Add a script to your `package.json`. Make sure to keep the exact folder structure inside the sprite folder, so we don't load any unused sprites.
 
 ```json
-"script": { 
+"script": {
  "copy:icons": "copyfiles copyfiles -u 4 node_modules/lfui-icons/dist/sprite/**/* src/icons"
 }
 ```
@@ -59,7 +59,9 @@ Add a script to your `package.json`. Make sure to keep the exact folder structur
 Now, use the the icons in your project
 
 ```html
-<svg role="presentation" class="icon" width="20" height="20"><use xlink:href="{{path-to-icon}}/sprite.svg#icon-wallet-20"></use></svg>
+<svg role="presentation" class="icon" width="20" height="20">
+  <use xlink:href="{{path-to-icon}}/sprite.svg#icon-wallet-20"></use>
+</svg>
 ```
 
 The `.icon` is part of [Components][components] and helps with alignment. Colors are controlled with `currentColor`.
@@ -79,7 +81,7 @@ npm run build
 
 ## Working with branches and pull requests
 
-The latest and stable version is always in the `main` branch. New features and patches are then added through dedicated branches and pull requests. 
+The latest and stable version is always in the `main` branch. New features and patches are then added through dedicated branches and pull requests.
 
 When working on a new feature, begin by creating a new branch from `main`. After finishing your work, squash merge `main` into your branch and then create a pull request.
 
@@ -92,6 +94,7 @@ Export icon from sketch/figma and make sure to only use filled outlines of the c
 Place the new icon in `src/{size}` and build, `npm run build`.
 
 ## Linting
+
 The project uses [standard][standard]. There are no automated tests beyond that.
 
 ```
@@ -101,7 +104,6 @@ npm test
 # Making a release
 
 When the pull request is accepted and merged, a Github Action will automatically create a new minor release and bumb the version. You can control the release type with your [commit message](https://github.com/mathieudutour/github-tag-action#bumping)
-
 
 [components]: https://github.com/LF-digitala-kanaler/LFUI-components
 [standard]: https://standardjs.com
