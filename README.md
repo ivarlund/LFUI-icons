@@ -2,7 +2,7 @@
 
 Crisp SVG icon library for Länsförsäkringar web development.
 
-[Full icon reference →](https://lf-digitala-kanaler.github.io/visual-identity/graphics/icons/)
+[Full icon reference →](https://lfds.netlify.app/visual-identity/graphics/icons/)
 
 # Table of contents
 
