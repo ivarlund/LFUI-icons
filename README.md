@@ -30,7 +30,7 @@ Add a script to your `package.json`. Make sure to keep the exact folder structur
 
 ```json
 "script": {
- "copy:icons": "copyfiles copyfiles -u 4 node_modules/lfui-icons/dist/sprite/**/* src/icons"
+ "copy:icons": "copyfiles copyfiles -u 4 node_modules/@lansforsakringar/icons/dist/sprite/**/* src/icons"
 }
 ```
 
