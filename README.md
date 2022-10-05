@@ -14,30 +14,8 @@ Crisp SVG icon library for Länsförsäkringar web development.
 
 # Getting started
 
-To install Icons in your project, you will need to configure your environment for [GitHub Packages][github-packages].
-
-First, authenticate npm with GitHub Packages. To do that, generate a [personal access token][personal-access-token] which you use as your password. Make sure to give the token access rights to both `repo` and `read:packages` scopes.
-
 ```
-npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
-```
-
-Add a `.npmrc` file in your project root folder.
-
-```
-@lf-digitala-kanaler:registry=https://npm.pkg.github.com
-```
-
-Add an `.env` file in your project root folder.
-
-```
-GITHUB_TOKEN=<PERSONAL_ACCESS_TOKEN>
-```
-
-Install the package as you normally would.
-
-```
-npm install @lf-digitala-kanaler/lfui-icons
+npm install @lansforsakringar/components
 ```
 
 # Usage
