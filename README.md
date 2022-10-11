@@ -1,6 +1,6 @@
 # <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Icons
 
-Crisp SVG icon library for Länsförsäkringar web development.
+SVG icon library for Länsförsäkringar web development.
 
 [Full icon reference →](https://lfds.netlify.app/visual-identity/graphics/icons/)
 
@@ -15,18 +15,20 @@ Crisp SVG icon library for Länsförsäkringar web development.
 # Getting started
 
 ```
-npm install @lansforsakringar/components
+npm install @lansforsakringar/icons
 ```
 
 # Usage
 
-Icons ships with **svg sprites**. They are self-hosted in your project (because of CORS), so you need to copy the icon sprites to your project from this package. This can be done manually, but preferably automaticlly. In below example, we're using `copyfiles`.
+The library provides a set of SVG sprites, each containing a comprehensive list of icons. The sprites act as categories: different icon sizes, mono-color, or multi-color.
+
+Because of CORS, the sprites will need to be self-hosted in your project. After installation, you need to copy the icon sprites to your code base from this package and make sure they are HTTP served. While the copy part can be done manually, it's easily done with a small script:
 
 ```
 npm install copyfiles --save-dev
 ```
 
-Add a script to your `package.json`. Make sure to keep the exact folder structure inside the sprite folder, so we don't load any unused sprites.
+Add a script to your `package.json`.
 
 ```json
 "script": {
@@ -34,7 +36,7 @@ Add a script to your `package.json`. Make sure to keep the exact folder structur
 }
 ```
 
-Now, use the the icons in your project
+Now, use the icons in your project.
 
 ```html
 <svg role="presentation" class="icon" width="20" height="20">
@@ -42,15 +44,15 @@ Now, use the the icons in your project
 </svg>
 ```
 
-The `.icon` is part of [Components][components] and helps with alignment. Colors are controlled with `currentColor`.
+The `.icon` CSS class is part of [Components][components] and helps with sizing and alignment. Colors are controlled with the native CSS keyword `currentColor`.
 
 # Bugs and feature requests
 
-If you with to report a bug or submit a feature request, feel free to [open an issue](https://github.com/LF-digitala-kanaler/LFUI-icons/issues/). The more information that you provide, the better.
+If you wish to report a bug or submit a feature request, feel free to [open an issue](https://github.com/LF-digitala-kanaler/LFUI-icons/issues/).
 
 # Contributing
 
-After cloning this repo, install the dependencies and build the icons.
+After cloning the repo, install the dependencies and build the icons.
 
 ```
 npm install
@@ -63,11 +65,11 @@ The latest and stable version is always in the `main` branch. New features and p
 
 When working on a new feature, begin by creating a new branch from `main`. After finishing your work, squash merge `main` into your branch and then create a pull request.
 
-Please document the changes that you make in the pull request, along with potential changes to existing classes or variables that should be added to a migration guide later on.
+Please document the changes that you make in the pull request, along with potential changes to existing classes or variables that are to be added to a migration guide later on.
 
 ## Adding an icon
 
-Export icon from sketch/figma and make sure to only use filled outlines of the color `#ff0000`. That color will be transformed to `currentColor` when the icon sprites are built.
+Export your icon from Sketch or Figma. Make sure to use only filled outlines and in color `#ff0000`. The build script will replace that exact HEX with `currentColor`.
 
 Place the new icon in `src/{size}` and build, `npm run build`.
 
@@ -81,7 +83,7 @@ npm test
 
 # Making a release
 
-When the pull request is accepted and merged, a Github Action will automatically create a new minor release and bumb the version. You can control the release type with your [commit message](https://github.com/mathieudutour/github-tag-action#bumping)
+Releases to npm are manually done. Don't forget to run the build script before publishing a new release.
 
 [components]: https://github.com/LF-digitala-kanaler/LFUI-components
 [standard]: https://standardjs.com
